@@ -3,6 +3,7 @@
 *.pt
 *.pth
 *.safetensors
+*.jinja
 *.gguf
 *.ckpt
 
