@@ -1,0 +1,3614 @@
+[
+    {
+        "context": "1988 (H Sant Pau): es DX al H de Sant Pau de AR simple. Hemograma desconegut. Requereix [suport transfusional] fins 1995.   1995 (HGTiP): la pacient s'evalua al HGTiP, confirmen DX d'AR.  2004 (HGTiP): la pacient es torna a evaluar i es diagnostica de SMD amb deleció aïllada del 5q.  No tenim dades de l'hemograma al 2004 ja que estan el el Modulab antic on no podem accedir.  -La metge ens diu (07.04.2015): Me parece que desde el diagnostico estaba con requerimientos transfusionales porque también se le dio tto quelante (desconozco cual, a que dosis y fechas).",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra DX: VIH, [VHC] + trombopenia periferica",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra de la sospita del SMDt secundari a radioterapia de [Limfoma de Hodgkin] (DX 1995).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Al moment de la mostra es sospitava de [SMD] de baix risc. Despres ens varen confirmar que es un SMD/NMP.",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[SMD displasia granulocítica]. Neutropenia como única citopenia. NGS pendiente ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN de Calella, diagnòstic al desembre del 2023. Al 2007 neo de mama, reb QT neoadjuvant, [RDT] i HT (2008-2013). Al 2016 te recidiva hepatica, reb  Fulvestrant + alpelisib x24C, everolimus+ examestano (2018), capecitabina + texataxel (2019).",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra en tto: [esplenomegalia]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX [AREB-1]. Envien mostra la setmana del 27/02/17",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "TRMN. Neoplasia previa [ca mama], adenocarcinoma colon y ca ovario, con las edades de ca mama 44a, adenocarcinoma colon y ca ovario con 50a, recibe como tratamiento QT.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "SMD/NMP. LMC atípica. Envian DNA y RNA retrospectivo del Dx: 06/09/2017. Gen Jak2: 66.97%. Al DX comença tto amb Hidroxiurea fins oct-17 quan comença [Decitabina]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX LMM-1, amb la mutacio SRSF2 i ASXL1. S'exposa a cas clinic el 05/04/17 (fuardat full a fitxes i doc escanejats). Inici AZA 05/04/2017. [Exitus]",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "26/06/2015 porta 5 cicles Lena 10mg/dia, en resposta. Ultima [transfusio] 18/02/2015 (previament precisava cada 2 setmanes)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Seguimiento [SMD con displasia multilínea] (trombopenia). Low risk, IPSS 0, IPSS-R 1. Cariotipo normal. NGS: ETV6 VAF 36%.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita SMD. Te [DM-2], es fumador i va tenir com a antecedents patològics un adenoma pleomorfic a la parotida amb IQ al 2009.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Recibió Binocrit 7 ciclos dosis 40.000/semanal i 10 ciclos dosis [80.000/semanal] (dosis duplicada desde octubre 2021). Depenent de transfusions des de Juliol 2022.(17 ciclos EPO) 2CH/mes",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Va tenir [cancer de mama] al 13/12/2017 i va ser tractada amb TAXOL-PERTUZUMAB-TRASTUZUMAB (24/02/2022)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Reordenamientos estudiados: [BCR/ABL] negativo.JAK 2 negativo.Carleticulina negativaMPL negativa.  SRSF2 y ASXL1 detectados por NGS.",
+        "entity_label": "GeneMutation",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX octubre 2014. Al gener 2015 ens enviaran la SP. Novembre 2014: ens diuen que de moment no es tractara. Pacient portat pel dr. Lopez Ferré. Panells: DNMT3A, SF3B1, [ASXL1], JAK2 (no V617F), PDGFRB, SFPQ",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[SLPC-LNH T] vs LH",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX SMD con 5q de 02/07/2013 Mostra pre Lena.  20/12/2013 inicia [Lena]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Es un TRMN amb diagnostic de LMA. Va tenir un cancer de colon, cancer de pulmó (2013) i [Mieloma múltiple] (2017). A anatomia patologica de l'hospital del mar tenen mostra dels tumors previs i DNA de MO.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: [SMD 5q-] baix risc. Assaig SINTRA-REV (Lena vs Placebo) setmana 6",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra DX: [CRDM]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "No es un TRMN perque per la neoplasia previa només va rebre [RDT] localitzada al dorso nasal. Neoplasia previa Carcinoma de células escamosas moderadamente diferenciado con infiltración incipiente, DX al 28/11/2019. Va rebre radioterapia Fracc 16/30 Dosis 32 Gy /60 Gy des del 07/02/2020 al 01/04/2020 ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX SMD 5q-. Mostra en tractament amb [lena], sembla no responedora",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Exitus junio 2013. La [anemia] se justificó po IRC por GNefritis. Tenía Gammapatia monoclonal pero sin síntomas. No se concluyó para SMD por la escasa evolución temporal y poca evidencia de displasia y/o clonalidad en el estudio realizado",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Variantes mutantes en [U2AF1] y ETV6 (estudio NGS en HGTiP)",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SMDt con IPSS igual a int-2 (citopenias x 2 + cariotipo complejo) post-QT DX 2005 de linfoma folicular y tratada con alquilantes y análogos de las purinas. En el moment de la mostra està amb [AZA] 4t cicle",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX sep 15: ARSA-t (IPSS-R baix risc) JAK2+. Va pendre Exjade 18.11.15, pero suspes per alteracio renal. Maig 2016:amb tto de suport ([EPO] i CH) i Hidroxiurea. Pendiente ficha rellena por el doctor. Envien mostra 31/1",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Viva, sense tractament, només [suport transfusional]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Respuesta hematologica. En 2019 reinicia transfusiones. Cuando perdio respuesta a [Aza], empezo con GCSF a 300 mg/semana.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Diagnóstico: SMD CRDM + [GMSI IgM Lambda]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: 21/03/2013 [AREB2]. Actualment: mostra seguiment post QT. AREB-2 en remissio despres d'induccio amb QT. Va realitzar 1 Cicle Ida/AraC (adquireix resposta completa citologica) + 2 Cicles Citarabina (mante remissio completa citologica i adquireix resposta citogenetica) (Valoracio i fi tto: Oct 2013).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "En lista de espera de transplante.   Sólo recibió [1 ciclo], y no más por pancitopenia persistente e infecciones a repetición.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Stop: - Entre 22/2/16 y 21/3/16 por trombopenia i reinicia - Entre 18/4/16 y 03/05/2016 por [IRA] i reinicia - 09/05/16 se para definitivamente por IRA ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 25/06/2014: SMD 2ari (CRDU-AR) a QT per LLC previa.  19/11/2014: LMAs M4 a CRDU. La mostra és del moment de l'agudització. Antecedents de LLC i posterior [SMD] secundario a LLC. Des de 2014 LMAs tipus M1 secundari a SMDt (LMAs)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[SMD] de bajo riesgo (IPSS intermedio-1) con Cx normal e In(7) constitucional, que debuta en 2009 con un cuadro morfológico de un Sdre 5q- pero que resultó negativo por Cx y FISH (2% solamente).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Dx de [Adenocarcinoma de prostata gleason] 7 pT2c R0 N0 el 02/2019. El 09/2019 prostatectomia radical + linfadectomia + radioterapia. En 02/2018 trombocitopenia leve asintomatica. En 02/2020 monocitosis asintomatica.NO ES TRMN.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. El Juny del 2021 dx. de RTU carcinoma urpotelial vesical amb sospita M1 ganglionas retroperitoneals (cT3N+M1). Reb quimioteràpia amb cisplatí + gemcitabina x5 cicles + IQ al 01/2022. Actualment sense signes de recidiva. Te DM-2 (tractament metformina), espondiloartropatia degenerativa i hipotiroidisme ([tractament substitutiu]) ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Es un TRMN. Va tenir un ADK de postata l'any 2005 i es tracta amb radioterapia i hormonoterapia. Es [fumador] des de 1993",
+        "entity_label": "Smoker",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Neutropènia] al DX",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: 14/11/2024. Proyecto low risk, seguimiento. NGS KMT2A VAF 51,22%, [hija con leucopenia]. Datos clínicos: SMD-DU según OMS 2017- SMD-LB según OMS 2022. IPSS bajo, WPSS muy bajo.",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra pre [Lena] (Inicia Lena el 20/11/2009)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX [AREB2] al 2012 a HES(Esperit Sant) amb 15% blastes. Es deriva a HGTIP per incloure al pacient a l'assaig CETLAM. Desde 2013 controls anuals per probable alfa-talasemia amb displasia lleu sense criteris SMD.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Te 83 anys. Exfumador de 50 anys. Antecedents de glaucoma i RTU de prostata. Al 15/11 diagnòstic de [MDS-MLD] i linfoma de zona marginal amb cariotip 47,XY,+3[14]/46,XY[6]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Continua con [EPO] 20.000 semanal (último control Julio/2022).",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX (09.1.14) de SMD 5q, es va incloure a l'assaig sintrarev. Des d'abril 2017 te anemia amb [DT]. Ara esta en transformacio AREB-1 i te blastes a MO, li començaran AZA. Mostra pre-AZA.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: neoplasia mielodisplásica con mielofibrosis, asociado a sindrome Li Fraumeni (mutación TP53). 21/10/2024.  Mutación C 817C>T exón 8 del gen [TP53] en heterozigosis",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Post-ICE. Més endavant ens confirmen que fa manteniment amb AZA. [Exitus]",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[SMD] marzo 2019 con SA y DM, cariotipo con trisomia 8, mutaciones DNMT3A, SF3B1, TET2 Y CEBPA. IPSS 3,5 intermedio",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra en [SintraREV] C9. Diseritropoyesis persistente importante y disgranulopoyesis. Megacariocitos de aspecto normal.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX SMD bajo riesgo i progresión a [LMA]. Finalment es un TRMN. Tuvo una neoplasia de mama metastásica en 2017 pero había recibido sólo Denosumab (agente biológico), siendo el último 5 años de tratamiento con palbociclib. No ha recibido nunca quimioterapia. pero recibió en 2008 Radioterapia 50 Gy + boost 16 Gy, por lo que debe considerarse una NMRT tipo LAM-t con monosomía 7. Podría justificar la mutación del gen PPM1D",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "DX: estudio por trombocitopenia. AMO con alta celularidad. El CF elevadas cels CD56. CG: normal. Sembla [LMMC-1] pero SRSF2. AMO a l'octubre 17 per confirmar DX. Tenim mostra control congelada (0117/17)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "DX 2009: SMD 5q- aïllat EPO: Agost 2011-Gener 2012 SINTRA-REV: Juny 2013-Desembre 2013 Entra i surt de [SINTRA-REV] des de Gener 2014 fins Juliol 2014 Mai asoleix resposta en SINTRA-REV (només milloria eritroide, AMO no valorable, pot ser que no rebés LENA) EPO: Agost 2014-Març 2015  Evolució SMD alt risc: 16.09.2014 (CRDM cariotip complex)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 26/09/2012. Inicia [EPO] el 10/12/2013 i fa resposta parcial. Te IT des del DX (mai ha rebut transfusions). Mostra de seguiment amb EPO (09.26.2012: CG: 46,XX,del(5)(q13q33)[18]/46,XX[2]). Juliol 2015: la Hb ha pujat fins a 11,5 (paren EPO fins propera visita o fins que empitjori). Panells: SFPQ, CDH13, KMT2D",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Inici tto EPO juliol 2015, progresa a AREB-1 octubre 2016. Ara es [SMD] d'alt risc. Mostra pre-tto AZA",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Neoplasia de mama: [tumorectomía] 2017 + RT finalizada en octubre 2017. Anastrazol entre agosto 2017 y agosto 2022. Te DM-2. Médico: Cristina de la Fuente",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Deriven a HGTiP per assaig. Mostra pre-[sintrarev].  07/07/2016: inicia l'assaig SintraREV. Panell: TP53; SETBP1",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX CRDM 2008. No ha rebut [cap tto] desde el DX. MO en reevaluacio. Demano MO i SP",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX 21/07/2009 El pacient no es farà més AMO, és un sr. molt gran 04.2010: Inicia [dependencia transfusional] i tractament amb AEE 21.08.2013: Inicia LENA, suspen als 9 dies per intolerància",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Era sospita de TRMN, però finalment té [aplasia medular]. Neoplasia prèvia adenocarcinoma de mama dreta, l'any 1996. Tractament Mastectomia mama dreta + linfadenectomia profilàctica. QMT + RT + Tractament hormonal x5 anys (es desconeixen farmacs i dosis).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. [No te antecdents familiars ni patoloógics]. Neoplasia previa LDCGB el 12/2020. Va rebre tractament R-ESHAP + TASPE fins 30/04/2022.",
+        "entity_label": "FamilyHistory",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Avaluació per decidir si es tracta amb [Lena] (mai tractada amb Lena abans). Mostra pre Lena. EXITUS: 07.03.2015 (SEPSIS)",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "TRMN al DX. Ca de próstata + RDT + Ca colon (solo cirugia). [Padre Ca de vejiga]",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "No fumadora. Es TRMN, neoplasia previa Lupus eritematoso sistemico, año 2020.  Agosto 2012 a JuL 2014 AZATIOPRINA: con buena respuesta inicial, pero pérdida de eficacia.  Nov 2013 a Oct 2014 BELIMUMAB: refractaria.  Jul 2014 a Abr 2016 MOFETIL MICOFENOLATO: suspendido por [sepsis] Ago 2016 CICLOSPORINA: suspendido por empeoramiento trombopenia  Nov 2016 de nuevo MMF combinado con belimumab de nuevo en feb 2017 y revolade con buena evolución ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra de DX. Ha tingut neo de prostata tractada amb cirurgia, no reb QT ni RT. Panells: GNAS, [JAK2-V617F]",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra en tto [AZA] 12 cicles",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: [AREB-2]. CI no esta signat",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Sospita [TRMN]. Te 51 anys.",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "FIS 2024, SMD-EB 2 SMD germinal, mostra seguiment. Ja ha iniciat tractament amb [Azacitidina]-Venetoclax, actualment en el dia +14. La mostra de MO i SP del diagnóstic es va enviar a la fundació PETHEMA, projecte PLATAFO-LMA davant la sospita de LMA. Es pot contactar per mirar de recuperar la MO.  Mare diabética i pare mort per cirrosis.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: Pancitopenia.Mielograma: sin grumos y con [megacariocitos muy disminuídos], sin datos dishemopoyéticos consistentes ni signos de infiltración. Muy escaso hierro libre e incorporado.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 1995: AR Revaluació 2004: SMD 5q- aïllada Mostra durant LENA (5cicles) EPO: 1996 tto durant 8 mesos amb ST LENA: Gener 2008-Abril 2008 (RC) STOP LENA: Gener 2014 -Juliol 2014 (RC) STOP Juliol 16: pc amb bon estat general sense tratament ni DT. Juny 2016: [sense tto]. Demano mostra de seguiment, amb data d'extraccio 18/10/2016. Resultats WES (projecte Andres Jerez): cap mutació somàtica, mutacions germinales rellevants: POLD1, DKC1, ATR",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Sospita [TRMN].",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "TRMN. Es exfumador de fa 6 anys. Neoplasia prèvia Miastenia gravis, incicio 2009 fins 2021. Tractat amb [Azatioprina].",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Sin tto] a fecha 04/08/2023.",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX: 21/03/2013 AREB2. Actualment: mostra seguiment post QT. [AREB-2] en remissio despres d'induccio amb QT. Va realitzar 1 Cicle Ida/AraC (adquireix resposta completa citologica) + 2 Cicles Citarabina (mante remissio completa citologica i adquireix resposta citogenetica) (Valoracio i fi tto: Oct 2013).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "FIS 2024, SMD-EB 2 SMD germinal, mostra seguiment. Ja ha iniciat tractament amb Azacitidina-Venetoclax, actualment en el dia +14. La mostra de MO i SP del diagnóstic es va enviar a la fundació PETHEMA, projecte PLATAFO-LMA davant la sospita de [LMA]. Es pot contactar per mirar de recuperar la MO.  Mare diabética i pare mort per cirrosis.",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "[DX] 13/03/2012 (mostra de DX). Ultim control 30/12/2013; Exitus por neoplasia ovarica. No tractada",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra DX: [LMMC1]s a MF variant MP. Tras hydrea presenta >12% de blastos en SP con displasia intensa multilinea. Panell: TET2, CSNK1A1, KRAS.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "SMD-47. Es un TRMN, amb dx. Neo de mama en 2009. Antecedentes patológicos: litiasis biliar intrahepatíca (2014), polipo colónico con displasia leve (2019) y hipotiroidismo. Tratamiento: completada QT + [RDT] + HT durante 5 años (según paciente, no informes). ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra:   + 169 LENA vs P.  Inicia LENA 06/11/2013, STOP LENA als 12 cicles. El 23/09/14 tractament EC Galunisertib vs. Placebo (pendent valoració resposta). [Exitus] el 01/07/2018",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX [LMA] 24/10/2024",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra del DX: [SMDt] secundari a QT (el pacient va tenir 3 neos prèvies)  IPSS 1 i IPSS-R 4",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasia previa [Linfoma de Hodgkin] al 2007. Reb tractament AVBD X6 i radioteràpia mediastínica i supraclavicular.  Altres: Hipertensió arterial,  Síndrome de Guillen-Barré l'any 1999, hipotiroidisme en tractament substitutiu. Pericarditis al 2013 ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "SMD-41. Es un TRMN. Neoplasia previa LNH Marginal B con afectación pulmonar el 29/03/2016. Recibió tratamiento con [Rituximab-Bendamustina] hasta 18/06/2016. Padre murió de muerte subita.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[3+7 IC]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX [MDS-RS-SLD] (ARSA) IPSS-R baix 2,4punts",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra pre-TPH, s'esta tractant amb Ciclosporina i amb Exjade (iniciat desem 2016). És un SMD hipoplasic amb del(1p)diagnositcat a l'agost 2016. S'ha tractat amb [EPO] sense resposta. Progresa a AREB-1 a l'agost 2015 (5,5% blastes). Hi ha mostra de DX a Biologia Molecular: 1992/16-MO",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita de [SMD] de baix risc",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Mostra de seguiment post [16 cicle] Lena. Mantiente RH pero presenta perdida de la CG. Completa 21 ciclos con Lena(07/7/15). Desde entonces con ST. Exitus por progresión de SMD.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Envien SP  pre-tto en progressió a AREB-2 (todavía no ha empezado). Inicia tto amb AZA 02/06/2014 amb remissió parcial, no resposta hematologica i evolució clonal. Cumpleix [17 cicles] fins 31/08/15",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra CETLAM nou DX Dr Marti. Es diagnostica el 05/06/2013 AREB-2 amb trisomia 8. Va fer ICE i a data d'octubre 2014 està fent tto ASA  i està en RC, porta uns [12 cicles]. Exitus",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX MFP i eosinofilia amb progresio a [LMA]. Arriba peticio amb hemograma. S'ha trasplantat",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "[TRMN] al DX. Ca de próstata + RDT + Ca colon (solo cirugia). Padre Ca de vejiga",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[Padre fallecido de SMD]. SMD NOS con displasia multilÍnea (ICC 2022)",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[ALO THP]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX Pendent de rebre de CI (parlem per tlf amb el Dr Pineda). Va fer tto amb [AZA], va millorar el número de blastes. 14/06/2016 CF 15% blastos en MO",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Presenta [disgranulopoyesis], diseritropoyesis y dismegacariopoyesis.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX MDS-RS-MLD. Mostra sospita en progressio. Panell: [IDH2], SRSF2, ASXL1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "No llega a responder, en seguida necesita transfusiones, es [exitus] poco después.",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Seguimiento hematológico desde el 2015 por leucopenia sin anemia, MO compatible con SMD displasia unilinea. DX principal: SMD con displasia unilinea, 1 única [citopenia (neutropenia)], alfa talasemia heterocigota, rasgo. Proyecto SMDg.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[DX] H Esperit Sant 24/07/2013 i es deriva a HGTIP per considerar tto: lo lleva la Dra Nerea Castillo. CI propi projecte SMD",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 25/02/2015. Mostra seguiment sense tractament. De moment no s'inicia cap tractament. Exitus. Panell: DNMT3A, CSNK1A1, TET2, [CTCF]",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Dr Esteve: creiem que, efectivament, era una veritable [SMD], com evolució clonal d'una aplàsia medul·lar tractada prèviament amb immunosupressió. Tenia citopènies (sobretot trombopènia i macrocitosi), trets displàsics i evidència de clonalitat amb mutació de DNMT3A. Va ser exitus",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Ha rebut Lena pero ha evolucionat a [LMA]s",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Sospita SMD: [neutropenia transitoria]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Pacient DX de trombocitopènia autoimmune juliol 2013. Mare exitus per neoplàsia hematològica. DX de SMD maig 2017 H Esperit Sant (previ AMO febrer 2015 no valorable per DX). Nov 2017: empitjorament citopènies, [displàsia important serie mega], no blastes, fibrosi grau 2 i esplenomegalia (JAK2 negatiu, HPN negativa). Remes HGTIP pel reavaluació. Ha rebut glucocorticoides, G-CSF i transfusions de plaquetes. NGS (04/07/2019 HGTiP): U2AF1 18%.   Disgranulopoyesis: 60%. Diseritropoyesis: 20% No disponemos de los datos del 2017. Solo el cariotipo es del 2017 (en 2019, aspirado seco)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "TRMN. Neoplasia previa Carcinoma vesical a la edad de 45 y recibe como tratamiento [QT].",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Tto soporte transfusional]. EXITUS Agosto/14 por HDA y proceso infeccioso",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra:   + 169 LENA vs P.  Inicia LENA 06/11/2013, STOP LENA als [12 cicles]. El 23/09/14 tractament EC Galunisertib vs. Placebo (pendent valoració resposta). Exitus el 01/07/2018",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra 21 sense Lena, sense [anemia], la clona es troba en 3 metafases.",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "DX 21/02/2012 CRDM (bajo riesgo) con fallo de respuesta a EPO. Inicia [Lena] 01/07/13 hasta 3 ciclos por intolerancia. Sense tto gener 2017",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Paciente SMD germinal. TRMN  Neoplasia previa osteosarcoma maxilar (Qx + RT), leiomiosarcoma maxilar (qt, qx, [rt]), adenocarcinoma próstata (qx, rt, HT), 7/8 carcinomas basocelulares al año (qx) con las edades de osteosarcoma (30), próstata (46), leiomiosarcoma (47). ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Antecedents: ca suprarrenal (17 meses de edad), [ca mama] (octubre 2024), sindrome Li Fraumeni. Hermana fallecida a los 32 años, ca de mama y colon.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "SMD con 5q- DX 2013. En Diciembre 2013 lleva 4-5 meses con [soporte transfusional] y es candidata a LENA Inicia LENA enero 2014",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasia previa Linfoma de Hodgkin al 2007. Reb tractament AVBD X6 i radioteràpia mediastínica i supraclavicular.  Altres: Hipertensió arterial,  Síndrome de Guillen-Barré l'any 1999, hipotiroidisme en tractament substitutiu. [Pericarditis] al 2013 ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 03/06/2014: [CRDM]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Ex fumador desde 1997. Es un [TRMN]. Te antecedents familiars: mare neoplasia de colon, pare neoplasia de colon, germa neoplasia cerebral. Neoplasia prèvia: adenocarcinoma de prostata, inici 15/01/2019, fi 01/04/2020. Carcinoma vesical papilar de celules transicionals d'alt grau limitat a mucosa, inici 05/05/2020 i fi 05/10/2021.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX a H Badalona (nov 2013):AREB2. Derivan a HGTIP per tto pero l'AMO amb data 18/02/2014 a l'HGTIP el DX es: CRDM baix risc Al ser de baix risc no inica tto. Panell: [EZH2], U2AF1, BCOR",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra pre tto amb AZA i progressio a SMD d'alt risc (CRDM+MFP)  DX CRDM a l'octubre 2014. CG 11/11/17: amb la del(7q) Mostra amb [suport transfusional]. Ha rebut AZA, resposta plaquetar desde el 1r cicle. Completa 4cicles, stop per ingres al març del 2017 per sepsis E. Coli",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX:LMMC-1 [JAK2+]. AMO 18/09/2012: 0% blastos.  Exitus el 03/05/2015",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Anemia y trombocitosis sin clara causa secundaria. [Displasia] en frotis de SP. Sospecha de NMPc/SMD. Madre exitus por LMA 67a. Padre exitus tumor cerebral 81a. Implante marcapasos. Fraquectomia OD. Infarto cerebral 2017.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX ARSA JAK2+, Evolucion LMA 12/04/16. Tto: Hydrea, [citarabina] sc. EXITUS 11/07/2016 por septicemia",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Neutropenia] en estudio: Pendiente MO.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita [SMD]: anemia, macrocitosis i trombopenia",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "DX (29.12.2011). Pacient en tractament amb LENA (inici tto 17.06.2012). Reb 9 cicles de LENA i 9 cicles d'AZA pero no sabem quan comença. Possible evolució a NMP (LMMC). Panell: [JARDI2], TP53, NF1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Displasia lleu megacariocítica. Trombopenia d'origen perifèric. No es confirma [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "Es un TRMN. Va tenir un ADK de postata l'any 2005 i es tracta amb radioterapia i [hormonoterapia]. Es fumador des de 1993",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "La mostra serà un mes després de la retirada de [lena] vs placebo.Segur que ha estat rebent lena perquè la hemoglobina s'ha normalitzat",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra Lena Valoracio [Lena] cicle 7 dia 21. Bon resposta",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SP novembre 2014: porta 2 anys amb Lena Inicia [Lena] 29/11/2012.  Reducció de la dosi de tto a 5mg/dia cada 21 dies per neutropenia (recupera els valors normals de neutrofils).  RC 23/01/2013. IT 23/01/2013. Julio 2016: sigue con Lena y sin sintomas y con IT",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 25/11/2015 LMMC2-VP.Tto con [Hydrea]. Progressa a LMA i exitus abril 2016",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "DX SMD bajo riesgo i progresión a LMA. Finalment es un [TRMN]. Tuvo una neoplasia de mama metastásica en 2017 pero había recibido sólo Denosumab (agente biológico), siendo el último 5 años de tratamiento con palbociclib. No ha recibido nunca quimioterapia. pero recibió en 2008 Radioterapia 50 Gy + boost 16 Gy, por lo que debe considerarse una NMRT tipo LAM-t con monosomía 7. Podría justificar la mutación del gen PPM1D",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. El Juny del 2021 dx. de RTU carcinoma urpotelial vesical amb sospita M1 ganglionas retroperitoneals (cT3N+M1). Reb quimioteràpia amb cisplatí + gemcitabina x5 cicles + IQ al 01/2022. Actualment sense signes de recidiva. Te DM-2 (tractament metformina), espondiloartropatia degenerativa i [hipotiroidisme] (tractament substitutiu) ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra en [AZA]: tras 4 cicles.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX gener 2012 AREB2 (13% blastes) IPSS Int-2. Inici AZA feb 2012, suspes desprès de 6 cicles sense resposta. Progressió 24% blastes (agost 2013). Ha iniciado QT estándar con ida/citarabina 03/09/13. Evol LMA: QT (2/5)  Rci. Recaida [LMA] y EXITUS 08/04/14 por sepsis",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Evolució [LAM]s: 07.04.2015 Mostra en el moment d'evolucio a LMAs i pre-AZA.  13/04/2015 Inicia AZA fins al C6 per falta de resposta (36% blastes) (MO_676.01: Projecte FCA / MO_676.02: Projecte 5q-).Exitus. Panell: TP53",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Datos mielograma:   Serie eritroblástica: en cantidad aumentada. Serie granulopetica: en cantidad disminuida. Megacariocitos:en cantidad aumentada Progressió a [SMD-EB 1] ",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "TRMN- Seguiment Post [alo-TPH]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Presenta anemia macrocitica desde 2012. DX definitivo de SMD en marzo 2016. Reevaluacio AREB-1 vs LMMC (Blasts <5% IPSS-R intermig). Panell: ZRSR2, ASXL1, [RUNX1], EZH2. Inici tto AZA 06/02/2017",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Pancitopenia], ens confirmen que es SMD baix risc.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "No es dx confirmat TRMN. Neoplasia prèvia Melanoma uveal l'any 2017. Tractament 2017: ipilimumab + Nivolumab; Juliol 2020: Fotemusina; posteriorment ECBP42169. Antecedents: Pare amb cáncer de cavum als 49 anys que va morir per la malaltia. [Fumador] 1 paq/día, des dels 15 anys.",
+        "entity_label": "Smoker",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Pc amb [sd.Down] (23.10.2014) Sospita de CRDU-NR. Nov 2016: no s'ha tornat a fer AMO.Sospita SMD: trisomia 21 constitucional",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita SMD: macrocitosi, [trombopenia]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "AREB2 18%blastos con SA, tratamiento soporte. [Exitus]",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "TRMN. Antecedents de [tabaquisme], 1 paquet al dia.",
+        "entity_label": "Smoker",
+        "true": "Previous",
+        "pred": "Previous",
+        "raw": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "context": "DX gener 2012 [AREB2] (13% blastes) IPSS Int-2. Inici AZA feb 2012, suspes desprès de 6 cicles sense resposta. Progressió 24% blastes (agost 2013). Ha iniciado QT estándar con ida/citarabina 03/09/13. Evol LMA: QT (2/5)  Rci. Recaida LMA y EXITUS 08/04/14 por sepsis",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Fármaco:  Eritropoyetina EPO (EPREX 40.000 UI/semana) y desde 12/08/2014 80.000 UI/semana. Aunque también la recibió  asociada a Lena hasta progresión de [neo de próstata] pero a dosis reducidas de 40.000 UI cada 2 semanas ",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX [ANEMIA] TR CRÓNICO",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Evaluació del tractament i sospita de progressió. Dx inicial MDS-MLD que progressa a [MDS-IB]. Avaluació al C4 de tractament.",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "En 1996 se trató con EPO y G-CSF (no se las fechas, solo se que se trató 8 meses y que se paró por falta de respuesta). Desde el diagnostico estaba con [requerimientos transfusionales] porque también se le dio tratamiento quelante con desferoxamina inicialmente y Exjade.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "DX confirmado LMC actualmente en sospecha de MDS. Descartado MDS. Paciente en [tto] + diseritropoyesis sin criterios SMD",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX octubre 2016: SMDt 2ari a QT per linfoma (AREB-1 amb 5% blastes). [Sense tto] ni DT. Word amb dades cliniques a la carpeta fitxes",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Mostra de DX (DX DEF 31/05/2013): LMMC1, [Anemia] i trombopenia Tratamiento: soporte transfusional",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX [LMMCo], JAK 2+. Dr Alba pide CI al clinico responsable",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[TRMN] al DX. QMT neoadyuvante Ca de ovario 2021.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Pacient DX al 2008 en un altre centre (no tenen la informacio). Es segueix a H Son Llatzer.  Al DX es un SMD associat a 5q- aïllada Octubre 2014: el pacient ha progressat a [AREB1] amb 6% blastes pero encara no s'esta tractant.Resultats WES (projecte Andres Jerez): cap mutació somàtica, mutacions germinales rellevants: RYR1",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "DX 21.1.16: [LMA]s a SMD",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Pc amb sd.Down (23.10.2014) Sospita de CRDU-NR. Nov 2016: no s'ha tornat a fer AMO.Sospita [SMD]: trisomia 21 constitucional",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Mostra pre tto Aza, amb DT. Inclos a l'assaig MDS-AZA 2016. Des del 1r cicle: resposta plaquetar. Juny 2017: [5 cicles]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX SMD+ MFP vs NMP, [NPM1] mutada. Mostra en progressio a AMLs (>20% blastes a SP, AMO sec). Amb QT actualment.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "En algun moment el pacient ha evolucionat a AREB-2 i ha iniciat [AZA], mostra amb 4 cicles Aza",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "En TTO [LENA] i en remissió completa global (morfo, hemato, CG)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Progresa a una [LMMC-2]",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Fin tratamiento. Febrer 2017: [sense tto], mante RC-H i RC-CG.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX [anemia hemolitica autoinmune]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Per error es procesa com a [LMC], pero despres ens confirmen que es una LMMC.",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "MO no concluyente pero IF de SMD, se sigue en consulta. Oct 2014 ens diuen que no DX concluent [SMD].",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "Es un TRMN de Calella, diagnòstic al desembre del 2023. Al 2007 neo de mama, reb QT neoadjuvant, RDT i HT (2008-2013). Al 2016 te [recidiva hepatica], reb  Fulvestrant + alpelisib x24C, everolimus+ examestano (2018), capecitabina + texataxel (2019).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[SMD con displasia multilinea y sideroblastos anillados], SF3B1 negativo. Pendiente cariotipo y NGS",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Progressió de [LMMC-1] a LAM",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "IPSS intermig. Mostra per valorar progressio a SMD d'alt risc. [Sense tto] (març 2016)",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "[LMMC] de bajo riesgo. Sin tratamiento.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra en progressio a [LMA]",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Agost 2015: segueix amb quadre de lesions dermiques, eosinofilia, anemia i trombopenia. Mostra en evaluacio [Lena]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Sense tto], cariotip normal",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX del setembre 2014 d'AREB2 amb del(5q) no convencional i IPSS-2. Pocs dies desprès (19/09/2014) presenta complicacions i es DX de LMAs per 80% blastes i és exitus. El David Gallardo dona l'aprovacio per utilitzar mostra en tanda validacio (no tindrem CI).  Panell: CSNK1A1, TET2, TP53, KMT2A, CREBBP, [ASXL1], STAG2",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Displasia en les 3 series en MO i SP, sembla una [CRDM] amb cariotip normal. Pacient te 45 anys i un germa amb LA. S'ha descartat HPN i altres causes de displàsia. Resultats WES (projecte Andres Jerez): mutacions ASXL1, TET2, cap mutacio germinal rellevant",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un SMD abans dels 50 anys. El dx es del 17/02/2021. Antecedents de Displasia serie vermella i mutacio SF3b1 sense complir criteris SMD (segons OMS 2016) desde 2019. El [pare va tenir una SMD] i la germana va morir de LMA. Candidat a SMDg",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Diagnostic [TRMN]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "1L AZA + [VEN] 200 mg, previa citorreducción con HU. Completó 5 días con VEN (TP53) y se decidió continuar con AZA en monoterapia (tto primer ciclo en otro centro).",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra DX: [displasia] (limit eritro i mega)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "TRMN. Neoplasia previa ca mama, adenocarcinoma colon y ca ovario, con las edades de [ca mama] 44a, adenocarcinoma colon y ca ovario con 50a, recibe como tratamiento QT.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Al 2007 diagnòstic SMD 5q- que no es tracta. Al 2008 diagnòstic de neoplàsia de Mama. Reb tractament amb Tamoxife mentre te el SMD. Al 2011 segueix amb la neo de mama i el [SMD] progressa a LAM. No es TRMN perque el SMD 5q no es va tractar.",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 25/02/2015. Mostra seguiment sense tractament. De moment no s'inicia [cap tractament]. Exitus. Panell: DNMT3A, CSNK1A1, TET2, CTCF",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Mostra seguiment. Fue [exitus] el 17/12/2014 por progresión a LMA y fallo multiorgánico.",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Cariotip normal tto [LENA] TTO  + 85 LENA vs P",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sosptia NMP (DX 2008 [SMD])",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 2003 CRDM amb [DT]. Mostra de DX CETLAM (Dr Mascaro) Comença AZA 28.01.2014 pero fracas terapeutic. Progressio a AREB-1  el 24.02.2014. Exitus 06.03.2014 per la progressio.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[LMA] con cambios relacionados a mielodisplasia, con infiltración actual del 60%.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: [linfoma difuso celulas grandes B]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: SMD baix risc DX. CRDM-SA. Sense tto (febrer 2016) . Descongelem les PBMC i fem protocol de FCA. Panell: SF3B1, [TET2]. Demanem CI molts cops",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: [anemia] d'origen no filiat",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[Ribociclib] (600mg) + IA + Denosumab",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Després dels 3 cicles de [AZA] tenia 6% de blastes i cariotip 46,XX,del(5)(q13q33),del(7)(q22q23)[10]/46,XX[4]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: [Déficit de vita B12].",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "En soporte transfusional desde abril 2023 y pendiente de [Alo-TPH] DnE",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Tto con Rituximab.  23/07/2020 [quimioterapia] 5h?",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX d'[anemia]. Li donem el MO al grup LAL (Eulalia) per fer mostra control",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un [TRMN]. Va tenir un Mieloma Múltiple (2007). Va rebre tractament VBCMP/VBAD (2+2) i Btzx2  RP + Talidomida  ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 24/01/2013 con cariotipo normal. DX SMDt secundari a tto L.Folicular el 2009  i [neo de mama] (va rebre EC+RT) amb anemia i neutropenia",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra del DX: SMDt secundari a [QT] (el pacient va tenir 3 neos prèvies)  IPSS 1 i IPSS-R 4",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Paciente SMD + citopenia familiar. Antecedentes padre fallecido por waldenstrom y aplasia medular TRMN  Neoplasia previa Melanoma [sin tto], Adenocarcinoma pulmón metastásico (posterior al SMD), a las edades de melanoma 64a, pulmón 70a, recibiendo como tratamiento QT (pulmón).",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Es un TRMN. No te antecdents familiars ni patoloógics. Neoplasia previa LDCGB el 12/2020. Va rebre tractament [R-ESHAP] + TASPE fins 30/04/2022.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra avaluacio [Lena]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra en reevaluacio 6 cicles [AZA]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "En [soporte transfusional] desde abril 2023 y pendiente de Alo-TPH DnE",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX: SMD amb 5q- amb MO hipocel.lular. Derivada a HGTiP per sintrarev (mostra pre-assaig).Panell. Neo de mama al 2012 tractada amb  [cirugia], RT i QT",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Inicia EPO el 04/06/2012, [tto soporte] (tras retirada Lena el 16/05/2012 solo recibe 1UU de CH el 08/07/2012)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 25/06/2014: SMD 2ari (CRDU-AR) a QT per LLC previa.  19/11/2014: [LMA]s M4 a CRDU. La mostra és del moment de l'agudització. Antecedents de LLC i posterior SMD secundario a LLC. Des de 2014 LMAs tipus M1 secundari a SMDt (LMAs)",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Neoplasia mielodisplásica con pocos blastos y S3B1 mutado (WHO 2022) / SMD con [SF3B1] MUTADO (ICC 2022). Cariotipo normal. NGS: SF3B1 VAF 42%, CBL VAF 12%, TET2 VAF 33 Y 52%, CUX1 VAF 2,6%.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "MDS with biallelic [TP53] inactivation (MDS-biTP53) (OMS 2022) MDS/AML with mutated TP53 (ICC 2022). NGS c.670G>T, p.(Glu224X) VAF % 10.4,  Patogénica",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra [Lena] Valoracio Lena cicle 7 dia 21. Bon resposta",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[SMD] riesgo Int-1 en tto soporte (transfusiones + EPO), con trombocitopenia severa.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "SMDt: AREB2 tras [fludarabina]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX [AREB-2] (SMD alto riesgo) Muestra en tto con AZA (inici 30/4/16 fins 30/6/16). Candidata a TPH pero per progesio es va desestimar. Va iniciar ARAC/FLAG-IDA pero sense resposta.Va iniciar AZA. La Dr Berenguer ja no porta a la pacient (pc molt col·laboradora) Panell: NRAS, SF3B1. Exitus durant AZA 10/12/16 per un shock  septic.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mutación en el gen [ALAS2].",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Secuenciada en HGTiP. VAF en [U2AF1] 8%. Misma variante: c.469_471dup p.Gln157dup",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX MF: tiene una médula previa de hace un año que se catalogó como [ARSA-T]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Al 2007 diagnòstic SMD 5q- que no es tracta. Al 2008 diagnòstic de neoplàsia de Mama. Reb tractament amb Tamoxife mentre te el SMD. Al 2011 segueix amb la neo de mama i el SMD progressa a [LAM]. No es TRMN perque el SMD 5q no es va tractar.",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Mostra amb 8 cicles AZA, sense resposta. Fi de tto amb [AZA] (09/03/2017)",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Mostra amb [38 cicles]  amb AZA, milloria de trets displasics pero no amb remissio CG",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Dona 70 any amb AREB-2 2a a terapia.IPSS Alt Risc (score 3): 14% blastes, cariotip complex i pancitopenia. [Exitus] 11/05/2015",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: [bicitopenia] 2a a QT",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[SMD SLD sin exceso de blastos]. Low Risk (IPSS 0, IPSS-R 1.5). 2 citopenias (trombopenias)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Dx [Gammapatia monoclonal Ig M Kappa] (2012); Evolucio LNH Linfomaplamoc. (Enf de Waldestrom) (12/2013): DX SMDt CRDM ara al febrer 2014",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX [LMMC]. Panell: NRAS, TET2 (2 variantes), ASXL1",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "LMA: No se puede Clasificar según la OMS. Podría tratarse dadas las citopenias de un año de evolución de una LAM en relación a mielodisplasia. pero no entra en ninguna de las 3 situaciones que postula la OMS para incluirla en este grupo (anomalías citogenéticas recurrentes, diagnóstico previo de SMD o [displasia multilínea] - > 50% en 2 líneas celulares)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 25/06/2014: SMD 2ari (CRDU-AR) a QT per LLC previa.  19/11/2014: LMAs M4 a CRDU. La mostra és del moment de l'agudització. Antecedents de LLC i posterior SMD secundario a [LLC]. Des de 2014 LMAs tipus M1 secundari a SMDt (LMAs)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: [LMA] con cambios displasicos relacionados (blastos 33%). EXITUS SEPT/12 SIN TTO",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX CRDM 2a a la [terapeutica].  1% blastos.  CG: del20 perdida Y y trisomia 6. Exitus el 17/10/2014.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Confirmar per la propera actualització: Al DX presentava [DT] actualment continua amb la DT? Les anotacions que teniem a la fitxa no quadren gaire ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "MM tratado con Lena combinada con ciclofosfamida y prednisona como 5a o 6a línea. Durante el MM citogenetica sin metafases. DX 26/06/13 de SMDt 2ario a tto por MM. Se detiene el tratamiento en Junio 2013, al desarrolar un SMDt con cariotipo complejo (incluye 5q-) que solo se trata con [soporte transfusional] . El SMD solo se trata con soporte transfusional. Exitus el 11/01/2014 por sepsis",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX decembre 2006 CRDM (bajo riesgo) con DT. Inicia EPO con fallo de respuesta. Propuesto [Lena]. No inicia Lena. Exitus 27/06/2015 per edema pulmonar",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "SMD riesgo Int-1 en tto soporte (transfusiones + [EPO]), con trombocitopenia severa.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Paciente [SMD] germinal",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX [CRDM]. Demano SP",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX [AREB-2] Març 2013 (SMDt, LNH Agost 2003)  IPSS alt risc (SMDt, LNH agost 2003)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "MM 60%. No del TP53 Reordenament negatiu de FGFR3/IGH, IGH/MAF i [CCND1]",
+        "entity_label": "GeneMutation",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Anemia y trombocitosis sin clara causa secundaria. Displasia en frotis de SP. Sospecha de NMPc/SMD. [Madre exitus por LMA] 67a. Padre exitus tumor cerebral 81a. Implante marcapasos. Fraquectomia OD. Infarto cerebral 2017.",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Segons ICC MDS-NOS-MLD, segons OMS 2022 es [MDS Low blast]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX octubre 2017 SMD AREB2 amb cariotip complex. Esta previst iniciar [AZA] el 30/10/2017",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospecha [SMD], posible low risk",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "1L AZA + VEN 200 mg, previa citorreducción con HU. Completó 5 días con [VEN] (TP53) y se decidió continuar con AZA en monoterapia (tto primer ciclo en otro centro).",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Recibió Binocrit 7 ciclos dosis [40.000/semanal] i 10 ciclos dosis 80.000/semanal (dosis duplicada desde octubre 2021). Depenent de transfusions des de Juliol 2022.(17 ciclos EPO) 2CH/mes",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX SMD 5q. Trataran con Lena. [TP53] mutado",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Es un [TRMN]. Antecedents de hipotiroidisme. Pacient del projecte ovarisec que ha desenvolupat una neoplasia mieloide. Es va diagnosticar la neoplasia d'ovari al 2014. Va rebre CBPA x6 al 28/03/2014. Al gener 2016 va tenir una recidiva i va rebre CBPAx6. Al desembre 2016 va tenir una metastasi ganglionar i va rebre CBPAx6. Va iniciar NIRAPARIB fins a nagost del 2017. Al 2019 va tenir metastasi cerebral i SNC i va rebre RDT. Al abril del 2023 va tenir metastasi al pulmo i va rebre radioterapia del 22/06/2023 al 02/08/2023. En aquest moment es quan comença l'alteració de l'hemograma. Dx actual IPSS-R 8 amb cariotip complex (Very high risk). NGS mutació patogenica TP53 VAF (93% LOH) i prob. pat. a DNMT3A (39%). Diagnóstic MDS with biallelic TP53 inactivation (MDS-BiTP53) post cytotoxic therapy (OMS 2022) / MDS with mutated TP53 (ICC 2022). Es deriva a estudi de predisposició germinal per alta VAF en TP53.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sigue en RC y sin tto. Julio 2013 [sigue vivo]",
+        "entity_label": "Exitus",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Post-ICE. Més endavant ens confirmen que fa manteniment amb [AZA]. Exitus",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX SMD, possible [LMA]s",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "DX 06/05/2013: [Linfoma folicular]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "PANCITOPENIA, POSIBLE SMD HIPOPLÁSICO. ANTECEDENTES DE LINFOMA ALTO GRADO [TRASPLANTADO]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Ha sido diagnosticado posteriormente de un Linfoma no Hodgkin Angioinmunoblastico Agosto 2023. Debido al tto quimioterapico el paciente ha requerido soporte transfusional de hematies, manteniendo resto de las series normales.   ET2 exón 3. VAF: 37%; [TET2] exón 8 VAF:43%; TET2 exón 6 VAG: 8%;  y ZRSR2 exón 8: 15%; ZRSR2 exón 9: 68% ",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Durant el seguiment li han fet 3 panells NGS. Febrer 2021: mutació a [SF3B1]. Agost 2022:mateixa mutacio SF3B1 del dx, mes mutació addicional a SF3B1 i una a TET2 (ambdues amb una VAF molt baixa) i una altra mutacio a IKZF1. Febrer 2023: només es detecten les dues mutacions a SF3B1.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Presenta mes d'un 10% de [dislpasia en la serie eritroblástica, granulocítica, megacariocítica].",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. No es fumador. Neoplasia previa cancer de prostata (01/06/2006). Va rebre tractament amb [Radioterapia].",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX (DX 29/08/2013): SMD amb cariotip complex amb 5q-. Es tracta amb AZA pero te una infeccio i es exitus. La pacient es va endur el CI. 29/08/2013 inicia [AZA] pero no respon (fracas terapeutic)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Exitus] junio 2013. La anemia se justificó po IRC por GNefritis. Tenía Gammapatia monoclonal pero sin síntomas. No se concluyó para SMD por la escasa evolución temporal y poca evidencia de displasia y/o clonalidad en el estudio realizado",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra en tto amb 13 cicles AZA. Evolucio d'[AREB1]a AREB2 al desembre 2012",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[DX] 19/06/2014. Septiembre 2014: se ha iniciado papeleo con farmacia para iniciar Lena proximamente",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Mostra pre Lena (Inicia [LENA] 23/12/2013)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Se diagnostico incialmente de AREB-2 pero al al día siguiente del AMO debutó con una mononucleosis infecciosa, por lo que esa médula no es un [SMD]. La Dra Quiroz nos comenta que la paciente\"se ha cambiado a otro hospital y no podemos tener seguimiento de ellos\"",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "19/03/13 como se evidencia 11% blastos tras [4 ciclos] se decide hacer 1 ciclo más de AZA (5)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Trombocitopenia] progresiva.",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "EPO [40000 U/I] Després de 4 mesos s'atura EPO perque no hi ha resposta ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Pacient del H de Badalona: història d'[anèmia macrocítica] coneguda des del 2001 amb trombocitopènia i neutropènia mai estudiada. Al Gener de 2015 presenta empitjorament de l'anèmia i astènia (Hb 57). Le 2610 (1260s), Pl 110. Es DX d'AREB2 al gener de 2015 al H de Badalona i s'envia a HGTiP per valorar tto amb Aza (inicia Aza poc desprès, a principis de febrer).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX CRDM, 4% blastes en MO. Panells: [IDH1], SRSF2. \"La semana primera de agosto sin falta tendremos la ficha\" (Dr Raya)",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Anemia, leucopenia I trombopenia lleus, trets dispàsics en AMO (estudi de SNP arrays & panell de mutacions \"negatiu\" Panell: CREBBP, EP300, [KDM6A], TET2",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Progresión a [LMA].",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "DX MM amb citopenies. Sospita [SMD].",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Número de ciclos: 1r ciclo día +16 (10mg/dia) - 3r ciclo ([5mg/dia]) enero 2014 ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX AREB-1, pancitopenia progresiva, SMD d'alt rirsc, CG normal. Estan valorant donar-li [AZA] amb el protocol CETLAM",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX [trombopenia]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sense tto pero en remissió completa global (morfo, hematologica, CG) Març 2013: [finalitza tto] per Poliglobulia",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Paciente SMD germinal. TRMN  Neoplasia previa osteosarcoma maxilar (Qx + RT), leiomiosarcoma maxilar (qt, qx, rt), adenocarcinoma próstata (qx, rt, [HT]), 7/8 carcinomas basocelulares al año (qx) con las edades de osteosarcoma (30), próstata (46), leiomiosarcoma (47). ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX: [pancitopenia con displasia multilineal]. La paciente estaba tomando azatioprina, por lo q no sabemos si es de origen tóxico o si es un verdadero Smd",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Se inició tratamiento con Hydrea y EPO el 19/12/2014, pero se tuvo que suspender [Hydrea] por cuadro de Mielosupresion en Marzo de 2015. Desde entonces persistió anemia con necesidad de transfusiones sanguineas cada 10-12 dias. Tras normalización de valores analiticos se inició tratamiento con Anagrelide en febrero de 2016, que se suspendió tras 3 dosis.",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 26/09/2012. Inicia EPO el 10/12/2013 i fa resposta parcial. Te IT des del DX (mai ha rebut transfusions). Mostra de seguiment amb [EPO] (09.26.2012: CG: 46,XX,del(5)(q13q33)[18]/46,XX[2]). Juliol 2015: la Hb ha pujat fins a 11,5 (paren EPO fins propera visita o fins que empitjori). Panells: SFPQ, CDH13, KMT2D",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "MM tratado con Lena combinada con ciclofosfamida y prednisona como 5a o 6a línea. Durante el MM citogenetica sin metafases. DX 26/06/13 de [SMDt] 2ario a tto por MM. Se detiene el tratamiento en Junio 2013, al desarrolar un SMDt con cariotipo complejo (incluye 5q-) que solo se trata con soporte transfusional . El SMD solo se trata con soporte transfusional. Exitus el 11/01/2014 por sepsis",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasia previa cancer de mama 2016. Tractament [TC]x4 cicles + RDT. vAntecedents familiars mare amb cancer de pulmó i germà amb cancer de pancrees. T psoriasis.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[TROMBOPENIA PERIFÉRICA]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Junio 2009: Desarrolló dependencia transfusional (CH)  y se mantuvo dependiente hasta [éxitus] (03.02.2012)",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[TRMN]. Es exfumador de fa 6 anys. Neoplasia prèvia Miastenia gravis, incicio 2009 fins 2021. Tractat amb Azatioprina.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "TRMN. Neoplasia previa LLGG a los 60 (Dx después del SMD), [no recibe tratamiento].",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX 02/07/2012  (hem preguntat i no tenen mostra del DX). Mostra de [23 cicles] AZA, inicia AZA el 09/07/2012.  (esta en resposta completa medular i amb FISH 5q negatiu).  Març 2015: porta 31 cicles AZA i encara mante resposta",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "No fumadora. Es TRMN, neoplasia previa Lupus eritematoso sistemico, año 2020.  Agosto 2012 a JuL 2014 AZATIOPRINA: con buena respuesta inicial, pero pérdida de eficacia.  Nov 2013 a Oct 2014 [BELIMUMAB]: refractaria.  Jul 2014 a Abr 2016 MOFETIL MICOFENOLATO: suspendido por sepsis Ago 2016 CICLOSPORINA: suspendido por empeoramiento trombopenia  Nov 2016 de nuevo MMF combinado con belimumab de nuevo en feb 2017 y revolade con buena evolución ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra pre AZA. Inicia tto AZA el 20/05/2013. Exitus el 13/12/2013 por [problema cardiológico]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX (25/04/2013): SMDt 2 a [tractament alquilant] per limfoma limfocitic amb pancitopenia. Nomes rep tto suport",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[Pancitopenia]. Ens confirmen que es un SMD de baix risc.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "SMD con displasia multiínea. SMD-LMMC-1?. Antecedentes familiares: [hemocromatosis (madre)], ca de colon, no diagnostico confirmado (padre). Cariotipo normal. NGS: TET2 VAF: 41,15% y 37,44%, ZRSR2 VAF: 63,94%. DX 2011 hemocromatosis doble zigoto.",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "TRMN: neoplasia primaria de pròstata. Treatment of primary neoplasia: [RDT]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Muestra 1 año despues de discontinuar [Lena]. Marzo 2015: la paciente sigue sin Lena  y con respuesta medular completa. Muestra de control medular anual",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "[TRMN]: neoplasia primaria de pròstata. Treatment of primary neoplasia: RDT",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Muestra pre tto AZA. Inicia tto con [5aza] (C1D1 el 17/02/2014) con vistas a aloTPH a la espera de resultado de búsqueda de DNE.  Progresa a LMA tras 4 ciclos AZA (en junio 2014) y que se encuentra en muy mal estado 18/06/2014 inicia QT de nuevo Exitus el dia 05/07/2014. Panells: TP53, CALR, EZH2. WES fet projecte Andres Jerez",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: [CRDM] 2a a limfoma difus de cels grans b, pancitopenia",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 11/03/2008 amb cariotip normal. Mostra de seguiment. 17.04.2015: Sense tractament [EPO]: 11.04.2008-06.02.2009",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX (17/2/17): LMA. Anemia macrocitica, [mielosis] i blastosis",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "U2AF1, SETBP1, SRSF2, [TP53], ASXL1, ETV6, TET2, SETBP1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "OMS 17: SMD amb displasia multilinia. OMS 22: [SMD amb baix recompte de blasts]. ICC: SMD NOS amb displasia multilinia.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra [DX] (21.05.2014) arriba un EPP amb DNA de DX. Mai ha tingut DT. Panell: SFPQ, ASXL1, CDH13, DNMT3A, CSNK1A1",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es descarta [SMD], neutropenia de significado incierto",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "DX SMD 5q- aïllat. Inici [EPO] 30/9/14 fins gener 2015 quan inicia Lena durant 5 dies per una reaccio cutania i neuropatia. La Dr Marta Cervera autoritza l'utilitzacio de la mostra de BM. Gener 2017: amb DT",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX Feb 2013: [AREB-2]: Pancitopenia (granulos 0,4x10e9/l, plaq 77x10e9/l, hb 93 g/l) y disgranulopoyesis. Mielograma celularidad aumentada y displasia trilinea. Blast 3%.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Avaluació per decidir si es tracta amb Lena (mai tractada amb Lena abans). Mostra pre Lena. [EXITUS]: 07.03.2015 (SEPSIS)",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasia previa cancer de prostata l'any 2018. Va rebre RDT (braquiterapia) y hormoterapia en 2018 y hormonoterapia hasta 2021. [Ex fumador] fa> 30 anys  (Inici 20 fins als 40 anys 2p dia).",
+        "entity_label": "Smoker",
+        "true": "Previous",
+        "pred": "Previous",
+        "raw": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "context": "DX [SMD amb 5q-]. Mostra durant Lena",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: [AREB-1], blastes 9%, CG amb del(7q), IPSS-R molt alt (7,5) bicitopenia",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra de DX: AREB-2. Panell: [ASXL1] i LUC7L2",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX Feb 2013: AREB-2: [Pancitopenia] (granulos 0,4x10e9/l, plaq 77x10e9/l, hb 93 g/l) y disgranulopoyesis. Mielograma celularidad aumentada y displasia trilinea. Blast 3%.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "El informe pone que no se observa patología hematológica en el momento actual. Me comentan, que parece ser que nunca ha tenido nada hematológico, que fue una [neutropenia] normal que se resolvió sola. ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "05.06.2013: Final tto SINTRA-REV.  Hay dudas si recibió LENA o no, no respondió y no se planteo iniciar [LENA] por DX de Parkinson y dederioro cognitivoEsta amb DT.  Diciembre 2013: está en paliativos a domicilio, sólo soporte trasfusional. 04.11.2013 ultimo control en HEMATO fecha en que se le da el alta por deterioro cognitivo,  13.11.2014: última analítca registrada 23.03.2015: última transfusión registrada",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Mostra DX (16.02.2009) arriba un EPP amb DNA de DX DX [CRDU] amb quadre morfologic 5q pero negatiu per CG i FISH(2%).  Setembre 2011-Juliol 2012: Tto AZA 11 cicles  sense resposta.  Tras AZA assoleix RC 10 mesos pero recau amb +8 (21/05/2013)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Pacient exitus. Mostra de Carnoy del MO al DX (15.01.2009). Número de registre del dr. M58. No tractada. Dependencia transfusional Juny 2009 fins [exitus] (03.02.2012)",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Tto [soporte transfusional]. EXITUS 01/08/2014 por HDA",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita SMD. Amb DX [LMMC]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Durant tto LENA. [EXITUS] el 28/03/2013 por tumor pulmonar con metástasis cerebral. Recibio un total de 11 ciclos de LENA",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospecha SMD no confirmada ([anemia ferrop.])",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Ja ha iniciat tractament amb Azacitidina-[Venetoclax], actualment en el dia +14.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra del DX (DX SMD 5q 02/04/2013) Evoluciona a LMA el 12/05/2014.  02/06/2015: en RC-CG No  es tractada, però rep [QT] i TPH (30/01/2015)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Paciente SMD germinal. TRMN  Neoplasia previa osteosarcoma maxilar (Qx + RT), leiomiosarcoma maxilar ([qt], qx, rt), adenocarcinoma próstata (qx, rt, HT), 7/8 carcinomas basocelulares al año (qx) con las edades de osteosarcoma (30), próstata (46), leiomiosarcoma (47). ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Neoplasia de mama en 1997 (mastectomía + RT). Cáncer Colon en 1998 ([cirugía] +QT posterior) (no aporta informes, desconocemos los regímenes empleados.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Al haber perdido la respuesta al tratamiento, no haber alcanzado la remisión citogenética y presentar mutación de [TP53] se considera paciente de alto riesgo y se decide realización de TPH alogénico de ir, ya que dispone de hermano HLA idéntico. Actualmente (Abril 2015) pendiente de TPH.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Pacient amb [pancitopenia] i displasia periferica. AMO no cumpleix criteris de SMD i estan pendents d'informe de histopatologia per confirmar DX (24/10/2017)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un SMD abans dels 50 anys. El dx es del 17/02/2021. Antecedents de Displasia serie vermella i mutacio SF3b1 sense complir criteris [SMD] (segons OMS 2016) desde 2019. El pare va tenir una SMD i la germana va morir de LMA. Candidat a SMDg",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[Anemia macrocitica], ha estat amb tto vit-B12 però sense resposta",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospecha progresión, finalmente no progresa. Ha tenido 6 líneas de tto, actualmente (2025) en [tto de soporte].",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Esplenomegalia (18 x 10 cm). [PDGFRa] y PDGFRb negativas, t(9;22) negativo.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SMD secundario a QT/RT: Neoplasia previa: [Cancer prostata]. (2013) Tratamiento asociado: Radioterapia.  Presenta displasia de un 8% en la serie eritroblástica. De la serie granulocitica 37%. De la serie megacariocitica 9% ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[Anemia multifactorial], diseritropoiesi i dismielopoesi. FISH no s'observa del 5q31. En aquest 2n estudi confirmen que es un SMD tipus AR",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Envien DNA del [DX] (550) (Agost 2013). Panells: cap mutacio",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[TRMN]. Neoplasia previa LLGG a los 60 (Dx después del SMD), no recibe tratamiento.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX (17/2/17): LMA. [Anemia macrocitica], mielosis i blastosis",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "VIH, [PANCITOPENIA], NO SMD",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra de DX SMD 5q. Trataran con [Lena]. TP53 mutado",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX (data de DX 20.08.15): SMD assossiat a [eritroblastopenia]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Muestra durante tto con LENA (5 ciclos). Realiza [8 ciclos] Lena y suspende tto en febrero 2014 por catarros de repeticion  y a peticion de la paciente. Mantiene respuesta hematologica con hemograma normal (paciente asintomatico) Oct. 2014",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Reordenamientos estudiados: BCR/ABL negativo.[JAK 2] negativo.Carleticulina negativaMPL negativa.  SRSF2 y ASXL1 detectados por NGS.",
+        "entity_label": "GeneMutation",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX SMD bajo riesgo i progresión a LMA. Finalment es un TRMN. Tuvo una neoplasia de mama metastásica en 2017 pero había recibido sólo Denosumab (agente biológico), siendo el último 5 años de tratamiento con palbociclib. No ha recibido nunca quimioterapia. pero recibió en 2008 Radioterapia 50 Gy + boost 16 Gy, por lo que debe considerarse una [NMRT tipo LAM-t] con monosomía 7. Podría justificar la mutación del gen PPM1D",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Va tenir un Limfoma marginal esplènic en estadi IVB (2004). Reb tractament Tx1 RCHOPx6 feb/05, Tx2 feb/07 [ritux+clb], Tx3 oct/08 ritux+clb + mant rituximab tractat fins 2009.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX (DEF 17/06/2013) Neutropenia al DX, IPSS (no cariotipo, blastos <5% y 2 citopenias): Int-1. Nomes rep [tto suport]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita [SMD]: pancitopenia",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Durant el seguiment li han fet 3 panells NGS. Febrer 2021: mutació a SF3B1. Agost 2022:mateixa mutacio SF3B1 del dx, mes mutació addicional a SF3B1 i una a [TET2] (ambdues amb una VAF molt baixa) i una altra mutacio a IKZF1. Febrer 2023: només es detecten les dues mutacions a SF3B1.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "No es [fumador]. Es un TRMN. Neoplasia previa LMA M6, inici 1999 i fi 2000. Tractament quimioterapia 3+7 (inducción) + 1 consolidación AraC + 1 intensificación con citarabina + mitoxantrone",
+        "entity_label": "Smoker",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Pancitopenia. Sospita de [SMD].",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Ens envien DNA (487) del [DX] (del 27/03/2013)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "21/02/2004: FISH 5q i ATM negatius DX el 01/12/2004 No respon a altres tractaments. Aquesta es mostra pre assaig (SINTRA-REV) LENA vs P. Sabrem el que és 12/2013. Inicia tratament amb QT dosis baixess (hydrea) . Panell: SF3B1, [UMODL1], JAK2",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra en progressio a [AREB-2]",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "No tenim cap mostra. La Dra Cabezudo ens diu que van enviar MO al DX per fer estudis al H del Mar i que podem intentar recuperar d'allà (i llavors si recuperem mostra al DX demanar-li SP). NHC HGTiP: 17832883 Está con [EPO] y si falla pasará a LENA (13/05/2013) (NHC HGTiP: 17832883)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "LMMC proliferativa ASXL1 + [FLT3] (octubre 2019).",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[LMMC] en transformació a LMA. Exitus",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Continua amb SintraREV amb DT. Completa 26 cicles per fracas terapeutic, adquireix RCH i RCCG. Demanat CI i mostra de [DX] (16/11/16) Inici Lena gener 2017",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX [SMD/NMP_u] asociada a i(17). Displasia en las 3 lineas celulares en AMO del 22/04/2016. Presencia de 10% de blastos y sospecha de MDS (biopsia 22/04/2016).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "NGS: SF3B1 VAF 28,82; DNMT3A VAF 29,69; RUNX1 VAF 52,81%; [TET2] VAF 29,76%",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra amb 13 cicles [Lena]. Juliol 2016: pacient amb respostra hematologica pero no ctiogenetica",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "AML con cambios displasicos. Alcança RC tras QT. Tto de mantenimiento con [AZA]. Muestra tras ciclo 11.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra pre Lena (Inicia [Lena] el 20/11/2009)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Al proper control (maig 2016) li comentaran si vol entrar al projecte Single Cell. La Dra. Coll ens dona autorització per utilitzar el pellet de MO de BM. Sense tto (30.03.2016). Panells: CSNK1A1, [JARID2]",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Anemia multifactorial, [diseritropoiesi] i dismielopoesi. FISH no s'observa del 5q31. En aquest 2n estudi confirmen que es un SMD tipus AR",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Mostra cedida de biologia molecular. Tumor primari el gener de 2018, Linfoma limfocític fen diferenciat/LLC amb infiltració renal i MO. El 15/03/2023 presenta infiltració de celules linfoides a la amigdala esquerra. Actualment en seguiment a consell genètic per estudi de possible Sindrome de Lynch: El 14-09-2022 va tenir un tumor sebaci de mentó amb baixa expressió de [MSH2]/MSH6, a més, la mare va tenir neo de colon als 55 anys. Es portador de variant patogenica a TP53 (VAF<10%) i dos variants possiblement patogeniques a TP53 (TP53 multi hit) ",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "2ari a QT per NEO de recte (1998) Mostra de DX: [LMMC1]. Han enviat tambe serum (410_S1  i 410_S2).  Exitus 23/09/2013 per cancer de pulmo",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 2007: [CRDU-AR] Bajo riesgo. Anemia i neutropenia al DX En el moment de la mostra en tto amb EPO",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "SMD con baja cantidad de blastos con mutación [SF3B1] (OMS 2022), IPSS-R 2 (bajo). Del20q. Displasia multilínea (mieloide y eritroide)",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra AZA [6 cicles]. Hi ha mostra del DX a Biologia Molecular: 1456/16-MO",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 24/06/2010: [CRDM-SA] 2,6%. Nomes ha rebut tractament de suport",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasia previa [LDCGB] al 01/07/2015. Va rebre QT (R-CHOP x 6 ciclos, R-ECHAP x2 ciclos) + TASP (trasplante autólogo)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN de Calella, diagnòstic al desembre del 2023. Al 2007 [neo de mama], reb QT neoadjuvant, RDT i HT (2008-2013). Al 2016 te recidiva hepatica, reb  Fulvestrant + alpelisib x24C, everolimus+ examestano (2018), capecitabina + texataxel (2019).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Dona 70 any amb [AREB-2] 2a a terapia.IPSS Alt Risc (score 3): 14% blastes, cariotip complex i pancitopenia. Exitus 11/05/2015",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasia previa Linfoma de Hodgkin al 2007. Reb tractament [AVBD X6] i radioteràpia mediastínica i supraclavicular.  Altres: Hipertensió arterial,  Síndrome de Guillen-Barré l'any 1999, hipotiroidisme en tractament substitutiu. Pericarditis al 2013 ",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX LMA relacionada amb canvis displasics. CG i BM normal. Inicia [Fludarabina] i Citarabina 21/12/2016",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "FIS 2024 - SMD Germinal Seguimiento tras 2 ciclos [AZA]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX confirmado LMC actualmente en sospecha de [MDS]. Descartado MDS. Paciente en tto + diseritropoyesis sin criterios SMD",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Pausa d'azacitidina per evitar excesiva toxicitat ja que iniciara tractament oncologic en breu. Finalitzat C6, tolerància excelent, no ha requerit [suport transfusional] en aquests 6 mesos. ",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Mostra de DX: [LMMC-1]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Paciente [SMD] + citopenia familiar. Antecedentes tía materna posible LLC. ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[DX] del 06/03/2012. 02.04.2012: Inicia SINTRA-REV. Se confirma que esta con LENA",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Continua amb [SintraREV] amb DT. Completa 26 cicles per fracas terapeutic, adquireix RCH i RCCG. Demanat CI i mostra de DX (16/11/16) Inici Lena gener 2017",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita TRMN pero NO HA REBUT TERAPIA. Antecedents familiars de pare amb cancer de laringe. Neoplasia prèvia [ADK de prostata acinar] + prostatectomia el 02/10/2023.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasia previa cancer de mama al 2008. Li fan Mastectomia, quimioteràpia, hormonoteràpia durant 5 anys. Antecdents familiasr pare amb cancer de prostata i [germana amb cancer de colon]. CPSS-0 (low) ",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Ens enviaran SP i el CI. 30.03.2016: ingressada per sobreinfeccio respiratoria. Panells: SF3B1, IRF1, [GNAS]",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 07/05/2008: SMD 5q- 5% blastes. Fa tto amb LENA. Mostra del moment: pancitopenia severa post LENA.  A dia 13/12/2013 segueix pancitopènica i estan a punt d'iniciar [AZA]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra pre-tto SintraRev. Inicia [Sintrarev] 15/06/2015. Panell. SF3B1",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "+ 16 setm [SINTRA-REV]. No resposta eritroide",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "mielograma normal no concluyente de [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "DX 26/08/2015 en l'H.Vall d'Hebron. No té [dependencia transfusional]. Mostra pre assaig SintraREV (iniciarà tto 09/11/2015). Panell: RUNX1, BRAF, PDGFRA",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "MO normal excepte lleu hipocelulartitat, no es confirma [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "DISPLASIA LEVE ERITROBLÁSTICA; NO CUMPLE CRITERIOS [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "Reevaluation.  Retirada del estudio [Sintrarev] lena vs Placebo.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[TRMN]. Es exfumador de fa 6 anys. Neoplasia prèvia Miastenia gravis, incicio 2009 fins 2021. Tractat amb Azatioprina.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Previo a [decitabina], se trató con HYDREA (desde 20/10/2020 hasta 28/11/2020) sin alcanzar un adecuado control de cifras hemoperiféricas.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: SMD inclassificable pero 5q-i 20q- sense displasia significativa, [Trombopenia] i anemia. Panells: TET2, TP53, CUX1, CALR",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasies previes Neo próstata, neo laringe y [neo colon]. Tractament colon (cirugía + QT),  prostata (BGB+ RT), laringe (RT). Es exfumador",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Avaluacio post C4>progresio a [leucemia] secundaria",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Sospita [SMD]: pancitopenia, sense DT",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Avaluació tractament [LENA] (7 cicles) El 29/09/2014 ha progressat a AREB-2, s'atura tto LENA i es comença tto AZA",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "LMMC-1. NGS: mutaciones en [ASXL1] (48% VAF) RUNX1 (VAF 31.5%). Variantes posiblemente patogénicas en CEBPA (27.9% VAF) y RUNX1 (9.1% VAF).  Aumento población monocítica con 4% blastos. Suma blastos y promonocitos es del 6%. 4% sideroblastos tipo 1. Dismegacariopoyesis del 20%.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Ca de prostata + RDT.  [Ca de colon] (solo cirugia). Padre Ca de vejiga",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Pacient 48a, amb colitis ulcerosa, últim brot 02/2014 en tto con claversal i azatioprina. Inicia bicitopenia 02/2014 (Hb 10, L 1800, P 206000) es retira Azatioprina 03/2014. DX 06/06/2014: CRDM amb DT Mostra d'inici tto amb EPO (20.01.2015) amb displasia trilinia amb BMO hipocelular (3% blastes), Hb 9.6, ANC 300, P 37000.  Panell: BCORLL1, CUX1, [TET2], EZH2, IDH1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra seguiment [AZA]. No alcanzó nunca RH (siguió siempre con DT) ni RCG. Tras AZA no recibió más fármacos, fue al trasplante hematopoyético de donante no emparentado  i es exitus per complicacions infeccioses 23/12/15",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX (feb 2016) LMA con cambios mielodisplasicos y CG al DX cariotipo complejoico . Recibió QT altas dosis (2 ciclos idarrubicina + [Citarabina] y 1 ciclo FLAGIDA), sin respuesta. Continuó con AZA y la muestra es tras el 3 ciclo. Está pendiente de trasplante de hermano HLAid.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Set 2012: el pacient només te anemia, no ha requerit transfusions ni EPO. Abril 2015 ens diuen que no poden enviar CI perque ha sigut [EXITUS]",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra durant Lena Tras [18 cicles]. Augment de la ggt. Nov 2016: 28 cicles",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SMD/NMP. LMC atípica. Envian DNA y RNA retrospectivo del Dx: 06/09/2017. Gen [Jak2]: 66.97%. Al DX comença tto amb Hidroxiurea fins oct-17 quan comença Decitabina",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 25/06/2014: SMD 2ari (CRDU-AR) a QT per [LLC] previa.  19/11/2014: LMAs M4 a CRDU. La mostra és del moment de l'agudització. Antecedents de LLC i posterior SMD secundario a LLC. Des de 2014 LMAs tipus M1 secundari a SMDt (LMAs)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX TRMN antecedentes Limfoma Burkitt 2006. Neoplasia mieloide relacionada con la terapia, tipo SMD sin exceso de blastos (2018), progresión SMD IB 1 OMS 2022, tto [AZA] 6 ciclos. No tiene antecedentes familiares.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX julio 2012: [SMD 5q-] amb IT. Ultim control 09/2013. Es va intentar incloure en EC SINTRAREV pero sense exit.Sense tto Es una pacient conflictiva, no vol fer-se controls. No vol signar el CI",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita trombocitopenia esencial. Te antecedents familiars de cancer: oncle amb neo cerebral, neboda amb LH i [mare amb carcinomes cutanis]. Va tenir un mioma no tractat.",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 16/07/2014: [PTI]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX (19.12.2013) a H Badalona: AREB-1 (SA 58%) alto riesgo IPSS-R 6.  A HGTIP DX (Juliol 2014) [CRDM]. Inici AZA: 23.12.2013",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[LMMC-1] baix risc.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Posible [TRMN].",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "Ha recibido AZA, adquiere RC-H, ha mejorado mucho la displasia. Mostra seguiment tras [6 ciclos].",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra Seguiment.  Febrer 2016: continua amb [EPO]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Ongoing a fecha 10/09/2024. Inicialmente 3000 Ul/semana. Ahora x2 a la semana. Al mismo tiempo, [Optovite] desde agosto 2023 (ongoing) para mejorar deficiencia B12 (1 inyección mensual).",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 24/01/2013 con cariotipo normal. DX [SMDt] secundari a tto L.Folicular el 2009  i neo de mama (va rebre EC+RT) amb anemia i neutropenia",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Ens enviaran el CI i la fitxa (en ppi ja l'han enviat pero s'ha extraviat). En tto amb AZA (14 cicles) pero refractari. Pendent de trasplant. Per BM es [TP53]",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "- Reinicia Lenalidomida con reducción dosis a 5 mg/d x21 d el 08/08/11. Alcanza mejoría hematológica ([independencia trasnfusional]). Suspende el 19/10/11 por  toxicidad hematológica (neutropenia).  4 ciclo.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es una LMA-M2 en seguiment per sospita de progressió (El DX va ser Febrer de 2021 amb cariotip 46,XY[20]). Te mutació germinal confirmada a [DDX41]. Reb tractament AZA+PEVONEDISTAT 4 cicles i el Agost de 2022 desenvolupa un ADK de prostata gleason 5+5 2ari post DX de la LMA. Esta rebent hormonoterapi per el ADK i AZA + VENETOCLAX per la LMA.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "+ 84 LENA vs [P]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SMD/NMP. LMC atípica. Envian DNA y RNA retrospectivo del 25/09/2014. DX inicial del [AREB-2] en otro centro. Se trata con aza (sin respuesta). En septiembre 2014 se reevalua y diagnostica de LMCa. Tto AZA feb-14 fins març-15 (11 cicles).",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "No te mutació a [SF3B1] (descartada per Sanger).",
+        "entity_label": "GeneMutation",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Falleció en diciembre/15, era una paciente pluripatológica, con una cardiopatia isquémica severa, avc..y la causa de [exitus] fue un proceso septico. Ens autoritzen a utilitzar el pellet de BM",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Ens remeten DNA del AMO de [DX] feta 09/12/2016",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es una LMA-M2 en seguiment per sospita de progressió (El DX va ser Febrer de 2021 amb cariotip 46,XY[20]). Te mutació germinal confirmada a DDX41. Reb tractament AZA+PEVONEDISTAT 4 cicles i el Agost de 2022 desenvolupa un ADK de prostata gleason 5+5 2ari post DX de la LMA. Esta rebent hormonoterapi per el [ADK] i AZA + VENETOCLAX per la LMA.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Anèmia i [trombopènia] al DX",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: AREB-1, blastes 9%, CG amb del(7q), IPSS-R molt alt (7,5) [bicitopenia]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Bicitopenia secundaria. [SMD] descartado",
+        "entity_label": "Diagnosis",
+        "true": "Discarded",
+        "pred": "Discarded",
+        "raw": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "context": "[Adenocarcinoma de pròstata]. ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 19/10/2010 CRDM amb anemia (bajo riesgo). Entró en ensayo clínico ABR-[AZA] con (AZA en pts con IPSS bajo/int-1 no respondedores a EPO) y mantiene respuesta estable hasta la fecha (sept 2013)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SMDt 2ari a QT de linfoma B difus de cellules B grans. Paciente codificada como LEON-001.  Dx 12/04/2011. LENA: 08.08.2011 continua en Tto 09.04.2015: viva, estable, sense transformació i independent de transfusions i amb [LENA] CI: el té el Dr Ramos al seu Hospital i no ens el vol enviar per no violar la identitat del pacient",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX LMMC-1 variante displasica: Anemia i trombopenia, estudio por monocitosis. Panell: TET2, SETBP1, ZRSR2, [SH2B3]. Pte separar CD3+. Recibiremos el CI en octubre 2017",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra amb progressio a LMAs a [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Aspirado seco por [fibrosis], diagnóstico sobre biopsia. Dismegacariopoyesis en 100% elementos.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra en tto amb Hidroxiurea. Demanat CI. El pacient acaba evolucionant a LMA i es [exitus].",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Va iniciar tractament amb [hipometilants] el 22/06/2022. Finalitza el 08/08/2022.",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Assaig [SintraREV] el 05/03/18",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX 05.09.2006. Inici Lena febrer 2007 fins Setembre 2007 (paren tractament  per RC, que mante fins octubre 2008).  09.10.2008: recau [SMD] (CG i dep transfusional) i reinicia Lena fins setembre 2011, quan perd resposta hematologica i para tto. Hi ha mostra a molecular (632/10-MO) a data de 06/04/2010 en RP i en tto. Amb transfusions des de setembre 2011. Pacient desestimada per tto intensiu. 08.05.2013: Suport transfusional cada 3 setmanes",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Discreta displasia eritroblastica i ferropenica, [anemia]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX Feb 2013: AREB-2: Pancitopenia (granulos 0,4x10e9/l, plaq 77x10e9/l, hb 93 g/l) y disgranulopoyesis. Mielograma [celularidad aumentada] y displasia trilinea. Blast 3%.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "40.000 x2/semana Inicio [dependencia transfusional] el 02/08/2022.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "RESPUESTA HEMATOLÓGICA. STOP AL 9 CICLO POR PÉRDIDA RESPUESTA HEMATOLÓGICA. DESPUES SOLO TRANSFUSIONES HASTA [EXITUS]",
+        "entity_label": "Exitus",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX: [leve displasia eritrocitaria]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX 26/07/2010, mostra de [DX]. Exitus 01/10/2011",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra pre tto amb AZA i progressio a SMD d'alt risc (CRDM+MFP)  DX CRDM a l'octubre 2014. CG 11/11/17: amb la del(7q) Mostra amb suport transfusional. Ha rebut AZA, resposta plaquetar desde el 1r cicle. Completa [4cicles], stop per ingres al març del 2017 per sepsis E. Coli",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SP novembre 2014: porta 2 anys amb Lena Inicia Lena 29/11/2012.  Reducció de la dosi de tto a [5mg/dia] cada 21 dies per neutropenia (recupera els valors normals de neutrofils).  RC 23/01/2013. IT 23/01/2013. Julio 2016: sigue con Lena y sin sintomas y con IT",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Com no millora aumenten EPO a 2inj/set i control en 3 set. 3.abril.2020 hb 110 millora. 27.08.2020 li baixa la hb fins 106 i la bil. 1.78, la resta tot bé.   Amb resposta parcial + Inici [suport transfusional] Set'21",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra DX (21.05.2014) arriba un EPP amb DNA de DX. Mai ha tingut DT. Panell: SFPQ, [ASXL1], CDH13, DNMT3A, CSNK1A1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Es un [TRMN]. Dx cancer de mama al 2005 i tractament FECx3 seguit de docetaxel x3 i radioteràpia. Anastrozol-Letrozol.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "[TRMN]. Neoplasia previa de mama; DX 24/05/2016. Ha rebut quimioterapia",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "LMMC que va progressar a [LMA] i ara esta dintre d'assaig clinic",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "DX (DX DEF 16/06/2013): amb anemia. Nomes rep [tto suport]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra en trasformacio a [AREB-1]",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Mostra DX: SMPC/SMD inclassificable, [Anemia] i trombocitosi",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "TRMN al DX. [Ca de próstata] + RDT + Ca colon (solo cirugia). Padre Ca de vejiga",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Lena:inici 15.2.16,fa 4 cicles i l'aturen per ser no responedora avui (19/05/16). Mutacio del [TP53]. La mostra d'avui de possible progressió de LMA que finalment no es confirma l'evolucio (1,5% blasts en MO). Panell: TP53, KMT2D, UMODL1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Muestra pre tto AZA. Inicia tto con 5aza (C1D1 el 17/02/2014) con vistas a aloTPH a la espera de resultado de búsqueda de DNE.  Progresa a LMA tras 4 ciclos AZA (en junio 2014) y que se encuentra en muy mal estado 18/06/2014 inicia QT de nuevo Exitus el dia 05/07/2014. Panells: TP53, CALR, [EZH2]. WES fet projecte Andres Jerez",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra Lena. Inici cicle 14 al 06/06/2016. Tenia bona resposta inicial pero l'esta perdent. Avui pausa Lena fins el proxim control en 15 dies. Te IPSS-R 6,5 (very high) i delecio 17p. Panell: SF3B1, PHLPP1, CUX1, [LUC7L2], TP53",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX SMDt: CRDM. Ha rebut QT amb Fludarabina per LLC. IPSS 2, IPSSR muy alto. Cariotipo complejo que incluye -7 y 5q-. Pancitopenia 2a a tto. Tiene [mielofibrosis] y 3% blastos en MO. Iniciara AZA 24/7/17",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "TRMN al DX. Ca de próstata + RDT + Ca colon (solo cirugia). [Padre Ca de vejiga]",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX gener 2012 AREB2 (13% blastes) IPSS Int-2. Inici AZA feb 2012, suspes desprès de 6 cicles sense resposta. Progressió 24% blastes (agost 2013). Ha iniciado [QT] estándar con ida/citarabina 03/09/13. Evol LMA: QT (2/5)  Rci. Recaida LMA y EXITUS 08/04/14 por sepsis",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX (DX DEF 18/12/2012) Només rep [tto de suport]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita SMD: [aplasia medular] vs SMD hipoplásico",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Era sospita de TRMN, però finalment té aplasia medular. Neoplasia prèvia adenocarcinoma de mama dreta, l'any 1996. [Tractament Mastectomia mama dreta] + linfadenectomia profilàctica. QMT + RT + Tractament hormonal x5 anys (es desconeixen farmacs i dosis).",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX AREB-1, pancitopenia progresiva, [SMD] d'alt rirsc, CG normal. Estan valorant donar-li AZA amb el protocol CETLAM",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[SMD] alt risc diagnosticat en un pacient amb NMP-inclassificable JAK2+",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "10/10/2024: [MDS-SF3B1]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Durant tto [LENA]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "SMDt 2ari a LNH T perfièric q ha rebut [QT] CHOEP i GEMOX. Probablement LMA 2aria",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: [CRDM-SA], pancitopenia. Al proper control (maig 2016) li comentaran si vol entrar al projecte Single Cell. Sense tto (30.03.2016)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "02.03.2015: Inici [Sintra-Rev] (dia +15 Sintra-Rev)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra pre AZA. Inicia tto [AZA] el 20/05/2013. Exitus el 13/12/2013 por problema cardiológico",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "[DX] enero 2013.  Inicia LENA 11/2013",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra de DX. Panell: [SF3B1], JAKS2 (no V617F), GCAT, JARDI2",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX (29.12.2011). Pacient en tractament amb LENA (inici tto 17.06.2012). Reb 9 cicles de [LENA] i 9 cicles d'AZA pero no sabem quan comença. Possible evolució a NMP (LMMC). Panell: JARDI2, TP53, NF1",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra del DX: [Anemia] i neutropenia, no rep cap tto. Evolucio LMA (blastos 47%) Ene/13, inicia hidroxiurea. EXITUS",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Es un TRMN. Antecedents [ADK de prostata] al 2010. Ha rebut RDT 76 Gy + hormonoterapia des del 2013. IPSS-R baix, no te mutacions NGS.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX: [LMMC-0].",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra DX (21.05.2014) arriba un EPP amb DNA de DX. Mai ha tingut DT. Panell: [SFPQ], ASXL1, CDH13, DNMT3A, CSNK1A1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Sospita TRMN pero [NO HA REBUT TERAPIA]. Antecedents familiars de pare amb cancer de laringe. Neoplasia prèvia ADK de prostata acinar + prostatectomia el 02/10/2023.",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasies previes Neo próstata, neo laringe y neo colon. Tractament colon (cirugía + QT),  prostata (BGB+ [RT]), laringe (RT). Es exfumador",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Bicitopènia: [neutropènia] i trombopènia amb displasia a SP. Sembla no patològic",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Germa exitus leucèmia 12a, [pare exitus neo de prostata], mare exitus alzheimer. Inclos projecte low risk i SMDg",
+        "entity_label": "FamilyHistory",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra DX (21.05.2014) arriba un EPP amb DNA de DX. Mai ha tingut DT. Panell: SFPQ, ASXL1, [CDH13], DNMT3A, CSNK1A1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra seguiment (21.04.2015) arriba un EPP amb DNA Gener 2015 apareix quadre [Eosinofilia] i d'evolucio supertorpida. Mostra inici Lena 4/4/2015 fins 30/7/2015.",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Aturada el dia 19/05 per pancitopènia i sospita de progressió, presència de mutació TP53, [KMT2D], UMODL1. Finalment no progressa (1,5%blasts en MO).",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "05.06.2013: Final tto SINTRA-REV.  Hay dudas si recibió LENA o no, no respondió y no se planteo iniciar LENA por DX de [Parkinson y dederioro cognitivo]Esta amb DT.  Diciembre 2013: está en paliativos a domicilio, sólo soporte trasfusional. 04.11.2013 ultimo control en HEMATO fecha en que se le da el alta por deterioro cognitivo,  13.11.2014: última analítca registrada 23.03.2015: última transfusión registrada",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Neoplasia mielodisplásica con pocos blastos y S3B1 mutado (WHO 2022) / SMD con SF3B1 MUTADO (ICC 2022). Cariotipo normal. NGS: SF3B1 VAF 42%, [CBL] VAF 12%, TET2 VAF 33 Y 52%, CUX1 VAF 2,6%.",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Presenta anemia macrocitica desde 2012. DX definitivo de [SMD] en marzo 2016. Reevaluacio AREB-1 vs LMMC (Blasts <5% IPSS-R intermig). Panell: ZRSR2, ASXL1, RUNX1, EZH2. Inici tto AZA 06/02/2017",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[SMD con baja cantidad de blastos con mutación SF3B1] (OMS 2022), IPSS-R 2 (bajo). Del20q. Displasia multilínea (mieloide y eritroide)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "DX (19.12.2013) a H Badalona: [AREB-1] (SA 58%) alto riesgo IPSS-R 6.  A HGTIP DX (Juliol 2014) CRDM. Inici AZA: 23.12.2013",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra DX. Anemia macrocititica desde 2010. Panell: [KDM6A], BCORL1",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra [6cicles] Aza. Envien MO per CG i ens quedem 300uL del pellet cel·lular, IPSS INT-2 cariotip hipoploide(-7)",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra pre tto Aza, amb DT. Inclos a l'assaig [MDS]-AZA 2016. Des del 1r cicle: resposta plaquetar. Juny 2017: 5 cicles",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "EXAMEN CITOLÓGICO 28/06/2016 Médula ligeramente hipocelular con leve disgranulopoyesis sobretodo de las formas más maduras. EXAMEN MORFOLÓGICO 28/06/2016 Médula hipocelular con [displasia de serie blanca]  ",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "MDS-MLD IPSS-R 2.5. Se trata con [EPO] pero hay fallo de tto",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Exitus junio 2013. La anemia se justificó po IRC por GNefritis. Tenía [Gammapatia monoclonal] pero sin síntomas. No se concluyó para SMD por la escasa evolución temporal y poca evidencia de displasia y/o clonalidad en el estudio realizado",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Alopurinol, Dolquine, Tramadol. + [ERITROPOETINA]",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Reevaluació. Progressió a [LMA]s.",
+        "entity_label": "Diagnosis",
+        "true": "Progression",
+        "pred": "Progression",
+        "raw": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "context": "Es un TRMN. Neoplasies previes [Neo próstata], neo laringe y neo colon. Tractament colon (cirugía + QT),  prostata (BGB+ RT), laringe (RT). Es exfumador",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra de DX: anenia N-N, ferropenia medular i [monocitosi].(desde 2010 que tenia monocitosi) Cariotip normal (08/10/2010)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[NMST] (neoplasia mieloide secundaria a tratamiento)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Presenta anemia macrocitica desde 2012. DX definitivo de SMD en marzo 2016. Reevaluacio AREB-1 vs LMMC (Blasts <5% IPSS-R intermig). Panell: [ZRSR2], ASXL1, RUNX1, EZH2. Inici tto AZA 06/02/2017",
+        "entity_label": "GeneMutation",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "DX (29.12.2011). Pacient en tractament amb LENA (inici tto 17.06.2012). Reb 9 cicles de LENA i 9 cicles d'[AZA] pero no sabem quan comença. Possible evolució a NMP (LMMC). Panell: JARDI2, TP53, NF1",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "context": "Mostra de DX: CRDM i Pancitopenia i aplasia. El volien entrar a l'assaig AZA oral vs [Placebo] pero va ingressar per una artritis que després es va complicar amb una pneumònia per grip A i va ser exitus la setmana del 1/3/2016",
+        "entity_label": "Treatment",
+        "true": "No",
+        "pred": "No",
+        "raw": "{\"attribute\": \"No\"}"
+    },
+    {
+        "context": "DX [mielofibrosis]",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Sospita [SMD]",
+        "entity_label": "Diagnosis",
+        "true": "Suspicion",
+        "pred": "Suspicion",
+        "raw": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "context": "DX [SMD 5q-]. Mostra amb LENA setmana 12",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "[Macrocitosis] no filiada con disgranulopoyesis (secundaria a edad?)",
+        "entity_label": "Diagnosis",
+        "true": "Confirmed",
+        "pred": "Confirmed",
+        "raw": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "context": "Mostra de seguiment durant [EPO] (SP per separar CD3+ control). La separacio no surt be i es demana mes mostra",
+        "entity_label": "Treatment",
+        "true": "Yes",
+        "pred": "Yes",
+        "raw": "{\"attribute\": \"Yes\"}"
+    }
+]

@@ -1,0 +1,1549 @@
+[
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Discarded",
+        "raw_llm_out": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "MDS-MLD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "MDS-IB",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "DDX41",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "insuficiencia renal",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "alteraciones dismielopoyeticas",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Control",
+        "raw_llm_out": "{\"attribute\": \"Control\"}"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Anemia macrocítica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "sin tto",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "sigue vivo",
+        "entity_label": "Exitus",
+        "true_attribute": "No",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "MFP",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "CRMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "no tractament",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "AREB-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "acid valproic",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LMA M2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "LMC",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "MDS",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "MDS",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Discarded",
+        "raw_llm_out": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "entity_text": "diseritropoyesis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Discarded",
+        "raw_llm_out": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "AMO",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "TP53",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "MDS/MPN-U",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "JAK2",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "18 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "esplenomegalia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "soporte transfusional",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "LMA con cambios displasicos",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "quimio",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "azacitidina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Germa exitus leucèmia 12a",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "pare exitus neo de prostata",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "mare exitus alzheimer",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMDg",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "LMMC",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "patología hematológica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Discarded",
+        "raw_llm_out": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "entity_text": "neutropenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "TROMBOPENIA PERIFERICA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "lesions dermiques",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "eosinofilia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "anemia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LMA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "tratamiento",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "Linfoma",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "trasplante",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Discarded",
+        "raw_llm_out": "{\"attribute\": \"Discarded\"}"
+    },
+    {
+        "entity_text": "Mielofibrosis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "3 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "macrocitosi",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "15 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "dosis baixes",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "Lenalidomida",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "5 mg/2d x21d",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "citopenias grado 4",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "8 ciclo",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "Sintrarev",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SF3B1",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Neutropenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "FSC-G",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "3 ciclos",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "LMMC",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "pancitopenia de significat incert",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "LNH Burkitt",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SMD secundario",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "Hermano SMD",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "CMML1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "cancer de mama",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "Radioteràpia",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "40,5 Gy en 15 sessions",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "quimioteràpia",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "TC x4",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Idarrubicina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Citarabina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "1 cicle i disminució de la dosi",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "TP53",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "TP53",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "leucémica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "LMA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "TRMN-like",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "QMT/RDT",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "13 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AREB1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "AREB2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "tabaquisme",
+        "entity_label": "Smoker",
+        "true_attribute": "Previous",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "NMP",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "tabaquisme",
+        "entity_label": "Smoker",
+        "true_attribute": "Previous",
+        "pred_attribute": "Previous",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "Neo de mama",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "Mieloma múltiple",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "NMP",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "hydrea",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Jak2-",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "BCR/ABL-",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "anemia multicarencial",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "LMMC-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "anemia de significat incert",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SINTRA-REV",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "neutropenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "cancer de mama",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "TPH",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "displàsia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "tumor sòlid",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "cancer de cervix",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "Histerectomia",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "neoplasia vulvar de alto grado VIN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "IQ",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "QT",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "TRMN-like",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "Mare amb amiloidosis",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "germa amb cancer de cordes vocals",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "germa amb cancer hepatic",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "PTI",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "GMSI",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SMD/NMP_u",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "Displasia en las 3 lineas celulares",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "MDS",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "tabaquisme",
+        "entity_label": "Smoker",
+        "true_attribute": "Previous",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AREB-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "25 ciclos",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Previous\"}"
+    },
+    {
+        "entity_text": "Aza",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "Cap mutacio",
+        "entity_label": "GeneMutation",
+        "true_attribute": "No",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "EXITUS",
+        "entity_label": "Exitus",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "tumor pulmonar",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "metástasis cerebral",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "11 ciclos",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "Anemia leve",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "linfocitosis monoclonal leve",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "eritropoetina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "suport transfusional",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "concentrats d'hematies i exjade",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "AREB-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SINTRA-REV",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SMD 5q-",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SINTRA-REV",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "30000UI/setmana",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "MDS-RS-MLD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "IDH2",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "SRSF2",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "ASXL1",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "fibrosis reticulinica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "SMD con 5q",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "citopenies",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Progression",
+        "raw_llm_out": "{\"attribute\": \"Progression\"}"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "Macrocitosis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "disgranulopoyesis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "cicle 1",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": \"No\"}"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Suspicion",
+        "raw_llm_out": "{\"attribute\": \"Suspicion\"}"
+    },
+    {
+        "entity_text": "Ca de prostata",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "RDT",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Ca de colon",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Confirmed",
+        "raw_llm_out": "{\"attribute\": \"Confirmed\"}"
+    },
+    {
+        "entity_text": "cirugia",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "Padre Ca de vejiga",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": \"Yes\"}"
+    }
+]

@@ -1,0 +1,648 @@
+/var/spool/slurmd/job3680744/slurm_script: line 16: module: command not found
+/var/spool/slurmd/job3680744/slurm_script: line 17: activate: No such file or directory
+# packages in environment at /mnt/beegfs/clozano/.conda/envs/medical_ner_env:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+_python_abi3_support      1.0                  hd8ed1ab_2    conda-forge
+accelerate                1.12.0             pyhcf101f3_0    conda-forge
+aiofiles                  25.1.0             pyhcf101f3_1    conda-forge
+aiohappyeyeballs          2.6.1              pyhd8ed1ab_0    conda-forge
+aiohttp                   3.13.3          py310h31b6992_0    conda-forge
+aiosignal                 1.4.0              pyhd8ed1ab_0    conda-forge
+altair                    6.0.0              pyhd8ed1ab_1    conda-forge
+annotated-doc             0.0.4              pyhcf101f3_0    conda-forge
+annotated-types           0.7.0              pyhd8ed1ab_1    conda-forge
+anyio                     4.12.1             pyhcf101f3_0    conda-forge
+aom                       3.9.1                hac33072_0    conda-forge
+arrow                     1.4.0              pyhcf101f3_0    conda-forge
+async-timeout             5.0.1              pyhcf101f3_2    conda-forge
+attrs                     25.4.0             pyhcf101f3_1    conda-forge
+aws-c-auth                0.7.31               he1a10d6_2    conda-forge
+aws-c-cal                 0.7.4                hae4d56a_2    conda-forge
+aws-c-common              0.9.29               hb9d3cd8_0    conda-forge
+aws-c-compression         0.2.19               h2bff981_2    conda-forge
+aws-c-event-stream        0.4.3                h19b0707_4    conda-forge
+aws-c-http                0.8.10               h14a7884_2    conda-forge
+aws-c-io                  0.14.19              hc9e6898_1    conda-forge
+aws-c-mqtt                0.10.7               hb8d5873_2    conda-forge
+aws-c-s3                  0.6.7                h666547d_0    conda-forge
+aws-c-sdkutils            0.1.19               h2bff981_4    conda-forge
+aws-checksums             0.1.20               h2bff981_1    conda-forge
+aws-crt-cpp               0.28.3               hbe26082_8    conda-forge
+aws-sdk-cpp               1.11.407             h25d6d5c_1    conda-forge
+azure-core-cpp            1.13.0               h935415a_0    conda-forge
+azure-identity-cpp        1.8.0                hd126650_2    conda-forge
+azure-storage-blobs-cpp   12.12.0              hd2e3451_0    conda-forge
+azure-storage-common-cpp  12.7.0               h10ac4d7_1    conda-forge
+azure-storage-files-datalake-cpp 12.11.0              h325d260_1    conda-forge
+backports.zstd            1.3.0           py310h69bd2ac_0    conda-forge
+beautifulsoup4            4.14.3             pyha770c72_0    conda-forge
+binaryornot               0.4.4              pyhd8ed1ab_2    conda-forge
+bitsandbytes              0.49.2                   pypi_0    pypi
+blas                      2.305                  openblas    conda-forge
+blas-devel                3.11.0          5_h1ea3ea9_openblas    conda-forge
+bleach                    6.3.0              pyhcf101f3_1    conda-forge
+bleach-with-css           6.3.0                hbca2aae_1    conda-forge
+brotli                    1.1.0                hb03c661_4    conda-forge
+brotli-bin                1.1.0                hb03c661_4    conda-forge
+brotli-python             1.1.0           py310hea6c23e_4    conda-forge
+bzip2                     1.0.8                h5eee18b_6  
+c-ares                    1.34.6               hb03c661_0    conda-forge
+ca-certificates           2026.2.25            hbd8a1cb_0    conda-forge
+cairo                     1.18.4               h44eff21_0  
+certifi                   2026.1.4                 pypi_0    pypi
+cffi                      1.17.1          py310h8deb56e_0    conda-forge
+chardet                   5.2.0              pyhd8ed1ab_3    conda-forge
+charset-normalizer        3.4.4              pyhd8ed1ab_0    conda-forge
+click                     8.3.1              pyh8f84b5b_1    conda-forge
+contourpy                 1.3.2           py310h3788b33_0    conda-forge
+cookiecutter              2.7.1              pyhcf101f3_0    conda-forge
+cpython                   3.10.19         py310hd8ed1ab_3    conda-forge
+cuda-cudart               12.6.77              h5888daf_0    conda-forge
+cuda-cudart_linux-64      12.6.77              h3f2d84a_0    conda-forge
+cuda-nvrtc                12.6.85              hbd13f7d_0    conda-forge
+cuda-version              12.6                 h7480c83_3    conda-forge
+cycler                    0.12.1             pyhcf101f3_2    conda-forge
+cyrus-sasl                2.1.28               h1110e0f_3  
+datasets                  4.0.0              pyhcf101f3_0    conda-forge
+dav1d                     1.2.1                hd590300_0    conda-forge
+dbus                      1.16.2               h3c4dab8_0    conda-forge
+defusedxml                0.7.1              pyhd8ed1ab_0    conda-forge
+deprecated                1.3.1              pyhd8ed1ab_1    conda-forge
+dill                      0.3.8              pyhd8ed1ab_0    conda-forge
+dnspython                 2.8.0              pyhcf101f3_0    conda-forge
+einops                    0.8.2                    pypi_0    pypi
+email-validator           2.3.0              pyhd8ed1ab_0    conda-forge
+email_validator           2.3.0                hd8ed1ab_0    conda-forge
+evaluate                  0.4.6              pyhcf101f3_0    conda-forge
+exceptiongroup            1.3.1              pyhd8ed1ab_0    conda-forge
+expat                     2.7.1                h6a678d5_0  
+faiss-gpu                 1.9.0                h418687c_0    conda-forge
+fastapi                   0.135.1              h51dde83_0    conda-forge
+fastapi-cli               0.0.23             pyhcf101f3_0    conda-forge
+fastapi-core              0.135.1            pyhcf101f3_0    conda-forge
+ffmpeg                    4.4.0                h6987444_4    conda-forge
+ffmpy                     0.3.0              pyhb6f538c_0    conda-forge
+filelock                  3.24.2             pyhd8ed1ab_0    conda-forge
+fontconfig                2.14.1               h55d465d_3  
+fonttools                 4.61.1          py310h3406613_0    conda-forge
+freetype                  2.14.1               ha770c72_0    conda-forge
+fribidi                   1.0.16               hb03c661_0    conda-forge
+frozenlist                1.7.0           py310h9548a50_0    conda-forge
+fsspec                    2025.3.0           pyhd8ed1ab_0    conda-forge
+gflags                    2.2.2             h5888daf_1005    conda-forge
+glog                      0.7.1                hbabe93e_0    conda-forge
+gmp                       6.3.0                hac33072_2    conda-forge
+gmpy2                     2.2.1           py310h63ebcad_2    conda-forge
+gnutls                    3.6.13               h85f3911_1    conda-forge
+gradio                    3.18.0             pyhd8ed1ab_0    conda-forge
+graphite2                 1.3.14               hecca717_2    conda-forge
+h11                       0.16.0             pyhcf101f3_1    conda-forge
+h2                        4.3.0              pyhcf101f3_0    conda-forge
+harfbuzz                  10.2.0               hdfddeaa_1  
+hf-xet                    1.2.0                    pypi_0    pypi
+hpack                     4.1.0              pyhd8ed1ab_0    conda-forge
+httpcore                  1.0.9              pyh29332c3_0    conda-forge
+httptools                 0.7.1           py310h7c4b9e2_1    conda-forge
+httpx                     0.28.1             pyhd8ed1ab_0    conda-forge
+huggingface_hub           1.4.1              pyhd8ed1ab_0    conda-forge
+hyperframe                6.1.0              pyhd8ed1ab_0    conda-forge
+icu                       73.2                 h59595ed_0    conda-forge
+idna                      3.11               pyhd8ed1ab_0    conda-forge
+importlib-metadata        8.7.0              pyhe01879c_1    conda-forge
+jinja2                    3.1.6              pyhcf101f3_1    conda-forge
+joblib                    1.5.3              pyhd8ed1ab_0    conda-forge
+jpeg                      9e                   h0b41bf4_3    conda-forge
+jsonschema                4.26.0             pyhcf101f3_0    conda-forge
+jsonschema-specifications 2025.9.1           pyhcf101f3_0    conda-forge
+jupyter_client            8.8.0              pyhcf101f3_0    conda-forge
+jupyter_core              5.9.1              pyhc90fa1f_0    conda-forge
+jupyterlab_pygments       0.3.0              pyhd8ed1ab_2    conda-forge
+keyutils                  1.6.3                hb9d3cd8_0    conda-forge
+kiwisolver                1.4.9           py310haaf941d_2    conda-forge
+krb5                      1.22.2               ha1258a1_0    conda-forge
+lame                      3.100             h166bdaf_1003    conda-forge
+lcms2                     2.16                 h92b89f2_1  
+ld_impl_linux-64          2.40                 h12ee557_0  
+lerc                      4.0.0                h0aef613_1    conda-forge
+libabseil                 20240116.2      cxx17_he02047a_1    conda-forge
+libarrow                  17.0.0          had3b6fe_16_cpu    conda-forge
+libarrow-acero            17.0.0          h5888daf_16_cpu    conda-forge
+libarrow-dataset          17.0.0          h5888daf_16_cpu    conda-forge
+libarrow-substrait        17.0.0          hf54134d_16_cpu    conda-forge
+libavif                   1.3.0                h316e467_3    conda-forge
+libavif16                 1.3.0                h316e467_3    conda-forge
+libblas                   3.11.0          5_h4a7cf45_openblas    conda-forge
+libbrotlicommon           1.1.0                hb03c661_4    conda-forge
+libbrotlidec              1.1.0                hb03c661_4    conda-forge
+libbrotlienc              1.1.0                hb03c661_4    conda-forge
+libcblas                  3.11.0          5_h0358290_openblas    conda-forge
+libclang13                14.0.6          default_h9986a30_1    conda-forge
+libcrc32c                 1.1.2                h9c3ff4c_0    conda-forge
+libcublas                 12.6.4.1             h5888daf_1    conda-forge
+libcups                   2.4.2                h252cb56_2  
+libcurand                 10.3.7.77            hbd13f7d_0    conda-forge
+libcurl                   8.18.0               hcf29cc6_1    conda-forge
+libdeflate                1.22                 hb9d3cd8_0    conda-forge
+libdrm                    2.4.125              hb03c661_1    conda-forge
+libedit                   3.1.20250104    pl5321h7949ede_0    conda-forge
+libegl                    1.7.0                ha4b6fd6_2    conda-forge
+libev                     4.33                 hd590300_2    conda-forge
+libevent                  2.1.12               hf998b51_1    conda-forge
+libexpat                  2.7.1                hecca717_0    conda-forge
+libfaiss                  1.9.0           cuda126h4727808_0_cuda    conda-forge
+libffi                    3.4.4                h6a678d5_1  
+libfreetype               2.14.1               ha770c72_0    conda-forge
+libfreetype6              2.14.1               h73754d4_0    conda-forge
+libgcc                    15.2.0              he0feb66_18    conda-forge
+libgcc-ng                 15.2.0              h69a702a_18    conda-forge
+libgfortran               15.2.0              h69a702a_18    conda-forge
+libgfortran5              15.2.0              h68bc16d_18    conda-forge
+libgl                     1.7.0                ha4b6fd6_2    conda-forge
+libglib                   2.84.2               h37c7471_0  
+libglvnd                  1.7.0                ha4b6fd6_2    conda-forge
+libglx                    1.7.0                ha4b6fd6_2    conda-forge
+libgomp                   15.2.0              he0feb66_18    conda-forge
+libgoogle-cloud           2.29.0               h435de7b_0    conda-forge
+libgoogle-cloud-storage   2.29.0               h0121fbd_0    conda-forge
+libgrpc                   1.62.2               h15f2491_0    conda-forge
+libiconv                  1.18                 h3b78370_2    conda-forge
+libkrb5                   1.21.3               h520c7b4_4  
+liblapack                 3.11.0          5_h47877c9_openblas    conda-forge
+liblapacke                3.11.0          5_h6ae95b6_openblas    conda-forge
+libllvm14                 14.0.6               hcd5def8_4    conda-forge
+libllvm20                 20.1.8               hecd9e04_0    conda-forge
+libnghttp2                1.67.0               had1ee68_0    conda-forge
+libnsl                    2.0.0                h5eee18b_0  
+libopenblas               0.3.30          pthreads_h94d23a6_4    conda-forge
+libparquet                17.0.0          h39682fd_16_cpu    conda-forge
+libpciaccess              0.18                 hb9d3cd8_0    conda-forge
+libpng                    1.6.55               h421ea60_0    conda-forge
+libpq                     17.4                 h02b6914_2  
+libprotobuf               4.25.3               hd5b35b9_1    conda-forge
+libre2-11                 2023.09.01           h5a48ba9_2    conda-forge
+libsentencepiece          0.2.0                hc656cff_4    conda-forge
+libsodium                 1.0.18               h36c2ea0_1    conda-forge
+libsqlite                 3.51.2               h0c1763c_0    conda-forge
+libssh2                   1.11.1               hcf80075_0    conda-forge
+libstdcxx                 15.2.0              h934c35e_18    conda-forge
+libstdcxx-ng              15.2.0              hdf11a46_18    conda-forge
+libthrift                 0.20.0               h0e7cc3e_1    conda-forge
+libtiff                   4.7.0                hde9077f_0  
+libtorch                  2.4.1           cpu_generic_hb3b73e9_0    conda-forge
+libutf8proc               2.8.0                hf23e847_1    conda-forge
+libuuid                   1.41.5               h5eee18b_0  
+libuv                     1.51.0               hb03c661_1    conda-forge
+libvpx                    1.11.0               h9c3ff4c_3    conda-forge
+libwebp-base              1.6.0                hd42ef1d_0    conda-forge
+libxcb                    1.17.0               h9b100fa_0  
+libxkbcommon              1.11.0               he8b52b9_0    conda-forge
+libxml2                   2.13.8               hfdd30dd_0  
+libxslt                   1.1.43               h7a3aeb2_0    conda-forge
+libzlib                   1.3.1                hb25bd0a_0  
+linkify-it-py             2.1.0              pyhcf101f3_0    conda-forge
+lmdb                      0.9.35               h25c0377_0    conda-forge
+lz4-c                     1.9.4                hcb278e6_0    conda-forge
+markdown-it-py            4.0.0              pyhd8ed1ab_0    conda-forge
+markupsafe                3.0.3           py310h3406613_0    conda-forge
+matplotlib                3.10.8          py310hff52083_0    conda-forge
+matplotlib-base           3.10.8          py310hfde16b3_0    conda-forge
+mdit-py-plugins           0.5.0              pyhd8ed1ab_0    conda-forge
+mdurl                     0.1.2              pyhd8ed1ab_1    conda-forge
+mesalib                   25.0.5               h57bcd07_2    conda-forge
+minizip                   4.0.7                h401b404_0    conda-forge
+mistune                   3.2.0              pyhcf101f3_0    conda-forge
+mpc                       1.3.1                h24ddda3_1    conda-forge
+mpfr                      4.2.1                h90cbb55_3    conda-forge
+mpmath                    1.3.0              pyhd8ed1ab_1    conda-forge
+multidict                 6.7.1           py310h3406613_0    conda-forge
+multiprocess              0.70.16         py310ha75aee5_1    conda-forge
+munkres                   1.1.4              pyhd8ed1ab_1    conda-forge
+mysql                     8.4.0                h29a9f33_1  
+narwhals                  2.17.0             pyhcf101f3_0    conda-forge
+nbclient                  0.10.4             pyhd8ed1ab_0    conda-forge
+nbconvert                 7.17.0               h14065e2_0    conda-forge
+nbconvert-core            7.17.0             pyhcf101f3_0    conda-forge
+nbconvert-pandoc          7.17.0               hc3985f0_0    conda-forge
+nbformat                  5.10.4             pyhd8ed1ab_1    conda-forge
+ncurses                   6.5                  h7934f7d_0  
+nettle                    3.6                  he412f7d_0    conda-forge
+networkx                  3.4.2              pyh267e887_2    conda-forge
+nomkl                     1.0                  h5ca1d4c_0    conda-forge
+nspr                      4.38                 h29cc59b_0    conda-forge
+nss                       3.118                h445c969_0    conda-forge
+numpy                     2.2.6           py310hefbff90_0    conda-forge
+nvidia-cublas-cu12        12.4.5.8                 pypi_0    pypi
+nvidia-cuda-cupti-cu12    12.4.127                 pypi_0    pypi
+nvidia-cuda-nvrtc-cu12    12.4.127                 pypi_0    pypi
+nvidia-cuda-runtime-cu12  12.4.127                 pypi_0    pypi
+nvidia-cudnn-cu12         9.1.0.70                 pypi_0    pypi
+nvidia-cufft-cu12         11.2.1.3                 pypi_0    pypi
+nvidia-curand-cu12        10.3.5.147               pypi_0    pypi
+nvidia-cusolver-cu12      11.6.1.9                 pypi_0    pypi
+nvidia-cusparse-cu12      12.3.1.170               pypi_0    pypi
+nvidia-cusparselt-cu12    0.6.2                    pypi_0    pypi
+nvidia-nccl-cu12          2.21.5                   pypi_0    pypi
+nvidia-nvjitlink-cu12     12.4.127                 pypi_0    pypi
+nvidia-nvtx-cu12          12.4.127                 pypi_0    pypi
+ollama                    0.16.2           cpu_hba3e463_0    conda-forge
+ollama-python             0.6.1              pyhd8ed1ab_0    conda-forge
+openblas                  0.3.30          pthreads_h6ec200e_4    conda-forge
+openh264                  2.1.1                h4ff587b_0  
+openjpeg                  2.5.3                h55fea9a_1    conda-forge
+openldap                  2.6.10               h8e75217_0  
+openssl                   3.6.1                h35e630c_1    conda-forge
+opentelemetry-api         1.39.1             pyhd8ed1ab_0    conda-forge
+orc                       2.0.2                h669347b_0    conda-forge
+orjson                    3.11.7          py310hfe99b16_0    conda-forge
+packaging                 25.0            py310h06a4308_1  
+pandas                    2.3.3           py310h0158d43_2    conda-forge
+pandoc                    3.9                  ha770c72_0    conda-forge
+pandocfilters             1.5.0              pyhd8ed1ab_0    conda-forge
+patsy                     1.0.2              pyhcf101f3_0    conda-forge
+pcre2                     10.42                hcad00b1_0    conda-forge
+peft                      0.18.1                   pypi_0    pypi
+pillow                    12.0.0                   pypi_0    pypi
+pip                       26.0.1             pyhc872135_0  
+pixman                    0.46.4               h54a6638_1    conda-forge
+platformdirs              4.9.2              pyhcf101f3_0    conda-forge
+propcache                 0.3.1           py310h89163eb_0    conda-forge
+protobuf                  4.25.3          py310h0e2eeba_1    conda-forge
+psutil                    7.2.2           py310h139afa4_0    conda-forge
+pthread-stubs             0.3                  h0ce48e5_1  
+pyarrow                   17.0.0          py310hb7f781d_2    conda-forge
+pyarrow-core              17.0.0          py310hac404ae_2_cpu    conda-forge
+pycparser                 2.22               pyh29332c3_1    conda-forge
+pycryptodome              3.23.0          py310he45356f_2    conda-forge
+pydantic                  2.12.5             pyhcf101f3_1    conda-forge
+pydantic-core             2.41.5          py310hd8f68c5_1    conda-forge
+pydantic-extra-types      2.11.0             pyhcf101f3_1    conda-forge
+pydantic-settings         2.13.1             pyhd8ed1ab_0    conda-forge
+pydub                     0.25.1             pyhd8ed1ab_1    conda-forge
+pygments                  2.19.2             pyhd8ed1ab_0    conda-forge
+pyparsing                 3.3.2              pyhcf101f3_0    conda-forge
+pyside6                   6.7.3           py310hfe4ef28_1  
+pysocks                   1.7.1              pyha55dd90_7    conda-forge
+python                    3.10.19              h6fa692b_0  
+python-crfsuite           0.9.12          py310h25320af_0    conda-forge
+python-dateutil           2.9.0.post0        pyhe01879c_2    conda-forge
+python-dotenv             1.2.2              pyhcf101f3_0    conda-forge
+python-fastjsonschema     2.21.2             pyhe01879c_0    conda-forge
+python-gil                3.10.19              hd8ed1ab_3    conda-forge
+python-multipart          0.0.22             pyhcf101f3_0    conda-forge
+python-slugify            8.0.4              pyhd8ed1ab_1    conda-forge
+python-tzdata             2025.3             pyhd8ed1ab_0    conda-forge
+python-xxhash             3.6.0           py310hf3bd8b6_1    conda-forge
+python_abi                3.10                    2_cp310    conda-forge
+pytz                      2025.2             pyhd8ed1ab_0    conda-forge
+pyyaml                    6.0.3           py310h3406613_1    conda-forge
+pyzmq                     27.1.0          py310h4f33d48_0    conda-forge
+qhull                     2020.2               h434a139_5    conda-forge
+qtbase                    6.7.3                h10a5587_4  
+qtdeclarative             6.7.3                h7934f7d_1  
+qtshadertools             6.7.3                h7934f7d_1  
+qtsvg                     6.7.3                he4bddd1_1  
+qttools                   6.7.3                h5a8de97_1  
+qtwebchannel              6.7.3                h7934f7d_1  
+qtwebengine               6.7.3                h7abb84b_0  
+qtwebsockets              6.7.3                h7934f7d_1  
+rav1e                     0.7.1                h8fae777_3    conda-forge
+re2                       2023.09.01           h7f4b329_2    conda-forge
+readline                  8.3                  hc2a1206_0  
+referencing               0.37.0             pyhcf101f3_0    conda-forge
+regex                     2026.1.15                pypi_0    pypi
+requests                  2.32.5             pyhcf101f3_1    conda-forge
+rich                      14.3.2             pyhcf101f3_0    conda-forge
+rich-toolkit              0.19.7             pyhcf101f3_0    conda-forge
+rpds-py                   0.30.0          py310hd8f68c5_0    conda-forge
+s2n                       1.5.5                h3931f03_0    conda-forge
+safetensors               0.7.0           py310hdfeec95_0    conda-forge
+scikit-learn              1.7.2           py310h228f341_0    conda-forge
+scipy                     1.15.2          py310h1d65ade_0    conda-forge
+seaborn                   0.13.2               hd8ed1ab_3    conda-forge
+seaborn-base              0.13.2             pyhd8ed1ab_3    conda-forge
+sentencepiece             0.2.0                hff52083_4    conda-forge
+sentencepiece-python      0.2.0           py310hcf7cfdd_4    conda-forge
+sentencepiece-spm         0.2.0                hc656cff_4    conda-forge
+seqeval                   1.2.2                    pypi_0    pypi
+setuptools                80.10.2         py310h06a4308_0  
+shellingham               1.5.4              pyhd8ed1ab_2    conda-forge
+six                       1.17.0             pyhe01879c_1    conda-forge
+sklearn-crfsuite          0.5.0                    pypi_0    pypi
+sleef                     3.9.0                ha0421bc_0    conda-forge
+snappy                    1.2.2                h03e3b7b_1    conda-forge
+sniffio                   1.3.1              pyhd8ed1ab_2    conda-forge
+soupsieve                 2.8.3              pyhd8ed1ab_0    conda-forge
+spirv-tools               2025.5               hb700be7_0    conda-forge
+sqlite                    3.50.2               hb25bd0a_1  
+starlette                 0.52.1             pyhfdc7a7d_0    conda-forge
+statsmodels               0.14.6          py310hf779ad0_0    conda-forge
+svt-av1                   4.0.0                hecca717_0    conda-forge
+sympy                     1.13.1                   pypi_0    pypi
+tabulate                  0.9.0                    pypi_0    pypi
+text-unidecode            1.3                pyhd8ed1ab_2    conda-forge
+threadpoolctl             3.6.0              pyhecae5ae_0    conda-forge
+tiktoken                  0.12.0          py310h790759e_3    conda-forge
+tinycss2                  1.4.0              pyhd8ed1ab_0    conda-forge
+tk                        8.6.15               h54e0aa7_0  
+tokenizers                0.22.2          py310h4551fc8_0    conda-forge
+tomli                     2.4.0              pyhcf101f3_0    conda-forge
+torch                     2.6.0+cu124              pypi_0    pypi
+torchaudio                2.6.0+cu124              pypi_0    pypi
+torchvision               0.21.0+cu124             pypi_0    pypi
+tornado                   6.5.3           py310h7c4b9e2_0    conda-forge
+tqdm                      4.67.3             pyh8f84b5b_0    conda-forge
+traitlets                 5.14.3             pyhd8ed1ab_1    conda-forge
+transformers              5.1.0                    pypi_0    pypi
+triton                    3.2.0                    pypi_0    pypi
+trl                       0.29.0                   pypi_0    pypi
+typer                     0.24.0             pyhcf101f3_0    conda-forge
+typer-slim                0.24.0             pyhcf101f3_0    conda-forge
+typing-extensions         4.15.0               h396c80c_0    conda-forge
+typing-inspection         0.4.2              pyhd8ed1ab_1    conda-forge
+typing_extensions         4.15.0             pyhcf101f3_0    conda-forge
+tzdata                    2025c                he532380_0  
+uc-micro-py               2.0.0              pyhcf101f3_0    conda-forge
+unicodedata2              17.0.1          py310h7c4b9e2_0    conda-forge
+urllib3                   2.5.0              pyhd8ed1ab_0    conda-forge
+uvicorn                   0.41.0             pyhc90fa1f_0    conda-forge
+uvicorn-standard          0.41.0               he9f3e0c_0    conda-forge
+uvloop                    0.22.1          py310h7c4b9e2_1    conda-forge
+watchfiles                1.1.1           py310hdfeec95_0    conda-forge
+webencodings              0.5.1              pyhd8ed1ab_3    conda-forge
+websockets                16.0            py310h139afa4_1    conda-forge
+wheel                     0.46.3          py310h06a4308_0  
+wrapt                     2.1.1           py310h7c4b9e2_0    conda-forge
+x264                      1!161.3030           h7f98852_1    conda-forge
+x265                      3.5                  h924138e_3    conda-forge
+xcb-util                  0.4.1                h4f16b4b_2    conda-forge
+xcb-util-cursor           0.1.6                hb03c661_0    conda-forge
+xcb-util-image            0.4.0                hb711507_2    conda-forge
+xcb-util-keysyms          0.4.1                hb711507_0    conda-forge
+xcb-util-renderutil       0.3.10               hb711507_0    conda-forge
+xcb-util-wm               0.4.2                hb711507_0    conda-forge
+xkeyboard-config          2.46                 hb03c661_0    conda-forge
+xorg-libice               1.1.2                hb9d3cd8_0    conda-forge
+xorg-libsm                1.2.6                h9b100fa_0  
+xorg-libx11               1.8.12               h9b100fa_1  
+xorg-libxau               1.0.12               h9b100fa_0  
+xorg-libxdmcp             1.1.5                h9b100fa_0  
+xorg-libxext              1.3.7                hb03c661_0    conda-forge
+xorg-libxrandr            1.5.5                hb03c661_0    conda-forge
+xorg-libxrender           0.9.12               hb9d3cd8_0    conda-forge
+xorg-libxshmfence         1.3.3                hb9d3cd8_0    conda-forge
+xorg-xorgproto            2024.1               h5eee18b_1  
+xxhash                    0.8.3                hb47aa4a_0    conda-forge
+xz                        5.6.4                h5eee18b_1  
+yaml                      0.2.5                h280c20c_3    conda-forge
+yarl                      1.23.0          py310h3406613_0    conda-forge
+zeromq                    4.3.5                h59595ed_1    conda-forge
+zipp                      3.23.0             pyhcf101f3_1    conda-forge
+zlib                      1.3.1                hb25bd0a_0  
+zstandard                 0.25.0          py310h139afa4_1    conda-forge
+zstd                      1.5.7                hb78ec9c_6    conda-forge
+Loaded 2566 clinical notes
+
+--- DEBUG 1 ---
+Texto original (tokens): ['31', '.', '03', '.', '2015', ':', 'sense', 'tto', ',', 'amb', 'suport', 'transfusional', 'cada', '2', 'setmanes']
+Labels asignadas: ['Date', 'Date', 'Date', 'Date', 'Date', 'O', 'Treatment', 'Treatment', 'O', 'O', 'Treatment', 'Treatment', 'O', 'O', 'O']
+Total tokens con etiqueta médica en esta muestra: 9
+Procesados 2566 ejemplos.
+Etiquetas encontradas: ['O', 'Blasts', 'Date', 'Diagnosis', 'Exitus', 'FamilyHistory', 'GeneMutation', 'Karyotype', 'Origin', 'ProteinChange', 'Response', 'Risk', 'Smoker', 'Treatment', 'VAF', 'cDNAChange']
+Total samples: 2566
+Train: 2052, Validation: 256, Test: 258
+Map:   0%|          | 0/2052 [00:00<?, ? examples/s]Map:  49%|████▊     | 1000/2052 [00:00<00:00, 8160.85 examples/s]Map: 100%|██████████| 2052/2052 [00:00<00:00, 9360.74 examples/s]Map: 100%|██████████| 2052/2052 [00:00<00:00, 8961.53 examples/s]
+Map:   0%|          | 0/256 [00:00<?, ? examples/s]Map: 100%|██████████| 256/256 [00:00<00:00, 7226.01 examples/s]
+Map:   0%|          | 0/258 [00:00<?, ? examples/s]Map: 100%|██████████| 258/258 [00:00<00:00, 7357.83 examples/s]
+
+--- DEBUG 2 ---
+Sub-Token            | Label ID   | Label Name
+---------------------------------------------
+▁                    | 3          | Diagnosis
+SMD                  | 3          | Diagnosis
+▁de                  | 0          | O
+▁baix                | 11         | Risk
+▁risc                | 11         | Risk
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 22375.05it/s]
+[1mDebertaV2ForTokenClassification LOAD REPORT[0m from: microsoft/mdeberta-v3-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+deberta.embeddings.word_embeddings._weight | UNEXPECTED | 
+mask_predictions.LayerNorm.weight          | UNEXPECTED | 
+lm_predictions.lm_head.dense.weight        | UNEXPECTED | 
+lm_predictions.lm_head.bias                | UNEXPECTED | 
+mask_predictions.classifier.bias           | UNEXPECTED | 
+lm_predictions.lm_head.LayerNorm.weight    | UNEXPECTED | 
+lm_predictions.lm_head.LayerNorm.bias      | UNEXPECTED | 
+mask_predictions.dense.bias                | UNEXPECTED | 
+mask_predictions.LayerNorm.bias            | UNEXPECTED | 
+mask_predictions.dense.weight              | UNEXPECTED | 
+lm_predictions.lm_head.dense.bias          | UNEXPECTED | 
+mask_predictions.classifier.weight         | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING[3m	:those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.[0m
+--- INSPECCIÓN DE TENSORES ---
+Forma de los Input IDs: torch.Size([5, 49])
+Forma de los Labels: torch.Size([5, 49])
+Tokens 'O' (clase 0): 113
+Tokens Médicos (clase > 0): 19
+Tokens Ignorados (-100): 113
+  0%|          | 0/2570 [00:00<?, ?it/s]  0%|          | 1/2570 [00:01<55:40,  1.30s/it]  0%|          | 2/2570 [00:01<33:40,  1.27it/s]  0%|          | 3/2570 [00:01<22:04,  1.94it/s]  0%|          | 4/2570 [00:02<20:04,  2.13it/s]  0%|          | 6/2570 [00:02<11:33,  3.70it/s]  0%|          | 8/2570 [00:02<08:20,  5.12it/s]  0%|          | 10/2570 [00:02<06:37,  6.44it/s]  0%|          | 12/2570 [00:03<05:38,  7.55it/s]  1%|          | 14/2570 [00:03<05:00,  8.50it/s]  1%|          | 15/2570 [00:03<04:52,  8.74it/s]  1%|          | 17/2570 [00:03<04:33,  9.34it/s]  1%|          | 19/2570 [00:03<04:18,  9.88it/s]  1%|          | 21/2570 [00:03<04:08, 10.27it/s]  1%|          | 23/2570 [00:04<04:01, 10.56it/s]  1%|          | 25/2570 [00:04<03:56, 10.77it/s]  1%|          | 27/2570 [00:04<03:55, 10.82it/s]  1%|          | 29/2570 [00:04<03:53, 10.86it/s]  1%|          | 31/2570 [00:04<03:51, 10.95it/s]  1%|▏         | 33/2570 [00:04<03:50, 11.01it/s]  1%|▏         | 35/2570 [00:05<03:49, 11.07it/s]  1%|▏         | 37/2570 [00:05<03:48, 11.06it/s]  2%|▏         | 39/2570 [00:05<03:50, 10.99it/s]  2%|▏         | 41/2570 [00:05<03:51, 10.95it/s]  2%|▏         | 43/2570 [00:05<03:49, 11.00it/s]  2%|▏         | 45/2570 [00:06<03:48, 11.06it/s]  2%|▏         | 47/2570 [00:06<03:46, 11.13it/s]  2%|▏         | 49/2570 [00:06<03:46, 11.12it/s]  2%|▏         | 51/2570 [00:06<03:48, 11.02it/s]  2%|▏         | 53/2570 [00:06<03:48, 11.01it/s]  2%|▏         | 55/2570 [00:06<03:46, 11.09it/s]  2%|▏         | 57/2570 [00:07<03:45, 11.15it/s]  2%|▏         | 59/2570 [00:07<03:44, 11.19it/s]  2%|▏         | 61/2570 [00:07<03:44, 11.20it/s]  2%|▏         | 63/2570 [00:07<03:45, 11.11it/s]  3%|▎         | 65/2570 [00:07<03:45, 11.11it/s]  3%|▎         | 67/2570 [00:08<03:43, 11.18it/s]  3%|▎         | 69/2570 [00:08<03:44, 11.15it/s]  3%|▎         | 71/2570 [00:08<03:43, 11.20it/s]  3%|▎         | 73/2570 [00:08<03:27, 12.03it/s]  3%|▎         | 75/2570 [00:08<03:17, 12.63it/s]  3%|▎         | 77/2570 [00:08<03:15, 12.78it/s]  3%|▎         | 79/2570 [00:08<03:11, 12.99it/s]  3%|▎         | 81/2570 [00:09<03:05, 13.43it/s]  3%|▎         | 83/2570 [00:09<03:01, 13.74it/s]  3%|▎         | 85/2570 [00:09<02:58, 13.93it/s]  3%|▎         | 87/2570 [00:09<02:56, 14.07it/s]  3%|▎         | 89/2570 [00:09<02:55, 14.16it/s]  4%|▎         | 91/2570 [00:09<02:56, 14.08it/s]  4%|▎         | 93/2570 [00:09<02:58, 13.90it/s]  4%|▎         | 95/2570 [00:10<02:55, 14.07it/s]  4%|▍         | 97/2570 [00:10<02:54, 14.20it/s]  4%|▍         | 99/2570 [00:10<02:53, 14.27it/s]  4%|▍         | 101/2570 [00:10<02:52, 14.28it/s]  4%|▍         | 103/2570 [00:10<02:52, 14.30it/s]  4%|▍         | 105/2570 [00:10<02:51, 14.36it/s]  4%|▍         | 107/2570 [00:10<02:56, 13.99it/s]  4%|▍         | 109/2570 [00:11<02:54, 14.07it/s]  4%|▍         | 111/2570 [00:11<02:53, 14.14it/s]  4%|▍         | 113/2570 [00:11<02:52, 14.24it/s]  4%|▍         | 115/2570 [00:11<02:51, 14.29it/s]  5%|▍         | 117/2570 [00:11<02:50, 14.36it/s]  5%|▍         | 119/2570 [00:11<02:50, 14.40it/s]  5%|▍         | 121/2570 [00:11<02:52, 14.21it/s]  5%|▍         | 123/2570 [00:12<02:53, 14.09it/s]  5%|▍         | 125/2570 [00:12<02:55, 13.89it/s]  5%|▍         | 127/2570 [00:12<02:55, 13.93it/s]  5%|▌         | 129/2570 [00:12<02:54, 14.01it/s]  5%|▌         | 131/2570 [00:12<03:04, 13.22it/s]  5%|▌         | 133/2570 [00:12<02:59, 13.54it/s]  5%|▌         | 135/2570 [00:12<02:58, 13.60it/s]  5%|▌         | 137/2570 [00:13<02:59, 13.56it/s]  5%|▌         | 139/2570 [00:13<02:57, 13.71it/s]  5%|▌         | 141/2570 [00:13<02:54, 13.91it/s]  6%|▌         | 143/2570 [00:13<02:53, 14.02it/s]  6%|▌         | 145/2570 [00:13<02:52, 14.10it/s]  6%|▌         | 147/2570 [00:13<02:51, 14.12it/s]  6%|▌         | 149/2570 [00:13<02:49, 14.24it/s]  6%|▌         | 151/2570 [00:14<02:53, 13.97it/s]  6%|▌         | 153/2570 [00:14<02:55, 13.78it/s]  6%|▌         | 155/2570 [00:14<02:56, 13.67it/s]  6%|▌         | 157/2570 [00:14<03:05, 13.04it/s]  6%|▌         | 159/2570 [00:14<03:14, 12.42it/s]  6%|▋         | 161/2570 [00:14<03:20, 12.03it/s]  6%|▋         | 163/2570 [00:15<03:27, 11.63it/s]  6%|▋         | 165/2570 [00:15<03:30, 11.43it/s]  6%|▋         | 167/2570 [00:15<03:31, 11.38it/s]  7%|▋         | 169/2570 [00:15<03:32, 11.30it/s]  7%|▋         | 171/2570 [00:15<03:31, 11.32it/s]  7%|▋         | 173/2570 [00:15<03:32, 11.26it/s]  7%|▋         | 175/2570 [00:16<03:36, 11.08it/s]  7%|▋         | 177/2570 [00:16<03:35, 11.10it/s]  7%|▋         | 179/2570 [00:16<03:34, 11.15it/s]  7%|▋         | 181/2570 [00:16<03:33, 11.19it/s]  7%|▋         | 183/2570 [00:16<03:30, 11.32it/s]  7%|▋         | 185/2570 [00:17<03:30, 11.31it/s]  7%|▋         | 187/2570 [00:17<03:33, 11.15it/s]  7%|▋         | 189/2570 [00:17<03:35, 11.07it/s]  7%|▋         | 191/2570 [00:17<03:33, 11.12it/s]  8%|▊         | 193/2570 [00:17<03:32, 11.17it/s]  8%|▊         | 195/2570 [00:17<03:32, 11.20it/s]  8%|▊         | 197/2570 [00:18<03:31, 11.24it/s]  8%|▊         | 199/2570 [00:18<03:33, 11.13it/s]  8%|▊         | 201/2570 [00:18<03:34, 11.02it/s]  8%|▊         | 203/2570 [00:18<03:32, 11.11it/s]  8%|▊         | 205/2570 [00:18<03:31, 11.17it/s]  8%|▊         | 207/2570 [00:19<03:30, 11.21it/s]  8%|▊         | 209/2570 [00:19<03:30, 11.21it/s]  8%|▊         | 211/2570 [00:19<03:33, 11.04it/s]  8%|▊         | 213/2570 [00:19<03:34, 10.99it/s]  8%|▊         | 215/2570 [00:19<03:31, 11.11it/s]  8%|▊         | 217/2570 [00:19<03:30, 11.18it/s]  9%|▊         | 219/2570 [00:20<03:29, 11.21it/s]  9%|▊         | 221/2570 [00:20<03:28, 11.29it/s]  9%|▊         | 223/2570 [00:20<03:31, 11.12it/s]  9%|▉         | 225/2570 [00:20<03:30, 11.12it/s]  9%|▉         | 227/2570 [00:20<03:29, 11.19it/s]  9%|▉         | 229/2570 [00:21<03:28, 11.22it/s]  9%|▉         | 231/2570 [00:21<03:28, 11.22it/s]  9%|▉         | 233/2570 [00:21<03:29, 11.16it/s]  9%|▉         | 235/2570 [00:21<03:31, 11.03it/s]  9%|▉         | 237/2570 [00:21<03:30, 11.08it/s]  9%|▉         | 239/2570 [00:21<03:29, 11.15it/s]  9%|▉         | 241/2570 [00:22<03:27, 11.20it/s]  9%|▉         | 243/2570 [00:22<03:28, 11.18it/s] 10%|▉         | 245/2570 [00:22<03:26, 11.23it/s] 10%|▉         | 247/2570 [00:22<03:29, 11.10it/s] 10%|▉         | 249/2570 [00:22<03:29, 11.10it/s] 10%|▉         | 251/2570 [00:22<03:27, 11.16it/s] 10%|▉         | 253/2570 [00:23<03:26, 11.21it/s] 10%|▉         | 255/2570 [00:23<03:25, 11.25it/s] 10%|█         | 257/2570 [00:23<03:25, 11.25it/s]
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 63.44it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 58.75it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 57.75it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 56.82it/s][A
+100%|██████████| 32/32 [00:00<00:00, 54.95it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                  
+                                               [A 10%|█         | 257/2570 [00:24<03:25, 11.25it/s]
+100%|██████████| 32/32 [00:00<00:00, 54.95it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6684', 'eval_samples_per_second': '383', 'eval_steps_per_second': '47.88', 'epoch': '1'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.70s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.70s/it]
+ 10%|█         | 259/2570 [00:30<42:32,  1.10s/it] 10%|█         | 261/2570 [00:30<30:46,  1.25it/s] 10%|█         | 263/2570 [00:30<22:33,  1.70it/s] 10%|█         | 265/2570 [00:30<16:47,  2.29it/s] 10%|█         | 267/2570 [00:31<12:45,  3.01it/s] 10%|█         | 269/2570 [00:31<09:56,  3.86it/s] 11%|█         | 271/2570 [00:31<08:01,  4.77it/s] 11%|█         | 273/2570 [00:31<06:38,  5.77it/s] 11%|█         | 275/2570 [00:31<05:39,  6.76it/s] 11%|█         | 277/2570 [00:32<04:57,  7.70it/s] 11%|█         | 279/2570 [00:32<04:29,  8.51it/s] 11%|█         | 281/2570 [00:32<04:09,  9.19it/s] 11%|█         | 283/2570 [00:32<03:58,  9.59it/s] 11%|█         | 285/2570 [00:32<03:49,  9.96it/s] 11%|█         | 287/2570 [00:32<03:45, 10.12it/s] 11%|█         | 289/2570 [00:33<03:43, 10.19it/s] 11%|█▏        | 291/2570 [00:33<03:37, 10.47it/s] 11%|█▏        | 293/2570 [00:33<03:36, 10.53it/s] 11%|█▏        | 295/2570 [00:33<03:33, 10.63it/s] 12%|█▏        | 297/2570 [00:33<03:30, 10.80it/s] 12%|█▏        | 299/2570 [00:34<03:27, 10.95it/s] 12%|█▏        | 301/2570 [00:34<03:25, 11.06it/s] 12%|█▏        | 303/2570 [00:34<03:24, 11.07it/s] 12%|█▏        | 305/2570 [00:34<03:26, 10.98it/s] 12%|█▏        | 307/2570 [00:34<03:25, 10.99it/s] 12%|█▏        | 309/2570 [00:34<03:24, 11.07it/s] 12%|█▏        | 311/2570 [00:35<03:23, 11.12it/s] 12%|█▏        | 313/2570 [00:35<03:23, 11.11it/s] 12%|█▏        | 315/2570 [00:35<03:22, 11.12it/s] 12%|█▏        | 317/2570 [00:35<03:23, 11.06it/s] 12%|█▏        | 319/2570 [00:35<03:24, 11.03it/s] 12%|█▏        | 321/2570 [00:36<03:22, 11.08it/s] 13%|█▎        | 323/2570 [00:36<03:21, 11.15it/s] 13%|█▎        | 325/2570 [00:36<03:21, 11.17it/s] 13%|█▎        | 327/2570 [00:36<03:19, 11.23it/s] 13%|█▎        | 329/2570 [00:36<03:21, 11.12it/s] 13%|█▎        | 331/2570 [00:36<03:22, 11.08it/s] 13%|█▎        | 333/2570 [00:37<03:20, 11.18it/s] 13%|█▎        | 335/2570 [00:37<03:19, 11.23it/s] 13%|█▎        | 337/2570 [00:37<03:18, 11.26it/s] 13%|█▎        | 339/2570 [00:37<03:17, 11.31it/s] 13%|█▎        | 341/2570 [00:37<03:20, 11.14it/s] 13%|█▎        | 343/2570 [00:38<03:18, 11.21it/s] 13%|█▎        | 345/2570 [00:38<03:17, 11.25it/s] 14%|█▎        | 347/2570 [00:38<03:17, 11.28it/s] 14%|█▎        | 349/2570 [00:38<03:17, 11.26it/s] 14%|█▎        | 351/2570 [00:38<03:16, 11.27it/s] 14%|█▎        | 353/2570 [00:38<03:19, 11.13it/s] 14%|█▍        | 355/2570 [00:39<03:18, 11.16it/s] 14%|█▍        | 357/2570 [00:39<03:18, 11.17it/s] 14%|█▍        | 359/2570 [00:39<03:17, 11.19it/s] 14%|█▍        | 361/2570 [00:39<03:17, 11.20it/s] 14%|█▍        | 363/2570 [00:39<03:16, 11.22it/s] 14%|█▍        | 365/2570 [00:39<03:19, 11.07it/s] 14%|█▍        | 367/2570 [00:40<03:19, 11.06it/s] 14%|█▍        | 369/2570 [00:40<03:18, 11.10it/s] 14%|█▍        | 371/2570 [00:40<03:16, 11.19it/s] 15%|█▍        | 373/2570 [00:40<03:15, 11.22it/s] 15%|█▍        | 375/2570 [00:40<03:15, 11.22it/s] 15%|█▍        | 377/2570 [00:41<03:17, 11.12it/s] 15%|█▍        | 379/2570 [00:41<03:17, 11.09it/s] 15%|█▍        | 381/2570 [00:41<03:15, 11.18it/s] 15%|█▍        | 383/2570 [00:41<03:13, 11.28it/s] 15%|█▍        | 385/2570 [00:41<03:14, 11.21it/s] 15%|█▌        | 387/2570 [00:41<03:14, 11.22it/s] 15%|█▌        | 389/2570 [00:42<03:16, 11.11it/s] 15%|█▌        | 391/2570 [00:42<03:16, 11.07it/s] 15%|█▌        | 393/2570 [00:42<03:15, 11.11it/s] 15%|█▌        | 395/2570 [00:42<03:15, 11.14it/s] 15%|█▌        | 397/2570 [00:42<03:13, 11.21it/s] 16%|█▌        | 399/2570 [00:43<03:13, 11.19it/s] 16%|█▌        | 401/2570 [00:43<03:16, 11.06it/s] 16%|█▌        | 403/2570 [00:43<03:16, 11.05it/s] 16%|█▌        | 405/2570 [00:43<03:14, 11.13it/s] 16%|█▌        | 407/2570 [00:43<03:13, 11.19it/s] 16%|█▌        | 409/2570 [00:43<03:11, 11.26it/s] 16%|█▌        | 411/2570 [00:44<03:11, 11.28it/s] 16%|█▌        | 413/2570 [00:44<03:11, 11.26it/s] 16%|█▌        | 415/2570 [00:44<03:12, 11.18it/s] 16%|█▌        | 417/2570 [00:44<03:11, 11.23it/s] 16%|█▋        | 419/2570 [00:44<03:10, 11.29it/s] 16%|█▋        | 421/2570 [00:44<03:11, 11.25it/s] 16%|█▋        | 423/2570 [00:45<03:10, 11.29it/s] 17%|█▋        | 425/2570 [00:45<03:12, 11.15it/s] 17%|█▋        | 427/2570 [00:45<03:12, 11.12it/s] 17%|█▋        | 429/2570 [00:45<03:11, 11.19it/s] 17%|█▋        | 431/2570 [00:45<03:10, 11.24it/s] 17%|█▋        | 433/2570 [00:46<03:00, 11.81it/s] 17%|█▋        | 435/2570 [00:46<02:52, 12.35it/s] 17%|█▋        | 437/2570 [00:46<02:46, 12.82it/s] 17%|█▋        | 439/2570 [00:46<02:45, 12.84it/s] 17%|█▋        | 441/2570 [00:46<02:44, 12.95it/s] 17%|█▋        | 443/2570 [00:46<02:40, 13.28it/s] 17%|█▋        | 445/2570 [00:46<02:44, 12.95it/s] 17%|█▋        | 447/2570 [00:47<02:51, 12.38it/s] 17%|█▋        | 449/2570 [00:47<02:56, 12.03it/s] 18%|█▊        | 451/2570 [00:47<03:02, 11.62it/s] 18%|█▊        | 453/2570 [00:47<03:05, 11.42it/s] 18%|█▊        | 455/2570 [00:47<03:06, 11.35it/s] 18%|█▊        | 457/2570 [00:48<03:06, 11.30it/s] 18%|█▊        | 459/2570 [00:48<03:07, 11.28it/s] 18%|█▊        | 461/2570 [00:48<03:07, 11.25it/s] 18%|█▊        | 463/2570 [00:48<03:09, 11.13it/s] 18%|█▊        | 465/2570 [00:48<03:09, 11.10it/s] 18%|█▊        | 467/2570 [00:48<03:08, 11.16it/s] 18%|█▊        | 469/2570 [00:49<03:08, 11.16it/s] 18%|█▊        | 471/2570 [00:49<03:07, 11.19it/s] 18%|█▊        | 473/2570 [00:49<03:06, 11.25it/s] 18%|█▊        | 475/2570 [00:49<03:08, 11.12it/s] 19%|█▊        | 477/2570 [00:49<03:08, 11.08it/s] 19%|█▊        | 479/2570 [00:49<03:08, 11.12it/s] 19%|█▊        | 481/2570 [00:50<03:06, 11.20it/s] 19%|█▉        | 483/2570 [00:50<03:05, 11.23it/s] 19%|█▉        | 485/2570 [00:50<03:05, 11.25it/s] 19%|█▉        | 487/2570 [00:50<03:07, 11.10it/s] 19%|█▉        | 489/2570 [00:50<03:08, 11.03it/s] 19%|█▉        | 491/2570 [00:51<03:07, 11.10it/s] 19%|█▉        | 493/2570 [00:51<03:06, 11.14it/s] 19%|█▉        | 495/2570 [00:51<03:05, 11.16it/s] 19%|█▉        | 497/2570 [00:51<03:05, 11.18it/s] 19%|█▉        | 499/2570 [00:51<03:07, 11.05it/s]                                                   19%|█▉        | 500/2570 [00:51<03:07, 11.05it/s] 19%|█▉        | 501/2570 [00:51<03:11, 10.78it/s] 20%|█▉        | 503/2570 [00:52<03:09, 10.91it/s] 20%|█▉        | 505/2570 [00:52<03:07, 11.04it/s] 20%|█▉        | 507/2570 [00:52<03:04, 11.18it/s] 20%|█▉        | 509/2570 [00:52<03:04, 11.18it/s] 20%|█▉        | 511/2570 [00:52<03:05, 11.08it/s] 20%|█▉        | 513/2570 [00:53<03:05, 11.07it/s]{'loss': '1.424', 'grad_norm': 'nan', 'learning_rate': '8.385e-06', 'epoch': '1.946'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.77it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.44it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 58.19it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 57.16it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.21it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                  
+                                               [A 20%|██        | 514/2570 [00:53<03:05, 11.07it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.21it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6343', 'eval_samples_per_second': '403.6', 'eval_steps_per_second': '50.45', 'epoch': '2'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.64s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.64s/it]
+ 20%|██        | 515/2570 [00:58<29:27,  1.16it/s] 20%|██        | 517/2570 [00:58<21:31,  1.59it/s] 20%|██        | 519/2570 [00:58<15:57,  2.14it/s] 20%|██        | 521/2570 [00:58<12:04,  2.83it/s] 20%|██        | 523/2570 [00:59<09:20,  3.65it/s] 20%|██        | 525/2570 [00:59<07:25,  4.59it/s] 21%|██        | 527/2570 [00:59<06:08,  5.55it/s] 21%|██        | 529/2570 [00:59<05:12,  6.52it/s] 21%|██        | 531/2570 [00:59<04:32,  7.47it/s] 21%|██        | 533/2570 [00:59<04:04,  8.34it/s] 21%|██        | 535/2570 [01:00<03:45,  9.03it/s] 21%|██        | 537/2570 [01:00<03:30,  9.64it/s] 21%|██        | 539/2570 [01:00<03:23,  9.97it/s] 21%|██        | 541/2570 [01:00<03:17, 10.29it/s] 21%|██        | 543/2570 [01:00<03:11, 10.58it/s] 21%|██        | 545/2570 [01:01<03:07, 10.77it/s] 21%|██▏       | 547/2570 [01:01<03:04, 10.96it/s] 21%|██▏       | 549/2570 [01:01<03:02, 11.08it/s] 21%|██▏       | 551/2570 [01:01<03:02, 11.04it/s] 22%|██▏       | 553/2570 [01:01<03:07, 10.77it/s] 22%|██▏       | 555/2570 [01:01<03:04, 10.91it/s] 22%|██▏       | 557/2570 [01:02<03:02, 11.03it/s] 22%|██▏       | 559/2570 [01:02<03:01, 11.09it/s] 22%|██▏       | 561/2570 [01:02<03:00, 11.13it/s] 22%|██▏       | 563/2570 [01:02<03:06, 10.76it/s] 22%|██▏       | 565/2570 [01:02<03:06, 10.74it/s] 22%|██▏       | 567/2570 [01:03<03:03, 10.90it/s] 22%|██▏       | 569/2570 [01:03<03:02, 10.99it/s] 22%|██▏       | 571/2570 [01:03<03:00, 11.07it/s] 22%|██▏       | 573/2570 [01:03<03:01, 11.01it/s] 22%|██▏       | 575/2570 [01:03<03:01, 11.02it/s] 22%|██▏       | 577/2570 [01:03<02:59, 11.08it/s] 23%|██▎       | 579/2570 [01:04<02:58, 11.16it/s] 23%|██▎       | 581/2570 [01:04<02:57, 11.21it/s] 23%|██▎       | 583/2570 [01:04<02:56, 11.26it/s] 23%|██▎       | 585/2570 [01:04<02:58, 11.15it/s] 23%|██▎       | 587/2570 [01:04<02:58, 11.09it/s] 23%|██▎       | 589/2570 [01:05<02:57, 11.13it/s] 23%|██▎       | 591/2570 [01:05<02:57, 11.17it/s] 23%|██▎       | 593/2570 [01:05<02:56, 11.23it/s] 23%|██▎       | 595/2570 [01:05<02:55, 11.25it/s] 23%|██▎       | 597/2570 [01:05<02:57, 11.12it/s] 23%|██▎       | 599/2570 [01:05<02:57, 11.12it/s] 23%|██▎       | 601/2570 [01:06<02:56, 11.17it/s] 23%|██▎       | 603/2570 [01:06<02:56, 11.17it/s] 24%|██▎       | 605/2570 [01:06<02:54, 11.24it/s] 24%|██▎       | 607/2570 [01:06<02:53, 11.28it/s] 24%|██▎       | 609/2570 [01:06<02:56, 11.10it/s] 24%|██▍       | 611/2570 [01:06<02:56, 11.08it/s] 24%|██▍       | 613/2570 [01:07<02:54, 11.19it/s] 24%|██▍       | 615/2570 [01:07<02:53, 11.25it/s] 24%|██▍       | 617/2570 [01:07<02:53, 11.23it/s] 24%|██▍       | 619/2570 [01:07<02:53, 11.25it/s] 24%|██▍       | 621/2570 [01:07<02:55, 11.10it/s] 24%|██▍       | 623/2570 [01:08<02:55, 11.08it/s] 24%|██▍       | 625/2570 [01:08<02:54, 11.12it/s] 24%|██▍       | 627/2570 [01:08<02:54, 11.16it/s] 24%|██▍       | 629/2570 [01:08<02:53, 11.21it/s] 25%|██▍       | 631/2570 [01:08<02:52, 11.22it/s] 25%|██▍       | 633/2570 [01:08<02:54, 11.10it/s] 25%|██▍       | 635/2570 [01:09<02:54, 11.08it/s] 25%|██▍       | 637/2570 [01:09<02:54, 11.06it/s] 25%|██▍       | 639/2570 [01:09<02:53, 11.13it/s] 25%|██▍       | 641/2570 [01:09<02:52, 11.19it/s] 25%|██▌       | 643/2570 [01:09<02:51, 11.24it/s] 25%|██▌       | 645/2570 [01:10<02:53, 11.10it/s] 25%|██▌       | 647/2570 [01:10<02:53, 11.06it/s] 25%|██▌       | 649/2570 [01:10<02:53, 11.07it/s] 25%|██▌       | 651/2570 [01:10<02:52, 11.10it/s] 25%|██▌       | 653/2570 [01:10<02:51, 11.15it/s] 25%|██▌       | 655/2570 [01:10<02:51, 11.17it/s] 26%|██▌       | 657/2570 [01:11<02:52, 11.07it/s] 26%|██▌       | 659/2570 [01:11<02:52, 11.05it/s] 26%|██▌       | 661/2570 [01:11<02:51, 11.11it/s] 26%|██▌       | 663/2570 [01:11<02:50, 11.18it/s] 26%|██▌       | 665/2570 [01:11<02:49, 11.24it/s] 26%|██▌       | 667/2570 [01:12<02:48, 11.28it/s] 26%|██▌       | 669/2570 [01:12<02:50, 11.14it/s] 26%|██▌       | 671/2570 [01:12<02:51, 11.08it/s] 26%|██▌       | 673/2570 [01:12<02:49, 11.17it/s] 26%|██▋       | 675/2570 [01:12<02:48, 11.22it/s] 26%|██▋       | 677/2570 [01:12<02:48, 11.20it/s] 26%|██▋       | 679/2570 [01:13<02:48, 11.21it/s] 26%|██▋       | 681/2570 [01:13<02:49, 11.14it/s] 27%|██▋       | 683/2570 [01:13<02:47, 11.25it/s] 27%|██▋       | 685/2570 [01:13<02:47, 11.25it/s] 27%|██▋       | 687/2570 [01:13<02:47, 11.24it/s] 27%|██▋       | 689/2570 [01:13<02:47, 11.23it/s] 27%|██▋       | 691/2570 [01:14<02:46, 11.27it/s] 27%|██▋       | 693/2570 [01:14<02:48, 11.15it/s] 27%|██▋       | 695/2570 [01:14<02:37, 11.93it/s] 27%|██▋       | 697/2570 [01:14<02:29, 12.56it/s] 27%|██▋       | 699/2570 [01:14<02:23, 13.06it/s] 27%|██▋       | 701/2570 [01:14<02:18, 13.47it/s] 27%|██▋       | 703/2570 [01:15<02:15, 13.75it/s] 27%|██▋       | 705/2570 [01:15<02:14, 13.91it/s] 28%|██▊       | 707/2570 [01:15<02:12, 14.10it/s] 28%|██▊       | 709/2570 [01:15<02:13, 13.93it/s] 28%|██▊       | 711/2570 [01:15<02:15, 13.76it/s] 28%|██▊       | 713/2570 [01:15<02:13, 13.86it/s] 28%|██▊       | 715/2570 [01:15<02:12, 14.01it/s] 28%|██▊       | 717/2570 [01:16<02:11, 14.13it/s] 28%|██▊       | 719/2570 [01:16<02:09, 14.24it/s] 28%|██▊       | 721/2570 [01:16<02:08, 14.37it/s] 28%|██▊       | 723/2570 [01:16<02:10, 14.19it/s] 28%|██▊       | 725/2570 [01:16<02:11, 13.99it/s] 28%|██▊       | 727/2570 [01:16<02:11, 14.06it/s] 28%|██▊       | 729/2570 [01:16<02:09, 14.17it/s] 28%|██▊       | 731/2570 [01:17<02:09, 14.16it/s] 29%|██▊       | 733/2570 [01:17<02:09, 14.17it/s] 29%|██▊       | 735/2570 [01:17<02:09, 14.19it/s] 29%|██▊       | 737/2570 [01:17<02:08, 14.25it/s] 29%|██▉       | 739/2570 [01:17<02:11, 13.91it/s] 29%|██▉       | 741/2570 [01:17<02:11, 13.94it/s] 29%|██▉       | 743/2570 [01:17<02:09, 14.06it/s] 29%|██▉       | 745/2570 [01:18<02:08, 14.19it/s] 29%|██▉       | 747/2570 [01:18<02:07, 14.30it/s] 29%|██▉       | 749/2570 [01:18<02:06, 14.36it/s] 29%|██▉       | 751/2570 [01:18<02:06, 14.38it/s] 29%|██▉       | 753/2570 [01:18<02:07, 14.22it/s] 29%|██▉       | 755/2570 [01:18<02:09, 14.05it/s] 29%|██▉       | 757/2570 [01:18<02:13, 13.62it/s] 30%|██▉       | 759/2570 [01:19<02:10, 13.86it/s] 30%|██▉       | 761/2570 [01:19<02:08, 14.03it/s] 30%|██▉       | 763/2570 [01:19<02:08, 14.11it/s] 30%|██▉       | 765/2570 [01:19<02:07, 14.16it/s] 30%|██▉       | 767/2570 [01:19<02:08, 14.02it/s] 30%|██▉       | 769/2570 [01:19<02:09, 13.89it/s] 30%|███       | 771/2570 [01:19<02:10, 13.79it/s]
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 65.00it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.62it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 58.30it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 57.30it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.31it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                  
+                                               [A 30%|███       | 771/2570 [01:20<02:10, 13.79it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.31it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6317', 'eval_samples_per_second': '405.2', 'eval_steps_per_second': '50.66', 'epoch': '3'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.65s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]
+ 30%|███       | 773/2570 [01:25<25:52,  1.16it/s] 30%|███       | 775/2570 [01:25<18:52,  1.58it/s] 30%|███       | 777/2570 [01:25<13:59,  2.14it/s] 30%|███       | 779/2570 [01:25<10:34,  2.82it/s] 30%|███       | 781/2570 [01:25<08:11,  3.64it/s] 30%|███       | 783/2570 [01:26<06:30,  4.58it/s] 31%|███       | 785/2570 [01:26<05:23,  5.52it/s] 31%|███       | 787/2570 [01:26<04:33,  6.52it/s] 31%|███       | 789/2570 [01:26<03:58,  7.47it/s] 31%|███       | 791/2570 [01:26<03:33,  8.32it/s] 31%|███       | 793/2570 [01:27<03:16,  9.04it/s] 31%|███       | 795/2570 [01:27<03:05,  9.59it/s] 31%|███       | 797/2570 [01:27<02:59,  9.86it/s] 31%|███       | 799/2570 [01:27<02:52, 10.27it/s] 31%|███       | 801/2570 [01:27<02:47, 10.58it/s] 31%|███       | 803/2570 [01:27<02:43, 10.78it/s] 31%|███▏      | 805/2570 [01:28<02:41, 10.94it/s] 31%|███▏      | 807/2570 [01:28<02:39, 11.05it/s] 31%|███▏      | 809/2570 [01:28<02:41, 10.91it/s] 32%|███▏      | 811/2570 [01:28<02:39, 11.01it/s] 32%|███▏      | 813/2570 [01:28<02:38, 11.10it/s] 32%|███▏      | 815/2570 [01:29<02:37, 11.18it/s] 32%|███▏      | 817/2570 [01:29<02:36, 11.21it/s] 32%|███▏      | 819/2570 [01:29<02:35, 11.25it/s] 32%|███▏      | 821/2570 [01:29<02:38, 11.05it/s] 32%|███▏      | 823/2570 [01:29<02:37, 11.08it/s] 32%|███▏      | 825/2570 [01:29<02:36, 11.13it/s] 32%|███▏      | 827/2570 [01:30<02:36, 11.15it/s] 32%|███▏      | 829/2570 [01:30<02:35, 11.21it/s] 32%|███▏      | 831/2570 [01:30<02:36, 11.13it/s] 32%|███▏      | 833/2570 [01:30<02:38, 10.96it/s] 32%|███▏      | 835/2570 [01:30<02:36, 11.07it/s] 33%|███▎      | 837/2570 [01:31<02:35, 11.15it/s] 33%|███▎      | 839/2570 [01:31<02:34, 11.22it/s] 33%|███▎      | 841/2570 [01:31<02:33, 11.26it/s] 33%|███▎      | 843/2570 [01:31<02:32, 11.30it/s] 33%|███▎      | 845/2570 [01:31<02:35, 11.09it/s] 33%|███▎      | 847/2570 [01:31<02:34, 11.16it/s] 33%|███▎      | 849/2570 [01:32<02:33, 11.18it/s] 33%|███▎      | 851/2570 [01:32<02:34, 11.15it/s] 33%|███▎      | 853/2570 [01:32<02:33, 11.19it/s] 33%|███▎      | 855/2570 [01:32<02:33, 11.19it/s] 33%|███▎      | 857/2570 [01:32<02:36, 10.95it/s] 33%|███▎      | 859/2570 [01:32<02:38, 10.82it/s] 34%|███▎      | 861/2570 [01:33<02:35, 10.97it/s] 34%|███▎      | 863/2570 [01:33<02:34, 11.05it/s] 34%|███▎      | 865/2570 [01:33<02:33, 11.12it/s] 34%|███▎      | 867/2570 [01:33<02:35, 10.96it/s] 34%|███▍      | 869/2570 [01:33<02:35, 10.97it/s] 34%|███▍      | 871/2570 [01:34<02:33, 11.08it/s] 34%|███▍      | 873/2570 [01:34<02:32, 11.15it/s] 34%|███▍      | 875/2570 [01:34<02:31, 11.21it/s] 34%|███▍      | 877/2570 [01:34<02:30, 11.26it/s] 34%|███▍      | 879/2570 [01:34<02:32, 11.11it/s] 34%|███▍      | 881/2570 [01:34<02:32, 11.11it/s] 34%|███▍      | 883/2570 [01:35<02:31, 11.15it/s] 34%|███▍      | 885/2570 [01:35<02:30, 11.16it/s] 35%|███▍      | 887/2570 [01:35<02:30, 11.19it/s] 35%|███▍      | 889/2570 [01:35<02:29, 11.24it/s] 35%|███▍      | 891/2570 [01:35<02:31, 11.08it/s] 35%|███▍      | 893/2570 [01:36<02:32, 11.03it/s] 35%|███▍      | 895/2570 [01:36<02:30, 11.10it/s] 35%|███▍      | 897/2570 [01:36<02:29, 11.16it/s] 35%|███▍      | 899/2570 [01:36<02:28, 11.22it/s] 35%|███▌      | 901/2570 [01:36<02:27, 11.28it/s] 35%|███▌      | 903/2570 [01:36<02:29, 11.14it/s] 35%|███▌      | 905/2570 [01:37<02:29, 11.13it/s] 35%|███▌      | 907/2570 [01:37<02:29, 11.16it/s] 35%|███▌      | 909/2570 [01:37<02:28, 11.19it/s] 35%|███▌      | 911/2570 [01:37<02:28, 11.18it/s] 36%|███▌      | 913/2570 [01:37<02:27, 11.23it/s] 36%|███▌      | 915/2570 [01:38<02:29, 11.07it/s] 36%|███▌      | 917/2570 [01:38<02:29, 11.06it/s] 36%|███▌      | 919/2570 [01:38<02:27, 11.16it/s] 36%|███▌      | 921/2570 [01:38<02:27, 11.22it/s] 36%|███▌      | 923/2570 [01:38<02:26, 11.22it/s] 36%|███▌      | 925/2570 [01:38<02:26, 11.27it/s] 36%|███▌      | 927/2570 [01:39<02:27, 11.16it/s] 36%|███▌      | 929/2570 [01:39<02:27, 11.12it/s] 36%|███▌      | 931/2570 [01:39<02:26, 11.16it/s] 36%|███▋      | 933/2570 [01:39<02:25, 11.24it/s] 36%|███▋      | 935/2570 [01:39<02:25, 11.23it/s] 36%|███▋      | 937/2570 [01:39<02:25, 11.25it/s] 37%|███▋      | 939/2570 [01:40<02:26, 11.10it/s] 37%|███▋      | 941/2570 [01:40<02:26, 11.10it/s] 37%|███▋      | 943/2570 [01:40<02:25, 11.15it/s] 37%|███▋      | 945/2570 [01:40<02:25, 11.16it/s] 37%|███▋      | 947/2570 [01:40<02:24, 11.21it/s] 37%|███▋      | 949/2570 [01:41<02:24, 11.22it/s] 37%|███▋      | 951/2570 [01:41<02:26, 11.09it/s] 37%|███▋      | 953/2570 [01:41<02:25, 11.08it/s] 37%|███▋      | 955/2570 [01:41<02:24, 11.16it/s] 37%|███▋      | 957/2570 [01:41<02:23, 11.22it/s] 37%|███▋      | 959/2570 [01:41<02:23, 11.20it/s] 37%|███▋      | 961/2570 [01:42<02:23, 11.22it/s] 37%|███▋      | 963/2570 [01:42<02:25, 11.07it/s] 38%|███▊      | 965/2570 [01:42<02:25, 11.00it/s] 38%|███▊      | 967/2570 [01:42<02:25, 11.02it/s] 38%|███▊      | 969/2570 [01:42<02:24, 11.12it/s] 38%|███▊      | 971/2570 [01:43<02:23, 11.17it/s] 38%|███▊      | 973/2570 [01:43<02:22, 11.20it/s] 38%|███▊      | 975/2570 [01:43<02:23, 11.13it/s] 38%|███▊      | 977/2570 [01:43<02:23, 11.13it/s] 38%|███▊      | 979/2570 [01:43<02:22, 11.18it/s] 38%|███▊      | 981/2570 [01:43<02:21, 11.22it/s] 38%|███▊      | 983/2570 [01:44<02:20, 11.28it/s] 38%|███▊      | 985/2570 [01:44<02:20, 11.27it/s] 38%|███▊      | 987/2570 [01:44<02:21, 11.16it/s] 38%|███▊      | 989/2570 [01:44<02:22, 11.11it/s] 39%|███▊      | 991/2570 [01:44<02:22, 11.12it/s] 39%|███▊      | 993/2570 [01:45<02:21, 11.15it/s] 39%|███▊      | 995/2570 [01:45<02:20, 11.18it/s] 39%|███▉      | 997/2570 [01:45<02:20, 11.20it/s] 39%|███▉      | 999/2570 [01:45<02:22, 11.05it/s]                                                   39%|███▉      | 1000/2570 [01:45<02:22, 11.05it/s] 39%|███▉      | 1001/2570 [01:45<02:25, 10.81it/s] 39%|███▉      | 1003/2570 [01:45<02:22, 10.97it/s] 39%|███▉      | 1005/2570 [01:46<02:21, 11.07it/s] 39%|███▉      | 1007/2570 [01:46<02:20, 11.15it/s] 39%|███▉      | 1009/2570 [01:46<02:19, 11.23it/s] 39%|███▉      | 1011/2570 [01:46<02:20, 11.07it/s] 39%|███▉      | 1013/2570 [01:46<02:21, 11.01it/s] 39%|███▉      | 1015/2570 [01:47<02:23, 10.86it/s] 40%|███▉      | 1017/2570 [01:47<02:21, 10.99it/s] 40%|███▉      | 1019/2570 [01:47<02:20, 11.07it/s] 40%|███▉      | 1021/2570 [01:47<02:19, 11.09it/s] 40%|███▉      | 1023/2570 [01:47<02:21, 10.93it/s] 40%|███▉      | 1025/2570 [01:47<02:19, 11.05it/s] 40%|███▉      | 1027/2570 [01:48<02:18, 11.12it/s]{'loss': '0', 'grad_norm': 'nan', 'learning_rate': '6.36e-06', 'epoch': '3.891'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.40it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.39it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 58.12it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 57.02it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.09it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                   
+                                               [A 40%|████      | 1028/2570 [01:48<02:18, 11.12it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.09it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6356', 'eval_samples_per_second': '402.8', 'eval_steps_per_second': '50.35', 'epoch': '4'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.63s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.64s/it]
+ 40%|████      | 1029/2570 [01:53<23:15,  1.10it/s] 40%|████      | 1031/2570 [01:53<16:48,  1.53it/s] 40%|████      | 1033/2570 [01:53<12:19,  2.08it/s] 40%|████      | 1035/2570 [01:54<09:10,  2.79it/s] 40%|████      | 1037/2570 [01:54<06:56,  3.68it/s] 40%|████      | 1039/2570 [01:54<05:23,  4.74it/s] 41%|████      | 1041/2570 [01:54<04:17,  5.94it/s] 41%|████      | 1043/2570 [01:54<03:31,  7.22it/s] 41%|████      | 1045/2570 [01:54<03:00,  8.45it/s] 41%|████      | 1047/2570 [01:54<02:37,  9.68it/s] 41%|████      | 1049/2570 [01:55<02:21, 10.73it/s] 41%|████      | 1051/2570 [01:55<02:10, 11.61it/s] 41%|████      | 1053/2570 [01:55<02:03, 12.31it/s] 41%|████      | 1055/2570 [01:55<01:57, 12.90it/s] 41%|████      | 1057/2570 [01:55<01:53, 13.34it/s] 41%|████      | 1059/2570 [01:55<01:52, 13.40it/s] 41%|████▏     | 1061/2570 [01:55<01:52, 13.40it/s] 41%|████▏     | 1063/2570 [01:56<01:51, 13.48it/s] 41%|████▏     | 1065/2570 [01:56<01:49, 13.76it/s] 42%|████▏     | 1067/2570 [01:56<01:47, 13.96it/s] 42%|████▏     | 1069/2570 [01:56<01:51, 13.48it/s] 42%|████▏     | 1071/2570 [01:56<01:57, 12.77it/s] 42%|████▏     | 1073/2570 [01:56<02:04, 12.05it/s] 42%|████▏     | 1075/2570 [01:57<02:07, 11.77it/s] 42%|████▏     | 1077/2570 [01:57<02:08, 11.63it/s] 42%|████▏     | 1079/2570 [01:57<02:08, 11.56it/s] 42%|████▏     | 1081/2570 [01:57<02:09, 11.53it/s] 42%|████▏     | 1083/2570 [01:57<02:09, 11.45it/s] 42%|████▏     | 1085/2570 [01:57<02:12, 11.18it/s] 42%|████▏     | 1087/2570 [01:58<02:11, 11.25it/s] 42%|████▏     | 1089/2570 [01:58<02:11, 11.27it/s] 42%|████▏     | 1091/2570 [01:58<02:10, 11.30it/s] 43%|████▎     | 1093/2570 [01:58<02:11, 11.27it/s] 43%|████▎     | 1095/2570 [01:58<02:10, 11.30it/s] 43%|████▎     | 1097/2570 [01:59<02:12, 11.09it/s] 43%|████▎     | 1099/2570 [01:59<02:11, 11.18it/s] 43%|████▎     | 1101/2570 [01:59<02:11, 11.17it/s] 43%|████▎     | 1103/2570 [01:59<02:10, 11.24it/s] 43%|████▎     | 1105/2570 [01:59<02:10, 11.21it/s] 43%|████▎     | 1107/2570 [01:59<02:10, 11.23it/s] 43%|████▎     | 1109/2570 [02:00<02:12, 11.02it/s] 43%|████▎     | 1111/2570 [02:00<02:11, 11.08it/s] 43%|████▎     | 1113/2570 [02:00<02:10, 11.15it/s] 43%|████▎     | 1115/2570 [02:00<02:10, 11.18it/s] 43%|████▎     | 1117/2570 [02:00<02:09, 11.20it/s] 44%|████▎     | 1119/2570 [02:01<02:08, 11.27it/s] 44%|████▎     | 1121/2570 [02:01<02:11, 11.03it/s] 44%|████▎     | 1123/2570 [02:01<02:10, 11.11it/s] 44%|████▍     | 1125/2570 [02:01<02:09, 11.13it/s] 44%|████▍     | 1127/2570 [02:01<02:08, 11.19it/s] 44%|████▍     | 1129/2570 [02:01<02:08, 11.24it/s] 44%|████▍     | 1131/2570 [02:02<02:07, 11.28it/s] 44%|████▍     | 1133/2570 [02:02<02:11, 10.97it/s] 44%|████▍     | 1135/2570 [02:02<02:10, 11.03it/s] 44%|████▍     | 1137/2570 [02:02<02:09, 11.10it/s] 44%|████▍     | 1139/2570 [02:02<02:09, 11.05it/s] 44%|████▍     | 1141/2570 [02:02<02:08, 11.13it/s] 44%|████▍     | 1143/2570 [02:03<02:07, 11.16it/s] 45%|████▍     | 1145/2570 [02:03<02:10, 10.91it/s] 45%|████▍     | 1147/2570 [02:03<02:09, 11.02it/s] 45%|████▍     | 1149/2570 [02:03<02:08, 11.08it/s] 45%|████▍     | 1151/2570 [02:03<02:10, 10.90it/s] 45%|████▍     | 1153/2570 [02:04<02:08, 11.05it/s] 45%|████▍     | 1155/2570 [02:04<02:08, 10.97it/s] 45%|████▌     | 1157/2570 [02:04<02:08, 11.01it/s] 45%|████▌     | 1159/2570 [02:04<02:07, 11.10it/s] 45%|████▌     | 1161/2570 [02:04<02:06, 11.14it/s] 45%|████▌     | 1163/2570 [02:04<02:06, 11.16it/s] 45%|████▌     | 1165/2570 [02:05<02:05, 11.23it/s] 45%|████▌     | 1167/2570 [02:05<02:06, 11.08it/s] 45%|████▌     | 1169/2570 [02:05<02:06, 11.09it/s] 46%|████▌     | 1171/2570 [02:05<02:05, 11.15it/s] 46%|████▌     | 1173/2570 [02:05<02:04, 11.22it/s] 46%|████▌     | 1175/2570 [02:06<02:03, 11.25it/s] 46%|████▌     | 1177/2570 [02:06<02:03, 11.29it/s] 46%|████▌     | 1179/2570 [02:06<02:04, 11.19it/s] 46%|████▌     | 1181/2570 [02:06<02:04, 11.16it/s] 46%|████▌     | 1183/2570 [02:06<02:03, 11.21it/s] 46%|████▌     | 1185/2570 [02:06<02:03, 11.21it/s] 46%|████▌     | 1187/2570 [02:07<02:02, 11.26it/s] 46%|████▋     | 1189/2570 [02:07<02:02, 11.32it/s] 46%|████▋     | 1191/2570 [02:07<02:03, 11.20it/s] 46%|████▋     | 1193/2570 [02:07<02:03, 11.14it/s] 46%|████▋     | 1195/2570 [02:07<02:02, 11.22it/s] 47%|████▋     | 1197/2570 [02:08<02:01, 11.29it/s] 47%|████▋     | 1199/2570 [02:08<02:01, 11.28it/s] 47%|████▋     | 1201/2570 [02:08<02:01, 11.30it/s] 47%|████▋     | 1203/2570 [02:08<02:01, 11.22it/s] 47%|████▋     | 1205/2570 [02:08<02:02, 11.19it/s] 47%|████▋     | 1207/2570 [02:08<02:01, 11.21it/s] 47%|████▋     | 1209/2570 [02:09<02:01, 11.22it/s] 47%|████▋     | 1211/2570 [02:09<02:00, 11.29it/s] 47%|████▋     | 1213/2570 [02:09<02:00, 11.27it/s] 47%|████▋     | 1215/2570 [02:09<02:01, 11.11it/s] 47%|████▋     | 1217/2570 [02:09<02:02, 11.07it/s] 47%|████▋     | 1219/2570 [02:09<02:01, 11.15it/s] 48%|████▊     | 1221/2570 [02:10<02:00, 11.18it/s] 48%|████▊     | 1223/2570 [02:10<01:59, 11.24it/s] 48%|████▊     | 1225/2570 [02:10<02:00, 11.18it/s] 48%|████▊     | 1227/2570 [02:10<02:01, 11.09it/s] 48%|████▊     | 1229/2570 [02:10<02:01, 11.06it/s] 48%|████▊     | 1231/2570 [02:11<02:00, 11.14it/s] 48%|████▊     | 1233/2570 [02:11<02:00, 11.14it/s] 48%|████▊     | 1235/2570 [02:11<01:59, 11.20it/s] 48%|████▊     | 1237/2570 [02:11<01:58, 11.25it/s] 48%|████▊     | 1239/2570 [02:11<01:59, 11.11it/s] 48%|████▊     | 1241/2570 [02:11<01:59, 11.12it/s] 48%|████▊     | 1243/2570 [02:12<01:58, 11.17it/s] 48%|████▊     | 1245/2570 [02:12<01:58, 11.22it/s] 49%|████▊     | 1247/2570 [02:12<01:57, 11.27it/s] 49%|████▊     | 1249/2570 [02:12<01:56, 11.30it/s] 49%|████▊     | 1251/2570 [02:12<01:57, 11.18it/s] 49%|████▉     | 1253/2570 [02:13<01:58, 11.15it/s] 49%|████▉     | 1255/2570 [02:13<01:57, 11.21it/s] 49%|████▉     | 1257/2570 [02:13<01:57, 11.21it/s] 49%|████▉     | 1259/2570 [02:13<01:57, 11.18it/s] 49%|████▉     | 1261/2570 [02:13<01:56, 11.24it/s] 49%|████▉     | 1263/2570 [02:13<01:57, 11.12it/s] 49%|████▉     | 1265/2570 [02:14<01:57, 11.13it/s] 49%|████▉     | 1267/2570 [02:14<01:56, 11.21it/s] 49%|████▉     | 1269/2570 [02:14<01:55, 11.23it/s] 49%|████▉     | 1271/2570 [02:14<01:55, 11.28it/s] 50%|████▉     | 1273/2570 [02:14<01:55, 11.26it/s] 50%|████▉     | 1275/2570 [02:14<01:56, 11.16it/s] 50%|████▉     | 1277/2570 [02:15<01:56, 11.11it/s] 50%|████▉     | 1279/2570 [02:15<01:55, 11.19it/s] 50%|████▉     | 1281/2570 [02:15<01:55, 11.14it/s] 50%|████▉     | 1283/2570 [02:15<01:55, 11.15it/s] 50%|█████     | 1285/2570 [02:15<01:54, 11.24it/s]
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.59it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.37it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 58.10it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 57.07it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.19it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                   
+                                               [A 50%|█████     | 1285/2570 [02:16<01:54, 11.24it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.19it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6339', 'eval_samples_per_second': '403.9', 'eval_steps_per_second': '50.48', 'epoch': '5'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.62s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.62s/it]
+ 50%|█████     | 1287/2570 [02:21<18:24,  1.16it/s] 50%|█████     | 1289/2570 [02:21<13:25,  1.59it/s] 50%|█████     | 1291/2570 [02:21<09:57,  2.14it/s] 50%|█████     | 1293/2570 [02:21<07:31,  2.83it/s] 50%|█████     | 1295/2570 [02:21<05:49,  3.65it/s] 50%|█████     | 1297/2570 [02:22<04:38,  4.58it/s] 51%|█████     | 1299/2570 [02:22<03:50,  5.52it/s] 51%|█████     | 1301/2570 [02:22<03:14,  6.52it/s] 51%|█████     | 1303/2570 [02:22<02:50,  7.45it/s] 51%|█████     | 1305/2570 [02:22<02:32,  8.31it/s] 51%|█████     | 1307/2570 [02:22<02:19,  9.03it/s] 51%|█████     | 1309/2570 [02:23<02:10,  9.63it/s] 51%|█████     | 1311/2570 [02:23<02:06,  9.92it/s] 51%|█████     | 1313/2570 [02:23<02:01, 10.31it/s] 51%|█████     | 1315/2570 [02:23<01:58, 10.59it/s] 51%|█████     | 1317/2570 [02:23<01:56, 10.77it/s] 51%|█████▏    | 1319/2570 [02:24<01:54, 10.97it/s] 51%|█████▏    | 1321/2570 [02:24<01:52, 11.09it/s] 51%|█████▏    | 1323/2570 [02:24<01:51, 11.15it/s] 52%|█████▏    | 1325/2570 [02:24<01:50, 11.22it/s] 52%|█████▏    | 1327/2570 [02:24<01:50, 11.22it/s] 52%|█████▏    | 1329/2570 [02:24<01:50, 11.22it/s] 52%|█████▏    | 1331/2570 [02:25<01:50, 11.20it/s] 52%|█████▏    | 1333/2570 [02:25<01:52, 10.95it/s] 52%|█████▏    | 1335/2570 [02:25<01:54, 10.82it/s] 52%|█████▏    | 1337/2570 [02:25<01:52, 10.99it/s] 52%|█████▏    | 1339/2570 [02:25<01:51, 11.06it/s] 52%|█████▏    | 1341/2570 [02:26<01:50, 11.13it/s] 52%|█████▏    | 1343/2570 [02:26<01:49, 11.19it/s] 52%|█████▏    | 1345/2570 [02:26<01:48, 11.25it/s] 52%|█████▏    | 1347/2570 [02:26<01:50, 11.06it/s] 52%|█████▏    | 1349/2570 [02:26<01:49, 11.15it/s] 53%|█████▎    | 1351/2570 [02:26<01:48, 11.21it/s] 53%|█████▎    | 1353/2570 [02:27<01:48, 11.22it/s] 53%|█████▎    | 1355/2570 [02:27<01:47, 11.25it/s] 53%|█████▎    | 1357/2570 [02:27<01:47, 11.32it/s] 53%|█████▎    | 1359/2570 [02:27<01:49, 11.08it/s] 53%|█████▎    | 1361/2570 [02:27<01:48, 11.10it/s] 53%|█████▎    | 1363/2570 [02:27<01:48, 11.17it/s] 53%|█████▎    | 1365/2570 [02:28<01:47, 11.20it/s] 53%|█████▎    | 1367/2570 [02:28<01:46, 11.25it/s] 53%|█████▎    | 1369/2570 [02:28<01:47, 11.20it/s] 53%|█████▎    | 1371/2570 [02:28<01:48, 11.01it/s] 53%|█████▎    | 1373/2570 [02:28<01:48, 11.08it/s] 54%|█████▎    | 1375/2570 [02:29<01:47, 11.16it/s] 54%|█████▎    | 1377/2570 [02:29<01:46, 11.20it/s] 54%|█████▎    | 1379/2570 [02:29<01:46, 11.19it/s] 54%|█████▎    | 1381/2570 [02:29<01:45, 11.22it/s] 54%|█████▍    | 1383/2570 [02:29<01:47, 11.06it/s] 54%|█████▍    | 1385/2570 [02:29<01:46, 11.14it/s] 54%|█████▍    | 1387/2570 [02:30<01:45, 11.21it/s] 54%|█████▍    | 1389/2570 [02:30<01:45, 11.25it/s] 54%|█████▍    | 1391/2570 [02:30<01:46, 11.10it/s] 54%|█████▍    | 1393/2570 [02:30<01:45, 11.12it/s] 54%|█████▍    | 1395/2570 [02:30<01:47, 10.93it/s] 54%|█████▍    | 1397/2570 [02:31<01:46, 11.04it/s] 54%|█████▍    | 1399/2570 [02:31<01:45, 11.09it/s] 55%|█████▍    | 1401/2570 [02:31<01:44, 11.15it/s] 55%|█████▍    | 1403/2570 [02:31<01:44, 11.17it/s] 55%|█████▍    | 1405/2570 [02:31<01:43, 11.21it/s] 55%|█████▍    | 1407/2570 [02:31<01:45, 11.03it/s] 55%|█████▍    | 1409/2570 [02:32<01:44, 11.12it/s] 55%|█████▍    | 1411/2570 [02:32<01:44, 11.10it/s] 55%|█████▍    | 1413/2570 [02:32<01:43, 11.14it/s] 55%|█████▌    | 1415/2570 [02:32<01:43, 11.16it/s] 55%|█████▌    | 1417/2570 [02:32<01:44, 11.04it/s] 55%|█████▌    | 1419/2570 [02:33<01:46, 10.78it/s] 55%|█████▌    | 1421/2570 [02:33<01:45, 10.92it/s] 55%|█████▌    | 1423/2570 [02:33<01:44, 11.01it/s] 55%|█████▌    | 1425/2570 [02:33<01:43, 11.09it/s] 56%|█████▌    | 1427/2570 [02:33<01:42, 11.14it/s] 56%|█████▌    | 1429/2570 [02:33<01:42, 11.15it/s] 56%|█████▌    | 1431/2570 [02:34<01:43, 10.99it/s] 56%|█████▌    | 1433/2570 [02:34<01:42, 11.10it/s] 56%|█████▌    | 1435/2570 [02:34<01:41, 11.17it/s] 56%|█████▌    | 1437/2570 [02:34<01:41, 11.21it/s] 56%|█████▌    | 1439/2570 [02:34<01:40, 11.24it/s] 56%|█████▌    | 1441/2570 [02:35<01:40, 11.28it/s] 56%|█████▌    | 1443/2570 [02:35<01:41, 11.08it/s] 56%|█████▌    | 1445/2570 [02:35<01:41, 11.13it/s] 56%|█████▋    | 1447/2570 [02:35<01:40, 11.18it/s] 56%|█████▋    | 1449/2570 [02:35<01:40, 11.19it/s] 56%|█████▋    | 1451/2570 [02:35<01:39, 11.22it/s] 57%|█████▋    | 1453/2570 [02:36<01:39, 11.22it/s] 57%|█████▋    | 1455/2570 [02:36<01:41, 11.00it/s] 57%|█████▋    | 1457/2570 [02:36<01:40, 11.08it/s] 57%|█████▋    | 1459/2570 [02:36<01:39, 11.16it/s] 57%|█████▋    | 1461/2570 [02:36<01:38, 11.22it/s] 57%|█████▋    | 1463/2570 [02:36<01:38, 11.28it/s] 57%|█████▋    | 1465/2570 [02:37<01:37, 11.31it/s] 57%|█████▋    | 1467/2570 [02:37<01:39, 11.10it/s] 57%|█████▋    | 1469/2570 [02:37<01:38, 11.14it/s] 57%|█████▋    | 1471/2570 [02:37<01:38, 11.20it/s] 57%|█████▋    | 1473/2570 [02:37<01:37, 11.22it/s] 57%|█████▋    | 1475/2570 [02:38<01:37, 11.24it/s] 57%|█████▋    | 1477/2570 [02:38<01:37, 11.26it/s] 58%|█████▊    | 1479/2570 [02:38<01:38, 11.04it/s] 58%|█████▊    | 1481/2570 [02:38<01:37, 11.12it/s] 58%|█████▊    | 1483/2570 [02:38<01:37, 11.15it/s] 58%|█████▊    | 1485/2570 [02:38<01:36, 11.22it/s] 58%|█████▊    | 1487/2570 [02:39<01:36, 11.22it/s] 58%|█████▊    | 1489/2570 [02:39<01:36, 11.26it/s] 58%|█████▊    | 1491/2570 [02:39<01:37, 11.03it/s] 58%|█████▊    | 1493/2570 [02:39<01:36, 11.16it/s] 58%|█████▊    | 1495/2570 [02:39<01:35, 11.23it/s] 58%|█████▊    | 1497/2570 [02:40<01:35, 11.21it/s] 58%|█████▊    | 1499/2570 [02:40<01:35, 11.25it/s]                                                    58%|█████▊    | 1500/2570 [02:40<01:35, 11.25it/s] 58%|█████▊    | 1501/2570 [02:40<01:35, 11.24it/s] 58%|█████▊    | 1503/2570 [02:40<01:36, 11.06it/s] 59%|█████▊    | 1505/2570 [02:40<01:35, 11.13it/s] 59%|█████▊    | 1507/2570 [02:40<01:35, 11.16it/s] 59%|█████▊    | 1509/2570 [02:41<01:34, 11.19it/s] 59%|█████▉    | 1511/2570 [02:41<01:34, 11.21it/s] 59%|█████▉    | 1513/2570 [02:41<01:33, 11.25it/s] 59%|█████▉    | 1515/2570 [02:41<01:34, 11.20it/s] 59%|█████▉    | 1517/2570 [02:41<01:33, 11.25it/s] 59%|█████▉    | 1519/2570 [02:41<01:33, 11.25it/s] 59%|█████▉    | 1521/2570 [02:42<01:32, 11.30it/s] 59%|█████▉    | 1523/2570 [02:42<01:32, 11.27it/s] 59%|█████▉    | 1525/2570 [02:42<01:32, 11.25it/s] 59%|█████▉    | 1527/2570 [02:42<01:34, 11.03it/s] 59%|█████▉    | 1529/2570 [02:42<01:33, 11.10it/s] 60%|█████▉    | 1531/2570 [02:43<01:32, 11.19it/s] 60%|█████▉    | 1533/2570 [02:43<01:32, 11.24it/s] 60%|█████▉    | 1535/2570 [02:43<01:31, 11.28it/s] 60%|█████▉    | 1537/2570 [02:43<01:31, 11.30it/s] 60%|█████▉    | 1539/2570 [02:43<01:33, 11.07it/s] 60%|█████▉    | 1541/2570 [02:43<01:32, 11.17it/s]{'loss': '0', 'grad_norm': 'nan', 'learning_rate': '4.336e-06', 'epoch': '5.837'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.57it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.38it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 58.13it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 57.17it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.23it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                   
+                                               [A 60%|██████    | 1542/2570 [02:44<01:32, 11.17it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.23it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6354', 'eval_samples_per_second': '402.9', 'eval_steps_per_second': '50.36', 'epoch': '6'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]
+ 60%|██████    | 1543/2570 [02:49<15:40,  1.09it/s] 60%|██████    | 1545/2570 [02:49<11:22,  1.50it/s] 60%|██████    | 1547/2570 [02:49<08:18,  2.05it/s] 60%|██████    | 1549/2570 [02:50<06:09,  2.76it/s] 60%|██████    | 1551/2570 [02:50<04:39,  3.65it/s] 60%|██████    | 1553/2570 [02:50<03:37,  4.67it/s] 61%|██████    | 1555/2570 [02:50<02:54,  5.83it/s] 61%|██████    | 1557/2570 [02:50<02:23,  7.04it/s] 61%|██████    | 1559/2570 [02:50<02:03,  8.17it/s] 61%|██████    | 1561/2570 [02:50<01:47,  9.38it/s] 61%|██████    | 1563/2570 [02:51<01:36, 10.43it/s] 61%|██████    | 1565/2570 [02:51<01:28, 11.39it/s] 61%|██████    | 1567/2570 [02:51<01:23, 12.05it/s] 61%|██████    | 1569/2570 [02:51<01:18, 12.68it/s] 61%|██████    | 1571/2570 [02:51<01:15, 13.20it/s] 61%|██████    | 1573/2570 [02:51<01:15, 13.12it/s] 61%|██████▏   | 1575/2570 [02:51<01:20, 12.41it/s] 61%|██████▏   | 1577/2570 [02:52<01:22, 12.03it/s] 61%|██████▏   | 1579/2570 [02:52<01:24, 11.79it/s] 62%|██████▏   | 1581/2570 [02:52<01:24, 11.66it/s] 62%|██████▏   | 1583/2570 [02:52<01:25, 11.54it/s] 62%|██████▏   | 1585/2570 [02:52<01:27, 11.23it/s] 62%|██████▏   | 1587/2570 [02:53<01:27, 11.26it/s] 62%|██████▏   | 1589/2570 [02:53<01:26, 11.29it/s] 62%|██████▏   | 1591/2570 [02:53<01:26, 11.25it/s] 62%|██████▏   | 1593/2570 [02:53<01:26, 11.24it/s] 62%|██████▏   | 1595/2570 [02:53<01:26, 11.24it/s] 62%|██████▏   | 1597/2570 [02:53<01:27, 11.07it/s] 62%|██████▏   | 1599/2570 [02:54<01:26, 11.19it/s] 62%|██████▏   | 1601/2570 [02:54<01:26, 11.20it/s] 62%|██████▏   | 1603/2570 [02:54<01:26, 11.22it/s] 62%|██████▏   | 1605/2570 [02:54<01:25, 11.27it/s] 63%|██████▎   | 1607/2570 [02:54<01:25, 11.28it/s] 63%|██████▎   | 1609/2570 [02:55<01:27, 11.02it/s] 63%|██████▎   | 1611/2570 [02:55<01:26, 11.03it/s] 63%|██████▎   | 1613/2570 [02:55<01:26, 11.12it/s] 63%|██████▎   | 1615/2570 [02:55<01:25, 11.16it/s] 63%|██████▎   | 1617/2570 [02:55<01:25, 11.16it/s] 63%|██████▎   | 1619/2570 [02:55<01:25, 11.17it/s] 63%|██████▎   | 1621/2570 [02:56<01:26, 11.01it/s] 63%|██████▎   | 1623/2570 [02:56<01:25, 11.07it/s] 63%|██████▎   | 1625/2570 [02:56<01:25, 11.11it/s] 63%|██████▎   | 1627/2570 [02:56<01:24, 11.18it/s] 63%|██████▎   | 1629/2570 [02:56<01:23, 11.26it/s] 63%|██████▎   | 1631/2570 [02:57<01:23, 11.29it/s] 64%|██████▎   | 1633/2570 [02:57<01:24, 11.07it/s] 64%|██████▎   | 1635/2570 [02:57<01:23, 11.14it/s] 64%|██████▎   | 1637/2570 [02:57<01:23, 11.16it/s] 64%|██████▍   | 1639/2570 [02:57<01:22, 11.22it/s] 64%|██████▍   | 1641/2570 [02:57<01:22, 11.23it/s] 64%|██████▍   | 1643/2570 [02:58<01:22, 11.27it/s] 64%|██████▍   | 1645/2570 [02:58<01:23, 11.02it/s] 64%|██████▍   | 1647/2570 [02:58<01:23, 11.12it/s] 64%|██████▍   | 1649/2570 [02:58<01:22, 11.21it/s] 64%|██████▍   | 1651/2570 [02:58<01:21, 11.23it/s] 64%|██████▍   | 1653/2570 [02:58<01:21, 11.27it/s] 64%|██████▍   | 1655/2570 [02:59<01:21, 11.29it/s] 64%|██████▍   | 1657/2570 [02:59<01:22, 11.02it/s] 65%|██████▍   | 1659/2570 [02:59<01:21, 11.14it/s] 65%|██████▍   | 1661/2570 [02:59<01:21, 11.17it/s] 65%|██████▍   | 1663/2570 [02:59<01:20, 11.20it/s] 65%|██████▍   | 1665/2570 [03:00<01:20, 11.23it/s] 65%|██████▍   | 1667/2570 [03:00<01:20, 11.26it/s] 65%|██████▍   | 1669/2570 [03:00<01:21, 11.03it/s] 65%|██████▌   | 1671/2570 [03:00<01:20, 11.13it/s] 65%|██████▌   | 1673/2570 [03:00<01:20, 11.18it/s] 65%|██████▌   | 1675/2570 [03:00<01:19, 11.21it/s] 65%|██████▌   | 1677/2570 [03:01<01:19, 11.21it/s] 65%|██████▌   | 1679/2570 [03:01<01:19, 11.25it/s] 65%|██████▌   | 1681/2570 [03:01<01:20, 11.02it/s] 65%|██████▌   | 1683/2570 [03:01<01:20, 11.09it/s] 66%|██████▌   | 1685/2570 [03:01<01:19, 11.19it/s] 66%|██████▌   | 1687/2570 [03:02<01:18, 11.28it/s] 66%|██████▌   | 1689/2570 [03:02<01:18, 11.26it/s] 66%|██████▌   | 1691/2570 [03:02<01:17, 11.28it/s] 66%|██████▌   | 1693/2570 [03:02<01:19, 11.00it/s] 66%|██████▌   | 1695/2570 [03:02<01:21, 10.79it/s] 66%|██████▌   | 1697/2570 [03:02<01:20, 10.86it/s] 66%|██████▌   | 1699/2570 [03:03<01:19, 10.93it/s] 66%|██████▌   | 1701/2570 [03:03<01:18, 11.03it/s] 66%|██████▋   | 1703/2570 [03:03<01:18, 11.04it/s] 66%|██████▋   | 1705/2570 [03:03<01:18, 11.07it/s] 66%|██████▋   | 1707/2570 [03:03<01:17, 11.15it/s] 66%|██████▋   | 1709/2570 [03:04<01:16, 11.21it/s] 67%|██████▋   | 1711/2570 [03:04<01:16, 11.23it/s] 67%|██████▋   | 1713/2570 [03:04<01:18, 10.97it/s] 67%|██████▋   | 1715/2570 [03:04<01:18, 10.93it/s] 67%|██████▋   | 1717/2570 [03:04<01:17, 10.99it/s] 67%|██████▋   | 1719/2570 [03:04<01:16, 11.08it/s] 67%|██████▋   | 1721/2570 [03:05<01:16, 11.08it/s] 67%|██████▋   | 1723/2570 [03:05<01:16, 11.14it/s] 67%|██████▋   | 1725/2570 [03:05<01:15, 11.20it/s] 67%|██████▋   | 1727/2570 [03:05<01:15, 11.11it/s] 67%|██████▋   | 1729/2570 [03:05<01:15, 11.10it/s] 67%|██████▋   | 1731/2570 [03:05<01:15, 11.15it/s] 67%|██████▋   | 1733/2570 [03:06<01:14, 11.18it/s] 68%|██████▊   | 1735/2570 [03:06<01:14, 11.19it/s] 68%|██████▊   | 1737/2570 [03:06<01:14, 11.20it/s] 68%|██████▊   | 1739/2570 [03:06<01:15, 11.07it/s] 68%|██████▊   | 1741/2570 [03:06<01:14, 11.06it/s] 68%|██████▊   | 1743/2570 [03:07<01:14, 11.10it/s] 68%|██████▊   | 1745/2570 [03:07<01:14, 11.10it/s] 68%|██████▊   | 1747/2570 [03:07<01:13, 11.12it/s] 68%|██████▊   | 1749/2570 [03:07<01:13, 11.17it/s] 68%|██████▊   | 1751/2570 [03:07<01:14, 11.04it/s] 68%|██████▊   | 1753/2570 [03:07<01:14, 11.03it/s] 68%|██████▊   | 1755/2570 [03:08<01:13, 11.10it/s] 68%|██████▊   | 1757/2570 [03:08<01:12, 11.15it/s] 68%|██████▊   | 1759/2570 [03:08<01:12, 11.20it/s] 69%|██████▊   | 1761/2570 [03:08<01:11, 11.25it/s] 69%|██████▊   | 1763/2570 [03:08<01:12, 11.10it/s] 69%|██████▊   | 1765/2570 [03:09<01:12, 11.06it/s] 69%|██████▉   | 1767/2570 [03:09<01:12, 11.11it/s] 69%|██████▉   | 1769/2570 [03:09<01:11, 11.22it/s] 69%|██████▉   | 1771/2570 [03:09<01:11, 11.17it/s] 69%|██████▉   | 1773/2570 [03:09<01:11, 11.20it/s] 69%|██████▉   | 1775/2570 [03:09<01:11, 11.05it/s] 69%|██████▉   | 1777/2570 [03:10<01:11, 11.03it/s] 69%|██████▉   | 1779/2570 [03:10<01:11, 11.11it/s] 69%|██████▉   | 1781/2570 [03:10<01:10, 11.16it/s] 69%|██████▉   | 1783/2570 [03:10<01:10, 11.19it/s] 69%|██████▉   | 1785/2570 [03:10<01:10, 11.20it/s] 70%|██████▉   | 1787/2570 [03:11<01:10, 11.08it/s] 70%|██████▉   | 1789/2570 [03:11<01:10, 11.07it/s] 70%|██████▉   | 1791/2570 [03:11<01:09, 11.15it/s] 70%|██████▉   | 1793/2570 [03:11<01:09, 11.20it/s] 70%|██████▉   | 1795/2570 [03:11<01:08, 11.24it/s] 70%|██████▉   | 1797/2570 [03:11<01:08, 11.25it/s] 70%|███████   | 1799/2570 [03:12<01:09, 11.14it/s]
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.63it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.30it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 57.98it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 56.88it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.01it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                   
+                                               [A 70%|███████   | 1799/2570 [03:12<01:09, 11.14it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.01it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6395', 'eval_samples_per_second': '400.3', 'eval_steps_per_second': '50.04', 'epoch': '7'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.62s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.62s/it]
+ 70%|███████   | 1801/2570 [03:17<11:20,  1.13it/s] 70%|███████   | 1803/2570 [03:17<08:15,  1.55it/s] 70%|███████   | 1805/2570 [03:17<06:06,  2.09it/s] 70%|███████   | 1807/2570 [03:18<04:36,  2.76it/s] 70%|███████   | 1809/2570 [03:18<03:33,  3.57it/s] 70%|███████   | 1811/2570 [03:18<02:49,  4.49it/s] 71%|███████   | 1813/2570 [03:18<02:19,  5.44it/s] 71%|███████   | 1815/2570 [03:18<01:57,  6.45it/s] 71%|███████   | 1817/2570 [03:19<01:41,  7.41it/s] 71%|███████   | 1819/2570 [03:19<01:31,  8.24it/s] 71%|███████   | 1821/2570 [03:19<01:23,  8.97it/s] 71%|███████   | 1823/2570 [03:19<01:18,  9.55it/s] 71%|███████   | 1825/2570 [03:19<01:15,  9.82it/s] 71%|███████   | 1827/2570 [03:19<01:12, 10.23it/s] 71%|███████   | 1829/2570 [03:20<01:10, 10.55it/s] 71%|███████   | 1831/2570 [03:20<01:08, 10.77it/s] 71%|███████▏  | 1833/2570 [03:20<01:07, 10.93it/s] 71%|███████▏  | 1835/2570 [03:20<01:06, 11.04it/s] 71%|███████▏  | 1837/2570 [03:20<01:07, 10.89it/s] 72%|███████▏  | 1839/2570 [03:20<01:06, 11.03it/s] 72%|███████▏  | 1841/2570 [03:21<01:05, 11.13it/s] 72%|███████▏  | 1843/2570 [03:21<01:05, 11.18it/s] 72%|███████▏  | 1845/2570 [03:21<01:04, 11.25it/s] 72%|███████▏  | 1847/2570 [03:21<01:04, 11.24it/s] 72%|███████▏  | 1849/2570 [03:21<01:05, 11.00it/s] 72%|███████▏  | 1851/2570 [03:22<01:04, 11.08it/s] 72%|███████▏  | 1853/2570 [03:22<01:04, 11.14it/s] 72%|███████▏  | 1855/2570 [03:22<01:04, 11.14it/s] 72%|███████▏  | 1857/2570 [03:22<01:03, 11.20it/s] 72%|███████▏  | 1859/2570 [03:22<01:03, 11.24it/s] 72%|███████▏  | 1861/2570 [03:22<01:04, 11.06it/s] 72%|███████▏  | 1863/2570 [03:23<01:03, 11.16it/s] 73%|███████▎  | 1865/2570 [03:23<01:02, 11.20it/s] 73%|███████▎  | 1867/2570 [03:23<01:02, 11.26it/s] 73%|███████▎  | 1869/2570 [03:23<01:02, 11.30it/s] 73%|███████▎  | 1871/2570 [03:23<01:01, 11.32it/s] 73%|███████▎  | 1873/2570 [03:24<01:02, 11.10it/s] 73%|███████▎  | 1875/2570 [03:24<01:02, 11.19it/s] 73%|███████▎  | 1877/2570 [03:24<01:01, 11.20it/s] 73%|███████▎  | 1879/2570 [03:24<01:01, 11.26it/s] 73%|███████▎  | 1881/2570 [03:24<01:01, 11.27it/s] 73%|███████▎  | 1883/2570 [03:24<01:01, 11.22it/s] 73%|███████▎  | 1885/2570 [03:25<01:02, 10.96it/s] 73%|███████▎  | 1887/2570 [03:25<01:01, 11.04it/s] 74%|███████▎  | 1889/2570 [03:25<01:01, 11.07it/s] 74%|███████▎  | 1891/2570 [03:25<01:00, 11.14it/s] 74%|███████▎  | 1893/2570 [03:25<01:00, 11.22it/s] 74%|███████▎  | 1895/2570 [03:25<00:59, 11.28it/s] 74%|███████▍  | 1897/2570 [03:26<01:00, 11.04it/s] 74%|███████▍  | 1899/2570 [03:26<01:00, 11.11it/s] 74%|███████▍  | 1901/2570 [03:26<00:59, 11.18it/s] 74%|███████▍  | 1903/2570 [03:26<00:59, 11.21it/s] 74%|███████▍  | 1905/2570 [03:26<00:58, 11.28it/s] 74%|███████▍  | 1907/2570 [03:27<00:58, 11.29it/s] 74%|███████▍  | 1909/2570 [03:27<00:59, 11.11it/s] 74%|███████▍  | 1911/2570 [03:27<00:58, 11.18it/s] 74%|███████▍  | 1913/2570 [03:27<00:58, 11.17it/s] 75%|███████▍  | 1915/2570 [03:27<00:58, 11.20it/s] 75%|███████▍  | 1917/2570 [03:27<00:58, 11.24it/s] 75%|███████▍  | 1919/2570 [03:28<00:57, 11.31it/s] 75%|███████▍  | 1921/2570 [03:28<00:58, 11.02it/s] 75%|███████▍  | 1923/2570 [03:28<00:58, 11.12it/s] 75%|███████▍  | 1925/2570 [03:28<00:57, 11.16it/s] 75%|███████▍  | 1927/2570 [03:28<00:57, 11.19it/s] 75%|███████▌  | 1929/2570 [03:29<00:57, 11.23it/s] 75%|███████▌  | 1931/2570 [03:29<00:56, 11.26it/s] 75%|███████▌  | 1933/2570 [03:29<00:57, 11.01it/s] 75%|███████▌  | 1935/2570 [03:29<00:57, 11.10it/s] 75%|███████▌  | 1937/2570 [03:29<00:56, 11.13it/s] 75%|███████▌  | 1939/2570 [03:29<00:56, 11.21it/s] 76%|███████▌  | 1941/2570 [03:30<00:56, 11.21it/s] 76%|███████▌  | 1943/2570 [03:30<00:55, 11.24it/s] 76%|███████▌  | 1945/2570 [03:30<00:56, 11.01it/s] 76%|███████▌  | 1947/2570 [03:30<00:56, 11.03it/s] 76%|███████▌  | 1949/2570 [03:30<00:55, 11.10it/s] 76%|███████▌  | 1951/2570 [03:31<00:55, 11.16it/s] 76%|███████▌  | 1953/2570 [03:31<00:55, 11.16it/s] 76%|███████▌  | 1955/2570 [03:31<00:54, 11.22it/s] 76%|███████▌  | 1957/2570 [03:31<00:55, 11.03it/s] 76%|███████▌  | 1959/2570 [03:31<00:54, 11.14it/s] 76%|███████▋  | 1961/2570 [03:31<00:54, 11.16it/s] 76%|███████▋  | 1963/2570 [03:32<00:54, 11.15it/s] 76%|███████▋  | 1965/2570 [03:32<00:54, 11.15it/s] 77%|███████▋  | 1967/2570 [03:32<00:53, 11.20it/s] 77%|███████▋  | 1969/2570 [03:32<00:54, 11.00it/s] 77%|███████▋  | 1971/2570 [03:32<00:54, 11.09it/s] 77%|███████▋  | 1973/2570 [03:33<00:54, 10.91it/s] 77%|███████▋  | 1975/2570 [03:33<00:54, 10.96it/s] 77%|███████▋  | 1977/2570 [03:33<00:53, 11.09it/s] 77%|███████▋  | 1979/2570 [03:33<00:53, 11.01it/s] 77%|███████▋  | 1981/2570 [03:33<00:53, 11.05it/s] 77%|███████▋  | 1983/2570 [03:33<00:52, 11.09it/s] 77%|███████▋  | 1985/2570 [03:34<00:52, 11.10it/s] 77%|███████▋  | 1987/2570 [03:34<00:52, 11.17it/s] 77%|███████▋  | 1989/2570 [03:34<00:52, 11.16it/s] 77%|███████▋  | 1991/2570 [03:34<00:51, 11.16it/s] 78%|███████▊  | 1993/2570 [03:34<00:51, 11.18it/s] 78%|███████▊  | 1995/2570 [03:34<00:51, 11.20it/s] 78%|███████▊  | 1997/2570 [03:35<00:51, 11.23it/s] 78%|███████▊  | 1999/2570 [03:35<00:50, 11.21it/s]                                                    78%|███████▊  | 2000/2570 [03:35<00:50, 11.21it/s] 78%|███████▊  | 2001/2570 [03:35<00:50, 11.21it/s] 78%|███████▊  | 2003/2570 [03:35<00:51, 11.07it/s] 78%|███████▊  | 2005/2570 [03:35<00:50, 11.08it/s] 78%|███████▊  | 2007/2570 [03:36<00:50, 11.16it/s] 78%|███████▊  | 2009/2570 [03:36<00:50, 11.20it/s] 78%|███████▊  | 2011/2570 [03:36<00:49, 11.28it/s] 78%|███████▊  | 2013/2570 [03:36<00:49, 11.32it/s] 78%|███████▊  | 2015/2570 [03:36<00:49, 11.17it/s] 78%|███████▊  | 2017/2570 [03:36<00:49, 11.13it/s] 79%|███████▊  | 2019/2570 [03:37<00:50, 10.91it/s] 79%|███████▊  | 2021/2570 [03:37<00:49, 11.03it/s] 79%|███████▊  | 2023/2570 [03:37<00:49, 11.09it/s] 79%|███████▉  | 2025/2570 [03:37<00:48, 11.19it/s] 79%|███████▉  | 2027/2570 [03:37<00:48, 11.09it/s] 79%|███████▉  | 2029/2570 [03:38<00:48, 11.11it/s] 79%|███████▉  | 2031/2570 [03:38<00:48, 11.14it/s] 79%|███████▉  | 2033/2570 [03:38<00:48, 11.17it/s] 79%|███████▉  | 2035/2570 [03:38<00:47, 11.22it/s] 79%|███████▉  | 2037/2570 [03:38<00:47, 11.24it/s] 79%|███████▉  | 2039/2570 [03:38<00:47, 11.10it/s] 79%|███████▉  | 2041/2570 [03:39<00:47, 11.08it/s] 79%|███████▉  | 2043/2570 [03:39<00:47, 11.16it/s] 80%|███████▉  | 2045/2570 [03:39<00:46, 11.25it/s] 80%|███████▉  | 2047/2570 [03:39<00:46, 11.17it/s] 80%|███████▉  | 2049/2570 [03:39<00:46, 11.22it/s] 80%|███████▉  | 2051/2570 [03:39<00:46, 11.10it/s] 80%|███████▉  | 2053/2570 [03:40<00:46, 11.08it/s] 80%|███████▉  | 2055/2570 [03:40<00:46, 11.16it/s]{'loss': '0', 'grad_norm': 'nan', 'learning_rate': '2.312e-06', 'epoch': '7.782'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.63it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.36it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 58.07it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 57.06it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.12it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                   
+                                               [A 80%|████████  | 2056/2570 [03:41<00:46, 11.16it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.12it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.636', 'eval_samples_per_second': '402.5', 'eval_steps_per_second': '50.31', 'epoch': '8'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.63s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.63s/it]
+ 80%|████████  | 2057/2570 [03:45<07:19,  1.17it/s] 80%|████████  | 2059/2570 [03:45<05:20,  1.59it/s] 80%|████████  | 2061/2570 [03:46<03:57,  2.15it/s] 80%|████████  | 2063/2570 [03:46<02:58,  2.84it/s] 80%|████████  | 2065/2570 [03:46<02:18,  3.66it/s] 80%|████████  | 2067/2570 [03:46<01:49,  4.59it/s] 81%|████████  | 2069/2570 [03:46<01:30,  5.55it/s] 81%|████████  | 2071/2570 [03:46<01:16,  6.51it/s] 81%|████████  | 2073/2570 [03:47<01:06,  7.46it/s] 81%|████████  | 2075/2570 [03:47<00:59,  8.32it/s] 81%|████████  | 2077/2570 [03:47<00:54,  9.03it/s] 81%|████████  | 2079/2570 [03:47<00:51,  9.57it/s] 81%|████████  | 2081/2570 [03:47<00:49,  9.93it/s] 81%|████████  | 2083/2570 [03:47<00:47, 10.23it/s] 81%|████████  | 2085/2570 [03:48<00:45, 10.55it/s] 81%|████████  | 2087/2570 [03:48<00:44, 10.78it/s] 81%|████████▏ | 2089/2570 [03:48<00:43, 10.97it/s] 81%|████████▏ | 2091/2570 [03:48<00:43, 11.07it/s] 81%|████████▏ | 2093/2570 [03:48<00:43, 11.01it/s] 82%|████████▏ | 2095/2570 [03:49<00:43, 11.02it/s] 82%|████████▏ | 2097/2570 [03:49<00:42, 11.09it/s] 82%|████████▏ | 2099/2570 [03:49<00:42, 11.15it/s] 82%|████████▏ | 2101/2570 [03:49<00:42, 11.13it/s] 82%|████████▏ | 2103/2570 [03:49<00:41, 11.22it/s] 82%|████████▏ | 2105/2570 [03:49<00:41, 11.07it/s] 82%|████████▏ | 2107/2570 [03:50<00:42, 11.02it/s] 82%|████████▏ | 2109/2570 [03:50<00:41, 11.07it/s] 82%|████████▏ | 2111/2570 [03:50<00:41, 11.13it/s] 82%|████████▏ | 2113/2570 [03:50<00:40, 11.17it/s] 82%|████████▏ | 2115/2570 [03:50<00:40, 11.21it/s] 82%|████████▏ | 2117/2570 [03:51<00:40, 11.09it/s] 82%|████████▏ | 2119/2570 [03:51<00:40, 11.05it/s] 83%|████████▎ | 2121/2570 [03:51<00:40, 11.14it/s] 83%|████████▎ | 2123/2570 [03:51<00:40, 11.16it/s] 83%|████████▎ | 2125/2570 [03:51<00:39, 11.16it/s] 83%|████████▎ | 2127/2570 [03:51<00:39, 11.22it/s] 83%|████████▎ | 2129/2570 [03:52<00:39, 11.05it/s] 83%|████████▎ | 2131/2570 [03:52<00:39, 11.03it/s] 83%|████████▎ | 2133/2570 [03:52<00:39, 11.09it/s] 83%|████████▎ | 2135/2570 [03:52<00:38, 11.16it/s] 83%|████████▎ | 2137/2570 [03:52<00:38, 11.17it/s] 83%|████████▎ | 2139/2570 [03:53<00:38, 11.18it/s] 83%|████████▎ | 2141/2570 [03:53<00:38, 11.04it/s] 83%|████████▎ | 2143/2570 [03:53<00:38, 11.04it/s] 83%|████████▎ | 2145/2570 [03:53<00:38, 11.11it/s] 84%|████████▎ | 2147/2570 [03:53<00:37, 11.18it/s] 84%|████████▎ | 2149/2570 [03:53<00:37, 11.22it/s] 84%|████████▎ | 2151/2570 [03:54<00:37, 11.22it/s] 84%|████████▍ | 2153/2570 [03:54<00:37, 11.11it/s] 84%|████████▍ | 2155/2570 [03:54<00:37, 11.04it/s] 84%|████████▍ | 2157/2570 [03:54<00:36, 11.17it/s] 84%|████████▍ | 2159/2570 [03:54<00:36, 11.17it/s] 84%|████████▍ | 2161/2570 [03:54<00:36, 11.24it/s] 84%|████████▍ | 2163/2570 [03:55<00:36, 11.28it/s] 84%|████████▍ | 2165/2570 [03:55<00:36, 11.17it/s] 84%|████████▍ | 2167/2570 [03:55<00:36, 11.13it/s] 84%|████████▍ | 2169/2570 [03:55<00:35, 11.17it/s] 84%|████████▍ | 2171/2570 [03:55<00:35, 11.21it/s] 85%|████████▍ | 2173/2570 [03:56<00:35, 11.21it/s] 85%|████████▍ | 2175/2570 [03:56<00:35, 11.26it/s] 85%|████████▍ | 2177/2570 [03:56<00:35, 11.11it/s] 85%|████████▍ | 2179/2570 [03:56<00:35, 11.14it/s] 85%|████████▍ | 2181/2570 [03:56<00:34, 11.18it/s] 85%|████████▍ | 2183/2570 [03:56<00:34, 11.20it/s] 85%|████████▌ | 2185/2570 [03:57<00:34, 11.23it/s] 85%|████████▌ | 2187/2570 [03:57<00:33, 11.30it/s] 85%|████████▌ | 2189/2570 [03:57<00:34, 11.15it/s] 85%|████████▌ | 2191/2570 [03:57<00:34, 11.09it/s] 85%|████████▌ | 2193/2570 [03:57<00:33, 11.17it/s] 85%|████████▌ | 2195/2570 [03:58<00:33, 11.20it/s] 85%|████████▌ | 2197/2570 [03:58<00:33, 11.19it/s] 86%|████████▌ | 2199/2570 [03:58<00:33, 11.19it/s] 86%|████████▌ | 2201/2570 [03:58<00:33, 11.07it/s] 86%|████████▌ | 2203/2570 [03:58<00:33, 11.07it/s] 86%|████████▌ | 2205/2570 [03:58<00:32, 11.14it/s] 86%|████████▌ | 2207/2570 [03:59<00:32, 11.23it/s] 86%|████████▌ | 2209/2570 [03:59<00:32, 11.26it/s] 86%|████████▌ | 2211/2570 [03:59<00:32, 11.21it/s] 86%|████████▌ | 2213/2570 [03:59<00:32, 10.87it/s] 86%|████████▌ | 2215/2570 [03:59<00:32, 10.95it/s] 86%|████████▋ | 2217/2570 [04:00<00:31, 11.03it/s] 86%|████████▋ | 2219/2570 [04:00<00:31, 11.10it/s] 86%|████████▋ | 2221/2570 [04:00<00:31, 11.13it/s] 86%|████████▋ | 2223/2570 [04:00<00:31, 11.17it/s] 87%|████████▋ | 2225/2570 [04:00<00:31, 11.04it/s] 87%|████████▋ | 2227/2570 [04:00<00:31, 11.02it/s] 87%|████████▋ | 2229/2570 [04:01<00:30, 11.10it/s] 87%|████████▋ | 2231/2570 [04:01<00:30, 11.17it/s] 87%|████████▋ | 2233/2570 [04:01<00:30, 11.18it/s] 87%|████████▋ | 2235/2570 [04:01<00:29, 11.23it/s] 87%|████████▋ | 2237/2570 [04:01<00:30, 11.09it/s] 87%|████████▋ | 2239/2570 [04:01<00:29, 11.09it/s] 87%|████████▋ | 2241/2570 [04:02<00:29, 11.14it/s] 87%|████████▋ | 2243/2570 [04:02<00:29, 11.12it/s] 87%|████████▋ | 2245/2570 [04:02<00:29, 11.19it/s] 87%|████████▋ | 2247/2570 [04:02<00:28, 11.24it/s] 88%|████████▊ | 2249/2570 [04:02<00:29, 10.98it/s] 88%|████████▊ | 2251/2570 [04:03<00:27, 11.72it/s] 88%|████████▊ | 2253/2570 [04:03<00:25, 12.40it/s] 88%|████████▊ | 2255/2570 [04:03<00:24, 12.96it/s] 88%|████████▊ | 2257/2570 [04:03<00:23, 13.39it/s] 88%|████████▊ | 2259/2570 [04:03<00:22, 13.70it/s] 88%|████████▊ | 2261/2570 [04:03<00:22, 13.90it/s] 88%|████████▊ | 2263/2570 [04:03<00:21, 14.01it/s] 88%|████████▊ | 2265/2570 [04:04<00:22, 13.72it/s] 88%|████████▊ | 2267/2570 [04:04<00:22, 13.72it/s] 88%|████████▊ | 2269/2570 [04:04<00:21, 13.83it/s] 88%|████████▊ | 2271/2570 [04:04<00:21, 14.03it/s] 88%|████████▊ | 2273/2570 [04:04<00:20, 14.15it/s] 89%|████████▊ | 2275/2570 [04:04<00:20, 14.26it/s] 89%|████████▊ | 2277/2570 [04:04<00:20, 14.33it/s] 89%|████████▊ | 2279/2570 [04:04<00:20, 14.20it/s] 89%|████████▉ | 2281/2570 [04:05<00:20, 13.99it/s] 89%|████████▉ | 2283/2570 [04:05<00:20, 13.87it/s] 89%|████████▉ | 2285/2570 [04:05<00:20, 14.05it/s] 89%|████████▉ | 2287/2570 [04:05<00:19, 14.15it/s] 89%|████████▉ | 2289/2570 [04:05<00:19, 14.21it/s] 89%|████████▉ | 2291/2570 [04:05<00:19, 14.31it/s] 89%|████████▉ | 2293/2570 [04:05<00:19, 14.38it/s] 89%|████████▉ | 2295/2570 [04:06<00:19, 14.38it/s] 89%|████████▉ | 2297/2570 [04:06<00:19, 14.37it/s] 89%|████████▉ | 2299/2570 [04:06<00:18, 14.35it/s] 90%|████████▉ | 2301/2570 [04:06<00:18, 14.37it/s] 90%|████████▉ | 2303/2570 [04:06<00:18, 14.33it/s] 90%|████████▉ | 2305/2570 [04:06<00:18, 14.38it/s] 90%|████████▉ | 2307/2570 [04:06<00:18, 14.34it/s] 90%|████████▉ | 2309/2570 [04:07<00:18, 14.25it/s] 90%|████████▉ | 2311/2570 [04:07<00:18, 14.32it/s] 90%|█████████ | 2313/2570 [04:07<00:17, 14.36it/s]
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.95it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.51it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 58.09it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 56.99it/s][A
+100%|██████████| 32/32 [00:00<00:00, 55.09it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                   
+                                               [A 90%|█████████ | 2313/2570 [04:08<00:17, 14.36it/s]
+100%|██████████| 32/32 [00:00<00:00, 55.09it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6349', 'eval_samples_per_second': '403.2', 'eval_steps_per_second': '50.4', 'epoch': '9'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.65s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.65s/it]
+ 90%|█████████ | 2315/2570 [04:13<03:49,  1.11it/s] 90%|█████████ | 2317/2570 [04:13<02:44,  1.54it/s] 90%|█████████ | 2319/2570 [04:13<01:59,  2.10it/s] 90%|█████████ | 2321/2570 [04:13<01:28,  2.82it/s] 90%|█████████ | 2323/2570 [04:13<01:06,  3.72it/s] 90%|█████████ | 2325/2570 [04:13<00:51,  4.78it/s] 91%|█████████ | 2327/2570 [04:13<00:40,  5.97it/s] 91%|█████████ | 2329/2570 [04:14<00:35,  6.85it/s] 91%|█████████ | 2331/2570 [04:14<00:30,  7.78it/s] 91%|█████████ | 2333/2570 [04:14<00:27,  8.61it/s] 91%|█████████ | 2335/2570 [04:14<00:25,  9.26it/s] 91%|█████████ | 2337/2570 [04:14<00:23,  9.78it/s] 91%|█████████ | 2339/2570 [04:14<00:22, 10.20it/s] 91%|█████████ | 2341/2570 [04:15<00:22, 10.32it/s] 91%|█████████ | 2343/2570 [04:15<00:21, 10.59it/s] 91%|█████████ | 2345/2570 [04:15<00:20, 10.83it/s] 91%|█████████▏| 2347/2570 [04:15<00:20, 10.99it/s] 91%|█████████▏| 2349/2570 [04:15<00:19, 11.10it/s] 91%|█████████▏| 2351/2570 [04:16<00:19, 11.13it/s] 92%|█████████▏| 2353/2570 [04:16<00:19, 10.97it/s] 92%|█████████▏| 2355/2570 [04:16<00:19, 11.04it/s] 92%|█████████▏| 2357/2570 [04:16<00:19, 11.11it/s] 92%|█████████▏| 2359/2570 [04:16<00:18, 11.19it/s] 92%|█████████▏| 2361/2570 [04:16<00:18, 11.23it/s] 92%|█████████▏| 2363/2570 [04:17<00:18, 11.28it/s] 92%|█████████▏| 2365/2570 [04:17<00:18, 11.05it/s] 92%|█████████▏| 2367/2570 [04:17<00:18, 11.10it/s] 92%|█████████▏| 2369/2570 [04:17<00:18, 11.15it/s] 92%|█████████▏| 2371/2570 [04:17<00:17, 11.23it/s] 92%|█████████▏| 2373/2570 [04:18<00:17, 11.27it/s] 92%|█████████▏| 2375/2570 [04:18<00:17, 11.27it/s] 92%|█████████▏| 2377/2570 [04:18<00:17, 11.00it/s] 93%|█████████▎| 2379/2570 [04:18<00:17, 11.07it/s] 93%|█████████▎| 2381/2570 [04:18<00:17, 11.11it/s] 93%|█████████▎| 2383/2570 [04:18<00:16, 11.15it/s] 93%|█████████▎| 2385/2570 [04:19<00:16, 11.21it/s] 93%|█████████▎| 2387/2570 [04:19<00:16, 11.26it/s] 93%|█████████▎| 2389/2570 [04:19<00:16, 11.01it/s] 93%|█████████▎| 2391/2570 [04:19<00:16, 11.13it/s] 93%|█████████▎| 2393/2570 [04:19<00:15, 11.15it/s] 93%|█████████▎| 2395/2570 [04:19<00:15, 11.17it/s] 93%|█████████▎| 2397/2570 [04:20<00:15, 11.16it/s] 93%|█████████▎| 2399/2570 [04:20<00:15, 11.20it/s] 93%|█████████▎| 2401/2570 [04:20<00:15, 11.03it/s] 94%|█████████▎| 2403/2570 [04:20<00:15, 11.12it/s] 94%|█████████▎| 2405/2570 [04:20<00:14, 11.14it/s] 94%|█████████▎| 2407/2570 [04:21<00:14, 11.18it/s] 94%|█████████▎| 2409/2570 [04:21<00:14, 11.26it/s] 94%|█████████▍| 2411/2570 [04:21<00:14, 11.25it/s] 94%|█████████▍| 2413/2570 [04:21<00:14, 11.05it/s] 94%|█████████▍| 2415/2570 [04:21<00:13, 11.10it/s] 94%|█████████▍| 2417/2570 [04:21<00:13, 11.14it/s] 94%|█████████▍| 2419/2570 [04:22<00:13, 11.20it/s] 94%|█████████▍| 2421/2570 [04:22<00:13, 11.23it/s] 94%|█████████▍| 2423/2570 [04:22<00:13, 11.26it/s] 94%|█████████▍| 2425/2570 [04:22<00:13, 11.06it/s] 94%|█████████▍| 2427/2570 [04:22<00:12, 11.08it/s] 95%|█████████▍| 2429/2570 [04:23<00:12, 11.13it/s] 95%|█████████▍| 2431/2570 [04:23<00:12, 11.20it/s] 95%|█████████▍| 2433/2570 [04:23<00:12, 11.21it/s] 95%|█████████▍| 2435/2570 [04:23<00:12, 11.23it/s] 95%|█████████▍| 2437/2570 [04:23<00:12, 10.98it/s] 95%|█████████▍| 2439/2570 [04:23<00:11, 11.05it/s] 95%|█████████▍| 2441/2570 [04:24<00:11, 11.15it/s] 95%|█████████▌| 2443/2570 [04:24<00:11, 11.14it/s] 95%|█████████▌| 2445/2570 [04:24<00:11, 11.16it/s] 95%|█████████▌| 2447/2570 [04:24<00:11, 11.18it/s] 95%|█████████▌| 2449/2570 [04:24<00:11, 11.00it/s] 95%|█████████▌| 2451/2570 [04:25<00:10, 11.12it/s] 95%|█████████▌| 2453/2570 [04:25<00:10, 11.21it/s] 96%|█████████▌| 2455/2570 [04:25<00:10, 11.22it/s] 96%|█████████▌| 2457/2570 [04:25<00:10, 11.27it/s] 96%|█████████▌| 2459/2570 [04:25<00:09, 11.27it/s] 96%|█████████▌| 2461/2570 [04:25<00:09, 11.02it/s] 96%|█████████▌| 2463/2570 [04:26<00:09, 11.11it/s] 96%|█████████▌| 2465/2570 [04:26<00:09, 11.20it/s] 96%|█████████▌| 2467/2570 [04:26<00:09, 11.23it/s] 96%|█████████▌| 2469/2570 [04:26<00:08, 11.28it/s] 96%|█████████▌| 2471/2570 [04:26<00:08, 11.27it/s] 96%|█████████▌| 2473/2570 [04:26<00:08, 11.07it/s] 96%|█████████▋| 2475/2570 [04:27<00:08, 11.13it/s] 96%|█████████▋| 2477/2570 [04:27<00:08, 11.15it/s] 96%|█████████▋| 2479/2570 [04:27<00:08, 11.16it/s] 97%|█████████▋| 2481/2570 [04:27<00:07, 11.18it/s] 97%|█████████▋| 2483/2570 [04:27<00:07, 11.23it/s] 97%|█████████▋| 2485/2570 [04:28<00:07, 11.07it/s] 97%|█████████▋| 2487/2570 [04:28<00:07, 11.14it/s] 97%|█████████▋| 2489/2570 [04:28<00:07, 10.88it/s] 97%|█████████▋| 2491/2570 [04:28<00:07, 11.02it/s] 97%|█████████▋| 2493/2570 [04:28<00:06, 11.14it/s] 97%|█████████▋| 2495/2570 [04:28<00:06, 11.20it/s] 97%|█████████▋| 2497/2570 [04:29<00:06, 11.02it/s] 97%|█████████▋| 2499/2570 [04:29<00:06, 11.13it/s]                                                    97%|█████████▋| 2500/2570 [04:29<00:06, 11.13it/s] 97%|█████████▋| 2501/2570 [04:29<00:06, 11.14it/s] 97%|█████████▋| 2503/2570 [04:29<00:05, 11.22it/s] 97%|█████████▋| 2505/2570 [04:29<00:05, 11.24it/s] 98%|█████████▊| 2507/2570 [04:30<00:05, 11.31it/s] 98%|█████████▊| 2509/2570 [04:30<00:05, 11.06it/s] 98%|█████████▊| 2511/2570 [04:30<00:05, 11.13it/s] 98%|█████████▊| 2513/2570 [04:30<00:05, 11.09it/s] 98%|█████████▊| 2515/2570 [04:30<00:04, 11.15it/s] 98%|█████████▊| 2517/2570 [04:30<00:04, 11.20it/s] 98%|█████████▊| 2519/2570 [04:31<00:04, 11.21it/s] 98%|█████████▊| 2521/2570 [04:31<00:04, 11.01it/s] 98%|█████████▊| 2523/2570 [04:31<00:04, 11.09it/s] 98%|█████████▊| 2525/2570 [04:31<00:04, 11.11it/s] 98%|█████████▊| 2527/2570 [04:31<00:03, 11.17it/s] 98%|█████████▊| 2529/2570 [04:32<00:03, 11.17it/s] 98%|█████████▊| 2531/2570 [04:32<00:03, 11.24it/s] 99%|█████████▊| 2533/2570 [04:32<00:03, 11.04it/s] 99%|█████████▊| 2535/2570 [04:32<00:03, 11.13it/s] 99%|█████████▊| 2537/2570 [04:32<00:02, 11.21it/s] 99%|█████████▉| 2539/2570 [04:32<00:02, 11.25it/s] 99%|█████████▉| 2541/2570 [04:33<00:02, 11.04it/s] 99%|█████████▉| 2543/2570 [04:33<00:02, 11.05it/s] 99%|█████████▉| 2545/2570 [04:33<00:02, 10.85it/s] 99%|█████████▉| 2547/2570 [04:33<00:02, 10.94it/s] 99%|█████████▉| 2549/2570 [04:33<00:01, 11.07it/s] 99%|█████████▉| 2551/2570 [04:33<00:01, 11.17it/s] 99%|█████████▉| 2553/2570 [04:34<00:01, 11.25it/s] 99%|█████████▉| 2555/2570 [04:34<00:01, 11.31it/s] 99%|█████████▉| 2557/2570 [04:34<00:01, 11.11it/s]100%|█████████▉| 2559/2570 [04:34<00:00, 11.17it/s]100%|█████████▉| 2561/2570 [04:34<00:00, 11.17it/s]100%|█████████▉| 2563/2570 [04:35<00:00, 11.22it/s]100%|█████████▉| 2565/2570 [04:35<00:00, 11.27it/s]100%|█████████▉| 2567/2570 [04:35<00:00, 11.30it/s]100%|█████████▉| 2569/2570 [04:35<00:00, 11.11it/s]{'loss': '0', 'grad_norm': 'nan', 'learning_rate': '2.874e-07', 'epoch': '9.728'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+ 22%|██▏       | 7/32 [00:00<00:00, 64.75it/s][A
+ 44%|████▍     | 14/32 [00:00<00:00, 59.17it/s][A
+ 62%|██████▎   | 20/32 [00:00<00:00, 57.81it/s][A
+ 81%|████████▏ | 26/32 [00:00<00:00, 56.70it/s][A
+100%|██████████| 32/32 [00:00<00:00, 54.81it/s][A/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                                   
+                                               [A100%|██████████| 2570/2570 [04:36<00:00, 11.11it/s]
+100%|██████████| 32/32 [00:00<00:00, 54.81it/s][A
+                                               [A
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(9250)}
+{'eval_loss': 'nan', 'eval_accuracy': '0.5984', 'eval_f1': '0.05348', 'eval_precision': '0.04274', 'eval_recall': '0.07143', 'eval_runtime': '0.6393', 'eval_samples_per_second': '400.4', 'eval_steps_per_second': '50.05', 'epoch': '10'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.67s/it][AWriting model shards: 100%|██████████| 1/1 [00:01<00:00,  1.67s/it]
+                                                   100%|██████████| 2570/2570 [04:40<00:00, 11.11it/s]There were missing keys in the checkpoint model loaded: ['deberta.embeddings.LayerNorm.weight', 'deberta.embeddings.LayerNorm.bias', 'deberta.encoder.layer.0.attention.output.LayerNorm.weight', 'deberta.encoder.layer.0.attention.output.LayerNorm.bias', 'deberta.encoder.layer.0.output.LayerNorm.weight', 'deberta.encoder.layer.0.output.LayerNorm.bias', 'deberta.encoder.layer.1.attention.output.LayerNorm.weight', 'deberta.encoder.layer.1.attention.output.LayerNorm.bias', 'deberta.encoder.layer.1.output.LayerNorm.weight', 'deberta.encoder.layer.1.output.LayerNorm.bias', 'deberta.encoder.layer.2.attention.output.LayerNorm.weight', 'deberta.encoder.layer.2.attention.output.LayerNorm.bias', 'deberta.encoder.layer.2.output.LayerNorm.weight', 'deberta.encoder.layer.2.output.LayerNorm.bias', 'deberta.encoder.layer.3.attention.output.LayerNorm.weight', 'deberta.encoder.layer.3.attention.output.LayerNorm.bias', 'deberta.encoder.layer.3.output.LayerNorm.weight', 'deberta.encoder.layer.3.output.LayerNorm.bias', 'deberta.encoder.layer.4.attention.output.LayerNorm.weight', 'deberta.encoder.layer.4.attention.output.LayerNorm.bias', 'deberta.encoder.layer.4.output.LayerNorm.weight', 'deberta.encoder.layer.4.output.LayerNorm.bias', 'deberta.encoder.layer.5.attention.output.LayerNorm.weight', 'deberta.encoder.layer.5.attention.output.LayerNorm.bias', 'deberta.encoder.layer.5.output.LayerNorm.weight', 'deberta.encoder.layer.5.output.LayerNorm.bias', 'deberta.encoder.layer.6.attention.output.LayerNorm.weight', 'deberta.encoder.layer.6.attention.output.LayerNorm.bias', 'deberta.encoder.layer.6.output.LayerNorm.weight', 'deberta.encoder.layer.6.output.LayerNorm.bias', 'deberta.encoder.layer.7.attention.output.LayerNorm.weight', 'deberta.encoder.layer.7.attention.output.LayerNorm.bias', 'deberta.encoder.layer.7.output.LayerNorm.weight', 'deberta.encoder.layer.7.output.LayerNorm.bias', 'deberta.encoder.layer.8.attention.output.LayerNorm.weight', 'deberta.encoder.layer.8.attention.output.LayerNorm.bias', 'deberta.encoder.layer.8.output.LayerNorm.weight', 'deberta.encoder.layer.8.output.LayerNorm.bias', 'deberta.encoder.layer.9.attention.output.LayerNorm.weight', 'deberta.encoder.layer.9.attention.output.LayerNorm.bias', 'deberta.encoder.layer.9.output.LayerNorm.weight', 'deberta.encoder.layer.9.output.LayerNorm.bias', 'deberta.encoder.layer.10.attention.output.LayerNorm.weight', 'deberta.encoder.layer.10.attention.output.LayerNorm.bias', 'deberta.encoder.layer.10.output.LayerNorm.weight', 'deberta.encoder.layer.10.output.LayerNorm.bias', 'deberta.encoder.layer.11.attention.output.LayerNorm.weight', 'deberta.encoder.layer.11.attention.output.LayerNorm.bias', 'deberta.encoder.layer.11.output.LayerNorm.weight', 'deberta.encoder.layer.11.output.LayerNorm.bias', 'deberta.encoder.LayerNorm.weight', 'deberta.encoder.LayerNorm.bias'].
+There were unexpected keys in the checkpoint model loaded: ['deberta.embeddings.LayerNorm.beta', 'deberta.embeddings.LayerNorm.gamma', 'deberta.encoder.layer.0.attention.output.LayerNorm.beta', 'deberta.encoder.layer.0.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.0.output.LayerNorm.beta', 'deberta.encoder.layer.0.output.LayerNorm.gamma', 'deberta.encoder.layer.1.attention.output.LayerNorm.beta', 'deberta.encoder.layer.1.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.1.output.LayerNorm.beta', 'deberta.encoder.layer.1.output.LayerNorm.gamma', 'deberta.encoder.layer.2.attention.output.LayerNorm.beta', 'deberta.encoder.layer.2.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.2.output.LayerNorm.beta', 'deberta.encoder.layer.2.output.LayerNorm.gamma', 'deberta.encoder.layer.3.attention.output.LayerNorm.beta', 'deberta.encoder.layer.3.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.3.output.LayerNorm.beta', 'deberta.encoder.layer.3.output.LayerNorm.gamma', 'deberta.encoder.layer.4.attention.output.LayerNorm.beta', 'deberta.encoder.layer.4.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.4.output.LayerNorm.beta', 'deberta.encoder.layer.4.output.LayerNorm.gamma', 'deberta.encoder.layer.5.attention.output.LayerNorm.beta', 'deberta.encoder.layer.5.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.5.output.LayerNorm.beta', 'deberta.encoder.layer.5.output.LayerNorm.gamma', 'deberta.encoder.layer.6.attention.output.LayerNorm.beta', 'deberta.encoder.layer.6.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.6.output.LayerNorm.beta', 'deberta.encoder.layer.6.output.LayerNorm.gamma', 'deberta.encoder.layer.7.attention.output.LayerNorm.beta', 'deberta.encoder.layer.7.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.7.output.LayerNorm.beta', 'deberta.encoder.layer.7.output.LayerNorm.gamma', 'deberta.encoder.layer.8.attention.output.LayerNorm.beta', 'deberta.encoder.layer.8.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.8.output.LayerNorm.beta', 'deberta.encoder.layer.8.output.LayerNorm.gamma', 'deberta.encoder.layer.9.attention.output.LayerNorm.beta', 'deberta.encoder.layer.9.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.9.output.LayerNorm.beta', 'deberta.encoder.layer.9.output.LayerNorm.gamma', 'deberta.encoder.layer.10.attention.output.LayerNorm.beta', 'deberta.encoder.layer.10.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.10.output.LayerNorm.beta', 'deberta.encoder.layer.10.output.LayerNorm.gamma', 'deberta.encoder.layer.11.attention.output.LayerNorm.beta', 'deberta.encoder.layer.11.attention.output.LayerNorm.gamma', 'deberta.encoder.layer.11.output.LayerNorm.beta', 'deberta.encoder.layer.11.output.LayerNorm.gamma', 'deberta.encoder.LayerNorm.beta', 'deberta.encoder.LayerNorm.gamma'].
+100%|██████████| 2570/2570 [04:41<00:00,  9.12it/s]
+{'train_runtime': '280.9', 'train_samples_per_second': '73.06', 'train_steps_per_second': '9.15', 'train_loss': '0.277', 'epoch': '10'}
+  0%|          | 0/33 [00:00<?, ?it/s] 21%|██        | 7/33 [00:00<00:00, 64.03it/s] 42%|████▏     | 14/33 [00:00<00:00, 59.50it/s] 61%|██████    | 20/33 [00:00<00:00, 58.21it/s] 79%|███████▉  | 26/33 [00:00<00:00, 58.02it/s] 97%|█████████▋| 32/33 [00:00<00:00, 57.93it/s]/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+100%|██████████| 33/33 [00:00<00:00, 56.07it/s]
+/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/mnt/beegfs/clozano/.conda/envs/medical_ner_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+
+[Epoch Debug] Predicciones del modelo: {'O': np.int64(8743)}
+Results saved to /ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_BERT_V1/BERT_results.json
+Report saved to /ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_BERT_V1/medical_ner_report_BERT_FINETUNNED.txt
+Confusion matrix saved to /ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_BERT_V1/BERT_confusion_matrix.csv

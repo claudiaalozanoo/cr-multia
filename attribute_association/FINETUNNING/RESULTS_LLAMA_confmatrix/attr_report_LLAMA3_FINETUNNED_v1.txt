@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+   Confirmed      0.968     0.981     0.974       213
+   Discarded      1.000     0.875     0.933         8
+          No      0.933     0.800     0.862        35
+    Previous      1.000     1.000     1.000         2
+ Progression      0.800     0.667     0.727        12
+   Suspicion      0.857     0.857     0.857        21
+         Yes      0.970     0.991     0.980       225
+
+    accuracy                          0.959       516
+   macro avg      0.933     0.882     0.905       516
+weighted avg      0.958     0.959     0.958       516

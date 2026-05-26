@@ -1,0 +1,9 @@
+       Relation Precision Recall F1-Score  Support
+      caused_by     0.214  0.400    0.279       15
+         treats     0.270  0.278    0.274       36
+    occurred_on     0.761  0.690    0.724      171
+  has_change_in     0.000  0.000    0.000        6
+      has_value     0.839  0.887    0.862       53
+    has_outcome     0.405  0.472    0.436       36
+       has_dose     0.654  0.680    0.667       25
+associated_with     0.538  0.560    0.549       25

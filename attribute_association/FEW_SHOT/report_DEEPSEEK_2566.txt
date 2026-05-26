@@ -1,0 +1,10 @@
+Attribute Classification Report
+              precision    recall  f1-score   support
+
+     Control       1.00      1.00      1.00         3
+          No       0.22      0.40      0.29       138
+         Yes       0.87      0.74      0.80       737
+
+    accuracy                           0.69       878
+   macro avg       0.70      0.71      0.69       878
+weighted avg       0.77      0.69      0.72       878

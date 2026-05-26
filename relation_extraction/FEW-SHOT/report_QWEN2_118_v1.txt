@@ -1,0 +1,14 @@
+Relation Extraction Report
+======================================================================
+  Relation Type Precision Recall F1-Score Support
+      caused_by     0.00%  0.00%    0.00%       8
+         treats    33.33% 16.67%   22.22%      18
+    occurred_on    58.18% 56.14%   57.14%      57
+  has_change_in     0.00%  0.00%    0.00%       0
+      has_value    65.00% 81.25%   72.22%      16
+    has_outcome    14.81% 28.57%   19.51%      14
+       has_dose    28.00% 46.67%   35.00%      15
+associated_with     6.78% 66.67%   12.31%       6
+---------------                                  
+      macro avg    25.76% 37.00%   27.30%     134
+   weighted avg    41.97% 47.01%   42.42%     134

@@ -1,0 +1,15 @@
+Attribute Classification Report
+              precision    recall  f1-score   support
+
+   Confirmed       0.99      0.32      0.48       250
+     Control       0.50      1.00      0.67         2
+   Discarded       0.92      0.65      0.76        54
+          No       0.53      0.67      0.59       174
+    Previous       0.42      1.00      0.59         8
+ Progression       0.40      0.99      0.57        69
+   Suspicion       0.70      0.98      0.82       213
+         Yes       0.96      0.92      0.94      1430
+
+    accuracy                           0.83      2200
+   macro avg       0.68      0.82      0.68      2200
+weighted avg       0.88      0.83      0.83      2200

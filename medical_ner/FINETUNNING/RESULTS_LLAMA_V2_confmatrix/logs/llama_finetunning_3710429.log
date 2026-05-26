@@ -1,0 +1,907 @@
+/var/spool/slurmd/job3710429/slurm_script: line 16: module: command not found
+/var/spool/slurmd/job3710429/slurm_script: line 17: activate: No such file or directory
+# packages in environment at /mnt/beegfs/clozano/.conda/envs/medical_ner_env:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+_python_abi3_support      1.0                  hd8ed1ab_2    conda-forge
+accelerate                1.12.0             pyhcf101f3_0    conda-forge
+aiofiles                  25.1.0             pyhcf101f3_1    conda-forge
+aiohappyeyeballs          2.6.1              pyhd8ed1ab_0    conda-forge
+aiohttp                   3.13.3          py310h31b6992_0    conda-forge
+aiosignal                 1.4.0              pyhd8ed1ab_0    conda-forge
+altair                    6.0.0              pyhd8ed1ab_1    conda-forge
+annotated-doc             0.0.4              pyhcf101f3_0    conda-forge
+annotated-types           0.7.0              pyhd8ed1ab_1    conda-forge
+anyio                     4.12.1             pyhcf101f3_0    conda-forge
+aom                       3.9.1                hac33072_0    conda-forge
+arrow                     1.4.0              pyhcf101f3_0    conda-forge
+async-timeout             5.0.1              pyhcf101f3_2    conda-forge
+attrs                     25.4.0             pyhcf101f3_1    conda-forge
+aws-c-auth                0.7.31               he1a10d6_2    conda-forge
+aws-c-cal                 0.7.4                hae4d56a_2    conda-forge
+aws-c-common              0.9.29               hb9d3cd8_0    conda-forge
+aws-c-compression         0.2.19               h2bff981_2    conda-forge
+aws-c-event-stream        0.4.3                h19b0707_4    conda-forge
+aws-c-http                0.8.10               h14a7884_2    conda-forge
+aws-c-io                  0.14.19              hc9e6898_1    conda-forge
+aws-c-mqtt                0.10.7               hb8d5873_2    conda-forge
+aws-c-s3                  0.6.7                h666547d_0    conda-forge
+aws-c-sdkutils            0.1.19               h2bff981_4    conda-forge
+aws-checksums             0.1.20               h2bff981_1    conda-forge
+aws-crt-cpp               0.28.3               hbe26082_8    conda-forge
+aws-sdk-cpp               1.11.407             h25d6d5c_1    conda-forge
+azure-core-cpp            1.13.0               h935415a_0    conda-forge
+azure-identity-cpp        1.8.0                hd126650_2    conda-forge
+azure-storage-blobs-cpp   12.12.0              hd2e3451_0    conda-forge
+azure-storage-common-cpp  12.7.0               h10ac4d7_1    conda-forge
+azure-storage-files-datalake-cpp 12.11.0              h325d260_1    conda-forge
+backports.zstd            1.3.0           py310h69bd2ac_0    conda-forge
+beautifulsoup4            4.14.3             pyha770c72_0    conda-forge
+binaryornot               0.4.4              pyhd8ed1ab_2    conda-forge
+bitsandbytes              0.49.2                   pypi_0    pypi
+blas                      2.305                  openblas    conda-forge
+blas-devel                3.11.0          5_h1ea3ea9_openblas    conda-forge
+bleach                    6.3.0              pyhcf101f3_1    conda-forge
+bleach-with-css           6.3.0                hbca2aae_1    conda-forge
+brotli                    1.1.0                hb03c661_4    conda-forge
+brotli-bin                1.1.0                hb03c661_4    conda-forge
+brotli-python             1.1.0           py310hea6c23e_4    conda-forge
+bzip2                     1.0.8                h5eee18b_6  
+c-ares                    1.34.6               hb03c661_0    conda-forge
+ca-certificates           2026.2.25            hbd8a1cb_0    conda-forge
+cairo                     1.18.4               h44eff21_0  
+certifi                   2026.1.4                 pypi_0    pypi
+cffi                      1.17.1          py310h8deb56e_0    conda-forge
+chardet                   5.2.0              pyhd8ed1ab_3    conda-forge
+charset-normalizer        3.4.4              pyhd8ed1ab_0    conda-forge
+click                     8.3.1              pyh8f84b5b_1    conda-forge
+cmake                     4.3.1                hc85cc9f_0    conda-forge
+contourpy                 1.3.2           py310h3788b33_0    conda-forge
+cookiecutter              2.7.1              pyhcf101f3_0    conda-forge
+cpython                   3.10.19         py310hd8ed1ab_3    conda-forge
+cuda-cudart               12.6.77              h5888daf_0    conda-forge
+cuda-cudart_linux-64      12.6.77              h3f2d84a_0    conda-forge
+cuda-nvrtc                12.6.85              hbd13f7d_0    conda-forge
+cuda-version              12.6                 h7480c83_3    conda-forge
+cycler                    0.12.1             pyhcf101f3_2    conda-forge
+cyrus-sasl                2.1.28               h1110e0f_3  
+datasets                  4.0.0              pyhcf101f3_0    conda-forge
+dav1d                     1.2.1                hd590300_0    conda-forge
+dbus                      1.16.2               h3c4dab8_0    conda-forge
+defusedxml                0.7.1              pyhd8ed1ab_0    conda-forge
+deprecated                1.3.1              pyhd8ed1ab_1    conda-forge
+dill                      0.3.8              pyhd8ed1ab_0    conda-forge
+dnspython                 2.8.0              pyhcf101f3_0    conda-forge
+einops                    0.8.2                    pypi_0    pypi
+email-validator           2.3.0              pyhd8ed1ab_0    conda-forge
+email_validator           2.3.0                hd8ed1ab_0    conda-forge
+evaluate                  0.4.6              pyhcf101f3_0    conda-forge
+exceptiongroup            1.3.1              pyhd8ed1ab_0    conda-forge
+expat                     2.7.5                hecca717_0    conda-forge
+faiss-gpu                 1.9.0                h418687c_0    conda-forge
+fastapi                   0.135.1              h51dde83_0    conda-forge
+fastapi-cli               0.0.23             pyhcf101f3_0    conda-forge
+fastapi-core              0.135.1            pyhcf101f3_0    conda-forge
+ffmpeg                    4.4.0                h6987444_4    conda-forge
+ffmpy                     0.3.0              pyhb6f538c_0    conda-forge
+filelock                  3.24.2             pyhd8ed1ab_0    conda-forge
+fontconfig                2.14.1               h55d465d_3  
+fonttools                 4.61.1          py310h3406613_0    conda-forge
+freetype                  2.14.1               ha770c72_0    conda-forge
+fribidi                   1.0.16               hb03c661_0    conda-forge
+frozenlist                1.7.0           py310h9548a50_0    conda-forge
+fsspec                    2025.3.0           pyhd8ed1ab_0    conda-forge
+gflags                    2.2.2             h5888daf_1005    conda-forge
+glog                      0.7.1                hbabe93e_0    conda-forge
+gmp                       6.3.0                hac33072_2    conda-forge
+gmpy2                     2.2.1           py310h63ebcad_2    conda-forge
+gnutls                    3.6.13               h85f3911_1    conda-forge
+gradio                    3.18.0             pyhd8ed1ab_0    conda-forge
+graphite2                 1.3.14               hecca717_2    conda-forge
+h11                       0.16.0             pyhcf101f3_1    conda-forge
+h2                        4.3.0              pyhcf101f3_0    conda-forge
+harfbuzz                  10.2.0               hdfddeaa_1  
+hf-xet                    1.2.0                    pypi_0    pypi
+hpack                     4.1.0              pyhd8ed1ab_0    conda-forge
+httpcore                  1.0.9              pyh29332c3_0    conda-forge
+httptools                 0.7.1           py310h7c4b9e2_1    conda-forge
+httpx                     0.28.1             pyhd8ed1ab_0    conda-forge
+huggingface_hub           1.4.1              pyhd8ed1ab_0    conda-forge
+hyperframe                6.1.0              pyhd8ed1ab_0    conda-forge
+icu                       73.2                 h59595ed_0    conda-forge
+idna                      3.11               pyhd8ed1ab_0    conda-forge
+importlib-metadata        8.7.0              pyhe01879c_1    conda-forge
+jinja2                    3.1.6              pyhcf101f3_1    conda-forge
+joblib                    1.5.3              pyhd8ed1ab_0    conda-forge
+jpeg                      9e                   h0b41bf4_3    conda-forge
+jsonschema                4.26.0             pyhcf101f3_0    conda-forge
+jsonschema-specifications 2025.9.1           pyhcf101f3_0    conda-forge
+jupyter_client            8.8.0              pyhcf101f3_0    conda-forge
+jupyter_core              5.9.1              pyhc90fa1f_0    conda-forge
+jupyterlab_pygments       0.3.0              pyhd8ed1ab_2    conda-forge
+kernels                   0.12.2                   pypi_0    pypi
+keyutils                  1.6.3                hb9d3cd8_0    conda-forge
+kiwisolver                1.4.9           py310haaf941d_2    conda-forge
+krb5                      1.22.2               ha1258a1_0    conda-forge
+lame                      3.100             h166bdaf_1003    conda-forge
+lcms2                     2.16                 h92b89f2_1  
+ld_impl_linux-64          2.40                 h12ee557_0  
+lerc                      4.0.0                h0aef613_1    conda-forge
+libabseil                 20240116.2      cxx17_he02047a_1    conda-forge
+libarrow                  17.0.0          had3b6fe_16_cpu    conda-forge
+libarrow-acero            17.0.0          h5888daf_16_cpu    conda-forge
+libarrow-dataset          17.0.0          h5888daf_16_cpu    conda-forge
+libarrow-substrait        17.0.0          hf54134d_16_cpu    conda-forge
+libavif                   1.3.0                h316e467_3    conda-forge
+libavif16                 1.3.0                h316e467_3    conda-forge
+libblas                   3.11.0          5_h4a7cf45_openblas    conda-forge
+libbrotlicommon           1.1.0                hb03c661_4    conda-forge
+libbrotlidec              1.1.0                hb03c661_4    conda-forge
+libbrotlienc              1.1.0                hb03c661_4    conda-forge
+libcblas                  3.11.0          5_h0358290_openblas    conda-forge
+libclang13                14.0.6          default_h9986a30_1    conda-forge
+libcrc32c                 1.1.2                h9c3ff4c_0    conda-forge
+libcublas                 12.6.4.1             h5888daf_1    conda-forge
+libcups                   2.4.2                h252cb56_2  
+libcurand                 10.3.7.77            hbd13f7d_0    conda-forge
+libcurl                   8.19.0               hcf29cc6_0    conda-forge
+libdeflate                1.22                 hb9d3cd8_0    conda-forge
+libdrm                    2.4.125              hb03c661_1    conda-forge
+libedit                   3.1.20250104    pl5321h7949ede_0    conda-forge
+libegl                    1.7.0                ha4b6fd6_2    conda-forge
+libev                     4.33                 hd590300_2    conda-forge
+libevent                  2.1.12               hf998b51_1    conda-forge
+libexpat                  2.7.5                hecca717_0    conda-forge
+libfaiss                  1.9.0           cuda126h4727808_0_cuda    conda-forge
+libffi                    3.4.4                h6a678d5_1  
+libfreetype               2.14.1               ha770c72_0    conda-forge
+libfreetype6              2.14.1               h73754d4_0    conda-forge
+libgcc                    15.2.0              he0feb66_18    conda-forge
+libgcc-ng                 15.2.0              h69a702a_18    conda-forge
+libgfortran               15.2.0              h69a702a_18    conda-forge
+libgfortran5              15.2.0              h68bc16d_18    conda-forge
+libgl                     1.7.0                ha4b6fd6_2    conda-forge
+libglib                   2.84.2               h37c7471_0  
+libglvnd                  1.7.0                ha4b6fd6_2    conda-forge
+libglx                    1.7.0                ha4b6fd6_2    conda-forge
+libgomp                   15.2.0              he0feb66_18    conda-forge
+libgoogle-cloud           2.29.0               h435de7b_0    conda-forge
+libgoogle-cloud-storage   2.29.0               h0121fbd_0    conda-forge
+libgrpc                   1.62.2               h15f2491_0    conda-forge
+libiconv                  1.18                 h3b78370_2    conda-forge
+libkrb5                   1.21.3               h520c7b4_4  
+liblapack                 3.11.0          5_h47877c9_openblas    conda-forge
+liblapacke                3.11.0          5_h6ae95b6_openblas    conda-forge
+libllvm14                 14.0.6               hcd5def8_4    conda-forge
+libllvm20                 20.1.8               hecd9e04_0    conda-forge
+liblzma                   5.8.2                hb03c661_0    conda-forge
+liblzma-devel             5.8.2                hb03c661_0    conda-forge
+libnghttp2                1.67.0               had1ee68_0    conda-forge
+libnsl                    2.0.0                h5eee18b_0  
+libopenblas               0.3.30          pthreads_h94d23a6_4    conda-forge
+libparquet                17.0.0          h39682fd_16_cpu    conda-forge
+libpciaccess              0.18                 hb9d3cd8_0    conda-forge
+libpng                    1.6.55               h421ea60_0    conda-forge
+libpq                     17.4                 h02b6914_2  
+libprotobuf               4.25.3               hd5b35b9_1    conda-forge
+libre2-11                 2023.09.01           h5a48ba9_2    conda-forge
+libsentencepiece          0.2.0                hc656cff_4    conda-forge
+libsodium                 1.0.18               h36c2ea0_1    conda-forge
+libsqlite                 3.51.2               h0c1763c_0    conda-forge
+libssh2                   1.11.1               hcf80075_0    conda-forge
+libstdcxx                 15.2.0              h934c35e_18    conda-forge
+libstdcxx-ng              15.2.0              hdf11a46_18    conda-forge
+libthrift                 0.20.0               h0e7cc3e_1    conda-forge
+libtiff                   4.7.0                hde9077f_0  
+libtorch                  2.4.1           cpu_generic_hb3b73e9_0    conda-forge
+libutf8proc               2.8.0                hf23e847_1    conda-forge
+libuuid                   1.41.5               h5eee18b_0  
+libuv                     1.51.0               hb03c661_1    conda-forge
+libvpx                    1.11.0               h9c3ff4c_3    conda-forge
+libwebp-base              1.6.0                hd42ef1d_0    conda-forge
+libxcb                    1.17.0               h9b100fa_0  
+libxkbcommon              1.11.0               he8b52b9_0    conda-forge
+libxml2                   2.13.8               hfdd30dd_0  
+libxslt                   1.1.43               h7a3aeb2_0    conda-forge
+libzlib                   1.3.2                h25fd6f3_2    conda-forge
+linkify-it-py             2.1.0              pyhcf101f3_0    conda-forge
+lmdb                      0.9.35               h25c0377_0    conda-forge
+lz4-c                     1.9.4                hcb278e6_0    conda-forge
+markdown-it-py            4.0.0              pyhd8ed1ab_0    conda-forge
+markupsafe                3.0.3           py310h3406613_0    conda-forge
+matplotlib                3.10.8          py310hff52083_0    conda-forge
+matplotlib-base           3.10.8          py310hfde16b3_0    conda-forge
+mdit-py-plugins           0.5.0              pyhd8ed1ab_0    conda-forge
+mdurl                     0.1.2              pyhd8ed1ab_1    conda-forge
+mesalib                   25.0.5               h57bcd07_2    conda-forge
+minizip                   4.0.7                h401b404_0    conda-forge
+mistune                   3.2.0              pyhcf101f3_0    conda-forge
+mpc                       1.3.1                h24ddda3_1    conda-forge
+mpfr                      4.2.1                h90cbb55_3    conda-forge
+mpmath                    1.3.0              pyhd8ed1ab_1    conda-forge
+multidict                 6.7.1           py310h3406613_0    conda-forge
+multiprocess              0.70.16         py310ha75aee5_1    conda-forge
+munkres                   1.1.4              pyhd8ed1ab_1    conda-forge
+mysql                     8.4.0                h29a9f33_1  
+narwhals                  2.17.0             pyhcf101f3_0    conda-forge
+nbclient                  0.10.4             pyhd8ed1ab_0    conda-forge
+nbconvert                 7.17.0               h14065e2_0    conda-forge
+nbconvert-core            7.17.0             pyhcf101f3_0    conda-forge
+nbconvert-pandoc          7.17.0               hc3985f0_0    conda-forge
+nbformat                  5.10.4             pyhd8ed1ab_1    conda-forge
+ncurses                   6.5                  h7934f7d_0  
+nettle                    3.6                  he412f7d_0    conda-forge
+networkx                  3.4.2              pyh267e887_2    conda-forge
+nomkl                     1.0                  h5ca1d4c_0    conda-forge
+nspr                      4.38                 h29cc59b_0    conda-forge
+nss                       3.118                h445c969_0    conda-forge
+numpy                     2.2.6           py310hefbff90_0    conda-forge
+nvidia-cublas-cu12        12.4.5.8                 pypi_0    pypi
+nvidia-cuda-cupti-cu12    12.4.127                 pypi_0    pypi
+nvidia-cuda-nvrtc-cu12    12.4.127                 pypi_0    pypi
+nvidia-cuda-runtime-cu12  12.4.127                 pypi_0    pypi
+nvidia-cudnn-cu12         9.1.0.70                 pypi_0    pypi
+nvidia-cufft-cu12         11.2.1.3                 pypi_0    pypi
+nvidia-curand-cu12        10.3.5.147               pypi_0    pypi
+nvidia-cusolver-cu12      11.6.1.9                 pypi_0    pypi
+nvidia-cusparse-cu12      12.3.1.170               pypi_0    pypi
+nvidia-cusparselt-cu12    0.6.2                    pypi_0    pypi
+nvidia-nccl-cu12          2.21.5                   pypi_0    pypi
+nvidia-nvjitlink-cu12     12.4.127                 pypi_0    pypi
+nvidia-nvtx-cu12          12.4.127                 pypi_0    pypi
+ollama                    0.16.2           cpu_hba3e463_0    conda-forge
+ollama-python             0.6.1              pyhd8ed1ab_0    conda-forge
+openblas                  0.3.30          pthreads_h6ec200e_4    conda-forge
+openh264                  2.1.1                h4ff587b_0  
+openjpeg                  2.5.3                h55fea9a_1    conda-forge
+openldap                  2.6.10               h8e75217_0  
+openssl                   3.6.1                h35e630c_1    conda-forge
+opentelemetry-api         1.39.1             pyhd8ed1ab_0    conda-forge
+orc                       2.0.2                h669347b_0    conda-forge
+orjson                    3.11.7          py310hfe99b16_0    conda-forge
+packaging                 25.0            py310h06a4308_1  
+pandas                    2.3.3           py310h0158d43_2    conda-forge
+pandoc                    3.9                  ha770c72_0    conda-forge
+pandocfilters             1.5.0              pyhd8ed1ab_0    conda-forge
+patsy                     1.0.2              pyhcf101f3_0    conda-forge
+pcre2                     10.42                hcad00b1_0    conda-forge
+peft                      0.18.1                   pypi_0    pypi
+pillow                    12.0.0                   pypi_0    pypi
+pip                       26.0.1             pyhc872135_0  
+pixman                    0.46.4               h54a6638_1    conda-forge
+platformdirs              4.9.2              pyhcf101f3_0    conda-forge
+propcache                 0.3.1           py310h89163eb_0    conda-forge
+protobuf                  4.25.3          py310h0e2eeba_1    conda-forge
+psutil                    7.2.2           py310h139afa4_0    conda-forge
+pthread-stubs             0.3                  h0ce48e5_1  
+pyarrow                   17.0.0          py310hb7f781d_2    conda-forge
+pyarrow-core              17.0.0          py310hac404ae_2_cpu    conda-forge
+pycparser                 2.22               pyh29332c3_1    conda-forge
+pycryptodome              3.23.0          py310he45356f_2    conda-forge
+pydantic                  2.12.5             pyhcf101f3_1    conda-forge
+pydantic-core             2.41.5          py310hd8f68c5_1    conda-forge
+pydantic-extra-types      2.11.0             pyhcf101f3_1    conda-forge
+pydantic-settings         2.13.1             pyhd8ed1ab_0    conda-forge
+pydub                     0.25.1             pyhd8ed1ab_1    conda-forge
+pygments                  2.19.2             pyhd8ed1ab_0    conda-forge
+pyparsing                 3.3.2              pyhcf101f3_0    conda-forge
+pyside6                   6.7.3           py310hfe4ef28_1  
+pysocks                   1.7.1              pyha55dd90_7    conda-forge
+python                    3.10.19              h6fa692b_0  
+python-crfsuite           0.9.12          py310h25320af_0    conda-forge
+python-dateutil           2.9.0.post0        pyhe01879c_2    conda-forge
+python-dotenv             1.2.2              pyhcf101f3_0    conda-forge
+python-fastjsonschema     2.21.2             pyhe01879c_0    conda-forge
+python-gil                3.10.19              hd8ed1ab_3    conda-forge
+python-multipart          0.0.22             pyhcf101f3_0    conda-forge
+python-slugify            8.0.4              pyhd8ed1ab_1    conda-forge
+python-tzdata             2025.3             pyhd8ed1ab_0    conda-forge
+python-xxhash             3.6.0           py310hf3bd8b6_1    conda-forge
+python_abi                3.10                    2_cp310    conda-forge
+pytz                      2025.2             pyhd8ed1ab_0    conda-forge
+pyyaml                    6.0.3           py310h3406613_1    conda-forge
+pyzmq                     27.1.0          py310h4f33d48_0    conda-forge
+qhull                     2020.2               h434a139_5    conda-forge
+qtbase                    6.7.3                h10a5587_4  
+qtdeclarative             6.7.3                h7934f7d_1  
+qtshadertools             6.7.3                h7934f7d_1  
+qtsvg                     6.7.3                he4bddd1_1  
+qttools                   6.7.3                h5a8de97_1  
+qtwebchannel              6.7.3                h7934f7d_1  
+qtwebengine               6.7.3                h7abb84b_0  
+qtwebsockets              6.7.3                h7934f7d_1  
+rav1e                     0.7.1                h8fae777_3    conda-forge
+re2                       2023.09.01           h7f4b329_2    conda-forge
+readline                  8.3                  hc2a1206_0  
+referencing               0.37.0             pyhcf101f3_0    conda-forge
+regex                     2026.1.15                pypi_0    pypi
+requests                  2.32.5             pyhcf101f3_1    conda-forge
+rhash                     1.4.6                hb9d3cd8_1    conda-forge
+rich                      14.3.2             pyhcf101f3_0    conda-forge
+rich-toolkit              0.19.7             pyhcf101f3_0    conda-forge
+rpds-py                   0.30.0          py310hd8f68c5_0    conda-forge
+s2n                       1.5.5                h3931f03_0    conda-forge
+safetensors               0.7.0           py310hdfeec95_0    conda-forge
+scikit-learn              1.7.2           py310h228f341_0    conda-forge
+scipy                     1.15.2          py310h1d65ade_0    conda-forge
+seaborn                   0.13.2               hd8ed1ab_3    conda-forge
+seaborn-base              0.13.2             pyhd8ed1ab_3    conda-forge
+sentencepiece             0.2.0                hff52083_4    conda-forge
+sentencepiece-python      0.2.0           py310hcf7cfdd_4    conda-forge
+sentencepiece-spm         0.2.0                hc656cff_4    conda-forge
+seqeval                   1.2.2                    pypi_0    pypi
+setuptools                80.10.2         py310h06a4308_0  
+shellingham               1.5.4              pyhd8ed1ab_2    conda-forge
+six                       1.17.0             pyhe01879c_1    conda-forge
+sklearn-crfsuite          0.5.0                    pypi_0    pypi
+sleef                     3.9.0                ha0421bc_0    conda-forge
+snappy                    1.2.2                h03e3b7b_1    conda-forge
+sniffio                   1.3.1              pyhd8ed1ab_2    conda-forge
+soupsieve                 2.8.3              pyhd8ed1ab_0    conda-forge
+spirv-tools               2025.5               hb700be7_0    conda-forge
+sqlite                    3.50.2               hb25bd0a_1  
+starlette                 0.52.1             pyhfdc7a7d_0    conda-forge
+statsmodels               0.14.6          py310hf779ad0_0    conda-forge
+svt-av1                   4.0.0                hecca717_0    conda-forge
+sympy                     1.13.1                   pypi_0    pypi
+tabulate                  0.9.0                    pypi_0    pypi
+text-unidecode            1.3                pyhd8ed1ab_2    conda-forge
+threadpoolctl             3.6.0              pyhecae5ae_0    conda-forge
+tiktoken                  0.12.0          py310h790759e_3    conda-forge
+tinycss2                  1.4.0              pyhd8ed1ab_0    conda-forge
+tk                        8.6.15               h54e0aa7_0  
+tokenizers                0.22.2          py310h4551fc8_0    conda-forge
+tomli                     2.4.0              pyhcf101f3_0    conda-forge
+torch                     2.6.0+cu124              pypi_0    pypi
+torchaudio                2.6.0+cu124              pypi_0    pypi
+torchvision               0.21.0+cu124             pypi_0    pypi
+tornado                   6.5.3           py310h7c4b9e2_0    conda-forge
+tqdm                      4.67.3             pyh8f84b5b_0    conda-forge
+traitlets                 5.14.3             pyhd8ed1ab_1    conda-forge
+transformers              5.1.0                    pypi_0    pypi
+triton                    3.2.0                    pypi_0    pypi
+trl                       0.15.2                   pypi_0    pypi
+typer                     0.24.0             pyhcf101f3_0    conda-forge
+typer-slim                0.24.0             pyhcf101f3_0    conda-forge
+typing-extensions         4.15.0               h396c80c_0    conda-forge
+typing-inspection         0.4.2              pyhd8ed1ab_1    conda-forge
+typing_extensions         4.15.0             pyhcf101f3_0    conda-forge
+tzdata                    2025c                he532380_0  
+uc-micro-py               2.0.0              pyhcf101f3_0    conda-forge
+unicodedata2              17.0.1          py310h7c4b9e2_0    conda-forge
+urllib3                   2.5.0              pyhd8ed1ab_0    conda-forge
+uvicorn                   0.41.0             pyhc90fa1f_0    conda-forge
+uvicorn-standard          0.41.0               he9f3e0c_0    conda-forge
+uvloop                    0.22.1          py310h7c4b9e2_1    conda-forge
+watchfiles                1.1.1           py310hdfeec95_0    conda-forge
+webencodings              0.5.1              pyhd8ed1ab_3    conda-forge
+websockets                16.0            py310h139afa4_1    conda-forge
+wheel                     0.46.3          py310h06a4308_0  
+wrapt                     2.1.1           py310h7c4b9e2_0    conda-forge
+x264                      1!161.3030           h7f98852_1    conda-forge
+x265                      3.5                  h924138e_3    conda-forge
+xcb-util                  0.4.1                h4f16b4b_2    conda-forge
+xcb-util-cursor           0.1.6                hb03c661_0    conda-forge
+xcb-util-image            0.4.0                hb711507_2    conda-forge
+xcb-util-keysyms          0.4.1                hb711507_0    conda-forge
+xcb-util-renderutil       0.3.10               hb711507_0    conda-forge
+xcb-util-wm               0.4.2                hb711507_0    conda-forge
+xkeyboard-config          2.46                 hb03c661_0    conda-forge
+xorg-libice               1.1.2                hb9d3cd8_0    conda-forge
+xorg-libsm                1.2.6                h9b100fa_0  
+xorg-libx11               1.8.12               h9b100fa_1  
+xorg-libxau               1.0.12               h9b100fa_0  
+xorg-libxdmcp             1.1.5                h9b100fa_0  
+xorg-libxext              1.3.7                hb03c661_0    conda-forge
+xorg-libxrandr            1.5.5                hb03c661_0    conda-forge
+xorg-libxrender           0.9.12               hb9d3cd8_0    conda-forge
+xorg-libxshmfence         1.3.3                hb9d3cd8_0    conda-forge
+xorg-xorgproto            2024.1               h5eee18b_1  
+xxhash                    0.8.3                hb47aa4a_0    conda-forge
+xz                        5.8.2                ha02ee65_0    conda-forge
+xz-gpl-tools              5.8.2                ha02ee65_0    conda-forge
+xz-tools                  5.8.2                hb03c661_0    conda-forge
+yaml                      0.2.5                h280c20c_3    conda-forge
+yarl                      1.23.0          py310h3406613_0    conda-forge
+zeromq                    4.3.5                h59595ed_1    conda-forge
+zipp                      3.23.0             pyhcf101f3_1    conda-forge
+zlib                      1.3.2                h25fd6f3_2    conda-forge
+zstandard                 0.25.0          py310h139afa4_1    conda-forge
+zstd                      1.5.7                hb78ec9c_6    conda-forge
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loaded 2566 clinical notes
+{'tokens': ['Novembre', '2016:', 'amb', 'AZA', 'i', 'estable,', 'es', 'reevaluarà', 'aviat'], 'labels': ['Date', 'Date', 'O', 'Treatment', 'O', 'Response', 'O', 'O', 'O']}
+Procesados 2566 ejemplos.
+Etiquetas encontradas: ['O', 'Blasts', 'Date', 'Diagnosis', 'Exitus', 'FamilyHistory', 'GeneMutation', 'Karyotype', 'Origin', 'ProteinChange', 'Response', 'Risk', 'Smoker', 'Treatment', 'VAF', 'cDNAChange']
+Total samples: 2566
+Train: 2052, Validation: 256, Test: 258
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:02<12:44,  2.64s/it]Loading weights:   1%|          | 2/291 [00:05<13:53,  2.89s/it]Loading weights:   1%|▏         | 4/291 [00:10<12:44,  2.67s/it]Loading weights:   2%|▏         | 5/291 [00:15<15:21,  3.22s/it]Loading weights:   2%|▏         | 6/291 [00:20<18:27,  3.89s/it]Loading weights:   3%|▎         | 8/291 [00:27<16:57,  3.60s/it]Loading weights:   3%|▎         | 9/291 [00:33<20:16,  4.31s/it]Loading weights:   3%|▎         | 10/291 [00:38<21:07,  4.51s/it]Loading weights:   4%|▍         | 11/291 [00:44<23:15,  4.98s/it]Loading weights:   4%|▍         | 13/291 [00:50<18:16,  3.94s/it]Loading weights:   5%|▍         | 14/291 [00:50<14:00,  3.03s/it]Loading weights:  45%|████▌     | 131/291 [00:50<00:12, 13.31it/s]Loading weights:  97%|█████████▋| 283/291 [00:50<00:00, 36.83it/s]Loading weights: 100%|██████████| 291/291 [00:50<00:00,  5.76it/s]
+Map:   0%|          | 0/2052 [00:00<?, ? examples/s]Map:  52%|█████▏    | 1061/2052 [00:00<00:00, 10534.24 examples/s]Map: 100%|██████████| 2052/2052 [00:00<00:00, 10939.47 examples/s]
+Map:   0%|          | 0/256 [00:00<?, ? examples/s]Map: 100%|██████████| 256/256 [00:00<00:00, 9895.60 examples/s]
+Map:   0%|          | 0/258 [00:00<?, ? examples/s]Map: 100%|██████████| 258/258 [00:00<00:00, 10127.66 examples/s]
+Converting train dataset to ChatML:   0%|          | 0/2052 [00:00<?, ? examples/s]Converting train dataset to ChatML: 100%|██████████| 2052/2052 [00:00<00:00, 40370.71 examples/s]
+Applying chat template to train dataset:   0%|          | 0/2052 [00:00<?, ? examples/s]Applying chat template to train dataset: 100%|██████████| 2052/2052 [00:00<00:00, 51540.59 examples/s]
+Tokenizing train dataset:   0%|          | 0/2052 [00:00<?, ? examples/s]Tokenizing train dataset:  13%|█▎        | 266/2052 [00:00<00:00, 2640.56 examples/s]Tokenizing train dataset:  29%|██▊       | 587/2052 [00:00<00:00, 2969.16 examples/s]Tokenizing train dataset:  44%|████▍     | 908/2052 [00:00<00:00, 3073.39 examples/s]Tokenizing train dataset:  64%|██████▍   | 1323/2052 [00:00<00:00, 2352.06 examples/s]Tokenizing train dataset:  80%|████████  | 1651/2052 [00:00<00:00, 2602.13 examples/s]Tokenizing train dataset:  96%|█████████▌| 1974/2052 [00:00<00:00, 2775.31 examples/s]Tokenizing train dataset: 100%|██████████| 2052/2052 [00:00<00:00, 2604.14 examples/s]
+Truncating train dataset:   0%|          | 0/2052 [00:00<?, ? examples/s]Truncating train dataset:  34%|███▍      | 694/2052 [00:00<00:00, 6896.61 examples/s]Truncating train dataset:  82%|████████▏ | 1691/2052 [00:00<00:00, 5997.21 examples/s]Truncating train dataset: 100%|██████████| 2052/2052 [00:00<00:00, 5577.09 examples/s]
+Converting eval dataset to ChatML:   0%|          | 0/256 [00:00<?, ? examples/s]Converting eval dataset to ChatML: 100%|██████████| 256/256 [00:00<00:00, 46585.18 examples/s]
+Applying chat template to eval dataset:   0%|          | 0/256 [00:00<?, ? examples/s]Applying chat template to eval dataset: 100%|██████████| 256/256 [00:00<00:00, 40258.78 examples/s]
+Tokenizing eval dataset:   0%|          | 0/256 [00:00<?, ? examples/s]Tokenizing eval dataset: 100%|██████████| 256/256 [00:00<00:00, 2723.84 examples/s]
+Truncating eval dataset:   0%|          | 0/256 [00:00<?, ? examples/s]Truncating eval dataset: 100%|██████████| 256/256 [00:00<00:00, 5178.95 examples/s]
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 128009}.
+  0%|          | 0/771 [00:00<?, ?it/s]  0%|          | 1/771 [00:17<3:48:36, 17.81s/it]  0%|          | 2/771 [00:21<2:02:13,  9.54s/it]  0%|          | 3/771 [00:25<1:30:03,  7.04s/it]  1%|          | 4/771 [00:29<1:13:12,  5.73s/it]  1%|          | 5/771 [00:33<1:03:52,  5.00s/it]  1%|          | 6/771 [00:37<59:44,  4.68s/it]    1%|          | 7/771 [00:40<55:39,  4.37s/it]  1%|          | 8/771 [00:44<53:27,  4.20s/it]  1%|          | 9/771 [00:48<52:38,  4.15s/it]  1%|▏         | 10/771 [00:52<51:01,  4.02s/it]                                                  1%|▏         | 10/771 [00:52<51:01,  4.02s/it]  1%|▏         | 11/771 [00:56<49:59,  3.95s/it]  2%|▏         | 12/771 [01:00<50:16,  3.97s/it]  2%|▏         | 13/771 [01:03<49:14,  3.90s/it]  2%|▏         | 14/771 [01:08<49:41,  3.94s/it]  2%|▏         | 15/771 [01:11<48:49,  3.87s/it]  2%|▏         | 16/771 [01:15<48:11,  3.83s/it]  2%|▏         | 17/771 [01:19<48:45,  3.88s/it]  2%|▏         | 18/771 [01:23<48:08,  3.84s/it]  2%|▏         | 19/771 [01:26<47:47,  3.81s/it]  3%|▎         | 20/771 [01:31<48:37,  3.89s/it]                                                  3%|▎         | 20/771 [01:31<48:37,  3.89s/it]  3%|▎         | 21/771 [01:34<47:57,  3.84s/it]  3%|▎         | 22/771 [01:38<48:28,  3.88s/it]  3%|▎         | 23/771 [01:42<47:45,  3.83s/it]  3%|▎         | 24/771 [01:46<47:16,  3.80s/it]  3%|▎         | 25/771 [01:50<47:57,  3.86s/it]  3%|▎         | 26/771 [01:53<47:24,  3.82s/it]  4%|▎         | 27/771 [01:57<46:56,  3.79s/it]  4%|▎         | 28/771 [02:01<47:40,  3.85s/it]  4%|▍         | 29/771 [02:05<47:21,  3.83s/it]  4%|▍         | 30/771 [02:09<46:52,  3.80s/it]                                                  4%|▍         | 30/771 [02:09<46:52,  3.80s/it]  4%|▍         | 31/771 [02:13<47:42,  3.87s/it]  4%|▍         | 32/771 [02:16<47:05,  3.82s/it]  4%|▍         | 33/771 [02:20<46:47,  3.80s/it]  4%|▍         | 34/771 [02:24<47:27,  3.86s/it]  5%|▍         | 35/771 [02:28<46:53,  3.82s/it]  5%|▍         | 36/771 [02:32<46:29,  3.79s/it]  5%|▍         | 37/771 [02:36<47:12,  3.86s/it]  5%|▍         | 38/771 [02:39<46:37,  3.82s/it]  5%|▌         | 39/771 [02:43<47:23,  3.88s/it]  5%|▌         | 40/771 [02:47<46:45,  3.84s/it]                                                  5%|▌         | 40/771 [02:47<46:45,  3.84s/it]  5%|▌         | 41/771 [02:51<46:18,  3.81s/it]  5%|▌         | 42/771 [02:55<46:57,  3.87s/it]  6%|▌         | 43/771 [02:59<46:31,  3.83s/it]  6%|▌         | 44/771 [03:02<46:01,  3.80s/it]  6%|▌         | 45/771 [03:06<46:45,  3.86s/it]  6%|▌         | 46/771 [03:10<46:10,  3.82s/it]  6%|▌         | 47/771 [03:14<45:46,  3.79s/it]  6%|▌         | 48/771 [03:18<46:56,  3.90s/it]  6%|▋         | 49/771 [03:22<46:27,  3.86s/it]  6%|▋         | 50/771 [03:25<46:03,  3.83s/it]                                                  6%|▋         | 50/771 [03:25<46:03,  3.83s/it]  7%|▋         | 51/771 [03:29<46:36,  3.88s/it]  7%|▋         | 52/771 [03:33<45:57,  3.83s/it]  7%|▋         | 53/771 [03:37<46:31,  3.89s/it]  7%|▋         | 54/771 [03:41<45:49,  3.83s/it]  7%|▋         | 55/771 [03:45<45:23,  3.80s/it]  7%|▋         | 56/771 [03:49<46:01,  3.86s/it]  7%|▋         | 57/771 [03:52<45:27,  3.82s/it]  8%|▊         | 58/771 [03:56<45:05,  3.79s/it]  8%|▊         | 59/771 [04:00<45:46,  3.86s/it]  8%|▊         | 60/771 [04:04<45:30,  3.84s/it]                                                  8%|▊         | 60/771 [04:04<45:30,  3.84s/it]  8%|▊         | 61/771 [04:08<45:03,  3.81s/it]  8%|▊         | 62/771 [04:12<45:42,  3.87s/it]  8%|▊         | 63/771 [04:15<45:07,  3.82s/it]  8%|▊         | 64/771 [04:19<44:45,  3.80s/it]  8%|▊         | 65/771 [04:23<45:24,  3.86s/it]  9%|▊         | 66/771 [04:27<44:53,  3.82s/it]  9%|▊         | 67/771 [04:31<45:25,  3.87s/it]  9%|▉         | 68/771 [04:34<44:48,  3.82s/it]  9%|▉         | 69/771 [04:38<44:27,  3.80s/it]  9%|▉         | 70/771 [04:42<45:02,  3.86s/it]                                                  9%|▉         | 70/771 [04:42<45:02,  3.86s/it]  9%|▉         | 71/771 [04:46<44:29,  3.81s/it]  9%|▉         | 72/771 [04:50<44:07,  3.79s/it]  9%|▉         | 73/771 [04:54<44:48,  3.85s/it] 10%|▉         | 74/771 [04:57<44:26,  3.83s/it] 10%|▉         | 75/771 [05:01<43:57,  3.79s/it] 10%|▉         | 76/771 [05:05<44:36,  3.85s/it] 10%|▉         | 77/771 [05:09<44:02,  3.81s/it] 10%|█         | 78/771 [05:13<44:41,  3.87s/it] 10%|█         | 79/771 [05:17<44:04,  3.82s/it] 10%|█         | 80/771 [05:20<43:41,  3.79s/it]                                                 10%|█         | 80/771 [05:20<43:41,  3.79s/it] 11%|█         | 81/771 [05:24<44:21,  3.86s/it] 11%|█         | 82/771 [05:28<43:52,  3.82s/it] 11%|█         | 83/771 [05:32<43:29,  3.79s/it] 11%|█         | 84/771 [05:36<44:07,  3.85s/it] 11%|█         | 85/771 [05:39<43:36,  3.81s/it] 11%|█         | 86/771 [05:43<43:12,  3.79s/it] 11%|█▏        | 87/771 [05:47<43:54,  3.85s/it] 11%|█▏        | 88/771 [05:51<43:24,  3.81s/it] 12%|█▏        | 89/771 [05:55<43:03,  3.79s/it] 12%|█▏        | 90/771 [05:59<43:42,  3.85s/it]                                                 12%|█▏        | 90/771 [05:59<43:42,  3.85s/it] 12%|█▏        | 91/771 [06:02<43:11,  3.81s/it] 12%|█▏        | 92/771 [06:06<43:51,  3.87s/it] 12%|█▏        | 93/771 [06:10<43:25,  3.84s/it] 12%|█▏        | 94/771 [06:14<42:58,  3.81s/it] 12%|█▏        | 95/771 [06:18<43:34,  3.87s/it] 12%|█▏        | 96/771 [06:22<43:02,  3.83s/it] 13%|█▎        | 97/771 [06:25<42:39,  3.80s/it] 13%|█▎        | 98/771 [06:29<43:15,  3.86s/it] 13%|█▎        | 99/771 [06:33<42:44,  3.82s/it] 13%|█▎        | 100/771 [06:37<42:19,  3.78s/it]                                                  13%|█▎        | 100/771 [06:37<42:19,  3.78s/it] 13%|█▎        | 101/771 [06:41<42:59,  3.85s/it] 13%|█▎        | 102/771 [06:45<42:38,  3.82s/it] 13%|█▎        | 103/771 [06:49<43:08,  3.88s/it] 13%|█▎        | 104/771 [06:52<42:33,  3.83s/it] 14%|█▎        | 105/771 [06:56<42:07,  3.79s/it] 14%|█▎        | 106/771 [07:00<42:42,  3.85s/it] 14%|█▍        | 107/771 [07:04<42:10,  3.81s/it] 14%|█▍        | 108/771 [07:07<41:50,  3.79s/it] 14%|█▍        | 109/771 [07:11<42:39,  3.87s/it] 14%|█▍        | 110/771 [07:15<42:04,  3.82s/it]                                                  14%|█▍        | 110/771 [07:15<42:04,  3.82s/it] 14%|█▍        | 111/771 [07:19<41:43,  3.79s/it] 15%|█▍        | 112/771 [07:23<42:18,  3.85s/it] 15%|█▍        | 113/771 [07:27<41:50,  3.82s/it] 15%|█▍        | 114/771 [07:30<41:33,  3.79s/it] 15%|█▍        | 115/771 [07:34<42:10,  3.86s/it] 15%|█▌        | 116/771 [07:38<41:39,  3.82s/it] 15%|█▌        | 117/771 [07:42<41:16,  3.79s/it] 15%|█▌        | 118/771 [07:46<41:53,  3.85s/it] 15%|█▌        | 119/771 [07:50<41:25,  3.81s/it] 16%|█▌        | 120/771 [07:54<42:01,  3.87s/it]                                                  16%|█▌        | 120/771 [07:54<42:01,  3.87s/it] 16%|█▌        | 121/771 [07:57<41:30,  3.83s/it] 16%|█▌        | 122/771 [08:01<41:03,  3.80s/it] 16%|█▌        | 123/771 [08:05<41:38,  3.86s/it] 16%|█▌        | 124/771 [08:09<41:07,  3.81s/it] 16%|█▌        | 125/771 [08:12<40:45,  3.79s/it] 16%|█▋        | 126/771 [08:16<41:25,  3.85s/it] 16%|█▋        | 127/771 [08:20<40:59,  3.82s/it] 17%|█▋        | 128/771 [08:24<40:34,  3.79s/it] 17%|█▋        | 129/771 [08:28<41:08,  3.85s/it] 17%|█▋        | 130/771 [08:32<42:08,  3.95s/it]                                                  17%|█▋        | 130/771 [08:32<42:08,  3.95s/it] 17%|█▋        | 131/771 [08:36<42:14,  3.96s/it] 17%|█▋        | 132/771 [08:40<41:25,  3.89s/it] 17%|█▋        | 133/771 [08:44<40:55,  3.85s/it] 17%|█▋        | 134/771 [08:48<41:22,  3.90s/it] 18%|█▊        | 135/771 [08:51<40:46,  3.85s/it] 18%|█▊        | 136/771 [08:55<40:47,  3.85s/it] 18%|█▊        | 137/771 [08:59<41:11,  3.90s/it] 18%|█▊        | 138/771 [09:03<40:34,  3.85s/it] 18%|█▊        | 139/771 [09:07<40:05,  3.81s/it] 18%|█▊        | 140/771 [09:11<40:38,  3.86s/it]                                                  18%|█▊        | 140/771 [09:11<40:38,  3.86s/it] 18%|█▊        | 141/771 [09:14<40:18,  3.84s/it] 18%|█▊        | 142/771 [09:18<39:51,  3.80s/it] 19%|█▊        | 143/771 [09:22<40:25,  3.86s/it] 19%|█▊        | 144/771 [09:26<39:57,  3.82s/it] 19%|█▉        | 145/771 [09:30<39:33,  3.79s/it] 19%|█▉        | 146/771 [09:34<40:12,  3.86s/it] 19%|█▉        | 147/771 [09:37<39:44,  3.82s/it] 19%|█▉        | 148/771 [09:41<40:26,  3.89s/it] 19%|█▉        | 149/771 [09:45<39:49,  3.84s/it] 19%|█▉        | 150/771 [09:49<39:24,  3.81s/it]                                                  19%|█▉        | 150/771 [09:49<39:24,  3.81s/it] 20%|█▉        | 151/771 [09:53<39:57,  3.87s/it] 20%|█▉        | 152/771 [09:57<39:53,  3.87s/it] 20%|█▉        | 153/771 [10:00<39:20,  3.82s/it] 20%|█▉        | 154/771 [10:04<39:53,  3.88s/it] 20%|██        | 155/771 [10:08<39:22,  3.83s/it] 20%|██        | 156/771 [10:12<38:59,  3.80s/it] 20%|██        | 157/771 [10:16<39:42,  3.88s/it] 20%|██        | 158/771 [10:20<39:12,  3.84s/it] 21%|██        | 159/771 [10:24<39:40,  3.89s/it] 21%|██        | 160/771 [10:27<39:09,  3.84s/it]                                                  21%|██        | 160/771 [10:27<39:09,  3.84s/it] 21%|██        | 161/771 [10:31<38:44,  3.81s/it] 21%|██        | 162/771 [10:35<39:20,  3.88s/it] 21%|██        | 163/771 [10:39<38:47,  3.83s/it] 21%|██▏       | 164/771 [10:43<38:26,  3.80s/it] 21%|██▏       | 165/771 [10:47<38:59,  3.86s/it] 22%|██▏       | 166/771 [10:50<38:32,  3.82s/it] 22%|██▏       | 167/771 [10:54<38:10,  3.79s/it] 22%|██▏       | 168/771 [10:58<38:46,  3.86s/it] 22%|██▏       | 169/771 [11:02<38:37,  3.85s/it] 22%|██▏       | 170/771 [11:06<38:07,  3.81s/it]                                                  22%|██▏       | 170/771 [11:06<38:07,  3.81s/it] 22%|██▏       | 171/771 [11:10<38:37,  3.86s/it] 22%|██▏       | 172/771 [11:13<38:06,  3.82s/it] 22%|██▏       | 173/771 [11:17<37:51,  3.80s/it] 23%|██▎       | 174/771 [11:21<38:22,  3.86s/it] 23%|██▎       | 175/771 [11:25<37:53,  3.81s/it] 23%|██▎       | 176/771 [11:29<38:22,  3.87s/it] 23%|██▎       | 177/771 [11:33<37:56,  3.83s/it] 23%|██▎       | 178/771 [11:36<37:31,  3.80s/it] 23%|██▎       | 179/771 [11:40<38:14,  3.88s/it] 23%|██▎       | 180/771 [11:44<37:42,  3.83s/it]                                                  23%|██▎       | 180/771 [11:44<37:42,  3.83s/it] 23%|██▎       | 181/771 [11:48<37:27,  3.81s/it] 24%|██▎       | 182/771 [11:52<37:58,  3.87s/it] 24%|██▎       | 183/771 [11:56<37:31,  3.83s/it] 24%|██▍       | 184/771 [11:59<37:08,  3.80s/it] 24%|██▍       | 185/771 [12:03<37:44,  3.86s/it] 24%|██▍       | 186/771 [12:07<37:34,  3.85s/it] 24%|██▍       | 187/771 [12:11<37:53,  3.89s/it] 24%|██▍       | 188/771 [12:15<37:19,  3.84s/it] 25%|██▍       | 189/771 [12:19<36:57,  3.81s/it] 25%|██▍       | 190/771 [12:23<37:29,  3.87s/it]                                                  25%|██▍       | 190/771 [12:23<37:29,  3.87s/it] 25%|██▍       | 191/771 [12:26<37:01,  3.83s/it] 25%|██▍       | 192/771 [12:30<36:39,  3.80s/it] 25%|██▌       | 193/771 [12:34<37:11,  3.86s/it] 25%|██▌       | 194/771 [12:38<36:45,  3.82s/it] 25%|██▌       | 195/771 [12:42<36:28,  3.80s/it] 25%|██▌       | 196/771 [12:45<36:56,  3.86s/it] 26%|██▌       | 197/771 [12:49<36:30,  3.82s/it] 26%|██▌       | 198/771 [12:53<36:10,  3.79s/it] 26%|██▌       | 199/771 [12:57<36:43,  3.85s/it] 26%|██▌       | 200/771 [13:01<36:16,  3.81s/it]                                                  26%|██▌       | 200/771 [13:01<36:16,  3.81s/it] 26%|██▌       | 201/771 [13:04<36:08,  3.80s/it] 26%|██▌       | 202/771 [13:08<36:40,  3.87s/it] 26%|██▋       | 203/771 [13:12<36:11,  3.82s/it] 26%|██▋       | 204/771 [13:16<36:37,  3.88s/it] 27%|██▋       | 205/771 [13:20<36:05,  3.83s/it] 27%|██▋       | 206/771 [13:24<35:44,  3.80s/it] 27%|██▋       | 207/771 [13:28<36:18,  3.86s/it] 27%|██▋       | 208/771 [13:31<35:48,  3.82s/it] 27%|██▋       | 209/771 [13:35<35:25,  3.78s/it] 27%|██▋       | 210/771 [13:39<36:01,  3.85s/it]                                                  27%|██▋       | 210/771 [13:39<36:01,  3.85s/it] 27%|██▋       | 211/771 [13:43<35:33,  3.81s/it] 27%|██▋       | 212/771 [13:47<35:34,  3.82s/it] 28%|██▊       | 213/771 [13:51<36:10,  3.89s/it] 28%|██▊       | 214/771 [13:54<35:38,  3.84s/it] 28%|██▊       | 215/771 [13:58<36:02,  3.89s/it] 28%|██▊       | 216/771 [14:02<35:29,  3.84s/it] 28%|██▊       | 217/771 [14:06<35:06,  3.80s/it] 28%|██▊       | 218/771 [14:10<35:41,  3.87s/it] 28%|██▊       | 219/771 [14:14<35:14,  3.83s/it] 29%|██▊       | 220/771 [14:17<34:54,  3.80s/it]                                                  29%|██▊       | 220/771 [14:17<34:54,  3.80s/it] 29%|██▊       | 221/771 [14:21<35:26,  3.87s/it] 29%|██▉       | 222/771 [14:25<34:59,  3.82s/it] 29%|██▉       | 223/771 [14:29<34:39,  3.79s/it] 29%|██▉       | 224/771 [14:33<35:11,  3.86s/it] 29%|██▉       | 225/771 [14:37<34:46,  3.82s/it] 29%|██▉       | 226/771 [14:40<34:27,  3.79s/it] 29%|██▉       | 227/771 [14:44<34:57,  3.86s/it] 30%|██▉       | 228/771 [14:48<34:34,  3.82s/it] 30%|██▉       | 229/771 [14:52<34:13,  3.79s/it] 30%|██▉       | 230/771 [14:56<34:50,  3.86s/it]                                                  30%|██▉       | 230/771 [14:56<34:50,  3.86s/it] 30%|██▉       | 231/771 [14:59<34:23,  3.82s/it] 30%|███       | 232/771 [15:03<34:48,  3.87s/it] 30%|███       | 233/771 [15:07<34:26,  3.84s/it] 30%|███       | 234/771 [15:11<34:06,  3.81s/it] 30%|███       | 235/771 [15:15<34:32,  3.87s/it] 31%|███       | 236/771 [15:19<34:03,  3.82s/it] 31%|███       | 237/771 [15:22<33:43,  3.79s/it] 31%|███       | 238/771 [15:26<34:14,  3.86s/it] 31%|███       | 239/771 [15:30<33:49,  3.82s/it] 31%|███       | 240/771 [15:34<33:30,  3.79s/it]                                                  31%|███       | 240/771 [15:34<33:30,  3.79s/it] 31%|███▏      | 241/771 [15:38<33:59,  3.85s/it] 31%|███▏      | 242/771 [15:42<33:35,  3.81s/it] 32%|███▏      | 243/771 [15:46<34:11,  3.88s/it] 32%|███▏      | 244/771 [15:49<33:40,  3.83s/it] 32%|███▏      | 245/771 [15:53<33:17,  3.80s/it] 32%|███▏      | 246/771 [15:57<33:49,  3.87s/it] 32%|███▏      | 247/771 [16:01<33:23,  3.82s/it] 32%|███▏      | 248/771 [16:05<33:02,  3.79s/it] 32%|███▏      | 249/771 [16:09<33:33,  3.86s/it] 32%|███▏      | 250/771 [16:12<33:09,  3.82s/it]                                                  32%|███▏      | 250/771 [16:12<33:09,  3.82s/it] 33%|███▎      | 251/771 [16:16<32:53,  3.79s/it] 33%|███▎      | 252/771 [16:20<33:23,  3.86s/it] 33%|███▎      | 253/771 [16:24<32:59,  3.82s/it] 33%|███▎      | 254/771 [16:27<32:41,  3.79s/it] 33%|███▎      | 255/771 [16:32<33:12,  3.86s/it] 33%|███▎      | 256/771 [16:35<32:46,  3.82s/it] 33%|███▎      | 257/771 [16:37<27:52,  3.25s/it]{'loss': '2.182', 'grad_norm': '0.2737', 'learning_rate': '4.942e-05', 'mean_token_accuracy': '0.6141', 'epoch': '0.03899'}
+{'loss': '0.9578', 'grad_norm': '0.1688', 'learning_rate': '4.877e-05', 'mean_token_accuracy': '0.8472', 'epoch': '0.07797'}
+{'loss': '0.7676', 'grad_norm': '0.2108', 'learning_rate': '4.812e-05', 'mean_token_accuracy': '0.8692', 'epoch': '0.117'}
+{'loss': '0.7321', 'grad_norm': '0.1484', 'learning_rate': '4.747e-05', 'mean_token_accuracy': '0.8748', 'epoch': '0.1559'}
+{'loss': '0.6887', 'grad_norm': '0.1032', 'learning_rate': '4.682e-05', 'mean_token_accuracy': '0.8857', 'epoch': '0.1949'}
+{'loss': '0.6175', 'grad_norm': '0.1332', 'learning_rate': '4.617e-05', 'mean_token_accuracy': '0.8912', 'epoch': '0.2339'}
+{'loss': '0.569', 'grad_norm': '0.1963', 'learning_rate': '4.553e-05', 'mean_token_accuracy': '0.9006', 'epoch': '0.2729'}
+{'loss': '0.5341', 'grad_norm': '0.136', 'learning_rate': '4.488e-05', 'mean_token_accuracy': '0.9081', 'epoch': '0.3119'}
+{'loss': '0.5277', 'grad_norm': '0.1328', 'learning_rate': '4.423e-05', 'mean_token_accuracy': '0.903', 'epoch': '0.3509'}
+{'loss': '0.541', 'grad_norm': '0.1307', 'learning_rate': '4.358e-05', 'mean_token_accuracy': '0.9022', 'epoch': '0.3899'}
+{'loss': '0.6317', 'grad_norm': '0.1445', 'learning_rate': '4.293e-05', 'mean_token_accuracy': '0.8898', 'epoch': '0.4288'}
+{'loss': '0.5604', 'grad_norm': '0.1304', 'learning_rate': '4.228e-05', 'mean_token_accuracy': '0.8997', 'epoch': '0.4678'}
+{'loss': '0.5523', 'grad_norm': '0.14', 'learning_rate': '4.163e-05', 'mean_token_accuracy': '0.9012', 'epoch': '0.5068'}
+{'loss': '0.5222', 'grad_norm': '0.1333', 'learning_rate': '4.099e-05', 'mean_token_accuracy': '0.9057', 'epoch': '0.5458'}
+{'loss': '0.5627', 'grad_norm': '0.1204', 'learning_rate': '4.034e-05', 'mean_token_accuracy': '0.8971', 'epoch': '0.5848'}
+{'loss': '0.5576', 'grad_norm': '0.1899', 'learning_rate': '3.969e-05', 'mean_token_accuracy': '0.8961', 'epoch': '0.6238'}
+{'loss': '0.5328', 'grad_norm': '0.1237', 'learning_rate': '3.904e-05', 'mean_token_accuracy': '0.9042', 'epoch': '0.6628'}
+{'loss': '0.5114', 'grad_norm': '0.1389', 'learning_rate': '3.839e-05', 'mean_token_accuracy': '0.9052', 'epoch': '0.7018'}
+{'loss': '0.5084', 'grad_norm': '0.1806', 'learning_rate': '3.774e-05', 'mean_token_accuracy': '0.9054', 'epoch': '0.7407'}
+{'loss': '0.4316', 'grad_norm': '0.1225', 'learning_rate': '3.709e-05', 'mean_token_accuracy': '0.9225', 'epoch': '0.7797'}
+{'loss': '0.5778', 'grad_norm': '0.139', 'learning_rate': '3.645e-05', 'mean_token_accuracy': '0.9032', 'epoch': '0.8187'}
+{'loss': '0.463', 'grad_norm': '0.116', 'learning_rate': '3.58e-05', 'mean_token_accuracy': '0.9166', 'epoch': '0.8577'}
+{'loss': '0.4516', 'grad_norm': '0.1674', 'learning_rate': '3.515e-05', 'mean_token_accuracy': '0.9135', 'epoch': '0.8967'}
+{'loss': '0.4655', 'grad_norm': '0.1424', 'learning_rate': '3.45e-05', 'mean_token_accuracy': '0.9128', 'epoch': '0.9357'}
+{'loss': '0.4465', 'grad_norm': '0.1143', 'learning_rate': '3.385e-05', 'mean_token_accuracy': '0.9152', 'epoch': '0.9747'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+  6%|▋         | 2/32 [00:00<00:13,  2.29it/s][A
+  9%|▉         | 3/32 [00:01<00:20,  1.40it/s][A
+ 12%|█▎        | 4/32 [00:02<00:22,  1.22it/s][A
+ 16%|█▌        | 5/32 [00:04<00:24,  1.10it/s][A
+ 19%|█▉        | 6/32 [00:04<00:19,  1.33it/s][A
+ 22%|██▏       | 7/32 [00:05<00:16,  1.47it/s][A
+ 25%|██▌       | 8/32 [00:05<00:15,  1.53it/s][A
+ 28%|██▊       | 9/32 [00:06<00:13,  1.74it/s][A
+ 31%|███▏      | 10/32 [00:06<00:12,  1.82it/s][A
+ 34%|███▍      | 11/32 [00:07<00:13,  1.53it/s][A
+ 38%|███▊      | 12/32 [00:08<00:12,  1.56it/s][A
+ 41%|████      | 13/32 [00:09<00:14,  1.29it/s][A
+ 44%|████▍     | 14/32 [00:09<00:11,  1.51it/s][A
+ 47%|████▋     | 15/32 [00:09<00:10,  1.63it/s][A
+ 50%|█████     | 16/32 [00:10<00:10,  1.55it/s][A
+ 53%|█████▎    | 17/32 [00:11<00:08,  1.68it/s][A
+ 56%|█████▋    | 18/32 [00:11<00:07,  1.85it/s][A
+ 59%|█████▉    | 19/32 [00:12<00:07,  1.78it/s][A
+ 62%|██████▎   | 20/32 [00:12<00:06,  1.74it/s][A
+ 66%|██████▌   | 21/32 [00:13<00:05,  1.91it/s][A
+ 69%|██████▉   | 22/32 [00:13<00:05,  1.90it/s][A
+ 72%|███████▏  | 23/32 [00:14<00:04,  1.94it/s][A
+ 75%|███████▌  | 24/32 [00:14<00:04,  1.83it/s][A
+ 78%|███████▊  | 25/32 [00:15<00:04,  1.65it/s][A
+ 81%|████████▏ | 26/32 [00:16<00:03,  1.83it/s][A
+ 84%|████████▍ | 27/32 [00:17<00:03,  1.40it/s][A
+ 88%|████████▊ | 28/32 [00:17<00:02,  1.59it/s][A
+ 91%|█████████ | 29/32 [00:18<00:02,  1.37it/s][A
+ 94%|█████████▍| 30/32 [00:19<00:01,  1.30it/s][A
+ 97%|█████████▋| 31/32 [00:19<00:00,  1.43it/s][A
+100%|██████████| 32/32 [00:20<00:00,  1.53it/s][A                                                 
+                                               [A 33%|███▎      | 257/771 [16:59<27:52,  3.25s/it]
+100%|██████████| 32/32 [00:20<00:00,  1.53it/s][A
+                                               [A 33%|███▎      | 258/771 [17:09<1:40:12, 11.72s/it] 34%|███▎      | 259/771 [17:12<1:19:33,  9.32s/it] 34%|███▎      | 260/771 [17:16<1:05:13,  7.66s/it]                                                    34%|███▎      | 260/771 [17:16<1:05:13,  7.66s/it] 34%|███▍      | 261/771 [17:20<55:51,  6.57s/it]   34%|███▍      | 262/771 [17:24<48:30,  5.72s/it] 34%|███▍      | 263/771 [17:28<44:02,  5.20s/it] 34%|███▍      | 264/771 [17:32<40:10,  4.75s/it] 34%|███▍      | 265/771 [17:35<37:27,  4.44s/it] 35%|███▍      | 266/771 [17:39<36:17,  4.31s/it] 35%|███▍      | 267/771 [17:43<34:44,  4.14s/it] 35%|███▍      | 268/771 [17:47<33:39,  4.01s/it] 35%|███▍      | 269/771 [17:51<33:38,  4.02s/it] 35%|███▌      | 270/771 [17:55<32:47,  3.93s/it]                                                  35%|███▌      | 270/771 [17:55<32:47,  3.93s/it] 35%|███▌      | 271/771 [17:58<32:14,  3.87s/it] 35%|███▌      | 272/771 [18:02<32:31,  3.91s/it] 35%|███▌      | 273/771 [18:06<31:59,  3.85s/it] 36%|███▌      | 274/771 [18:10<31:36,  3.82s/it] 36%|███▌      | 275/771 [18:14<32:00,  3.87s/it] 36%|███▌      | 276/771 [18:17<31:34,  3.83s/it] 36%|███▌      | 277/771 [18:21<31:14,  3.80s/it] 36%|███▌      | 278/771 [18:25<31:40,  3.86s/it] 36%|███▌      | 279/771 [18:29<31:14,  3.81s/it] 36%|███▋      | 280/771 [18:33<31:38,  3.87s/it]                                                  36%|███▋      | 280/771 [18:33<31:38,  3.87s/it] 36%|███▋      | 281/771 [18:37<31:12,  3.82s/it] 37%|███▋      | 282/771 [18:40<30:58,  3.80s/it] 37%|███▋      | 283/771 [18:44<31:28,  3.87s/it] 37%|███▋      | 284/771 [18:48<31:00,  3.82s/it] 37%|███▋      | 285/771 [18:52<30:47,  3.80s/it] 37%|███▋      | 286/771 [18:56<31:13,  3.86s/it] 37%|███▋      | 287/771 [19:00<30:56,  3.84s/it] 37%|███▋      | 288/771 [19:03<30:35,  3.80s/it] 37%|███▋      | 289/771 [19:08<31:59,  3.98s/it] 38%|███▊      | 290/771 [19:11<31:17,  3.90s/it]                                                  38%|███▊      | 290/771 [19:11<31:17,  3.90s/it] 38%|███▊      | 291/771 [19:15<31:25,  3.93s/it] 38%|███▊      | 292/771 [19:19<30:58,  3.88s/it] 38%|███▊      | 293/771 [19:23<30:33,  3.84s/it] 38%|███▊      | 294/771 [19:27<30:56,  3.89s/it] 38%|███▊      | 295/771 [19:31<30:28,  3.84s/it] 38%|███▊      | 296/771 [19:35<30:26,  3.85s/it] 39%|███▊      | 297/771 [19:39<30:44,  3.89s/it] 39%|███▊      | 298/771 [19:42<30:17,  3.84s/it] 39%|███▉      | 299/771 [19:46<29:55,  3.80s/it] 39%|███▉      | 300/771 [19:50<30:20,  3.87s/it]                                                  39%|███▉      | 300/771 [19:50<30:20,  3.87s/it] 39%|███▉      | 301/771 [19:54<29:57,  3.82s/it] 39%|███▉      | 302/771 [19:57<29:40,  3.80s/it] 39%|███▉      | 303/771 [20:02<30:15,  3.88s/it] 39%|███▉      | 304/771 [20:05<29:49,  3.83s/it] 40%|███▉      | 305/771 [20:09<30:10,  3.88s/it] 40%|███▉      | 306/771 [20:13<29:47,  3.84s/it] 40%|███▉      | 307/771 [20:17<29:25,  3.81s/it] 40%|███▉      | 308/771 [20:21<29:51,  3.87s/it] 40%|████      | 309/771 [20:24<29:31,  3.83s/it] 40%|████      | 310/771 [20:28<29:13,  3.80s/it]                                                  40%|████      | 310/771 [20:28<29:13,  3.80s/it] 40%|████      | 311/771 [20:32<29:36,  3.86s/it] 40%|████      | 312/771 [20:36<29:14,  3.82s/it] 41%|████      | 313/771 [20:40<29:00,  3.80s/it] 41%|████      | 314/771 [20:44<29:22,  3.86s/it] 41%|████      | 315/771 [20:47<29:02,  3.82s/it] 41%|████      | 316/771 [20:51<29:22,  3.87s/it] 41%|████      | 317/771 [20:55<28:57,  3.83s/it] 41%|████      | 318/771 [20:59<28:43,  3.80s/it] 41%|████▏     | 319/771 [21:03<29:07,  3.87s/it] 42%|████▏     | 320/771 [21:07<28:51,  3.84s/it]                                                  42%|████▏     | 320/771 [21:07<28:51,  3.84s/it] 42%|████▏     | 321/771 [21:10<28:31,  3.80s/it] 42%|████▏     | 322/771 [21:14<29:02,  3.88s/it] 42%|████▏     | 323/771 [21:18<28:37,  3.83s/it] 42%|████▏     | 324/771 [21:22<28:22,  3.81s/it] 42%|████▏     | 325/771 [21:26<28:44,  3.87s/it] 42%|████▏     | 326/771 [21:30<28:20,  3.82s/it] 42%|████▏     | 327/771 [21:33<28:01,  3.79s/it] 43%|████▎     | 328/771 [21:37<28:27,  3.85s/it] 43%|████▎     | 329/771 [21:41<28:05,  3.81s/it] 43%|████▎     | 330/771 [21:45<27:50,  3.79s/it]                                                  43%|████▎     | 330/771 [21:45<27:50,  3.79s/it] 43%|████▎     | 331/771 [21:49<28:15,  3.85s/it] 43%|████▎     | 332/771 [21:53<27:56,  3.82s/it] 43%|████▎     | 333/771 [21:57<28:17,  3.87s/it] 43%|████▎     | 334/771 [22:00<27:54,  3.83s/it] 43%|████▎     | 335/771 [22:04<27:34,  3.79s/it] 44%|████▎     | 336/771 [22:08<27:57,  3.86s/it] 44%|████▎     | 337/771 [22:12<27:36,  3.82s/it] 44%|████▍     | 338/771 [22:15<27:20,  3.79s/it] 44%|████▍     | 339/771 [22:19<27:43,  3.85s/it] 44%|████▍     | 340/771 [22:23<27:19,  3.80s/it]                                                  44%|████▍     | 340/771 [22:23<27:19,  3.80s/it] 44%|████▍     | 341/771 [22:27<27:04,  3.78s/it] 44%|████▍     | 342/771 [22:31<27:31,  3.85s/it] 44%|████▍     | 343/771 [22:35<27:10,  3.81s/it] 45%|████▍     | 344/771 [22:39<27:30,  3.87s/it] 45%|████▍     | 345/771 [22:42<27:08,  3.82s/it] 45%|████▍     | 346/771 [22:46<26:56,  3.80s/it] 45%|████▌     | 347/771 [22:50<27:18,  3.87s/it] 45%|████▌     | 348/771 [22:54<26:55,  3.82s/it] 45%|████▌     | 349/771 [22:58<26:45,  3.80s/it] 45%|████▌     | 350/771 [23:02<27:05,  3.86s/it]                                                  45%|████▌     | 350/771 [23:02<27:05,  3.86s/it] 46%|████▌     | 351/771 [23:05<26:42,  3.82s/it] 46%|████▌     | 352/771 [23:09<26:26,  3.79s/it] 46%|████▌     | 353/771 [23:13<26:48,  3.85s/it] 46%|████▌     | 354/771 [23:17<26:29,  3.81s/it] 46%|████▌     | 355/771 [23:20<26:15,  3.79s/it] 46%|████▌     | 356/771 [23:24<26:38,  3.85s/it] 46%|████▋     | 357/771 [23:28<26:26,  3.83s/it] 46%|████▋     | 358/771 [23:32<26:12,  3.81s/it] 47%|████▋     | 359/771 [23:36<26:29,  3.86s/it] 47%|████▋     | 360/771 [23:40<26:05,  3.81s/it]                                                  47%|████▋     | 360/771 [23:40<26:05,  3.81s/it] 47%|████▋     | 361/771 [23:44<26:30,  3.88s/it] 47%|████▋     | 362/771 [23:47<26:09,  3.84s/it] 47%|████▋     | 363/771 [23:51<25:54,  3.81s/it] 47%|████▋     | 364/771 [23:55<26:31,  3.91s/it] 47%|████▋     | 365/771 [23:59<26:04,  3.85s/it] 47%|████▋     | 366/771 [24:03<25:44,  3.81s/it] 48%|████▊     | 367/771 [24:07<26:02,  3.87s/it] 48%|████▊     | 368/771 [24:10<25:40,  3.82s/it] 48%|████▊     | 369/771 [24:14<25:24,  3.79s/it] 48%|████▊     | 370/771 [24:18<25:47,  3.86s/it]                                                  48%|████▊     | 370/771 [24:18<25:47,  3.86s/it] 48%|████▊     | 371/771 [24:22<25:26,  3.82s/it] 48%|████▊     | 372/771 [24:26<25:45,  3.87s/it] 48%|████▊     | 373/771 [24:30<25:26,  3.84s/it] 49%|████▊     | 374/771 [24:33<25:08,  3.80s/it] 49%|████▊     | 375/771 [24:37<25:28,  3.86s/it] 49%|████▉     | 376/771 [24:41<25:08,  3.82s/it] 49%|████▉     | 377/771 [24:45<24:53,  3.79s/it] 49%|████▉     | 378/771 [24:49<25:16,  3.86s/it] 49%|████▉     | 379/771 [24:53<24:56,  3.82s/it] 49%|████▉     | 380/771 [24:56<24:44,  3.80s/it]                                                  49%|████▉     | 380/771 [24:56<24:44,  3.80s/it] 49%|████▉     | 381/771 [25:00<25:04,  3.86s/it] 50%|████▉     | 382/771 [25:04<24:43,  3.81s/it] 50%|████▉     | 383/771 [25:08<24:27,  3.78s/it] 50%|████▉     | 384/771 [25:12<24:48,  3.85s/it] 50%|████▉     | 385/771 [25:15<24:32,  3.82s/it] 50%|█████     | 386/771 [25:19<24:19,  3.79s/it] 50%|█████     | 387/771 [25:23<24:39,  3.85s/it] 50%|█████     | 388/771 [25:27<24:20,  3.81s/it] 50%|█████     | 389/771 [25:31<24:36,  3.87s/it] 51%|█████     | 390/771 [25:35<24:15,  3.82s/it]                                                  51%|█████     | 390/771 [25:35<24:15,  3.82s/it] 51%|█████     | 391/771 [25:38<23:58,  3.79s/it] 51%|█████     | 392/771 [25:42<24:18,  3.85s/it] 51%|█████     | 393/771 [25:46<23:58,  3.81s/it] 51%|█████     | 394/771 [25:50<23:44,  3.78s/it] 51%|█████     | 395/771 [25:54<24:20,  3.88s/it] 51%|█████▏    | 396/771 [25:58<23:58,  3.84s/it] 51%|█████▏    | 397/771 [26:01<23:42,  3.80s/it] 52%|█████▏    | 398/771 [26:05<24:01,  3.86s/it] 52%|█████▏    | 399/771 [26:09<23:42,  3.82s/it] 52%|█████▏    | 400/771 [26:13<24:05,  3.90s/it]                                                  52%|█████▏    | 400/771 [26:13<24:05,  3.90s/it] 52%|█████▏    | 401/771 [26:17<23:45,  3.85s/it] 52%|█████▏    | 402/771 [26:21<23:28,  3.82s/it] 52%|█████▏    | 403/771 [26:25<23:44,  3.87s/it] 52%|█████▏    | 404/771 [26:28<23:23,  3.82s/it] 53%|█████▎    | 405/771 [26:32<23:12,  3.81s/it] 53%|█████▎    | 406/771 [26:36<23:30,  3.87s/it] 53%|█████▎    | 407/771 [26:40<23:10,  3.82s/it] 53%|█████▎    | 408/771 [26:44<22:54,  3.79s/it] 53%|█████▎    | 409/771 [26:47<23:13,  3.85s/it] 53%|█████▎    | 410/771 [26:51<22:55,  3.81s/it]                                                  53%|█████▎    | 410/771 [26:51<22:55,  3.81s/it] 53%|█████▎    | 411/771 [26:55<22:42,  3.78s/it] 53%|█████▎    | 412/771 [26:59<23:01,  3.85s/it] 54%|█████▎    | 413/771 [27:03<22:42,  3.81s/it] 54%|█████▎    | 414/771 [27:06<22:29,  3.78s/it] 54%|█████▍    | 415/771 [27:10<22:48,  3.85s/it] 54%|█████▍    | 416/771 [27:14<22:30,  3.80s/it] 54%|█████▍    | 417/771 [27:18<22:47,  3.86s/it] 54%|█████▍    | 418/771 [27:22<22:27,  3.82s/it] 54%|█████▍    | 419/771 [27:26<22:13,  3.79s/it] 54%|█████▍    | 420/771 [27:30<22:32,  3.85s/it]                                                  54%|█████▍    | 420/771 [27:30<22:32,  3.85s/it] 55%|█████▍    | 421/771 [27:33<22:19,  3.83s/it] 55%|█████▍    | 422/771 [27:37<22:03,  3.79s/it] 55%|█████▍    | 423/771 [27:41<22:21,  3.85s/it] 55%|█████▍    | 424/771 [27:45<22:03,  3.81s/it] 55%|█████▌    | 425/771 [27:48<21:50,  3.79s/it] 55%|█████▌    | 426/771 [27:52<22:09,  3.85s/it] 55%|█████▌    | 427/771 [27:56<21:52,  3.82s/it] 56%|█████▌    | 428/771 [28:00<22:08,  3.87s/it] 56%|█████▌    | 429/771 [28:04<21:48,  3.83s/it] 56%|█████▌    | 430/771 [28:08<21:32,  3.79s/it]                                                  56%|█████▌    | 430/771 [28:08<21:32,  3.79s/it] 56%|█████▌    | 431/771 [28:12<21:51,  3.86s/it] 56%|█████▌    | 432/771 [28:15<21:33,  3.82s/it] 56%|█████▌    | 433/771 [28:19<21:19,  3.79s/it] 56%|█████▋    | 434/771 [28:23<21:36,  3.85s/it] 56%|█████▋    | 435/771 [28:27<21:19,  3.81s/it] 57%|█████▋    | 436/771 [28:30<21:07,  3.78s/it] 57%|█████▋    | 437/771 [28:34<21:26,  3.85s/it] 57%|█████▋    | 438/771 [28:38<21:09,  3.81s/it] 57%|█████▋    | 439/771 [28:42<20:56,  3.79s/it] 57%|█████▋    | 440/771 [28:46<21:14,  3.85s/it]                                                  57%|█████▋    | 440/771 [28:46<21:14,  3.85s/it] 57%|█████▋    | 441/771 [28:50<20:58,  3.81s/it] 57%|█████▋    | 442/771 [28:53<20:46,  3.79s/it] 57%|█████▋    | 443/771 [28:57<21:04,  3.85s/it] 58%|█████▊    | 444/771 [29:01<20:47,  3.81s/it] 58%|█████▊    | 445/771 [29:05<21:02,  3.87s/it] 58%|█████▊    | 446/771 [29:09<20:47,  3.84s/it] 58%|█████▊    | 447/771 [29:13<20:32,  3.80s/it] 58%|█████▊    | 448/771 [29:17<20:48,  3.87s/it] 58%|█████▊    | 449/771 [29:20<20:31,  3.82s/it] 58%|█████▊    | 450/771 [29:24<20:16,  3.79s/it]                                                  58%|█████▊    | 450/771 [29:24<20:16,  3.79s/it] 58%|█████▊    | 451/771 [29:28<20:33,  3.85s/it] 59%|█████▊    | 452/771 [29:32<20:18,  3.82s/it] 59%|█████▉    | 453/771 [29:36<20:03,  3.79s/it] 59%|█████▉    | 454/771 [29:39<20:19,  3.85s/it] 59%|█████▉    | 455/771 [29:43<20:03,  3.81s/it] 59%|█████▉    | 456/771 [29:47<20:19,  3.87s/it] 59%|█████▉    | 457/771 [29:51<20:11,  3.86s/it] 59%|█████▉    | 458/771 [29:55<19:55,  3.82s/it] 60%|█████▉    | 459/771 [29:59<20:08,  3.87s/it] 60%|█████▉    | 460/771 [30:03<19:50,  3.83s/it]                                                  60%|█████▉    | 460/771 [30:03<19:50,  3.83s/it] 60%|█████▉    | 461/771 [30:06<19:36,  3.80s/it] 60%|█████▉    | 462/771 [30:10<19:51,  3.86s/it] 60%|██████    | 463/771 [30:14<19:36,  3.82s/it] 60%|██████    | 464/771 [30:18<19:25,  3.80s/it] 60%|██████    | 465/771 [30:22<19:40,  3.86s/it] 60%|██████    | 466/771 [30:25<19:24,  3.82s/it] 61%|██████    | 467/771 [30:29<19:11,  3.79s/it] 61%|██████    | 468/771 [30:33<19:30,  3.86s/it] 61%|██████    | 469/771 [30:37<19:14,  3.82s/it] 61%|██████    | 470/771 [30:41<19:01,  3.79s/it]                                                  61%|██████    | 470/771 [30:41<19:01,  3.79s/it] 61%|██████    | 471/771 [30:45<19:16,  3.85s/it] 61%|██████    | 472/771 [30:48<19:01,  3.82s/it] 61%|██████▏   | 473/771 [30:52<19:15,  3.88s/it] 61%|██████▏   | 474/771 [30:56<18:56,  3.83s/it] 62%|██████▏   | 475/771 [31:00<18:47,  3.81s/it] 62%|██████▏   | 476/771 [31:04<19:01,  3.87s/it] 62%|██████▏   | 477/771 [31:08<18:44,  3.82s/it] 62%|██████▏   | 478/771 [31:11<18:31,  3.79s/it] 62%|██████▏   | 479/771 [31:15<18:51,  3.88s/it] 62%|██████▏   | 480/771 [31:19<18:35,  3.83s/it]                                                  62%|██████▏   | 480/771 [31:19<18:35,  3.83s/it] 62%|██████▏   | 481/771 [31:23<18:20,  3.80s/it] 63%|██████▎   | 482/771 [31:27<18:37,  3.87s/it] 63%|██████▎   | 483/771 [31:31<18:20,  3.82s/it] 63%|██████▎   | 484/771 [31:35<18:31,  3.87s/it] 63%|██████▎   | 485/771 [31:38<18:14,  3.83s/it] 63%|██████▎   | 486/771 [31:42<18:00,  3.79s/it] 63%|██████▎   | 487/771 [31:46<18:13,  3.85s/it] 63%|██████▎   | 488/771 [31:50<18:03,  3.83s/it] 63%|██████▎   | 489/771 [31:53<17:50,  3.79s/it] 64%|██████▎   | 490/771 [31:57<18:06,  3.87s/it]                                                  64%|██████▎   | 490/771 [31:57<18:06,  3.87s/it] 64%|██████▎   | 491/771 [32:01<17:49,  3.82s/it] 64%|██████▍   | 492/771 [32:05<17:37,  3.79s/it] 64%|██████▍   | 493/771 [32:09<17:53,  3.86s/it] 64%|██████▍   | 494/771 [32:13<17:37,  3.82s/it] 64%|██████▍   | 495/771 [32:16<17:28,  3.80s/it] 64%|██████▍   | 496/771 [32:20<17:42,  3.86s/it] 64%|██████▍   | 497/771 [32:24<17:29,  3.83s/it] 65%|██████▍   | 498/771 [32:28<17:16,  3.80s/it] 65%|██████▍   | 499/771 [32:32<17:29,  3.86s/it] 65%|██████▍   | 500/771 [32:36<17:13,  3.81s/it]                                                  65%|██████▍   | 500/771 [32:36<17:13,  3.81s/it] 65%|██████▍   | 501/771 [32:40<17:29,  3.89s/it] 65%|██████▌   | 502/771 [32:43<17:12,  3.84s/it] 65%|██████▌   | 503/771 [32:47<16:58,  3.80s/it] 65%|██████▌   | 504/771 [32:51<17:12,  3.87s/it] 65%|██████▌   | 505/771 [32:55<16:56,  3.82s/it] 66%|██████▌   | 506/771 [32:59<16:44,  3.79s/it] 66%|██████▌   | 507/771 [33:03<16:57,  3.86s/it] 66%|██████▌   | 508/771 [33:06<16:43,  3.82s/it] 66%|██████▌   | 509/771 [33:10<16:31,  3.78s/it] 66%|██████▌   | 510/771 [33:14<16:46,  3.86s/it]                                                  66%|██████▌   | 510/771 [33:14<16:46,  3.86s/it] 66%|██████▋   | 511/771 [33:18<16:29,  3.81s/it] 66%|██████▋   | 512/771 [33:22<16:50,  3.90s/it] 67%|██████▋   | 513/771 [33:26<16:31,  3.84s/it] 67%|██████▋   | 514/771 [33:27<13:54,  3.25s/it]{'eval_loss': '0.5235', 'eval_runtime': '21.48', 'eval_samples_per_second': '11.92', 'eval_steps_per_second': '1.489', 'eval_mean_token_accuracy': '0.9023', 'epoch': '1'}
+{'loss': '0.481', 'grad_norm': '0.1336', 'learning_rate': '3.32e-05', 'mean_token_accuracy': '0.9169', 'epoch': '1.012'}
+{'loss': '0.4233', 'grad_norm': '0.1381', 'learning_rate': '3.256e-05', 'mean_token_accuracy': '0.9167', 'epoch': '1.051'}
+{'loss': '0.426', 'grad_norm': '0.1405', 'learning_rate': '3.191e-05', 'mean_token_accuracy': '0.9179', 'epoch': '1.09'}
+{'loss': '0.4303', 'grad_norm': '0.1457', 'learning_rate': '3.126e-05', 'mean_token_accuracy': '0.9223', 'epoch': '1.129'}
+{'loss': '0.4657', 'grad_norm': '0.1257', 'learning_rate': '3.061e-05', 'mean_token_accuracy': '0.9132', 'epoch': '1.168'}
+{'loss': '0.4493', 'grad_norm': '0.1325', 'learning_rate': '2.996e-05', 'mean_token_accuracy': '0.9147', 'epoch': '1.207'}
+{'loss': '0.4347', 'grad_norm': '0.1371', 'learning_rate': '2.931e-05', 'mean_token_accuracy': '0.9153', 'epoch': '1.246'}
+{'loss': '0.4332', 'grad_norm': '0.174', 'learning_rate': '2.866e-05', 'mean_token_accuracy': '0.9146', 'epoch': '1.285'}
+{'loss': '0.3775', 'grad_norm': '0.1196', 'learning_rate': '2.802e-05', 'mean_token_accuracy': '0.9306', 'epoch': '1.324'}
+{'loss': '0.4098', 'grad_norm': '0.1475', 'learning_rate': '2.737e-05', 'mean_token_accuracy': '0.9223', 'epoch': '1.363'}
+{'loss': '0.3744', 'grad_norm': '0.1472', 'learning_rate': '2.672e-05', 'mean_token_accuracy': '0.9264', 'epoch': '1.402'}
+{'loss': '0.4172', 'grad_norm': '0.1432', 'learning_rate': '2.607e-05', 'mean_token_accuracy': '0.921', 'epoch': '1.441'}
+{'loss': '0.4468', 'grad_norm': '0.1339', 'learning_rate': '2.542e-05', 'mean_token_accuracy': '0.9123', 'epoch': '1.48'}
+{'loss': '0.3737', 'grad_norm': '0.1422', 'learning_rate': '2.477e-05', 'mean_token_accuracy': '0.9284', 'epoch': '1.519'}
+{'loss': '0.4391', 'grad_norm': '0.1171', 'learning_rate': '2.412e-05', 'mean_token_accuracy': '0.9181', 'epoch': '1.558'}
+{'loss': '0.403', 'grad_norm': '0.152', 'learning_rate': '2.348e-05', 'mean_token_accuracy': '0.9212', 'epoch': '1.596'}
+{'loss': '0.3719', 'grad_norm': '0.153', 'learning_rate': '2.283e-05', 'mean_token_accuracy': '0.9216', 'epoch': '1.635'}
+{'loss': '0.4004', 'grad_norm': '0.1555', 'learning_rate': '2.218e-05', 'mean_token_accuracy': '0.9229', 'epoch': '1.674'}
+{'loss': '0.4136', 'grad_norm': '0.1728', 'learning_rate': '2.153e-05', 'mean_token_accuracy': '0.9195', 'epoch': '1.713'}
+{'loss': '0.4138', 'grad_norm': '0.1606', 'learning_rate': '2.088e-05', 'mean_token_accuracy': '0.9181', 'epoch': '1.752'}
+{'loss': '0.3795', 'grad_norm': '0.1539', 'learning_rate': '2.023e-05', 'mean_token_accuracy': '0.9223', 'epoch': '1.791'}
+{'loss': '0.41', 'grad_norm': '0.1368', 'learning_rate': '1.958e-05', 'mean_token_accuracy': '0.9181', 'epoch': '1.83'}
+{'loss': '0.4404', 'grad_norm': '0.1552', 'learning_rate': '1.894e-05', 'mean_token_accuracy': '0.9134', 'epoch': '1.869'}
+{'loss': '0.4377', 'grad_norm': '0.1517', 'learning_rate': '1.829e-05', 'mean_token_accuracy': '0.9135', 'epoch': '1.908'}
+{'loss': '0.4236', 'grad_norm': '0.2125', 'learning_rate': '1.764e-05', 'mean_token_accuracy': '0.919', 'epoch': '1.947'}
+{'loss': '0.4345', 'grad_norm': '0.1609', 'learning_rate': '1.699e-05', 'mean_token_accuracy': '0.9157', 'epoch': '1.986'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+  6%|▋         | 2/32 [00:00<00:13,  2.29it/s][A
+  9%|▉         | 3/32 [00:01<00:20,  1.40it/s][A
+ 12%|█▎        | 4/32 [00:02<00:22,  1.22it/s][A
+ 16%|█▌        | 5/32 [00:04<00:24,  1.11it/s][A
+ 19%|█▉        | 6/32 [00:04<00:19,  1.33it/s][A
+ 22%|██▏       | 7/32 [00:05<00:16,  1.48it/s][A
+ 25%|██▌       | 8/32 [00:05<00:15,  1.53it/s][A
+ 28%|██▊       | 9/32 [00:06<00:13,  1.74it/s][A
+ 31%|███▏      | 10/32 [00:06<00:12,  1.82it/s][A
+ 34%|███▍      | 11/32 [00:07<00:13,  1.53it/s][A
+ 38%|███▊      | 12/32 [00:08<00:12,  1.56it/s][A
+ 41%|████      | 13/32 [00:09<00:14,  1.30it/s][A
+ 44%|████▍     | 14/32 [00:09<00:11,  1.51it/s][A
+ 47%|████▋     | 15/32 [00:09<00:10,  1.63it/s][A
+ 50%|█████     | 16/32 [00:10<00:10,  1.56it/s][A
+ 53%|█████▎    | 17/32 [00:11<00:08,  1.68it/s][A
+ 56%|█████▋    | 18/32 [00:11<00:07,  1.86it/s][A
+ 59%|█████▉    | 19/32 [00:12<00:07,  1.78it/s][A
+ 62%|██████▎   | 20/32 [00:12<00:06,  1.74it/s][A
+ 66%|██████▌   | 21/32 [00:13<00:05,  1.91it/s][A
+ 69%|██████▉   | 22/32 [00:13<00:05,  1.91it/s][A
+ 72%|███████▏  | 23/32 [00:14<00:04,  1.94it/s][A
+ 75%|███████▌  | 24/32 [00:14<00:04,  1.83it/s][A
+ 78%|███████▊  | 25/32 [00:15<00:04,  1.65it/s][A
+ 81%|████████▏ | 26/32 [00:15<00:03,  1.83it/s][A
+ 84%|████████▍ | 27/32 [00:17<00:03,  1.40it/s][A
+ 88%|████████▊ | 28/32 [00:17<00:02,  1.59it/s][A
+ 91%|█████████ | 29/32 [00:18<00:02,  1.37it/s][A
+ 94%|█████████▍| 30/32 [00:19<00:01,  1.30it/s][A
+ 97%|█████████▋| 31/32 [00:19<00:00,  1.43it/s][A
+100%|██████████| 32/32 [00:20<00:00,  1.53it/s][A                                                 
+                                               [A 67%|██████▋   | 514/771 [33:48<13:54,  3.25s/it]
+100%|██████████| 32/32 [00:20<00:00,  1.53it/s][A
+                                               [A 67%|██████▋   | 515/771 [33:56<46:17, 10.85s/it] 67%|██████▋   | 516/771 [34:00<37:22,  8.80s/it] 67%|██████▋   | 517/771 [34:04<30:46,  7.27s/it] 67%|██████▋   | 518/771 [34:07<26:11,  6.21s/it] 67%|██████▋   | 519/771 [34:12<23:21,  5.56s/it] 67%|██████▋   | 520/771 [34:15<20:57,  5.01s/it]                                                  67%|██████▋   | 520/771 [34:15<20:57,  5.01s/it] 68%|██████▊   | 521/771 [34:19<19:16,  4.63s/it] 68%|██████▊   | 522/771 [34:23<18:25,  4.44s/it] 68%|██████▊   | 523/771 [34:27<17:28,  4.23s/it] 68%|██████▊   | 524/771 [34:31<17:07,  4.16s/it] 68%|██████▊   | 525/771 [34:34<16:30,  4.03s/it] 68%|██████▊   | 526/771 [34:38<16:04,  3.94s/it] 68%|██████▊   | 527/771 [34:42<16:05,  3.96s/it] 68%|██████▊   | 528/771 [34:46<15:44,  3.89s/it] 69%|██████▊   | 529/771 [34:50<15:28,  3.84s/it] 69%|██████▊   | 530/771 [34:54<15:38,  3.89s/it]                                                  69%|██████▊   | 530/771 [34:54<15:38,  3.89s/it] 69%|██████▉   | 531/771 [34:57<15:21,  3.84s/it] 69%|██████▉   | 532/771 [35:01<15:11,  3.81s/it] 69%|██████▉   | 533/771 [35:05<15:20,  3.87s/it] 69%|██████▉   | 534/771 [35:09<15:06,  3.82s/it] 69%|██████▉   | 535/771 [35:13<15:15,  3.88s/it] 70%|██████▉   | 536/771 [35:17<15:00,  3.83s/it] 70%|██████▉   | 537/771 [35:20<14:48,  3.80s/it] 70%|██████▉   | 538/771 [35:24<14:59,  3.86s/it] 70%|██████▉   | 539/771 [35:28<14:48,  3.83s/it] 70%|███████   | 540/771 [35:32<14:37,  3.80s/it]                                                  70%|███████   | 540/771 [35:32<14:37,  3.80s/it] 70%|███████   | 541/771 [35:36<14:48,  3.86s/it] 70%|███████   | 542/771 [35:40<14:40,  3.84s/it] 70%|███████   | 543/771 [35:43<14:28,  3.81s/it] 71%|███████   | 544/771 [35:47<14:37,  3.87s/it] 71%|███████   | 545/771 [35:51<14:24,  3.83s/it] 71%|███████   | 546/771 [35:55<14:13,  3.80s/it] 71%|███████   | 547/771 [35:59<14:25,  3.86s/it] 71%|███████   | 548/771 [36:02<14:11,  3.82s/it] 71%|███████   | 549/771 [36:07<14:24,  3.89s/it] 71%|███████▏  | 550/771 [36:10<14:08,  3.84s/it]                                                  71%|███████▏  | 550/771 [36:10<14:08,  3.84s/it] 71%|███████▏  | 551/771 [36:14<13:57,  3.80s/it] 72%|███████▏  | 552/771 [36:18<14:06,  3.87s/it] 72%|███████▏  | 553/771 [36:22<14:20,  3.95s/it] 72%|███████▏  | 554/771 [36:26<14:01,  3.88s/it] 72%|███████▏  | 555/771 [36:30<14:06,  3.92s/it] 72%|███████▏  | 556/771 [36:34<13:49,  3.86s/it] 72%|███████▏  | 557/771 [36:37<13:39,  3.83s/it] 72%|███████▏  | 558/771 [36:41<13:46,  3.88s/it] 73%|███████▎  | 559/771 [36:45<13:33,  3.84s/it] 73%|███████▎  | 560/771 [36:49<13:40,  3.89s/it]                                                  73%|███████▎  | 560/771 [36:49<13:40,  3.89s/it] 73%|███████▎  | 561/771 [36:53<13:26,  3.84s/it] 73%|███████▎  | 562/771 [36:57<13:15,  3.80s/it] 73%|███████▎  | 563/771 [37:01<13:27,  3.88s/it] 73%|███████▎  | 564/771 [37:04<13:13,  3.83s/it] 73%|███████▎  | 565/771 [37:08<13:04,  3.81s/it] 73%|███████▎  | 566/771 [37:12<13:12,  3.87s/it] 74%|███████▎  | 567/771 [37:16<13:00,  3.83s/it] 74%|███████▎  | 568/771 [37:20<12:53,  3.81s/it] 74%|███████▍  | 569/771 [37:24<13:00,  3.86s/it] 74%|███████▍  | 570/771 [37:27<12:50,  3.83s/it]                                                  74%|███████▍  | 570/771 [37:27<12:50,  3.83s/it] 74%|███████▍  | 571/771 [37:31<12:38,  3.79s/it] 74%|███████▍  | 572/771 [37:35<12:54,  3.89s/it] 74%|███████▍  | 573/771 [37:39<12:40,  3.84s/it] 74%|███████▍  | 574/771 [37:43<12:29,  3.80s/it] 75%|███████▍  | 575/771 [37:47<12:39,  3.87s/it] 75%|███████▍  | 576/771 [37:50<12:26,  3.83s/it] 75%|███████▍  | 577/771 [37:54<12:33,  3.88s/it] 75%|███████▍  | 578/771 [37:58<12:19,  3.83s/it] 75%|███████▌  | 579/771 [38:02<12:08,  3.79s/it] 75%|███████▌  | 580/771 [38:06<12:15,  3.85s/it]                                                  75%|███████▌  | 580/771 [38:06<12:15,  3.85s/it] 75%|███████▌  | 581/771 [38:09<12:04,  3.82s/it] 75%|███████▌  | 582/771 [38:13<11:56,  3.79s/it] 76%|███████▌  | 583/771 [38:17<12:04,  3.86s/it] 76%|███████▌  | 584/771 [38:21<11:52,  3.81s/it] 76%|███████▌  | 585/771 [38:25<11:43,  3.78s/it] 76%|███████▌  | 586/771 [38:29<11:54,  3.86s/it] 76%|███████▌  | 587/771 [38:32<11:44,  3.83s/it] 76%|███████▋  | 588/771 [38:36<11:49,  3.88s/it] 76%|███████▋  | 589/771 [38:40<11:36,  3.83s/it] 77%|███████▋  | 590/771 [38:44<11:26,  3.79s/it]                                                  77%|███████▋  | 590/771 [38:44<11:26,  3.79s/it] 77%|███████▋  | 591/771 [38:48<11:34,  3.86s/it] 77%|███████▋  | 592/771 [38:52<11:23,  3.82s/it] 77%|███████▋  | 593/771 [38:55<11:15,  3.80s/it] 77%|███████▋  | 594/771 [38:59<11:22,  3.86s/it] 77%|███████▋  | 595/771 [39:03<11:13,  3.83s/it] 77%|███████▋  | 596/771 [39:07<11:03,  3.79s/it] 77%|███████▋  | 597/771 [39:11<11:10,  3.85s/it] 78%|███████▊  | 598/771 [39:15<10:59,  3.81s/it] 78%|███████▊  | 599/771 [39:18<10:51,  3.79s/it] 78%|███████▊  | 600/771 [39:22<10:58,  3.85s/it]                                                  78%|███████▊  | 600/771 [39:22<10:58,  3.85s/it] 78%|███████▊  | 601/771 [39:26<10:52,  3.84s/it] 78%|███████▊  | 602/771 [39:30<10:42,  3.80s/it] 78%|███████▊  | 603/771 [39:34<10:49,  3.87s/it] 78%|███████▊  | 604/771 [39:38<10:38,  3.83s/it] 78%|███████▊  | 605/771 [39:42<10:44,  3.88s/it] 79%|███████▊  | 606/771 [39:45<10:32,  3.83s/it] 79%|███████▊  | 607/771 [39:49<10:23,  3.80s/it] 79%|███████▉  | 608/771 [39:53<10:29,  3.86s/it] 79%|███████▉  | 609/771 [39:57<10:21,  3.84s/it] 79%|███████▉  | 610/771 [40:00<10:12,  3.81s/it]                                                  79%|███████▉  | 610/771 [40:00<10:12,  3.81s/it] 79%|███████▉  | 611/771 [40:04<10:18,  3.87s/it] 79%|███████▉  | 612/771 [40:08<10:07,  3.82s/it] 80%|███████▉  | 613/771 [40:12<09:57,  3.78s/it] 80%|███████▉  | 614/771 [40:16<10:04,  3.85s/it] 80%|███████▉  | 615/771 [40:20<09:54,  3.81s/it] 80%|███████▉  | 616/771 [40:24<10:00,  3.87s/it] 80%|████████  | 617/771 [40:27<09:55,  3.87s/it] 80%|████████  | 618/771 [40:31<09:44,  3.82s/it] 80%|████████  | 619/771 [40:35<09:49,  3.88s/it] 80%|████████  | 620/771 [40:39<09:38,  3.83s/it]                                                  80%|████████  | 620/771 [40:39<09:38,  3.83s/it] 81%|████████  | 621/771 [40:43<09:29,  3.80s/it] 81%|████████  | 622/771 [40:47<09:37,  3.88s/it] 81%|████████  | 623/771 [40:50<09:26,  3.83s/it] 81%|████████  | 624/771 [40:54<09:18,  3.80s/it] 81%|████████  | 625/771 [40:58<09:23,  3.86s/it] 81%|████████  | 626/771 [41:02<09:13,  3.82s/it] 81%|████████▏ | 627/771 [41:06<09:08,  3.81s/it] 81%|████████▏ | 628/771 [41:10<09:12,  3.86s/it] 82%|████████▏ | 629/771 [41:13<09:02,  3.82s/it] 82%|████████▏ | 630/771 [41:17<08:54,  3.79s/it]                                                  82%|████████▏ | 630/771 [41:17<08:54,  3.79s/it] 82%|████████▏ | 631/771 [41:21<09:00,  3.86s/it] 82%|████████▏ | 632/771 [41:25<08:50,  3.82s/it] 82%|████████▏ | 633/771 [41:29<08:55,  3.88s/it] 82%|████████▏ | 634/771 [41:33<08:44,  3.83s/it] 82%|████████▏ | 635/771 [41:36<08:36,  3.79s/it] 82%|████████▏ | 636/771 [41:40<08:42,  3.87s/it] 83%|████████▎ | 637/771 [41:44<08:31,  3.82s/it] 83%|████████▎ | 638/771 [41:48<08:24,  3.79s/it] 83%|████████▎ | 639/771 [41:52<08:29,  3.86s/it] 83%|████████▎ | 640/771 [41:56<08:19,  3.82s/it]                                                  83%|████████▎ | 640/771 [41:56<08:19,  3.82s/it] 83%|████████▎ | 641/771 [41:59<08:12,  3.79s/it] 83%|████████▎ | 642/771 [42:03<08:16,  3.85s/it] 83%|████████▎ | 643/771 [42:07<08:08,  3.82s/it] 84%|████████▎ | 644/771 [42:11<08:16,  3.91s/it] 84%|████████▎ | 645/771 [42:15<08:05,  3.85s/it] 84%|████████▍ | 646/771 [42:19<07:56,  3.82s/it] 84%|████████▍ | 647/771 [42:23<08:00,  3.88s/it] 84%|████████▍ | 648/771 [42:26<07:52,  3.84s/it] 84%|████████▍ | 649/771 [42:30<07:44,  3.81s/it] 84%|████████▍ | 650/771 [42:34<07:53,  3.91s/it]                                                  84%|████████▍ | 650/771 [42:34<07:53,  3.91s/it] 84%|████████▍ | 651/771 [42:38<07:42,  3.86s/it] 85%|████████▍ | 652/771 [42:42<07:35,  3.82s/it] 85%|████████▍ | 653/771 [42:46<07:37,  3.88s/it] 85%|████████▍ | 654/771 [42:49<07:28,  3.83s/it] 85%|████████▍ | 655/771 [42:53<07:23,  3.82s/it] 85%|████████▌ | 656/771 [42:57<07:27,  3.89s/it] 85%|████████▌ | 657/771 [43:01<07:17,  3.84s/it] 85%|████████▌ | 658/771 [43:05<07:10,  3.81s/it] 85%|████████▌ | 659/771 [43:09<07:13,  3.87s/it] 86%|████████▌ | 660/771 [43:12<07:05,  3.83s/it]                                                  86%|████████▌ | 660/771 [43:12<07:05,  3.83s/it] 86%|████████▌ | 661/771 [43:16<07:07,  3.89s/it] 86%|████████▌ | 662/771 [43:20<06:58,  3.84s/it] 86%|████████▌ | 663/771 [43:24<06:51,  3.81s/it] 86%|████████▌ | 664/771 [43:28<06:53,  3.87s/it] 86%|████████▋ | 665/771 [43:32<06:44,  3.82s/it] 86%|████████▋ | 666/771 [43:35<06:37,  3.79s/it] 87%|████████▋ | 667/771 [43:39<06:40,  3.85s/it] 87%|████████▋ | 668/771 [43:43<06:32,  3.81s/it] 87%|████████▋ | 669/771 [43:47<06:25,  3.78s/it] 87%|████████▋ | 670/771 [43:51<06:28,  3.85s/it]                                                  87%|████████▋ | 670/771 [43:51<06:28,  3.85s/it] 87%|████████▋ | 671/771 [43:55<06:20,  3.81s/it] 87%|████████▋ | 672/771 [43:59<06:22,  3.87s/it] 87%|████████▋ | 673/771 [44:02<06:14,  3.82s/it] 87%|████████▋ | 674/771 [44:06<06:08,  3.80s/it] 88%|████████▊ | 675/771 [44:10<06:10,  3.86s/it] 88%|████████▊ | 676/771 [44:14<06:03,  3.82s/it] 88%|████████▊ | 677/771 [44:17<05:56,  3.79s/it] 88%|████████▊ | 678/771 [44:21<05:58,  3.86s/it] 88%|████████▊ | 679/771 [44:25<05:50,  3.81s/it] 88%|████████▊ | 680/771 [44:29<05:44,  3.78s/it]                                                  88%|████████▊ | 680/771 [44:29<05:44,  3.78s/it] 88%|████████▊ | 681/771 [44:33<05:46,  3.85s/it] 88%|████████▊ | 682/771 [44:37<05:39,  3.81s/it] 89%|████████▊ | 683/771 [44:40<05:33,  3.79s/it] 89%|████████▊ | 684/771 [44:44<05:35,  3.85s/it] 89%|████████▉ | 685/771 [44:48<05:28,  3.82s/it] 89%|████████▉ | 686/771 [44:52<05:23,  3.80s/it] 89%|████████▉ | 687/771 [44:56<05:24,  3.87s/it] 89%|████████▉ | 688/771 [45:00<05:17,  3.82s/it] 89%|████████▉ | 689/771 [45:04<05:18,  3.88s/it] 89%|████████▉ | 690/771 [45:07<05:10,  3.83s/it]                                                  89%|████████▉ | 690/771 [45:07<05:10,  3.83s/it] 90%|████████▉ | 691/771 [45:11<05:04,  3.80s/it] 90%|████████▉ | 692/771 [45:15<05:04,  3.86s/it] 90%|████████▉ | 693/771 [45:19<04:58,  3.82s/it] 90%|█████████ | 694/771 [45:22<04:51,  3.79s/it] 90%|█████████ | 695/771 [45:26<04:52,  3.85s/it] 90%|█████████ | 696/771 [45:30<04:45,  3.81s/it] 90%|█████████ | 697/771 [45:34<04:39,  3.78s/it] 91%|█████████ | 698/771 [45:38<04:40,  3.85s/it] 91%|█████████ | 699/771 [45:42<04:34,  3.81s/it] 91%|█████████ | 700/771 [45:46<04:34,  3.87s/it]                                                  91%|█████████ | 700/771 [45:46<04:34,  3.87s/it] 91%|█████████ | 701/771 [45:49<04:27,  3.83s/it] 91%|█████████ | 702/771 [45:53<04:21,  3.80s/it] 91%|█████████ | 703/771 [45:57<04:22,  3.86s/it] 91%|█████████▏| 704/771 [46:01<04:16,  3.83s/it] 91%|█████████▏| 705/771 [46:05<04:10,  3.79s/it] 92%|█████████▏| 706/771 [46:09<04:10,  3.86s/it] 92%|█████████▏| 707/771 [46:12<04:04,  3.82s/it] 92%|█████████▏| 708/771 [46:16<03:58,  3.79s/it] 92%|█████████▏| 709/771 [46:20<03:58,  3.85s/it] 92%|█████████▏| 710/771 [46:24<03:52,  3.81s/it]                                                  92%|█████████▏| 710/771 [46:24<03:52,  3.81s/it] 92%|█████████▏| 711/771 [46:27<03:47,  3.79s/it] 92%|█████████▏| 712/771 [46:31<03:47,  3.85s/it] 92%|█████████▏| 713/771 [46:35<03:41,  3.82s/it] 93%|█████████▎| 714/771 [46:39<03:36,  3.79s/it] 93%|█████████▎| 715/771 [46:43<03:35,  3.85s/it] 93%|█████████▎| 716/771 [46:47<03:29,  3.81s/it] 93%|█████████▎| 717/771 [46:51<03:29,  3.88s/it] 93%|█████████▎| 718/771 [46:54<03:23,  3.83s/it] 93%|█████████▎| 719/771 [46:58<03:17,  3.80s/it] 93%|█████████▎| 720/771 [47:02<03:16,  3.86s/it]                                                  93%|█████████▎| 720/771 [47:02<03:16,  3.86s/it] 94%|█████████▎| 721/771 [47:06<03:11,  3.82s/it] 94%|█████████▎| 722/771 [47:10<03:05,  3.79s/it] 94%|█████████▍| 723/771 [47:14<03:05,  3.86s/it] 94%|█████████▍| 724/771 [47:17<02:59,  3.82s/it] 94%|█████████▍| 725/771 [47:21<02:54,  3.79s/it] 94%|█████████▍| 726/771 [47:25<02:53,  3.86s/it] 94%|█████████▍| 727/771 [47:29<02:47,  3.81s/it] 94%|█████████▍| 728/771 [47:33<02:46,  3.87s/it] 95%|█████████▍| 729/771 [47:37<02:40,  3.83s/it] 95%|█████████▍| 730/771 [47:40<02:35,  3.79s/it]                                                  95%|█████████▍| 730/771 [47:40<02:35,  3.79s/it] 95%|█████████▍| 731/771 [47:44<02:34,  3.87s/it] 95%|█████████▍| 732/771 [47:48<02:29,  3.83s/it] 95%|█████████▌| 733/771 [47:52<02:25,  3.83s/it] 95%|█████████▌| 734/771 [47:56<02:23,  3.88s/it] 95%|█████████▌| 735/771 [48:00<02:17,  3.83s/it] 95%|█████████▌| 736/771 [48:03<02:13,  3.81s/it] 96%|█████████▌| 737/771 [48:07<02:11,  3.88s/it] 96%|█████████▌| 738/771 [48:11<02:06,  3.84s/it] 96%|█████████▌| 739/771 [48:15<02:01,  3.80s/it] 96%|█████████▌| 740/771 [48:19<01:59,  3.86s/it]                                                  96%|█████████▌| 740/771 [48:19<01:59,  3.86s/it] 96%|█████████▌| 741/771 [48:23<01:54,  3.82s/it] 96%|█████████▌| 742/771 [48:26<01:49,  3.79s/it] 96%|█████████▋| 743/771 [48:30<01:47,  3.86s/it] 96%|█████████▋| 744/771 [48:34<01:43,  3.82s/it] 97%|█████████▋| 745/771 [48:38<01:40,  3.87s/it] 97%|█████████▋| 746/771 [48:42<01:35,  3.83s/it] 97%|█████████▋| 747/771 [48:45<01:31,  3.80s/it] 97%|█████████▋| 748/771 [48:49<01:28,  3.86s/it] 97%|█████████▋| 749/771 [48:53<01:23,  3.82s/it] 97%|█████████▋| 750/771 [48:57<01:19,  3.79s/it]                                                  97%|█████████▋| 750/771 [48:57<01:19,  3.79s/it] 97%|█████████▋| 751/771 [49:01<01:17,  3.86s/it] 98%|█████████▊| 752/771 [49:05<01:12,  3.82s/it] 98%|█████████▊| 753/771 [49:08<01:08,  3.79s/it] 98%|█████████▊| 754/771 [49:12<01:05,  3.85s/it] 98%|█████████▊| 755/771 [49:16<01:01,  3.83s/it] 98%|█████████▊| 756/771 [49:20<00:58,  3.88s/it] 98%|█████████▊| 757/771 [49:24<00:53,  3.83s/it] 98%|█████████▊| 758/771 [49:28<00:49,  3.80s/it] 98%|█████████▊| 759/771 [49:32<00:46,  3.86s/it] 99%|█████████▊| 760/771 [49:35<00:42,  3.82s/it]                                                  99%|█████████▊| 760/771 [49:35<00:42,  3.82s/it] 99%|█████████▊| 761/771 [49:39<00:37,  3.79s/it] 99%|█████████▉| 762/771 [49:43<00:34,  3.85s/it] 99%|█████████▉| 763/771 [49:47<00:30,  3.84s/it] 99%|█████████▉| 764/771 [49:51<00:26,  3.81s/it] 99%|█████████▉| 765/771 [49:55<00:23,  3.89s/it] 99%|█████████▉| 766/771 [49:58<00:19,  3.84s/it] 99%|█████████▉| 767/771 [50:02<00:15,  3.81s/it]100%|█████████▉| 768/771 [50:06<00:11,  3.87s/it]100%|█████████▉| 769/771 [50:10<00:07,  3.83s/it]100%|█████████▉| 770/771 [50:14<00:03,  3.79s/it]                                                 100%|█████████▉| 770/771 [50:14<00:03,  3.79s/it]100%|██████████| 771/771 [50:16<00:00,  3.30s/it]{'eval_loss': '0.4909', 'eval_runtime': '20.98', 'eval_samples_per_second': '12.2', 'eval_steps_per_second': '1.525', 'eval_mean_token_accuracy': '0.9119', 'epoch': '2'}
+{'loss': '0.3309', 'grad_norm': '0.1594', 'learning_rate': '1.634e-05', 'mean_token_accuracy': '0.935', 'epoch': '2.023'}
+{'loss': '0.3461', 'grad_norm': '0.1633', 'learning_rate': '1.569e-05', 'mean_token_accuracy': '0.9259', 'epoch': '2.062'}
+{'loss': '0.3495', 'grad_norm': '0.1626', 'learning_rate': '1.505e-05', 'mean_token_accuracy': '0.932', 'epoch': '2.101'}
+{'loss': '0.3645', 'grad_norm': '0.1859', 'learning_rate': '1.44e-05', 'mean_token_accuracy': '0.9242', 'epoch': '2.14'}
+{'loss': '0.3674', 'grad_norm': '0.1972', 'learning_rate': '1.375e-05', 'mean_token_accuracy': '0.9242', 'epoch': '2.179'}
+{'loss': '0.3677', 'grad_norm': '0.1688', 'learning_rate': '1.31e-05', 'mean_token_accuracy': '0.9264', 'epoch': '2.218'}
+{'loss': '0.3457', 'grad_norm': '0.1704', 'learning_rate': '1.245e-05', 'mean_token_accuracy': '0.9304', 'epoch': '2.257'}
+{'loss': '0.3517', 'grad_norm': '0.158', 'learning_rate': '1.18e-05', 'mean_token_accuracy': '0.9311', 'epoch': '2.296'}
+{'loss': '0.3378', 'grad_norm': '0.1563', 'learning_rate': '1.115e-05', 'mean_token_accuracy': '0.9294', 'epoch': '2.335'}
+{'loss': '0.3048', 'grad_norm': '0.1992', 'learning_rate': '1.051e-05', 'mean_token_accuracy': '0.9389', 'epoch': '2.374'}
+{'loss': '0.3506', 'grad_norm': '0.1579', 'learning_rate': '9.857e-06', 'mean_token_accuracy': '0.9295', 'epoch': '2.413'}
+{'loss': '0.3598', 'grad_norm': '0.1783', 'learning_rate': '9.209e-06', 'mean_token_accuracy': '0.9252', 'epoch': '2.452'}
+{'loss': '0.3676', 'grad_norm': '0.2054', 'learning_rate': '8.56e-06', 'mean_token_accuracy': '0.9247', 'epoch': '2.491'}
+{'loss': '0.3835', 'grad_norm': '0.1609', 'learning_rate': '7.912e-06', 'mean_token_accuracy': '0.9256', 'epoch': '2.53'}
+{'loss': '0.3632', 'grad_norm': '0.1723', 'learning_rate': '7.263e-06', 'mean_token_accuracy': '0.9274', 'epoch': '2.569'}
+{'loss': '0.3241', 'grad_norm': '0.1885', 'learning_rate': '6.615e-06', 'mean_token_accuracy': '0.9335', 'epoch': '2.608'}
+{'loss': '0.3281', 'grad_norm': '0.1665', 'learning_rate': '5.966e-06', 'mean_token_accuracy': '0.9336', 'epoch': '2.647'}
+{'loss': '0.3481', 'grad_norm': '0.1729', 'learning_rate': '5.318e-06', 'mean_token_accuracy': '0.9274', 'epoch': '2.686'}
+{'loss': '0.3204', 'grad_norm': '0.1843', 'learning_rate': '4.669e-06', 'mean_token_accuracy': '0.9336', 'epoch': '2.725'}
+{'loss': '0.325', 'grad_norm': '0.1754', 'learning_rate': '4.021e-06', 'mean_token_accuracy': '0.9321', 'epoch': '2.764'}
+{'loss': '0.3275', 'grad_norm': '0.1654', 'learning_rate': '3.372e-06', 'mean_token_accuracy': '0.9364', 'epoch': '2.803'}
+{'loss': '0.2911', 'grad_norm': '0.1649', 'learning_rate': '2.724e-06', 'mean_token_accuracy': '0.9388', 'epoch': '2.842'}
+{'loss': '0.3802', 'grad_norm': '0.1553', 'learning_rate': '2.075e-06', 'mean_token_accuracy': '0.9266', 'epoch': '2.881'}
+{'loss': '0.3329', 'grad_norm': '0.189', 'learning_rate': '1.427e-06', 'mean_token_accuracy': '0.9324', 'epoch': '2.92'}
+{'loss': '0.3632', 'grad_norm': '0.2066', 'learning_rate': '7.782e-07', 'mean_token_accuracy': '0.9253', 'epoch': '2.959'}
+{'loss': '0.3814', 'grad_norm': '0.1971', 'learning_rate': '1.297e-07', 'mean_token_accuracy': '0.9254', 'epoch': '2.998'}
+
+  0%|          | 0/32 [00:00<?, ?it/s][A
+  6%|▋         | 2/32 [00:00<00:13,  2.29it/s][A
+  9%|▉         | 3/32 [00:01<00:20,  1.39it/s][A
+ 12%|█▎        | 4/32 [00:02<00:22,  1.22it/s][A
+ 16%|█▌        | 5/32 [00:04<00:24,  1.11it/s][A
+ 19%|█▉        | 6/32 [00:04<00:19,  1.33it/s][A
+ 22%|██▏       | 7/32 [00:05<00:16,  1.47it/s][A
+ 25%|██▌       | 8/32 [00:05<00:15,  1.53it/s][A
+ 28%|██▊       | 9/32 [00:06<00:13,  1.74it/s][A
+ 31%|███▏      | 10/32 [00:06<00:12,  1.82it/s][A
+ 34%|███▍      | 11/32 [00:07<00:13,  1.53it/s][A
+ 38%|███▊      | 12/32 [00:08<00:12,  1.56it/s][A
+ 41%|████      | 13/32 [00:09<00:14,  1.29it/s][A
+ 44%|████▍     | 14/32 [00:09<00:11,  1.51it/s][A
+ 47%|████▋     | 15/32 [00:09<00:10,  1.63it/s][A
+ 50%|█████     | 16/32 [00:10<00:10,  1.55it/s][A
+ 53%|█████▎    | 17/32 [00:11<00:08,  1.67it/s][A
+ 56%|█████▋    | 18/32 [00:11<00:07,  1.85it/s][A
+ 59%|█████▉    | 19/32 [00:12<00:07,  1.78it/s][A
+ 62%|██████▎   | 20/32 [00:12<00:06,  1.74it/s][A
+ 66%|██████▌   | 21/32 [00:13<00:05,  1.91it/s][A
+ 69%|██████▉   | 22/32 [00:13<00:05,  1.90it/s][A
+ 72%|███████▏  | 23/32 [00:14<00:04,  1.94it/s][A
+ 75%|███████▌  | 24/32 [00:14<00:04,  1.83it/s][A
+ 78%|███████▊  | 25/32 [00:15<00:04,  1.65it/s][A
+ 81%|████████▏ | 26/32 [00:16<00:03,  1.83it/s][A
+ 84%|████████▍ | 27/32 [00:17<00:03,  1.40it/s][A
+ 88%|████████▊ | 28/32 [00:17<00:02,  1.59it/s][A
+ 91%|█████████ | 29/32 [00:18<00:02,  1.37it/s][A
+ 94%|█████████▍| 30/32 [00:19<00:01,  1.30it/s][A
+ 97%|█████████▋| 31/32 [00:19<00:00,  1.43it/s][A
+100%|██████████| 32/32 [00:20<00:00,  1.53it/s][A                                                 
+                                               [A100%|██████████| 771/771 [50:37<00:00,  3.30s/it]
+100%|██████████| 32/32 [00:20<00:00,  1.53it/s][A
+                                               [A                                                 100%|██████████| 771/771 [50:41<00:00,  3.30s/it]100%|██████████| 771/771 [50:41<00:00,  3.95s/it]
+{'eval_loss': '0.4903', 'eval_runtime': '21.02', 'eval_samples_per_second': '12.18', 'eval_steps_per_second': '1.522', 'eval_mean_token_accuracy': '0.9045', 'epoch': '3'}
+{'train_runtime': '3042', 'train_samples_per_second': '2.024', 'train_steps_per_second': '0.253', 'train_loss': '0.4647', 'epoch': '3'}
+Adapter would be saved to: /ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_V2_confmatrix
+Iniciando inferencia en el set de test...
+  0%|          | 0/258 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  0%|          | 1/258 [00:12<54:08, 12.64s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  1%|          | 2/258 [00:20<41:54,  9.82s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  1%|          | 3/258 [00:25<32:46,  7.71s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  2%|▏         | 4/258 [00:30<28:19,  6.69s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  2%|▏         | 5/258 [00:36<26:06,  6.19s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  2%|▏         | 6/258 [00:44<28:31,  6.79s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  3%|▎         | 7/258 [01:30<1:23:05, 19.86s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  3%|▎         | 8/258 [01:34<1:01:45, 14.82s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  3%|▎         | 9/258 [01:40<49:10, 11.85s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  4%|▍         | 10/258 [02:26<1:33:33, 22.64s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  4%|▍         | 11/258 [02:36<1:16:45, 18.65s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  5%|▍         | 12/258 [02:42<1:00:08, 14.67s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  5%|▌         | 13/258 [02:47<47:51, 11.72s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  5%|▌         | 14/258 [02:54<42:07, 10.36s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  6%|▌         | 15/258 [02:58<33:53,  8.37s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  6%|▌         | 16/258 [03:01<28:21,  7.03s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  7%|▋         | 17/258 [03:05<24:17,  6.05s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  7%|▋         | 18/258 [03:25<40:38, 10.16s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  7%|▋         | 19/258 [03:30<34:53,  8.76s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  8%|▊         | 20/258 [04:18<1:20:20, 20.25s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  8%|▊         | 21/258 [05:04<1:51:22, 28.20s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  9%|▊         | 22/258 [05:08<1:22:03, 20.86s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  9%|▉         | 23/258 [05:15<1:05:54, 16.83s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+  9%|▉         | 24/258 [05:24<55:29, 14.23s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 10%|▉         | 25/258 [05:33<50:05, 12.90s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 10%|█         | 26/258 [05:37<39:22, 10.18s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 10%|█         | 27/258 [05:48<39:34, 10.28s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 11%|█         | 28/258 [05:56<37:09,  9.69s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 11%|█         | 29/258 [06:43<1:19:26, 20.81s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 12%|█▏        | 30/258 [07:30<1:48:40, 28.60s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 12%|█▏        | 31/258 [07:34<1:20:12, 21.20s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 12%|█▏        | 32/258 [07:41<1:03:52, 16.96s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 13%|█▎        | 33/258 [07:49<53:58, 14.39s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 13%|█▎        | 34/258 [08:36<1:29:56, 24.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 14%|█▎        | 35/258 [08:45<1:13:29, 19.77s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 14%|█▍        | 36/258 [08:50<56:47, 15.35s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 14%|█▍        | 37/258 [08:56<45:25, 12.33s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 15%|█▍        | 38/258 [09:42<1:23:04, 22.66s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 15%|█▌        | 39/258 [10:10<1:28:04, 24.13s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 16%|█▌        | 40/258 [10:15<1:07:09, 18.48s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 16%|█▌        | 41/258 [11:02<1:37:32, 26.97s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 16%|█▋        | 42/258 [11:06<1:12:02, 20.01s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 17%|█▋        | 43/258 [11:14<58:57, 16.45s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 17%|█▋        | 44/258 [11:20<46:56, 13.16s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 17%|█▋        | 45/258 [11:23<36:53, 10.39s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 18%|█▊        | 46/258 [12:10<1:15:12, 21.29s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 18%|█▊        | 47/258 [12:57<1:41:40, 28.91s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 19%|█▊        | 48/258 [13:44<2:00:07, 34.32s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 19%|█▉        | 49/258 [13:52<1:31:54, 26.39s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 19%|█▉        | 50/258 [14:03<1:16:15, 22.00s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 20%|█▉        | 51/258 [14:50<1:41:34, 29.44s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 20%|██        | 52/258 [14:58<1:18:23, 22.83s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 21%|██        | 53/258 [15:44<1:42:32, 30.01s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 21%|██        | 54/258 [15:51<1:18:14, 23.01s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 21%|██▏       | 55/258 [15:59<1:02:34, 18.49s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 22%|██▏       | 56/258 [16:04<48:28, 14.40s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 22%|██▏       | 57/258 [16:12<42:23, 12.66s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 22%|██▏       | 58/258 [16:16<33:27, 10.04s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 23%|██▎       | 59/258 [16:22<28:29,  8.59s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 23%|██▎       | 60/258 [16:25<23:33,  7.14s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 24%|██▎       | 61/258 [16:30<20:32,  6.26s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 24%|██▍       | 62/258 [16:57<41:25, 12.68s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 24%|██▍       | 63/258 [17:17<48:31, 14.93s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 25%|██▍       | 64/258 [17:44<59:34, 18.42s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 25%|██▌       | 65/258 [18:31<1:26:32, 26.90s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 26%|██▌       | 66/258 [18:40<1:09:03, 21.58s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 26%|██▌       | 67/258 [19:27<1:32:54, 29.18s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 26%|██▋       | 68/258 [20:14<1:49:07, 34.46s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 27%|██▋       | 69/258 [20:17<1:19:41, 25.30s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 27%|██▋       | 70/258 [20:23<1:00:18, 19.25s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 28%|██▊       | 71/258 [20:47<1:04:32, 20.71s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 28%|██▊       | 72/258 [20:51<48:36, 15.68s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 28%|██▊       | 73/258 [20:54<37:18, 12.10s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 29%|██▊       | 74/258 [20:58<29:25,  9.60s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 29%|██▉       | 75/258 [21:10<31:00, 10.17s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 29%|██▉       | 76/258 [21:30<40:08, 13.23s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 30%|██▉       | 77/258 [21:34<31:49, 10.55s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 30%|███       | 78/258 [21:40<27:01,  9.01s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 31%|███       | 79/258 [22:26<1:00:34, 20.30s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 31%|███       | 80/258 [22:30<45:25, 15.31s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 31%|███▏      | 81/258 [22:34<34:56, 11.84s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 32%|███▏      | 82/258 [23:21<1:05:25, 22.30s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 32%|███▏      | 83/258 [23:29<53:07, 18.21s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 33%|███▎      | 84/258 [24:16<1:17:41, 26.79s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 33%|███▎      | 85/258 [24:24<1:00:34, 21.01s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 33%|███▎      | 86/258 [25:10<1:22:23, 28.74s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 34%|███▎      | 87/258 [25:19<1:04:51, 22.76s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 34%|███▍      | 88/258 [25:23<48:18, 17.05s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 34%|███▍      | 89/258 [26:10<1:13:11, 25.99s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 35%|███▍      | 90/258 [26:56<1:30:14, 32.23s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 35%|███▌      | 91/258 [27:43<1:41:47, 36.57s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 36%|███▌      | 92/258 [28:30<1:49:35, 39.61s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 36%|███▌      | 93/258 [28:36<1:21:05, 29.49s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 36%|███▋      | 94/258 [29:22<1:34:42, 34.65s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 37%|███▋      | 95/258 [29:31<1:12:44, 26.78s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 37%|███▋      | 96/258 [30:18<1:28:27, 32.76s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 38%|███▊      | 97/258 [31:04<1:39:09, 36.96s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 38%|███▊      | 98/258 [31:09<1:12:56, 27.35s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 38%|███▊      | 99/258 [31:19<58:22, 22.03s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 39%|███▉      | 100/258 [32:06<1:17:31, 29.44s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 39%|███▉      | 101/258 [32:10<57:04, 21.81s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 40%|███▉      | 102/258 [32:13<42:37, 16.39s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 40%|███▉      | 103/258 [32:18<33:32, 12.98s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 40%|████      | 104/258 [33:05<59:17, 23.10s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 41%|████      | 105/258 [33:10<45:22, 17.79s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 41%|████      | 106/258 [33:57<1:07:04, 26.48s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 41%|████▏     | 107/258 [34:01<49:28, 19.66s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 42%|████▏     | 108/258 [34:05<37:13, 14.89s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 42%|████▏     | 109/258 [34:52<1:00:44, 24.46s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 43%|████▎     | 110/258 [34:57<46:01, 18.66s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 43%|████▎     | 111/258 [35:43<1:06:22, 27.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 43%|████▎     | 112/258 [35:55<54:56, 22.58s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 44%|████▍     | 113/258 [36:08<47:23, 19.61s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 44%|████▍     | 114/258 [36:26<45:50, 19.10s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 45%|████▍     | 115/258 [36:34<37:37, 15.79s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 45%|████▍     | 116/258 [36:44<33:03, 13.97s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 45%|████▌     | 117/258 [36:51<28:00, 11.92s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 46%|████▌     | 118/258 [37:38<52:13, 22.38s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 46%|████▌     | 119/258 [37:42<38:54, 16.80s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 47%|████▋     | 120/258 [38:28<59:17, 25.78s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 47%|████▋     | 121/258 [38:32<43:46, 19.18s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 47%|████▋     | 122/258 [38:39<35:08, 15.51s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 48%|████▊     | 123/258 [38:47<29:40, 13.19s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 48%|████▊     | 124/258 [38:52<23:55, 10.71s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 48%|████▊     | 125/258 [38:59<21:28,  9.69s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 49%|████▉     | 126/258 [39:32<36:41, 16.67s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 49%|████▉     | 127/258 [40:00<43:52, 20.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 50%|████▉     | 128/258 [40:47<1:00:52, 28.10s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 50%|█████     | 129/258 [40:55<47:45, 22.22s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 50%|█████     | 130/258 [41:01<36:30, 17.11s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 51%|█████     | 131/258 [41:07<29:39, 14.01s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 51%|█████     | 132/258 [41:54<50:00, 23.82s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 52%|█████▏    | 133/258 [42:15<48:02, 23.06s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 52%|█████▏    | 134/258 [43:02<1:02:20, 30.17s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 52%|█████▏    | 135/258 [43:16<51:50, 25.29s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 53%|█████▎    | 136/258 [44:03<1:04:32, 31.74s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 53%|█████▎    | 137/258 [44:08<47:57, 23.78s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 53%|█████▎    | 138/258 [44:18<39:28, 19.74s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 54%|█████▍    | 139/258 [44:24<30:42, 15.48s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 54%|█████▍    | 140/258 [44:30<25:11, 12.81s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 55%|█████▍    | 141/258 [45:18<45:07, 23.14s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 55%|█████▌    | 142/258 [46:05<58:30, 30.26s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 55%|█████▌    | 143/258 [46:11<44:26, 23.19s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 56%|█████▌    | 144/258 [46:58<57:29, 30.26s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 56%|█████▌    | 145/258 [47:45<1:06:18, 35.21s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 57%|█████▋    | 146/258 [47:49<48:12, 25.83s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 57%|█████▋    | 147/258 [48:08<44:22, 23.99s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 57%|█████▋    | 148/258 [48:28<41:49, 22.81s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 58%|█████▊    | 149/258 [48:39<34:33, 19.02s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 58%|█████▊    | 150/258 [49:25<49:10, 27.32s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 59%|█████▊    | 151/258 [50:12<59:06, 33.14s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 59%|█████▉    | 152/258 [50:18<44:02, 24.92s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 59%|█████▉    | 153/258 [50:29<36:39, 20.95s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 60%|█████▉    | 154/258 [50:34<27:36, 15.93s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 60%|██████    | 155/258 [51:20<43:09, 25.14s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 60%|██████    | 156/258 [51:24<32:01, 18.84s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 61%|██████    | 157/258 [51:30<24:53, 14.78s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 61%|██████    | 158/258 [52:16<40:35, 24.36s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 62%|██████▏   | 159/258 [52:45<42:04, 25.50s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 62%|██████▏   | 160/258 [53:31<52:02, 31.86s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 62%|██████▏   | 161/258 [54:18<58:42, 36.31s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 63%|██████▎   | 162/258 [55:05<1:03:04, 39.42s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 63%|██████▎   | 163/258 [55:09<45:33, 28.78s/it]  Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 64%|██████▎   | 164/258 [55:19<36:34, 23.35s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 64%|██████▍   | 165/258 [56:06<47:03, 30.36s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 64%|██████▍   | 166/258 [56:12<35:11, 22.95s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 65%|██████▍   | 167/258 [56:58<45:37, 30.08s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 65%|██████▌   | 168/258 [57:14<38:44, 25.83s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 66%|██████▌   | 169/258 [57:25<31:44, 21.40s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 66%|██████▌   | 170/258 [58:12<42:31, 28.99s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 66%|██████▋   | 171/258 [58:20<33:02, 22.79s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 67%|██████▋   | 172/258 [59:07<43:00, 30.01s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 67%|██████▋   | 173/258 [59:54<49:41, 35.07s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 67%|██████▋   | 174/258 [1:00:15<42:57, 30.68s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 68%|██████▊   | 175/258 [1:01:01<49:07, 35.51s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 68%|██████▊   | 176/258 [1:01:05<35:30, 25.98s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 69%|██████▊   | 177/258 [1:01:09<26:10, 19.39s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 69%|██████▉   | 178/258 [1:01:56<36:45, 27.56s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 69%|██████▉   | 179/258 [1:02:01<27:25, 20.83s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 70%|██████▉   | 180/258 [1:02:09<22:01, 16.94s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 70%|███████   | 181/258 [1:02:55<33:10, 25.85s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 71%|███████   | 182/258 [1:03:04<26:02, 20.56s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 71%|███████   | 183/258 [1:03:09<19:56, 15.95s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 71%|███████▏  | 184/258 [1:03:55<31:01, 25.15s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 72%|███████▏  | 185/258 [1:04:42<38:31, 31.66s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 72%|███████▏  | 186/258 [1:05:29<43:30, 36.26s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 72%|███████▏  | 187/258 [1:06:16<46:40, 39.45s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 73%|███████▎  | 188/258 [1:06:22<34:13, 29.34s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 73%|███████▎  | 189/258 [1:06:26<24:54, 21.66s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 74%|███████▎  | 190/258 [1:06:32<19:19, 17.06s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 74%|███████▍  | 191/258 [1:07:19<28:59, 25.97s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 74%|███████▍  | 192/258 [1:07:22<21:14, 19.32s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 75%|███████▍  | 193/258 [1:07:49<23:19, 21.53s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 75%|███████▌  | 194/258 [1:08:36<31:01, 29.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 76%|███████▌  | 195/258 [1:09:23<36:05, 34.38s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 76%|███████▌  | 196/258 [1:10:09<39:21, 38.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 76%|███████▋  | 197/258 [1:10:56<41:20, 40.66s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 77%|███████▋  | 198/258 [1:11:13<33:40, 33.67s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 77%|███████▋  | 199/258 [1:12:00<36:57, 37.58s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 78%|███████▊  | 200/258 [1:12:47<38:58, 40.32s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 78%|███████▊  | 201/258 [1:13:03<31:28, 33.13s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 78%|███████▊  | 202/258 [1:13:10<23:34, 25.25s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 79%|███████▊  | 203/258 [1:13:57<29:02, 31.69s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 79%|███████▉  | 204/258 [1:14:02<21:19, 23.69s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 79%|███████▉  | 205/258 [1:14:23<20:18, 22.99s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 80%|███████▉  | 206/258 [1:15:10<26:04, 30.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 80%|████████  | 207/258 [1:15:17<19:49, 23.32s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 81%|████████  | 208/258 [1:15:21<14:32, 17.45s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 81%|████████  | 209/258 [1:16:08<21:25, 26.24s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 81%|████████▏ | 210/258 [1:16:14<16:04, 20.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 82%|████████▏ | 211/258 [1:16:17<11:53, 15.19s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 82%|████████▏ | 212/258 [1:17:04<18:52, 24.61s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 83%|████████▎ | 213/258 [1:17:09<14:05, 18.80s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 83%|████████▎ | 214/258 [1:17:13<10:30, 14.34s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 83%|████████▎ | 215/258 [1:18:00<17:13, 24.03s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 84%|████████▎ | 216/258 [1:18:11<14:13, 20.32s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 84%|████████▍ | 217/258 [1:18:15<10:32, 15.43s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 84%|████████▍ | 218/258 [1:19:02<16:32, 24.81s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 85%|████████▍ | 219/258 [1:19:13<13:24, 20.62s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 85%|████████▌ | 220/258 [1:20:00<18:01, 28.47s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 86%|████████▌ | 221/258 [1:20:08<13:53, 22.51s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 86%|████████▌ | 222/258 [1:20:31<13:31, 22.55s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 86%|████████▋ | 223/258 [1:21:18<17:23, 29.82s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 87%|████████▋ | 224/258 [1:22:05<19:46, 34.91s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 87%|████████▋ | 225/258 [1:22:10<14:21, 26.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 88%|████████▊ | 226/258 [1:22:29<12:41, 23.81s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 88%|████████▊ | 227/258 [1:22:37<09:53, 19.15s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 88%|████████▊ | 228/258 [1:22:42<07:29, 15.00s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 89%|████████▉ | 229/258 [1:23:29<11:51, 24.53s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 89%|████████▉ | 230/258 [1:23:55<11:36, 24.88s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 90%|████████▉ | 231/258 [1:23:59<08:22, 18.62s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 90%|████████▉ | 232/258 [1:24:45<11:43, 27.07s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 90%|█████████ | 233/258 [1:24:49<08:21, 20.04s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 91%|█████████ | 234/258 [1:25:36<11:13, 28.08s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 91%|█████████ | 235/258 [1:25:48<08:52, 23.16s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 91%|█████████▏| 236/258 [1:25:53<06:29, 17.72s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 92%|█████████▏| 237/258 [1:26:39<09:15, 26.43s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 92%|█████████▏| 238/258 [1:26:45<06:41, 20.09s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 93%|█████████▎| 239/258 [1:26:52<05:11, 16.40s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 93%|█████████▎| 240/258 [1:27:02<04:20, 14.46s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 93%|█████████▎| 241/258 [1:27:14<03:51, 13.61s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 94%|█████████▍| 242/258 [1:27:24<03:20, 12.56s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 94%|█████████▍| 243/258 [1:28:11<05:41, 22.77s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 95%|█████████▍| 244/258 [1:28:14<03:58, 17.06s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 95%|█████████▍| 245/258 [1:28:21<02:59, 13.83s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 95%|█████████▌| 246/258 [1:29:07<04:44, 23.68s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 96%|█████████▌| 247/258 [1:29:54<05:36, 30.57s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 96%|█████████▌| 248/258 [1:30:16<04:41, 28.12s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 97%|█████████▋| 249/258 [1:30:22<03:12, 21.37s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 97%|█████████▋| 250/258 [1:31:09<03:52, 29.07s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 97%|█████████▋| 251/258 [1:31:56<04:00, 34.35s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 98%|█████████▊| 252/258 [1:32:30<03:25, 34.24s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 98%|█████████▊| 253/258 [1:32:37<02:10, 26.02s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 98%|█████████▊| 254/258 [1:32:40<01:17, 19.34s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 99%|█████████▉| 255/258 [1:32:44<00:44, 14.67s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+ 99%|█████████▉| 256/258 [1:32:53<00:25, 12.85s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+100%|█████████▉| 257/258 [1:33:40<00:23, 23.04s/it]Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+100%|██████████| 258/258 [1:34:26<00:00, 30.19s/it]100%|██████████| 258/258 [1:34:26<00:00, 21.96s/it]
+               precision    recall  f1-score   support
+
+       Blasts      0.935     0.509     0.659        57
+         Date      0.977     0.683     0.804       568
+    Diagnosis      0.893     0.546     0.678       489
+       Exitus      1.000     0.562     0.720        16
+FamilyHistory      0.833     0.893     0.862        28
+ GeneMutation      0.833     0.556     0.667        54
+    Karyotype      0.889     0.276     0.421       145
+            O      0.799     0.961     0.872      3260
+       Origin      1.000     0.667     0.800         6
+ProteinChange      0.667     1.000     0.800         6
+     Response      0.611     0.579     0.595        95
+         Risk      1.000     0.661     0.796       118
+       Smoker      0.556     0.833     0.667         6
+    Treatment      0.772     0.581     0.663       298
+          VAF      1.000     0.592     0.743        71
+   cDNAChange      1.000     0.556     0.714        18
+
+     accuracy                          0.820      5235
+    macro avg      0.860     0.653     0.716      5235
+ weighted avg      0.835     0.820     0.808      5235
+
+Results saved to llama3_results_v2.json
+medical_ner_report_LLAMA3_FINETUNNED_v2.txt
+Confusion matrix saved to /ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_V2_confmatrix/confusion_matrix_llama3_v2.csv

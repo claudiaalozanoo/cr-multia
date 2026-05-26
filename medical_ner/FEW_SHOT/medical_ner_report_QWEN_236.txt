@@ -1,0 +1,20 @@
+Medical NER Classification Report
+               precision    recall  f1-score   support
+
+         Date       0.85      0.48      0.61       104
+     Response       0.31      0.23      0.26        35
+       Exitus       0.12      0.20      0.15         5
+       Blasts       0.56      0.77      0.65        13
+    Diagnosis       0.55      0.45      0.50       221
+       Smoker       0.00      0.00      0.00         4
+         Risk       0.58      0.41      0.48        17
+    Karyotype       0.64      0.43      0.51        21
+    Treatment       0.51      0.30      0.38       144
+ GeneMutation       0.50      0.35      0.41        26
+FamilyHistory       0.60      0.27      0.38        11
+          VAF       0.00      0.00      0.00         4
+       Origin       0.12      0.33      0.18         3
+
+    micro avg       0.55      0.40      0.46       608
+    macro avg       0.41      0.32      0.35       608
+ weighted avg       0.57      0.40      0.46       608

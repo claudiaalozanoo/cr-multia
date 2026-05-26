@@ -1,0 +1,4336 @@
+[
+    {
+        "id": 273,
+        "raw_text": "Novembre 2016: amb AZA i estable, es reevaluarà aviat",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Novembre 2016",
+                    "label": "Date"
+                },
+                {
+                    "text": "AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "estable",
+                    "label": "Response"
+                }
+            ]
+        }
+    },
+    {
+        "id": 274,
+        "raw_text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 275,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 276,
+        "raw_text": "Rebem DNA - ID_19H2960 - Sin progresión",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Sin progresión",
+                    "label": "Response"
+                }
+            ]
+        }
+    },
+    {
+        "id": 277,
+        "raw_text": "Ens envien DNA de MO ja processat",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DNA de MO ja processat",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 278,
+        "raw_text": "No es concloent SMD.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 279,
+        "raw_text": "Mostra pre Lena (Inicia Lena el 20/11/2009)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "20/11/2009",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 280,
+        "raw_text": "Pendent confirmar sospita",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "sospita",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 281,
+        "raw_text": "DX CRDM (pancitopenia)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 282,
+        "raw_text": "Dx de MDS-MLD el març 2022 amb IPSS-R baix risc. Sospita de progressió a MDS-IB amb IPSS-R high 5.5. Pendent descartar germinalitat per mutacio a DDX41.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "MDS-MLD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "març 2022",
+                    "label": "Date"
+                },
+                {
+                    "text": "IPSS-R baix risc",
+                    "label": "Risk"
+                },
+                {
+                    "text": "MDS-IB",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "IPSS-R high 5.5",
+                    "label": "Risk"
+                },
+                {
+                    "text": "DDX41",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 283,
+        "raw_text": "Pre-LENA 2008",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Pre-LENA 2008",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 284,
+        "raw_text": "MO conalteraciones dismielopoyeticas poco relevantes en contexto de insuficiencia renal",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "MO",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "insuficiencia renal",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 285,
+        "raw_text": "Sospita TRMN. Te 51 anys.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "TRMN",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "51 anys",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 286,
+        "raw_text": "Presenta respuesta eritroide completa. Sigue con EPO a fecha de 01/06/2023",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "respuesta eritroide completa",
+                    "label": "Response"
+                },
+                {
+                    "text": "01/06/2023",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 287,
+        "raw_text": "Anemia macrocítica.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Anemia macrocítica",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 288,
+        "raw_text": "No serveix per single cell. Primera mostra processada per single cell (només s'ha guardat 1 criotub i amb volum massa petit)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "single cell",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Primera mostra processada per single cell",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "només s'ha guardat 1 criotub i amb volum massa petit",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 289,
+        "raw_text": "Sigue en RC y sin tto. Julio 2013 sigue vivo",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Julio 2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "sin tto",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 290,
+        "raw_text": "DX MFP",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "MFP",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 291,
+        "raw_text": "DX amb 75 anys agost 2011 de CRMD IPSS-R 2 (low), no tractament. Progressió AREB-1 el 15/06/2015, es tracta amb EPO (no respon) i amb acid valproic.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "agost 2011",
+                    "label": "Date"
+                },
+                {
+                    "text": "CRMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "IPSS-R 2 (low)",
+                    "label": "Risk"
+                },
+                {
+                    "text": "no tractament",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "AREB-1",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "15/06/2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "EPO",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "acid valproic",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "no respon",
+                    "label": "Response"
+                }
+            ]
+        }
+    },
+    {
+        "id": 292,
+        "raw_text": "DX 24/05/2013: LMA M2 t(8;21)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "24/05/2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "LMA M2 t(8;21)",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 293,
+        "raw_text": "DX confirmado LMC actualmente en sospecha de MDS. Descartado MDS. Paciente en tto + diseritropoyesis sin criterios SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMC",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "MDS",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "diseritropoyesis",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 294,
+        "raw_text": "Sospita SMD,trombopenia. No vol fer-se AMO per descartar SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "trombopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 295,
+        "raw_text": "Mostra DX (AREB-2). MO hipocelular, con 4% de blastos sobre la celularidad total. Citogenetica 7 metafases normales (FISH: se observan células sugestivas de monosomía 7 y deleción del brazo largo del cromosoma 5q31). Panells: TP53.Inici AZA 08/08/16",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "AREB-2",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "4%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "7 metafases normales",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "monosomía 7",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "deleción del brazo largo del cromosoma 5q31",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "TP53",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "08/08/16",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 296,
+        "raw_text": "DX: AREB-2",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "AREB-2",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 297,
+        "raw_text": "MDS/MPN-U with del5q/JAK2",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "MDS/MPN-U",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "del5q/JAK2",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 298,
+        "raw_text": "Mostra en remisio tras 18 cicles AZA. Continua amb AZA fins progressio",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "18 cicles",
+                    "label": "Date"
+                },
+                {
+                    "text": "AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "remisio",
+                    "label": "Response"
+                },
+                {
+                    "text": "AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "progressio",
+                    "label": "Response"
+                }
+            ]
+        }
+    },
+    {
+        "id": 299,
+        "raw_text": "Mostra en tto: esplenomegalia",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "esplenomegalia",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 300,
+        "raw_text": "Posteriormente continua solo con soporte transfusional",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Posteriormente continua",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "soport",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "transfusorial",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 301,
+        "raw_text": "Mostra SP Control Dona Sa; S'ha fet extracció per MAXWELL de les PBMC.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Mostra SP Control Dona Sa",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "PBMC",
+                    "label": "Origin"
+                },
+                {
+                    "text": "MAXWELL",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 302,
+        "raw_text": "Amb antecedents LA, amb pancitopenia. LMA con cambios displasicos refractaria (se ha tratado ya con quimio y con azacitidina).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LA",
+                    "label": "FamilyHistory"
+                },
+                {
+                    "text": "pancitopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "quimio",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "azacitidina",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 303,
+        "raw_text": "Germa exitus leucèmia 12a, pare exitus neo de prostata, mare exitus alzheimer. Inclos projecte low risk i SMDg",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "leucèumia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SMDg",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 304,
+        "raw_text": "Fallo 2do",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Fallo",
+                    "label": "Exitus"
+                }
+            ]
+        }
+    },
+    {
+        "id": 305,
+        "raw_text": "Sospita LMMC",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMMC",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 306,
+        "raw_text": "El informe pone que no se observa patología hematológica en el momento actual. Me comentan, que parece ser que nunca ha tenido nada hematológico, que fue una neutropenia normal que se resolvió sola. ",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "neutropenia normal",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 307,
+        "raw_text": "DX TROMBOPENIA PERIFERICA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "TROMBOPENIA PERIFERICA",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 308,
+        "raw_text": "Agost 2015: segueix amb quadre de lesions dermiques, eosinofilia, anemia i trombopenia. Mostra en evaluacio Lena",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Agost 2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "lesions dermiques",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "eosinofilia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "anemia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "trombopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 309,
+        "raw_text": "Mostra CETLAM. Nou DX.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CETLAM",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Nou DX",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 310,
+        "raw_text": "Progressa a AREB-2 10% blasts (octubre 2016), es decideix tto amb AZA. Febrer 2017: transformacio a LMA 20-22% blasts.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "AREB-2",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "10% blasts",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "octubre 2016",
+                    "label": "Date"
+                },
+                {
+                    "text": "AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "transformacio a LMA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "20-22% blasts",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 311,
+        "raw_text": "En tratamiento desde 2023",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "2023",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 312,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 313,
+        "raw_text": "Linfoma en recidiva post trasplante, presenta pancitopenia, no SMD. Mielofibrosis",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Linfoma en recidiva post trasplante",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "pancitopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Mielofibrosis",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 314,
+        "raw_text": "Després dels 3 cicles de AZA tenia 6% de blastes i cariotip 46,XX,del(5)(q13q33),del(7)(q22q23)[10]/46,XX[4]",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "6%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "46,XX,del(5)(q13q33),del(7)(q22q23)[10]/46,XX[4]",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 315,
+        "raw_text": "Sospita SMD: macrocitosi, trombopenia",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "macrocitosi",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "trombopenia",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 316,
+        "raw_text": "Envien SP durant Lena (seguiment 4 mesos) Inicia Lena 16/01/2014; Gener 2015 segueix amb LENA 15 cicles",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "16/01/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "15 cicles",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 317,
+        "raw_text": "Reinicia Lena a dosis baixes (14/03/2014). Stop LENA Nov-2014. Envien SP  en pre Lena. 14/10/2016: desde 2014 no ha vuelto a recibir tto. Mantiene respuesta RHC y IT. No se evaluó respuesta citogenética ni durante ni post tratamiento",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "14/03/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "Nov-2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "SP",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "14/10/2016",
+                    "label": "Date"
+                },
+                {
+                    "text": "RHC",
+                    "label": "Response"
+                },
+                {
+                    "text": "IT",
+                    "label": "Response"
+                }
+            ]
+        }
+    },
+    {
+        "id": 318,
+        "raw_text": "- Reinicia Lenalidomida con nueva reducción de dosis a 5 mg/2d x21d el 02/11/11. Suspende el 10/04/12 por citopenias grado 4, se realiza evaluación  -Progresión Enfermedad (blastos MO 13%, AREB-2, cariotipo complejo).  8 ciclo.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Lenalidomida",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "5 mg/2d x21d",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "02/11/11",
+                    "label": "Date"
+                },
+                {
+                    "text": "10/04/12",
+                    "label": "Date"
+                },
+                {
+                    "text": "blastos MO 13%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "AREB-2",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "cariotipo complejo",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 319,
+        "raw_text": "Mostra pre-tto SintraRev. Inicia Sintrarev 15/06/2015. Panell. SF3B1",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SintraRev",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "15/06/2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "SF3B1",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 320,
+        "raw_text": "SP poco volumen, todo para DNA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "poco volumen",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "DNA",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 322,
+        "raw_text": "Toxicidad: Neutropenia asintomática (recibe FSC-G entre 3 ciclos).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Neutropenia asintomática",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "FSC-G",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 323,
+        "raw_text": "Sospecha SMD bajo riesgo",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "bajo riesgo",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 324,
+        "raw_text": "Nos llega un tubo de DNA a un volumen de 20 uL y a concentración de 51.1 ng/uL. Muestra procede de MO.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "MO",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 325,
+        "raw_text": "LMMC low risk",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMMC low risk",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 326,
+        "raw_text": "DX agost 2015: pancitopenia de significat incert.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "agost 2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "pancitopenia",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 327,
+        "raw_text": "LNH Burkitt. SMD secundario. Hermano SMD.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LNH Burkitt",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SMD secundario",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Hermano SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 328,
+        "raw_text": "Mostra de DX: CMML1. Demano SP.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CMML1",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SP",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 329,
+        "raw_text": "Expectant attitud.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Expectant attitud",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 330,
+        "raw_text": "Es un TRMN. Neoplasia previa cancer de mama al 2012. Va rebre Radioteràpia (40,5 Gy en 15 sessions I quimioteràpia adjuvant (TC x4).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "TRMN",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "cancer de mama",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "2012",
+                    "label": "Date"
+                },
+                {
+                    "text": "Radioteràpia",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "40,5 Gy",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "15 sessions",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "TC x4",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 331,
+        "raw_text": "Mostra de DX. Cromosoma Ph+",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DX",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Cromosoma Ph+",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 332,
+        "raw_text": "Inicia tto 16/12/13, Idarrubicina + Citarabina (2/5), 1 cicle i disminució de la dosi. Últim control gener 2014. Estudi TP53 fet a Gottingen: TP53 mutat",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "16/12/13",
+                    "label": "Date"
+                },
+                {
+                    "text": "Idarrubicina",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Citarabina",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "2/5",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "TP53 mutat",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 333,
+        "raw_text": "Posible germinal. Hay muestra de pelo HF_2149",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Posible germinal",
+                    "label": "Origin"
+                },
+                {
+                    "text": "HF_2149",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 334,
+        "raw_text": "Sospita de SMD de baix risc.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "baix risc",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 335,
+        "raw_text": "Ens han tornat a enviar SP ja que l'ultim cop el CD3 va sortir malament, aixi que avui el repetim",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SP",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "CD3",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 336,
+        "raw_text": "No valorado por mielograma. Progresión leucémica 12/01/2021",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "leucémica",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "12/01/2021",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 337,
+        "raw_text": "DX LMA, TRMN-like no ha rebut QMT/RDT. Projecte TRMN",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMA",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "TRMN-like",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "QMT/RDT",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "TRMN",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 338,
+        "raw_text": "Mostra en tto amb 13 cicles AZA. Evolucio d'AREB1a AREB2 al desembre 2012",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "13 cicles AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "AREB1a AREB2",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "desembre 2012",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 339,
+        "raw_text": "TRMN. Antecedents de tabaquisme, 1 paquet al dia.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Antecedents de tabaquisme, 1 paquet al dia",
+                    "label": "Smoker"
+                }
+            ]
+        }
+    },
+    {
+        "id": 340,
+        "raw_text": "Pancitopenia (Sospita de SMD)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Pancitopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Sospita de SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 341,
+        "raw_text": "El 29/12/2014 se li autoritza lena per compassió, per a quan estigui indicada clínicament.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "29/12/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 342,
+        "raw_text": "Sospita trombopenia VS NMP",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "trombopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "NMP",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 343,
+        "raw_text": "TRMN. Antecedents de tabaquisme, 1 paquet al dia. Neo de mama al 2013 i Mieloma múltiple al 2015-2021.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Antecedents de tabaquisme, 1 paquet al dia",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "Neo de mama al 2013",
+                    "label": "FamilyHistory"
+                },
+                {
+                    "text": "Mieloma múltiple al 2015-2021",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 344,
+        "raw_text": "DX SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DX SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 345,
+        "raw_text": "DX NMP 01/18 amb tto hydrea (Jak2- i BCR/ABL-)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "NMP",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "01/18",
+                    "label": "Date"
+                },
+                {
+                    "text": "hydrea",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Jak2-",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "BCR/ABL-",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 346,
+        "raw_text": "Sospita de SMD de baix risc.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "baix risc",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 347,
+        "raw_text": "Mostra DX: anemia multicarencial",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "anemia multicarencial",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 348,
+        "raw_text": "Rebem DNA - ID_17H4565 - LMMC-1",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "REGLA ESTRICTA",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "LMMC-1",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 349,
+        "raw_text": "DX agost 2013: anemia de significat incert",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "agost 2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "anemia de significat incert",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 350,
+        "raw_text": "CRDM per AMO (pendents citogenética per poder saber IPSS)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 351,
+        "raw_text": "Seguiment SINTRA-REV setmana 61.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Seguiment SINTRA-REV setmana 61",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 352,
+        "raw_text": "DX: neutropenia. Pacient amb cancer de mama",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "neutropenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "cancer de mama",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 353,
+        "raw_text": "Arriba tambe saliva (DNA)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "saliva",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 354,
+        "raw_text": "Mostra post TPH, monosomia del 7",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "post TPH",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "monosomia del 7",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 355,
+        "raw_text": "L'aspirat de MO fet al novembre del 2021 no era concloent de SMD, ja que la displàsia era inespecífica i compatible an MO reactiu a la seva malaltia de base (tumor sòlid, que estava en progressió en aquell moment), i no hi havia marcador clonal.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "novembre del 2021",
+                    "label": "Date"
+                },
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "displàsia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "tumor sòlid",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 356,
+        "raw_text": "TRMN. Histerectomia per cancer de cervix 2007 + neoplasia vulvar de alto grado VIN, IQ el 05/2018. No ha rebut QT, es un TRMN-like. Mare amb amiloidosis, germa amb cancer de cordes vocals i germa amb cancer hepatic.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "histerectomia per cancer de cervix 2007",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "neoplasia vulvar de alto grado VIN, IQ el 05/2018",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "05/2018",
+                    "label": "Date"
+                },
+                {
+                    "text": "TRMN-like",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "amiloidosis",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "cancer de cordes vocals",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "cancer hepatic",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 357,
+        "raw_text": "DX PTI + GMSI",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "PTI",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "GMSI",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 358,
+        "raw_text": "DX SMD/NMP_u asociada a i(17). Displasia en las 3 lineas celulares en AMO del 22/04/2016. Presencia de 10% de blastos y sospecha de MDS (biopsia 22/04/2016).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD/NMP_u",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "i(17)",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "displasia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "AMO del 22/04/2016",
+                    "label": "Date"
+                },
+                {
+                    "text": "10% de blastos",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "MDS",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 359,
+        "raw_text": "TRMN. Antecedents de tabaquisme, 1 paquet al dia.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Antecedents de tabaquisme, 1 paquet al dia",
+                    "label": "Smoker"
+                }
+            ]
+        }
+    },
+    {
+        "id": 360,
+        "raw_text": "DX 04/11/2013 fet al H Municipal de Badalona:AREB-1 DX 28/07/2014 a HGTIP: CRDM ",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "04/11/2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "AREB-1",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "28/07/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 361,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 362,
+        "raw_text": "Pendent demanar cp",
+        "prediction": {
+            "entities": []
+        }
+    },
+    {
+        "id": 363,
+        "raw_text": "Mostra en tto 25 ciclos Aza. Presenta una perdida de respuesta. MO:ha progresado a AREB-2 (15% blastes) esta perdiendo respuesta hematologica. Prevision de incluirla en el ensayo clínico con rigosertib",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "25 ciclos Aza",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "AREB-2",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "15% blastes",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "rigosertib",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 364,
+        "raw_text": "Estudi molecular: Cap mutacio (panell mieloide NGS).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Cap mutacio",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "panell mieloide NGS",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 365,
+        "raw_text": "Durant tto LENA. EXITUS el 28/03/2013 por tumor pulmonar con metástasis cerebral. Recibio un total de 11 ciclos de LENA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "EXITUS el 28/03/2013",
+                    "label": "Exitus"
+                },
+                {
+                    "text": "tumor pulmonar con metástasis cerebral",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "11 ciclos de LENA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 366,
+        "raw_text": "Ens envien SP despres del DX. Ens donen aliquota de DNA de MO de biologia molecular, aprox 700ng per fer WES",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SP",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "DNA",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "700ng",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 367,
+        "raw_text": "No tenim mostra al DX.  + 85 tto LENA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DX",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 368,
+        "raw_text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 369,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 370,
+        "raw_text": "Anemia leve. Hallazgo de linfocitosis monoclonal leve en MO, de significado incierto.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Anemia leve",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "linfocitosis monoclonal leve",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 371,
+        "raw_text": "Ens envien DNA de MO",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DNA",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 372,
+        "raw_text": "DX 06/2015: CRDM",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "06/2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 373,
+        "raw_text": "EPO (sense resposta) Es va iniciar tractament amb eritropoetina sense reposta i suport transfusional mensual de concentrats d'hematies i exjade. ",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "EPO",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "sense resposta",
+                    "label": "Response"
+                },
+                {
+                    "text": "eritropoetina",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "suport transfusional",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "concentrats d'hematies",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "exjade",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 374,
+        "raw_text": "Se traslada del hospital Quiron a Hospital Reina Sofia.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "hospital Quiron",
+                    "label": "Origin"
+                },
+                {
+                    "text": "Hospital Reina Sofia",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 375,
+        "raw_text": "Prova AutoMACS 2",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Prova AutoMACS 2",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 376,
+        "raw_text": "DX  a  Vall Hebron 13.01.2014 amb 7,8% blastes (AREB-1) Remeten el pc a HGTiP per incloure a SINTRA-REV: fan AMO i no detecten blastes  (SMD 5q- aïllat) Inicia SINTRA-REV: 07.04.2014",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "13.01.2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "7,8%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "AREB-1",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SMD 5q- aïllat",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 377,
+        "raw_text": "Respuesta global:  12/12/2013 Remisión parcial (Enfermedad Estable)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "12/12/2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "Remisión parcial",
+                    "label": "Response"
+                },
+                {
+                    "text": "Enfermedad Estable",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 378,
+        "raw_text": "Ultim control 01/06/2015: Continua amb EPO a 30000UI/setmana. Febrer 2017: es troba molt be (fitxa actualitzada febrer 2017).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "01/06/2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "EPO",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "30000UI/setmana",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "febrer 2017",
+                    "label": "Date"
+                },
+                {
+                    "text": "molt be",
+                    "label": "Response"
+                },
+                {
+                    "text": "febrer 2017",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 379,
+        "raw_text": "DX MDS-RS-MLD. Mostra sospita en progressio. Panell: IDH2, SRSF2, ASXL1",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "MDS-RS-MLD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "sospita en progressio",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "IDH2",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "SRSF2",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "ASXL1",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 380,
+        "raw_text": "DX : CRDM amb fibrosis reticulinica. Preguntat el cp 23/8/2017",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "fibrosis reticulinica",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "23/8/2017",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 381,
+        "raw_text": "DX SMD con 5q de 02/07/2013 Mostra pre Lena.  20/12/2013 inicia Lena",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "5q",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "02/07/2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "Mostra pre Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "20/12/2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 382,
+        "raw_text": "No hi ha prou material per serparar PBMC i PBPMNC. Es fan 3 pellets de 2M per OGM (ID bionano 0463/24. Ens donen DNA de MO de biologia molecular, aprox 700ng",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "OGM",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "ID bionano 0463/24",
+                    "label": "Origin"
+                },
+                {
+                    "text": "DNA de MO",
+                    "label": "Origin"
+                },
+                {
+                    "text": "700ng",
+                    "label": "VAF"
+                }
+            ]
+        }
+    },
+    {
+        "id": 383,
+        "raw_text": "Sense tto. Evaluacio pq s'han intensificat les citopenies",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Sense tto",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Evaluacio pq s'han intensificat les citopenies",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 384,
+        "raw_text": "Nos envían DNA de MO y DNA de Fibroblastos.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DNA de MO",
+                    "label": "Origin"
+                },
+                {
+                    "text": "DNA de Fibroblastos",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 385,
+        "raw_text": "DX 03/06/2014: CRDM",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "03/06/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 386,
+        "raw_text": "Macrocitosis no filiada con disgranulopoyesis (secundaria a edad?)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Macrocitosis",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "disgranulopoyesis",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 387,
+        "raw_text": "Mostra assaig (cicle 1, dia 15). Sense dependencia transfusional",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Mostra assaig (cicle 1, dia 15)",
+                    "label": "Date"
+                },
+                {
+                    "text": "Sense dependència transfusional",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 388,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 389,
+        "raw_text": "Ca de prostata + RDT.  Ca de colon (solo cirugia). Padre Ca de vejiga",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Ca de prostata",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "RDT",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Ca de colon",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Padre Ca de vejiga",
+                    "label": "FamilyHistory"
+                }
+            ]
+        }
+    },
+    {
+        "id": 390,
+        "raw_text": "DX 16/01/2012 06.08.2012: inici EPO",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "16/01/2012",
+                    "label": "Date"
+                },
+                {
+                    "text": "06.08.2012",
+                    "label": "Date"
+                },
+                {
+                    "text": "EPO",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 391,
+        "raw_text": "Es un TRMN. Te 54 anys.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "TRMN",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "54 anys",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 392,
+        "raw_text": "DX: CRDM-SA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CRDM-SA",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 393,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 394,
+        "raw_text": "Mostra DX. Anemia macrocititica desde 2010. Panell: KDM6A, BCORL1",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Anemia macrocititica",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "2010",
+                    "label": "Date"
+                },
+                {
+                    "text": "KDM6A",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "BCORL1",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 395,
+        "raw_text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 396,
+        "raw_text": "Se suspende tras 3 dosis",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "tras 3 dosis",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 397,
+        "raw_text": "DX ARSA 2005; Maig 2018: en tractament de suport i amb quelacio (no tractament actiu)29/5: progressat a LMA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "ARSA 2005",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Maig 2018",
+                    "label": "Date"
+                },
+                {
+                    "text": "LMA",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 398,
+        "raw_text": "Moltes cels mortes",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Moltes cels mortes",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 399,
+        "raw_text": "+ 169 LENA vs P",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 400,
+        "raw_text": "DX MDS-RS-SLD (ARSA) IPSS-R baix 2,4punts",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "MDS-RS-SLD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "ARSA",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "IPSS-R baix 2,4punts",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 401,
+        "raw_text": "Ongoing a fecha 24/07/2023",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "24/07/2023",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 402,
+        "raw_text": "El paciente entra en el ensayo SINTRAREV Lenalidomida vs Placebo, al mes del diagnóstico (abril de 2012), los datos PRE-tto son los mismo que al DX",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SINTRAREV Lenalidomida vs Placebo",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "abril de 2012",
+                    "label": "Date"
+                },
+                {
+                    "text": "DX",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 403,
+        "raw_text": "Estudi molecular pendent",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Estudi molecular pendent",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 404,
+        "raw_text": "Ensayo clínico ACE-536-MDS-002 (Luspatercept vs EPO, rama Luspa) Sigue en EC a fecha del 13/07/2023 Consigue independencia transfusional",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "13/07/2023",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 405,
+        "raw_text": "Llega muy poco volumen de SP, todo para DNA.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SP",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "DNA",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 406,
+        "raw_text": "Blastes al 3%.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Blastes al 3%",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 407,
+        "raw_text": "Dx 11/11/2009. Periodos de dependencia e independencia transfusional (desde abril 2010 a noviembre 2013) Inicia LENA al Març 2010. Panells: CBL",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "11/11/2009",
+                    "label": "Date"
+                },
+                {
+                    "text": "Març 2010",
+                    "label": "Date"
+                },
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "CBL",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 408,
+        "raw_text": "DX 05/15",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "05/15",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 409,
+        "raw_text": "TRMN: cancer inicial, neoplasia de ovario en 2013. No aplica IPSS-R perque es LMA.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "cancer inicial",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "neoplasia de ovario",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "2013",
+                    "label": "Date"
+                },
+                {
+                    "text": "LMA",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 410,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 411,
+        "raw_text": "Alopurinol, Dolquine, Tramadol. + ERITROPOETINA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Alopurinol",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Dolquine",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Tramadol",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "ERITROPOETINA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 412,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 413,
+        "raw_text": "Mostra CETLAM nou DX Dra Rosa Coll.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CETLAM nou",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Dra Rosa Coll",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 414,
+        "raw_text": "FISH negativo para cromosoma 8,5,7, p53, 20",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "FISH negativo para cromosoma 8,5,7, p53",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "20",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 415,
+        "raw_text": "Rebem DNA - ID_16H2454",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "REGLA ESTRICTA",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "REGLA ESTRICTA",
+                    "label": "Smoker"
+                }
+            ]
+        }
+    },
+    {
+        "id": 416,
+        "raw_text": "Panell: ASXL1, SF3B1 y STAG2",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "ASXL1",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "SF3B1",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "STAG2",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 417,
+        "raw_text": "Mostra DX: neutropenia",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "neutropenia",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 418,
+        "raw_text": "Dependiente de transfusiones desde  el 22/12/2016.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "22/12/2016",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 419,
+        "raw_text": "Exitus por fallo cardiaco",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Exitus por fallo cardiaco",
+                    "label": "Exitus"
+                }
+            ]
+        }
+    },
+    {
+        "id": 420,
+        "raw_text": "Es un TRMN. Neoplasia previa cancer de prostata l'any 2018. Va rebre RDT (braquiterapia) y hormoterapia en 2018 y hormonoterapia hasta 2021. Ex fumador fa> 30 anys  (Inici 20 fins als 40 anys 2p dia).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "TRMN",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "cancer de prostata",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "2018",
+                    "label": "Date"
+                },
+                {
+                    "text": "RDT",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "braquiterapia",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "hormonoterapia",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "2018",
+                    "label": "Date"
+                },
+                {
+                    "text": "2021",
+                    "label": "Date"
+                },
+                {
+                    "text": "fumador",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "fa> 30 anys",
+                    "label": "Date"
+                },
+                {
+                    "text": "Inici 20 fins als 40 anys 2p dia",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 421,
+        "raw_text": "Mostra DX/pre-tto 24.11.14 Inicia tto SINTRA-REV. 16.02.2015: malaltia estable. Abril 2015 5 cicles. 06/06/2015 surt del sintrarev per necessitat transfusional (creuen que esta amb Placebo pq no va respondre).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "24.11.14",
+                    "label": "Date"
+                },
+                {
+                    "text": "SINTRA-REV",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "16.02.2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "malaltia estable",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Abril 2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "06/06/2015",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 422,
+        "raw_text": "Mostra seguiment.",
+        "prediction": {
+            "entities": []
+        }
+    },
+    {
+        "id": 423,
+        "raw_text": "Reevaluació. Progressió a LMAs.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Progressió a LMAs",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 424,
+        "raw_text": "Nos envían DNA de MO y DNA de Fibroblastos.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DNA de MO",
+                    "label": "Origin"
+                },
+                {
+                    "text": "DNA de Fibroblastos",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 425,
+        "raw_text": "Anèmia i trombopènia al DX",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Anèmia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "trombopènia",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 426,
+        "raw_text": "Mostra DX/pre-tto: 5q- i t(2;11) Amb dependencia transfusional des de l'Agost 2014. Comença LENA  19/11/2014 pero no respon (ens diuen que te TP53 mutat). Li paren Lena febrer 2015(progressio LMA), i li fan TPH. Panell: cap mutacio",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "5q-",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "t(2;11)",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "Agost 2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "19/11/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "TP53 mutat",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "febrer 2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "LMA",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "TPH",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 427,
+        "raw_text": "Proyecto SMD low risk, DX: 04/01/2024. TRMN ADK prostata + RDT (1015) + neod. SMD con displasi amultilínea, SMD con pocos blastos según OMS 2022. IPSS intermedio-1, WPSS bajo, IPSS-R 1 very low. NGS: CBL",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD low risk",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "04/01/2024",
+                    "label": "Date"
+                },
+                {
+                    "text": "ADK prostata",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "RDT (1015)",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "SMD con displasi amultilínea",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SMD con pocos blastos",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "OMS 2022",
+                    "label": "Date"
+                },
+                {
+                    "text": "IPSS intermedio-1",
+                    "label": "Risk"
+                },
+                {
+                    "text": "WPSS bajo",
+                    "label": "Risk"
+                },
+                {
+                    "text": "IPSS-R 1 very low",
+                    "label": "Risk"
+                },
+                {
+                    "text": "NGS: CBL",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 428,
+        "raw_text": "Assaig SintraREV",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Assaig SintraREV",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 429,
+        "raw_text": "Sin tratamiento",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Sin tratamiento",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 430,
+        "raw_text": "Projecte SMDg",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Projecte SMDg",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 431,
+        "raw_text": "Sospita SMDs a PV/tto: pancitopenia, SA 66% del.53. PV d'alt risc tractat amb Hydrea. DX H Clinic (1996): PV",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMDs",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "pancitopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SA 66%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "Hydrea",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "PV",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "1996",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 432,
+        "raw_text": "Ha rebut QT  induccio amb RC medul·lar. Mostra pre-ALO.  Cariotip basal 46,XX",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "QT induccio",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "RC medul·lar",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "pre-ALO",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Cariotip basal 46,XX",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 433,
+        "raw_text": "SMD con citopenia refractaria con displasia unilínea, neutropenia. Enfermedades familiares: Ca páncreas (hermano), Ca próstata (padre)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "citopenia refractaria",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "displasia unilínea",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "neutropenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Ca páncreas (hermano)",
+                    "label": "FamilyHistory"
+                },
+                {
+                    "text": "Ca próstata (padre)",
+                    "label": "FamilyHistory"
+                }
+            ]
+        }
+    },
+    {
+        "id": 434,
+        "raw_text": "Mostra avaluacio Lena. Perd resposta a Lena despres de 10 cicles (març 2014) i inicia suport transfusional. Abril 2015: segueix en suport transfusional",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "10 cicles",
+                    "label": "Date"
+                },
+                {
+                    "text": "març 2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "suport transfusional",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Abril 2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "suport transfusional",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 435,
+        "raw_text": "Ensayo clinico Imetelstat vs placebo",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Imetelstat vs placebo",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 436,
+        "raw_text": "TRMN- Seguiment Post alo-TPH",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Seguiment Post alo-TPH",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 437,
+        "raw_text": "Els crios de PBMC i BM s'han guardat al tanc abans de 16h desde processament.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "16h",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 439,
+        "raw_text": "DX 2012: SMD 5q- Inclosa a l'assaig SintraREV. Inici de tractament 13/10/2016. Paneles: TET2 y SF3B1",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "2012",
+                    "label": "Date"
+                },
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "5q-",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "SintraREV",
+                    "label": "FamilyHistory"
+                },
+                {
+                    "text": "13/10/2016",
+                    "label": "Date"
+                },
+                {
+                    "text": "TET2",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "SF3B1",
+                    "label": "GeneMutation"
+                }
+            ]
+        }
+    },
+    {
+        "id": 440,
+        "raw_text": "Ca de prostata + RDT.  Ca de colon (solo cirugia). Padre Ca de vejiga",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Ca de prostata",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "RDT",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Ca de colon",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Padre Ca de vejiga",
+                    "label": "FamilyHistory"
+                }
+            ]
+        }
+    },
+    {
+        "id": 441,
+        "raw_text": "DX: CRDM. Pancitopenia en estudio. MO contaminada con SP",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Pancitopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SP",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 442,
+        "raw_text": "També arriba CABELL",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CABELL",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 443,
+        "raw_text": "Seguiment 3 mesos LENA",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "3 mesos",
+                    "label": "Date"
+                },
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 444,
+        "raw_text": "DX de LH,se le realizo autotrasplante de progenitores hematopoyéticos 50 días de la punción medular. MO en estudio por pancitopenia progresiva: hipoplasia de series granulocítica y megacariocítica. Descartado SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LH",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "autotrasplante de progenitores hematopoyéticos",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "50 días de la punción medular",
+                    "label": "Date"
+                },
+                {
+                    "text": "MO",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "pancitopenia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "hipoplasia de series granulocítica y megacariocítica",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Descartado SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 445,
+        "raw_text": "DX LMA 24/10/2024",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMA",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "24/10/2024",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 446,
+        "raw_text": "Mostra de DX: LMA M2 amb trets displasics",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMA M2",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "trets displasics",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 447,
+        "raw_text": "Mostra de seguiment",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Mostra de seguiment",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 448,
+        "raw_text": "TRMN. Neoplasia previa Carcinoma vesical a la edad de 45 y recibe como tratamiento QT.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Neoplasia previa Carcinoma vesical",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "QT",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 449,
+        "raw_text": "Mostra de DX(26/10/2014) arriba epp amb DNA del DX NEO de mama (1997) i Cancer Colon (1998)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "26/10/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "DNA del DX NEO de mama",
+                    "label": "FamilyHistory"
+                },
+                {
+                    "text": "Cancer Colon",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 450,
+        "raw_text": "Es va tractar amb AZA, completa 22 cicles. Mostra CETLAM seguiment. Fet QT pero torna a recaure",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "22 cicles",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "CETLAM",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "QT",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 451,
+        "raw_text": "Arriba també cabell. HF_2159",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "cabell",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "HF_2159",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 452,
+        "raw_text": "Diagnosticado de SMD de bajo riesgo en BAMO del 2022 (centro privado).",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "bajo riesgo",
+                    "label": "Risk"
+                },
+                {
+                    "text": "BAMO del 2022",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 453,
+        "raw_text": "Mostra Lena Valoracio Lena cicle 7 dia 21. Bon resposta",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "dia 21",
+                    "label": "Date"
+                },
+                {
+                    "text": "Bon resposta",
+                    "label": "Response"
+                }
+            ]
+        }
+    },
+    {
+        "id": 454,
+        "raw_text": "Al principi era DX de aplasia medular. Los datos que pongo aquí al diagnóstico corresponden al momento del SMD (01/07/2021) Diseritropoyesis: 25% Disgranulopoyesis: 15% Dismegacariopoyesis: 5%",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "aplasia medular",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "01/07/2021",
+                    "label": "Date"
+                },
+                {
+                    "text": "Diseritropoyesis",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "25%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "Disgranulopoyesis",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "15%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "Dismegacariopoyesis",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "5%",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 455,
+        "raw_text": "LMCa infantil. Ens envien mostra d'aquest cas per fer panells de NGS",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMCa infantil",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "NGS",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 456,
+        "raw_text": "Presenta esplenomegalia de 16.5 cm. Presenta mes de un 10% de displasia en la serie eritroblástica, granulocítica i megacariocítica.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "esplenomegalia de 16.5 cm",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "10%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "serie eritroblástica",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "serie granulocítica",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "serie megacariocítica",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 457,
+        "raw_text": "Nomes tenim el CI",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Nomes tenim",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "el CI",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 458,
+        "raw_text": "Expectant attitude",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Expectant attitude",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 459,
+        "raw_text": "18.08.2014: últim control (controls cada 6 mesos). Tenia visita programada el 17/02/2015 i no acudeix.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "18.08.2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "17/02/2015",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 460,
+        "raw_text": "DX LMAs M4 a SMD (SMD/AREB/LMA)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMAs M4",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 461,
+        "raw_text": "Mostra treatment evaluation, segueix amb lena. 27 cicles a data febrer 2015",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "treatment evaluation",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "27 cicles",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "febrer 2015",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 462,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 463,
+        "raw_text": "El sobrant de CG(Hepa) es processa amb TLE",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CG(Hepa)",
+                    "label": "Origin"
+                },
+                {
+                    "text": "TLE",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 464,
+        "raw_text": "Low Risk",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Low Risk",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 465,
+        "raw_text": "Està en tractament",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Està en tractament",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 466,
+        "raw_text": "Rebem DNA - ID_17H4662",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "REGLA ESTRICTA",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "REGLA ESTRICTA:",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "17H4662",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 467,
+        "raw_text": "Anemia normocitica amb lleu displasia vermella. Feb2015 arriba MO per CG i FISH, ens quedem 500uL de MO després de Buffy coat",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Anemia normocitica",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "lleu displasia vermella",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Feb2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "CG",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "FISH",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "500uL",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "MO",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 468,
+        "raw_text": "SMD con exceso de blastos tipo 1 y con del 5q.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "del 5q",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 469,
+        "raw_text": "Tambe arriba saliva (DNA)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "saliva (DNA)",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 470,
+        "raw_text": "Sense tto pero en remissió completa global (morfo, hematologica, CG)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Sense tto",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "remissió completa global (morfo, hematologica, CG)",
+                    "label": "Response"
+                }
+            ]
+        }
+    },
+    {
+        "id": 471,
+        "raw_text": "Toxicidad: Neutropenia y trombopenia grado 1.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Neutropenia y trombopenia grado 1",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 472,
+        "raw_text": "No es mostra al dx. sinó a un dels seguiments que es va estudiar per panell.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "dx",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 473,
+        "raw_text": "Candidat SMD germinal menor de 50 anys",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Candidat SMD germinal menor de 50 anys",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 474,
+        "raw_text": "Derivat a HGTiP per tractament (en ppi amb AZA) Finalment no es pot incloure a l'assaig, esta en tto amb Ciclosporina. Apareix del(13q) per CG. Tenim saliva guardada #0143/17 a data 09/03/2017",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "ppi amb AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Ciclosporina",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "del(13q)",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "CG",
+                    "label": "Origin"
+                },
+                {
+                    "text": "09/03/2017",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 475,
+        "raw_text": "SMD descartado. Hiperplasia eritroide sin displasia",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Hiperplasia eritroide",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "displasia",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 476,
+        "raw_text": "10/10/2024: MDS-SF3B1",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "10/10/2024",
+                    "label": "Date"
+                },
+                {
+                    "text": "MDS-SF3B1",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 477,
+        "raw_text": "DX octubre 2016: SMDt 2ari a QT per linfoma (AREB-1 amb 5% blastes). Sense tto ni DT. Word amb dades cliniques a la carpeta fitxes",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "octubre 2016",
+                    "label": "Date"
+                },
+                {
+                    "text": "SMDt 2ari a QT per linfoma",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "AREB-1 amb 5% blastes",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "5% blastes",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 478,
+        "raw_text": "Mostra de DX: Pancitopenia.Mielograma: sin grumos y con megacariocitos muy disminuídos, sin datos dishemopoyéticos consistentes ni signos de infiltración. Muy escaso hierro libre e incorporado.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Pancitopenia",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 479,
+        "raw_text": "Sospita SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 480,
+        "raw_text": "Tto de soporte: Exjade",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Exjade",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 481,
+        "raw_text": "46,XY,del(20)(q11.2)[7]  -Número de metafases alteradas: 7  -Número de metafases normales: 0",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "46,XY,del(20)(q11.2)[7]",
+                    "label": "Karyotype"
+                },
+                {
+                    "text": "7",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "0",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 482,
+        "raw_text": "Mostra en tto AZA (5 cicles) pervia a ALO-TPH",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "ALO-TPH",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 483,
+        "raw_text": "DX PTI, Neoplasia de mama en tratamiento",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "PTI",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Neoplasia de mama",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 484,
+        "raw_text": "Mostra DX: SMPC/SMD inclassificable, Anemia i trombocitosi",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMPC/SMD inclassificable",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "Anemia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "trombocitosi",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 485,
+        "raw_text": "Mostra DX",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Mostra DX",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 486,
+        "raw_text": "Ens envien DNA de MO",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DNA",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 487,
+        "raw_text": "DX, SMD con sideroblastos en anillo y displasia unilínea.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "sideroblastos en anillo",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "displasia unilínea",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 488,
+        "raw_text": "Se procesa la muestra a las 36 hs desde su extraccion",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "36 hs desde su extraccion",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 489,
+        "raw_text": "Ens envien DNA de MO ja processat",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DNA de MO ja processat",
+                    "label": "Origin"
+                }
+            ]
+        }
+    },
+    {
+        "id": 490,
+        "raw_text": "SLPC-LNH T vs LH",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SLPC-LNH",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "T vs LH",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 491,
+        "raw_text": "LMMC, CPSS 0 (baix). No recibe soporte transfusional.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMMC",
+                    "label": "Origin"
+                },
+                {
+                    "text": "CPSS 0 (baix)",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 492,
+        "raw_text": "Anemia desde hace más de un año sin diagnóstico claro. Aplasia selectiva de serie roja.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Anemia",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "aplasia selectiva de serie roja",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 493,
+        "raw_text": "Biopsia MO: celularidad aumentada. p. (Lys700Glu) detectada por Sanger ",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "p. (Lys700Glu)",
+                    "label": "ProteinChange"
+                }
+            ]
+        }
+    },
+    {
+        "id": 494,
+        "raw_text": "LMMC-1. NGS: mutaciones en ASXL1 (48% VAF) RUNX1 (VAF 31.5%). Variantes posiblemente patogénicas en CEBPA (27.9% VAF) y RUNX1 (9.1% VAF).  Aumento población monocítica con 4% blastos. Suma blastos y promonocitos es del 6%. 4% sideroblastos tipo 1. Dismegacariopoyesis del 20%.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "ASXL1",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "48% VAF",
+                    "label": "VAF"
+                },
+                {
+                    "text": "RUNX1",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "VAF 31.5%",
+                    "label": "VAF"
+                },
+                {
+                    "text": "CEBPA",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "27.9% VAF",
+                    "label": "VAF"
+                },
+                {
+                    "text": "RUNX1",
+                    "label": "GeneMutation"
+                },
+                {
+                    "text": "9.1% VAF",
+                    "label": "VAF"
+                },
+                {
+                    "text": "4%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "6%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "4%",
+                    "label": "Blasts"
+                }
+            ]
+        }
+    },
+    {
+        "id": 495,
+        "raw_text": "AZA + decitabina",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "AZA",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "decitabina",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 496,
+        "raw_text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 497,
+        "raw_text": "DX del 20/02/2008. Mostra pre tto Inicia LENA el 07/10/2009",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "20/02/2008",
+                    "label": "Date"
+                },
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 498,
+        "raw_text": "DX TE",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "DX TE",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 499,
+        "raw_text": "No resposta al tto Lena o Placebo. El 20/08/2014 inicia tratamiento bajo en fase II Galasertib vs Placebo. No alcanza respuesta a fecha de 05/01/2015 y continua con la dependencia transfusional Muestra:  + 169 LENA vs P",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "20/08/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "Lena",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Placebo",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Galasertib",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "05/01/2015",
+                    "label": "Date"
+                },
+                {
+                    "text": "LENA",
+                    "label": "Treatment"
+                }
+            ]
+        }
+    },
+    {
+        "id": 500,
+        "raw_text": "Dr Alba demana el CI al clinic responsable",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Dr Alba",
+                    "label": "Smoker"
+                },
+                {
+                    "text": "CI",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 501,
+        "raw_text": "Mostra de seguiment, en tto amb Ciclosporina. Exitus 08/04/2017",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Mostra de seguiment",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "tto amb Ciclosporina",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "Exitus 08/04/2017",
+                    "label": "Date"
+                }
+            ]
+        }
+    },
+    {
+        "id": 502,
+        "raw_text": "Mostra de DX AREB-1",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "AREB-1",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 503,
+        "raw_text": "07/02/2014: progressa a CRDM amb cariotip complex.",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "07/02/2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "CRDM",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "cariotip complex",
+                    "label": "Karyotype"
+                }
+            ]
+        }
+    },
+    {
+        "id": 504,
+        "raw_text": "Va rebre EPO 30000U/I, EPO 60000U/I, EPO+G-CSF sense resposta fins juny 2014 Al setembre 2014 es millora l'hemoglobina (116g/L) potser resposta tardana a EPO ",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "EPO 30000U/I",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "EPO 60000U/I",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "EPO+G-CSF",
+                    "label": "Treatment"
+                },
+                {
+                    "text": "juny 2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "setembre 2014",
+                    "label": "Date"
+                },
+                {
+                    "text": "hemoglobina (116g/L)",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 505,
+        "raw_text": "Sospita de SMD de baix risc",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "SMD",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "baix risc",
+                    "label": "Risk"
+                }
+            ]
+        }
+    },
+    {
+        "id": 506,
+        "raw_text": "DX: LMA con cambios displasicos relacionados (blastos 33%). EXITUS SEPT/12 SIN TTO",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "LMA",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "blastos 33%",
+                    "label": "Blasts"
+                },
+                {
+                    "text": "SEPT/12",
+                    "label": "Date"
+                },
+                {
+                    "text": "EXITUS",
+                    "label": "Exitus"
+                }
+            ]
+        }
+    },
+    {
+        "id": 507,
+        "raw_text": "Nos comentan que no acaba de cumplir criterios para Dx SMD",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "Dx SMD",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    },
+    {
+        "id": 508,
+        "raw_text": "Al separar les cels pel Sorter ens donen dos tipus de poblacions: les CD45++ i les CD45+ (expressio debil)",
+        "prediction": {
+            "entities": [
+                {
+                    "text": "CD45++",
+                    "label": "Diagnosis"
+                },
+                {
+                    "text": "CD45+",
+                    "label": "Diagnosis"
+                }
+            ]
+        }
+    }
+]

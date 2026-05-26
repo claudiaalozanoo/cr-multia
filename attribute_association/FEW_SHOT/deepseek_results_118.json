@@ -1,0 +1,1549 @@
+[
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"AZA\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Lena\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"Lena\" in the given clinical context"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"CRDM\" in the given clinical context"
+    },
+    {
+        "entity_text": "pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"pancitopenia\" in"
+    },
+    {
+        "entity_text": "MDS-MLD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"MDS-MLD\""
+    },
+    {
+        "entity_text": "MDS-IB",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"MDS-IB\" in"
+    },
+    {
+        "entity_text": "DDX41",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"DDX41\" is present or"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"LENA\" in the given clinical context"
+    },
+    {
+        "entity_text": "insuficiencia renal",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the entity \"insuficiencia renal\""
+    },
+    {
+        "entity_text": "alteraciones dismielopoyeticas",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute based on the given context. The"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"TRMN\" in the given"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"EPO\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "Anemia macrocítica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"Anemia macrocítica\" in the"
+    },
+    {
+        "entity_text": "sin tto",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"sin tto\" is \"Yes\" or \""
+    },
+    {
+        "entity_text": "sigue vivo",
+        "entity_label": "Exitus",
+        "true_attribute": "No",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"sigue vivo\" based on"
+    },
+    {
+        "entity_text": "MFP",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"MFP\" in the given clinical context"
+    },
+    {
+        "entity_text": "CRMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"CRMD\" in the given"
+    },
+    {
+        "entity_text": "no tractament",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"no tractament\" in the given clinical"
+    },
+    {
+        "entity_text": "AREB-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB-1\" in"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"EPO\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "acid valproic",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"acid valproic\" is part of"
+    },
+    {
+        "entity_text": "LMA M2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LMA M2\" in"
+    },
+    {
+        "entity_text": "LMC",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LMC\" in the given"
+    },
+    {
+        "entity_text": "MDS",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"MDS\" in the given"
+    },
+    {
+        "entity_text": "MDS",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"MDS\" in the given"
+    },
+    {
+        "entity_text": "diseritropoyesis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"diseritropoyesis"
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"tto\" in the given clinical context"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"SMD\" in the given"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"SMD\" in the given clinical context"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"trombopenia\""
+    },
+    {
+        "entity_text": "AMO",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"AMO\" in the given clinical context"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the diagnosis for the entity AREB-2 based on the"
+    },
+    {
+        "entity_text": "TP53",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"TP53\" is \"Yes\""
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"AZA\" in the given clinical context"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB-2\" in"
+    },
+    {
+        "entity_text": "MDS/MPN-U",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"MDS/MPN-U"
+    },
+    {
+        "entity_text": "JAK2",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"JAK2\" in the given clinical"
+    },
+    {
+        "entity_text": "18 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"18 cicles\" is \"Yes"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"AZA\" in the given clinical context"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"AZA\" in the given clinical context"
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"tto\" in the given clinical context"
+    },
+    {
+        "entity_text": "esplenomegalia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"esplenomegalia\""
+    },
+    {
+        "entity_text": "soporte transfusional",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, I need to determine the attribute for the given medical context. The context is: \"Post"
+    },
+    {
+        "entity_text": "LA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LA\" in the given clinical"
+    },
+    {
+        "entity_text": "pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"pancitopenia\" in"
+    },
+    {
+        "entity_text": "LMA con cambios displasicos",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "quimio",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"quimio\" in the given clinical"
+    },
+    {
+        "entity_text": "azacitidina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"azacitidina\" is a \"Yes"
+    },
+    {
+        "entity_text": "Germa exitus leucèmia 12a",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"Germa exitus leucèmia"
+    },
+    {
+        "entity_text": "pare exitus neo de prostata",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"pare exitus neo de prostata\""
+    },
+    {
+        "entity_text": "mare exitus alzheimer",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"mare exitus alzheimer\" in the"
+    },
+    {
+        "entity_text": "SMDg",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"SMDg\" in the given clinical"
+    },
+    {
+        "entity_text": "LMMC",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"LMMC\" in the given clinical context"
+    },
+    {
+        "entity_text": "patología hematológica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"patología hematológica\" based"
+    },
+    {
+        "entity_text": "neutropenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"neutropenia\" based"
+    },
+    {
+        "entity_text": "TROMBOPENIA PERIFERICA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"TROMBOPENIA PERIFERICA"
+    },
+    {
+        "entity_text": "lesions dermiques",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"lesions dermiques\""
+    },
+    {
+        "entity_text": "eosinofilia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"eosinofilia\" in"
+    },
+    {
+        "entity_text": "anemia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"anemia\" in the given"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"trombopenia\""
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"Lena\" in the given clinical context"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB-2\" in"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"AZA\" is \"Yes\" or"
+    },
+    {
+        "entity_text": "LMA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LMA\" in the given"
+    },
+    {
+        "entity_text": "tratamiento",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"tratamiento\" in the"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "Linfoma",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"Linfoma\" in the"
+    },
+    {
+        "entity_text": "trasplante",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"trasplante\" in the given clinical"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "Mielofibrosis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the entity \"Mielofibrosis\""
+    },
+    {
+        "entity_text": "pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"pancitopenia\" in"
+    },
+    {
+        "entity_text": "3 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the entity \"3 cicles\" in the"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"AZA\" is \"Yes\" or"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "macrocitosi",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"macrocitosi\" in"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the entity \"trombopenia\""
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Lena\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"Lena\" in the given clinical context"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"LENA\" in the given clinical context"
+    },
+    {
+        "entity_text": "15 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"15 cicles\" in the given"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Lena\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "dosis baixes",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"dosis baixes\" refers to \"Treatment"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"LENA\" is \"Yes\" or \"No"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, I need to determine whether \"Lena\" is a \"Yes\" or \"No\""
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, I need to determine whether the entity \"tto\" in the given clinical context is \""
+    },
+    {
+        "entity_text": "Lenalidomida",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Lenalidomida\" is a \"Yes"
+    },
+    {
+        "entity_text": "5 mg/2d x21d",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is about"
+    },
+    {
+        "entity_text": "citopenias grado 4",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is in"
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB-2\" in"
+    },
+    {
+        "entity_text": "8 ciclo",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"8 ciclo\" in the given clinical context"
+    },
+    {
+        "entity_text": "Sintrarev",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Sintrarev\" is a treatment or not"
+    },
+    {
+        "entity_text": "SF3B1",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"SF3B1\" in the given"
+    },
+    {
+        "entity_text": "Neutropenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the entity \"Neutropenia\" in"
+    },
+    {
+        "entity_text": "FSC-G",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"FSC-G\" is a \"Yes\" or"
+    },
+    {
+        "entity_text": "3 ciclos",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the entity \"3 ciclos\" in the"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given context. The context is \"S"
+    },
+    {
+        "entity_text": "LMMC",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LMMC\" in the given"
+    },
+    {
+        "entity_text": "pancitopenia de significat incert",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is \""
+    },
+    {
+        "entity_text": "LNH Burkitt",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LNH Burkitt\" in"
+    },
+    {
+        "entity_text": "SMD secundario",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "Hermano SMD",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "Yes",
+        "pred_attribute": "No",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"Hermano SMD\" in the"
+    },
+    {
+        "entity_text": "CMML1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"CMML1\" in the given clinical"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"TRMN\" in the given"
+    },
+    {
+        "entity_text": "cancer de mama",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "Radioteràpia",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Radioteràpia\" is a \"Yes"
+    },
+    {
+        "entity_text": "40,5 Gy en 15 sessions",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"40,5 Gy en 1"
+    },
+    {
+        "entity_text": "quimioteràpia",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"quimioteràpia\" is"
+    },
+    {
+        "entity_text": "TC x4",
+        "entity_label": "Treatment",
+        "true_attribute": "None",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"TC x4\" is a \"Yes"
+    },
+    {
+        "entity_text": "Idarrubicina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Idarrubicina\" is part of the treatment"
+    },
+    {
+        "entity_text": "Citarabina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Citarabina\" is part of the treatment"
+    },
+    {
+        "entity_text": "1 cicle i disminució de la dosi",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is in"
+    },
+    {
+        "entity_text": "TP53",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is about"
+    },
+    {
+        "entity_text": "TP53",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is in"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is \""
+    },
+    {
+        "entity_text": "leucémica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "LMA",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LMA\" in the given"
+    },
+    {
+        "entity_text": "TRMN-like",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"TRMN-like\" in the given clinical"
+    },
+    {
+        "entity_text": "QMT/RDT",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"QMT/RDT\" is \"Yes"
+    },
+    {
+        "entity_text": "AZA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"AZA\" in the given clinical context"
+    },
+    {
+        "entity_text": "13 cicles",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"13 cicles\" is \"Yes"
+    },
+    {
+        "entity_text": "AREB1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB1\" based on"
+    },
+    {
+        "entity_text": "AREB2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB2\" in the"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"TRMN\" in the given clinical context"
+    },
+    {
+        "entity_text": "tabaquisme",
+        "entity_label": "Smoker",
+        "true_attribute": "Previous",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"tabaquisme\" based on"
+    },
+    {
+        "entity_text": "Pancitopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"Pancitopenia\" in the"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is \""
+    },
+    {
+        "entity_text": "lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"lena\" in the given clinical context is"
+    },
+    {
+        "entity_text": "trombopenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"trombopenia\" in the"
+    },
+    {
+        "entity_text": "NMP",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"NMP\" in the given"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"TRMN\" in the given clinical context"
+    },
+    {
+        "entity_text": "tabaquisme",
+        "entity_label": "Smoker",
+        "true_attribute": "Previous",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"tabaquisme\" based on"
+    },
+    {
+        "entity_text": "Neo de mama",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"Neo de mama\" in the"
+    },
+    {
+        "entity_text": "Mieloma múltiple",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"Mieloma múltiple"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "NMP",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"NMP\" in the given"
+    },
+    {
+        "entity_text": "hydrea",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"hydrea\" in the given clinical"
+    },
+    {
+        "entity_text": "Jak2-",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"GeneMutation\" for the entity \"Jak"
+    },
+    {
+        "entity_text": "BCR/ABL-",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"BCR/ABL-\" in the given"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is \""
+    },
+    {
+        "entity_text": "anemia multicarencial",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is in"
+    },
+    {
+        "entity_text": "LMMC-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"LMMC-1\" in"
+    },
+    {
+        "entity_text": "anemia de significat incert",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"anemia de significat inc"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"CRDM\" in the given clinical context"
+    },
+    {
+        "entity_text": "SINTRA-REV",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"SINTRA-REV\" in the"
+    },
+    {
+        "entity_text": "neutropenia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"neutropenia\" in the given"
+    },
+    {
+        "entity_text": "cancer de mama",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"cancer de mama\" in"
+    },
+    {
+        "entity_text": "TPH",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"TPH\" in the given clinical context"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Discarded",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"SMD\" in the given"
+    },
+    {
+        "entity_text": "displàsia",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"displàsia\""
+    },
+    {
+        "entity_text": "tumor sòlid",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"tumor sòlid\""
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"TRMN\" in the given"
+    },
+    {
+        "entity_text": "cancer de cervix",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "Histerectomia",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Histerectomia\" is a treatment or"
+    },
+    {
+        "entity_text": "neoplasia vulvar de alto grado VIN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is in"
+    },
+    {
+        "entity_text": "IQ",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"IQ\" in the given clinical context is"
+    },
+    {
+        "entity_text": "QT",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"QT\" in the given clinical context is"
+    },
+    {
+        "entity_text": "TRMN-like",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"TRMN-like\" in the"
+    },
+    {
+        "entity_text": "Mare amb amiloidosis",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"Mare amb amiloidosis\""
+    },
+    {
+        "entity_text": "germa amb cancer de cordes vocals",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"germa amb cancer de cordes vocals"
+    },
+    {
+        "entity_text": "germa amb cancer hepatic",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"germa amb cancer hepatic\" in"
+    },
+    {
+        "entity_text": "PTI",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"PTI\" in the given clinical context"
+    },
+    {
+        "entity_text": "GMSI",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"GMSI\" in the given clinical"
+    },
+    {
+        "entity_text": "SMD/NMP_u",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"SMD/NMP_u\""
+    },
+    {
+        "entity_text": "Displasia en las 3 lineas celulares",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is:"
+    },
+    {
+        "entity_text": "MDS",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the given medical context. The context is in"
+    },
+    {
+        "entity_text": "TRMN",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for \"TRMN\" in the given clinical context"
+    },
+    {
+        "entity_text": "tabaquisme",
+        "entity_label": "Smoker",
+        "true_attribute": "Previous",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"tabaquisme\" based on"
+    },
+    {
+        "entity_text": "AREB-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB-1\" in"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"CRDM\" in the given"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "25 ciclos",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"25 ciclos\" in the given"
+    },
+    {
+        "entity_text": "Aza",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Aza\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "AREB-2",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB-2\" in"
+    },
+    {
+        "entity_text": "Cap mutacio",
+        "entity_label": "GeneMutation",
+        "true_attribute": "No",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, I need to determine the attribute for the given medical context. The context is: \"Est"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"LENA\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "EXITUS",
+        "entity_label": "Exitus",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"EXITUS\" in the given clinical context"
+    },
+    {
+        "entity_text": "tumor pulmonar",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"tumor pulmonar\""
+    },
+    {
+        "entity_text": "metástasis cerebral",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"metástasis cerebral\" in"
+    },
+    {
+        "entity_text": "11 ciclos",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"11 ciclos\" in the given"
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"LENA\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "LENA",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"LENA\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "Anemia leve",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"Anemia leve\" in the"
+    },
+    {
+        "entity_text": "linfocitosis monoclonal leve",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"linfocitosis monoc"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the correct label for the attribute \"CRDM\" in the"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"EPO\" in the given clinical context is a"
+    },
+    {
+        "entity_text": "eritropoetina",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"eritropoetina\" is a \""
+    },
+    {
+        "entity_text": "suport transfusional",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"suport transfusional\" is \""
+    },
+    {
+        "entity_text": "concentrats d'hematies i exjade",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"concentrats d'hem"
+    },
+    {
+        "entity_text": "AREB-1",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"AREB-1\" in"
+    },
+    {
+        "entity_text": "SINTRA-REV",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"SINTRA-REV\" is \""
+    },
+    {
+        "entity_text": "SMD 5q-",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"SMD 5q-\""
+    },
+    {
+        "entity_text": "SINTRA-REV",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"SINTRA-REV\" is \""
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"EPO\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "30000UI/setmana",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"30000UI/setmana"
+    },
+    {
+        "entity_text": "MDS-RS-MLD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"MDS-RS-ML"
+    },
+    {
+        "entity_text": "IDH2",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"IDH2\" is \"Yes\""
+    },
+    {
+        "entity_text": "SRSF2",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"SRSF2\" is \"Yes"
+    },
+    {
+        "entity_text": "ASXL1",
+        "entity_label": "GeneMutation",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"ASXL1\" is \"Yes\""
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"CRDM\" in the given"
+    },
+    {
+        "entity_text": "fibrosis reticulinica",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"fibrosis reticulinica"
+    },
+    {
+        "entity_text": "SMD con 5q",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"SMD con 5q"
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether \"Lena\" is a \"Yes\" or \""
+    },
+    {
+        "entity_text": "Lena",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the attribute \"Lena\" in the given clinical context"
+    },
+    {
+        "entity_text": "tto",
+        "entity_label": "Treatment",
+        "true_attribute": "No",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"tto\" in the given"
+    },
+    {
+        "entity_text": "citopenies",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Progression",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"citopenies\" in the"
+    },
+    {
+        "entity_text": "CRDM",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the correct label for the attribute \"CRDM\" in the"
+    },
+    {
+        "entity_text": "Macrocitosis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"Macrocitosis\" in"
+    },
+    {
+        "entity_text": "disgranulopoyesis",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the entity \"disgranulopoyesis"
+    },
+    {
+        "entity_text": "cicle 1",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"cicle 1\" is part of"
+    },
+    {
+        "entity_text": "SMD",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Suspicion",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the label for the attribute \"SMD\" in the given"
+    },
+    {
+        "entity_text": "Ca de prostata",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"Ca de prostata\" based"
+    },
+    {
+        "entity_text": "RDT",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Yes",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"RDT\" is a \"Yes\""
+    },
+    {
+        "entity_text": "Ca de colon",
+        "entity_label": "Diagnosis",
+        "true_attribute": "Confirmed",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out the attribute for the entity \"Ca de colon\" based on"
+    },
+    {
+        "entity_text": "cirugia",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"cirugia\" is labeled as \""
+    },
+    {
+        "entity_text": "Padre Ca de vejiga",
+        "entity_label": "FamilyHistory",
+        "true_attribute": "None",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"Padre Ca de vejiga\" has"
+    },
+    {
+        "entity_text": "EPO",
+        "entity_label": "Treatment",
+        "true_attribute": "Yes",
+        "pred_attribute": "Parsing_Error",
+        "raw_llm_out": "{\"attribute\": Okay, so I need to figure out whether the entity \"EPO\" in the given clinical context"
+    }
+]

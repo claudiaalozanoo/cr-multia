@@ -1,0 +1,16 @@
+,Blasts,Date,Diagnosis,Exitus,FamilyHistory,GeneMutation,Karyotype,Origin,ProteinChange,Response,Risk,Smoker,Treatment,VAF,cDNAChange
+Blasts,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Date,0,617,0,0,0,0,0,0,0,0,0,0,0,0,0
+Diagnosis,4,1,1008,0,0,0,2,0,0,7,0,0,7,0,0
+Exitus,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0
+FamilyHistory,0,0,0,0,46,0,0,0,0,0,0,0,0,0,0
+GeneMutation,0,0,0,0,0,167,0,0,0,0,0,0,0,0,0
+Karyotype,0,0,6,0,0,3,175,0,0,0,0,0,0,0,0
+Origin,0,0,0,0,0,2,0,16,0,0,0,0,0,0,0
+ProteinChange,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0
+Response,0,0,9,0,0,0,0,0,0,118,0,0,1,0,0
+Risk,0,0,1,0,0,0,0,0,0,0,143,0,0,0,0
+Smoker,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0
+Treatment,0,0,2,0,0,0,0,0,0,0,0,0,540,0,0
+VAF,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0
+cDNAChange,0,0,0,0,0,0,1,0,19,0,0,0,0,0,0

@@ -1,0 +1,5515 @@
+[
+    {
+        "text": "Mostra durant Lena Tras 6 ciclos de Lena. Març 2015: segueix amb Lena amb RCH i IT",
+        "ground_truth": [
+            {
+                "from_id": "PIOBqgueVC",
+                "to_id": "0B5Bd_eKav",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "tRTZR-phcb",
+                "to_id": "0nIUR7U34j",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tRTZR-phcb",
+                "to_id": "eFz7Aq1L15",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "tRTZR-phcb",
+                "to_id": "PIOBqgueVC",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "tRTZR-phcb",
+                "to_id": "PHWSjtDUsY",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "PHWSjtDUsY",
+                "to_id": "0B5Bd_eKav",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "X8YPgWmxZn",
+                "to_id": "0nIUR7U34j",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"tRTZR-phcb\", \"to_id\": \"PIOBqgueVC\", \"type\": \"has_dose\"}, {\"from_id\": \"tRTZR-phcb\", \"to_id\": \"PHWSjtDUsY\", \"type\": \"has_dose\"}, {\"from_id\": \"PHWSjtDUsY\", \"to_id\": \"0B5Bd_eKav\", \"type\": \"has_dose\"}, {\"from_id\": \"X8YPgWmxZn\", \"to_id\": \"0nIUR7U34j\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "SMD secundario a QT Neoplasia previa:adenocarcinoma (10/2019)",
+        "ground_truth": [
+            {
+                "from_id": "df_WzgxIfD",
+                "to_id": "7HZrIUpZuf",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "df_WzgxIfD",
+                "to_id": "7HZrIUpZuf",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"df_WzgxIfD\", \"to_id\": \"7HZrIUpZuf\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX CRDM (pancitopenia)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX DDX41 germinal",
+        "ground_truth": [
+            {
+                "from_id": "xzHAuhxnq2",
+                "to_id": "MPa9_fE8CY",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "xzHAuhxnq2",
+                "to_id": "MPa9_fE8CY",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"xzHAuhxnq2\", \"to_id\": \"MPa9_fE8CY\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "Avaluacio post C4>progresio a leucemia secundaria",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de DX. Presenta DT al DX. Inici Lena 06.03.2015",
+        "ground_truth": [
+            {
+                "from_id": "otZPMu55ol",
+                "to_id": "_EQMQdduHk",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "otZPMu55ol",
+                "to_id": "_EQMQdduHk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "otZPMu55ol",
+                "to_id": "reatJKNQK5",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"otZPMu55ol\", \"to_id\": \"_EQMQdduHk\", \"type\": \"occurred_on\"}, {\"from_id\": \"otZPMu55ol\", \"to_id\": \"reatJKNQK5\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Assaig SintraREV. No fem marcatge per Single Cell perque surten poques cels",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Neutropènia al DX.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "No es diagnòstic de SMD, es aplasia medular",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "NGS 10/06/2024: gen DNMT3A VAF 42,95%. Gen SF3B1 VAF 1,25%. Gen BCOR VAF 80,98%. Gen NFE2 VAF 12,89%",
+        "ground_truth": [
+            {
+                "from_id": "QK_sf0Rl_Z",
+                "to_id": "jGhWpvgAcH",
+                "type": "has_value"
+            },
+            {
+                "from_id": "HhBMOdVCbW",
+                "to_id": "aF3c7ranVJ",
+                "type": "has_value"
+            },
+            {
+                "from_id": "IVDaTtNteL",
+                "to_id": "QfVbuwhMt1",
+                "type": "has_value"
+            },
+            {
+                "from_id": "pI0ir_zXH1",
+                "to_id": "TCxLJ7MLVw",
+                "type": "has_value"
+            },
+            {
+                "from_id": "QK_sf0Rl_Z",
+                "to_id": "8LsVGE5OfV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "HhBMOdVCbW",
+                "to_id": "8LsVGE5OfV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "IVDaTtNteL",
+                "to_id": "8LsVGE5OfV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "pI0ir_zXH1",
+                "to_id": "8LsVGE5OfV",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "QK_sf0Rl_Z",
+                "to_id": "jGhWpvgAcH",
+                "type": "has_value"
+            },
+            {
+                "from_id": "HhBMOdVCbW",
+                "to_id": "aF3c7ranVJ",
+                "type": "has_value"
+            },
+            {
+                "from_id": "IVDaTtNteL",
+                "to_id": "QfVbuwhMt1",
+                "type": "has_value"
+            },
+            {
+                "from_id": "pI0ir_zXH1",
+                "to_id": "TCxLJ7MLVw",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"QK_sf0Rl_Z\", \"to_id\": \"jGhWpvgAcH\", \"type\": \"has_value\"}, {\"from_id\": \"HhBMOdVCbW\", \"to_id\": \"aF3c7ranVJ\", \"type\": \"has_value\"}, {\"from_id\": \"IVDaTtNteL\", \"to_id\": \"QfVbuwhMt1\", \"type\": \"has_value\"}, {\"from_id\": \"pI0ir_zXH1\", \"to_id\": \"TCxLJ7MLVw\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Tto soporte transfusional. EXITUS Agosto/14 por HDA y proceso infeccioso",
+        "ground_truth": [
+            {
+                "from_id": "JudA2dqPlk",
+                "to_id": "wngW9ZyKYr",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "JudA2dqPlk",
+                "to_id": "rlVWVF0l24",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "JudA2dqPlk",
+                "to_id": "UIuDacbOhs",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "JudA2dqPlk",
+                "to_id": "wngW9ZyKYr",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "rlVWVF0l24",
+                "to_id": "wngW9ZyKYr",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"JudA2dqPlk\", \"to_id\": \"wngW9ZyKYr\", \"type\": \"occurred_on\"}, {\"from_id\": \"rlVWVF0l24\", \"to_id\": \"wngW9ZyKYr\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Última analítica amb valors alterats 07/06/2016",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "LMMC low risk",
+        "ground_truth": [
+            {
+                "from_id": "q3pdl4cHxE",
+                "to_id": "rtyGwcSpvv",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "q3pdl4cHxE",
+                "to_id": "rtyGwcSpvv",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"q3pdl4cHxE\", \"to_id\": \"rtyGwcSpvv\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Mostra de DX: 1 citopenia amb 2% blastes i CG normal. IPSS baix",
+        "ground_truth": [
+            {
+                "from_id": "a3ohljSysQ",
+                "to_id": "8chZpPHscE",
+                "type": "has_value"
+            },
+            {
+                "from_id": "a3ohljSysQ",
+                "to_id": "N74Ue2Y-EJ",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "a3ohljSysQ",
+                "to_id": "N74Ue2Y-EJ",
+                "type": "has_value"
+            },
+            {
+                "from_id": "a3ohljSysQ",
+                "to_id": "8chZpPHscE",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"a3ohljSysQ\", \"to_id\": \"N74Ue2Y-EJ\", \"type\": \"has_value\"}, {\"from_id\": \"a3ohljSysQ\", \"to_id\": \"8chZpPHscE\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Posible germinal. Hay muestra de pelo HF_2149",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Neutropenia en estudio: Pendiente MO.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Tto de soporte: Exjade",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Neoplasia mieloide relacionada amb la terapia i delecció del 5q.",
+        "ground_truth": [
+            {
+                "from_id": "7McFEWk1Fo",
+                "to_id": "-EONYE4ZS9",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "-EONYE4ZS9",
+                "to_id": "7McFEWk1Fo",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"-EONYE4ZS9\", \"to_id\": \"7McFEWk1Fo\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "Mostra de DX: CRDM 2a a limfoma difus de cels grans b, pancitopenia",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "No fumadora. Es TRMN, neoplasia previa Lupus eritematoso sistemico, año 2020.  Agosto 2012 a JuL 2014 AZATIOPRINA: con buena respuesta inicial, pero pérdida de eficacia.  Nov 2013 a Oct 2014 BELIMUMAB: refractaria.  Jul 2014 a Abr 2016 MOFETIL MICOFENOLATO: suspendido por sepsis Ago 2016 CICLOSPORINA: suspendido por empeoramiento trombopenia  Nov 2016 de nuevo MMF combinado con belimumab de nuevo en feb 2017 y revolade con buena evolución ",
+        "ground_truth": [
+            {
+                "from_id": "MowEkuV4N2",
+                "to_id": "Qf-kdFjHl-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Dgf9DFEUbN",
+                "to_id": "0lVwshjPF1",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Dgf9DFEUbN",
+                "to_id": "AFhAWIVYSy",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Dgf9DFEUbN",
+                "to_id": "ZP-5QD6TTf",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "ggOr6uo0kq",
+                "to_id": "JOw1GP_oTe",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ggOr6uo0kq",
+                "to_id": "AxmNulRsUZ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "btq8ej9-Xv",
+                "to_id": "n0Pr55gXX4",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "btq8ej9-Xv",
+                "to_id": "HZSk7oUxlc",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "h0_biJuUiF",
+                "to_id": "HZSk7oUxlc",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "0YckU3NFrC",
+                "to_id": "vDUGb7aVuB",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "GTINDVnSLg",
+                "to_id": "vDUGb7aVuB",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Pm-lpaFNES",
+                "to_id": "M62hQdeFVN",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Pm-lpaFNES",
+                "to_id": "oCIPJXNFn_",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Dgf9DFEUbN",
+                "to_id": "0lVwshjPF1",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Dgf9DFEUbN",
+                "to_id": "AFhAWIVYSy",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Dgf9DFEUbN",
+                "to_id": "ZP-5QD6TTf",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "ggOr6uo0kq",
+                "to_id": "JOw1GP_oTe",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ggOr6uo0kq",
+                "to_id": "AxmNulRsUZ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "btq8ej9-Xv",
+                "to_id": "n0Pr55gXX4",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "0YckU3NFrC",
+                "to_id": "HZSk7oUxlc",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Pm-lpaFNES",
+                "to_id": "M62hQdeFVN",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Pm-lpaFNES",
+                "to_id": "oCIPJXNFn_",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Dgf9DFEUbN\", \"to_id\": \"0lVwshjPF1\", \"type\": \"occurred_on\"}, {\"from_id\": \"Dgf9DFEUbN\", \"to_id\": \"AFhAWIVYSy\", \"type\": \"occurred_on\"}, {\"from_id\": \"Dgf9DFEUbN\", \"to_id\": \"ZP-5QD6TTf\", \"type\": \"has_outcome\"}, {\"from_id\": \"ggOr6uo0kq\", \"to_id\": \"JOw1GP_oTe\", \"type\": \"occurred_on\"}, {\"from_id\": \"ggOr6uo0kq\", \"to_id\": \"AxmNulRsUZ\", \"type\": \"occurred_on\"}, {\"from_id\": \"btq8ej9-Xv\", \"to_id\": \"n0Pr55gXX4\", \"type\": \"occurred_on\"}, {\"from_id\": \"0YckU3NFrC\", \"to_id\": \"HZSk7oUxlc\", \"type\": \"occurred_on\"}, {\"from_id\": \"Pm-lpaFNES\", \"to_id\": \"M62hQdeFVN\", \"type\": \"occurred_on\"}, {\"from_id\": \"Pm-lpaFNES\", \"to_id\": \"oCIPJXNFn_\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Al 2007 diagnòstic SMD 5q- que no es tracta. Al 2008 diagnòstic de neoplàsia de Mama. Reb tractament amb Tamoxife mentre te el SMD. Al 2011 segueix amb la neo de mama i el SMD progressa a LAM. No es TRMN perque el SMD 5q no es va tractar.",
+        "ground_truth": [
+            {
+                "from_id": "_EptdCAgKA",
+                "to_id": "3IxibLypb8",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "_EptdCAgKA",
+                "to_id": "rx_YeJm3PH",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "8NeWyB83_w",
+                "to_id": "_EptdCAgKA",
+                "type": "treats"
+            },
+            {
+                "from_id": "YYOIdH9Ud-",
+                "to_id": "isEbFhP21p",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "Ml9CNH-WE_",
+                "to_id": "IRwzDyuqRL",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "wdHCjXrKSg",
+                "to_id": "IRwzDyuqRL",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "UlU7GVA69F",
+                "to_id": "jW9yXw_ak-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "lbkUxbsZo9",
+                "to_id": "UlU7GVA69F",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "gTbr9K9tax",
+                "to_id": "3IxibLypb8",
+                "type": "has_karyotype"
+            },
+            {
+                "from_id": "gTbr9K9tax",
+                "to_id": "wdHCjXrKSg",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "wdHCjXrKSg",
+                "to_id": "jW9yXw_ak-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "wdHCjXrKSg",
+                "to_id": "8NeWyB83_w",
+                "type": "treats"
+            },
+            {
+                "from_id": "jW9yXw_ak-",
+                "to_id": "lbkUxbsZo9",
+                "type": "treats"
+            },
+            {
+                "from_id": "Ml9CNH-WE_",
+                "to_id": "IRwzDyuqRL",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "eto2WS2T_Y",
+                "to_id": "IRwzDyuqRL",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Ml9CNH-WE_",
+                "to_id": "YYOIdH9Ud-",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"gTbr9K9tax\", \"to_id\": \"3IxibLypb8\", \"type\": \"has_karyotype\"}, {\"from_id\": \"gTbr9K9tax\", \"to_id\": \"wdHCjXrKSg\", \"type\": \"caused_by\"}, {\"from_id\": \"wdHCjXrKSg\", \"to_id\": \"jW9yXw_ak-\", \"type\": \"occurred_on\"}, {\"from_id\": \"wdHCjXrKSg\", \"to_id\": \"8NeWyB83_w\", \"type\": \"treats\"}, {\"from_id\": \"jW9yXw_ak-\", \"to_id\": \"lbkUxbsZo9\", \"type\": \"treats\"}, {\"from_id\": \"Ml9CNH-WE_\", \"to_id\": \"IRwzDyuqRL\", \"type\": \"occurred_on\"}, {\"from_id\": \"eto2WS2T_Y\", \"to_id\": \"IRwzDyuqRL\", \"type\": \"occurred_on\"}, {\"from_id\": \"Ml9CNH-WE_\", \"to_id\": \"YYOIdH9Ud-\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "DX CRDM. Demano SP",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Tto con Rituximab.  23/07/2020 quimioterapia 5h?",
+        "ground_truth": [
+            {
+                "from_id": "3yyGeI8WfP",
+                "to_id": "E3Hrdvfnyr",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "_2fsfkOCsi",
+                "to_id": "E3Hrdvfnyr",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "3yyGeI8WfP",
+                "to_id": "E3Hrdvfnyr",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"_2fsfkOCsi\", \"to_id\": \"E3Hrdvfnyr\", \"type\": \"occurred_on\"}, {\"from_id\": \"3yyGeI8WfP\", \"to_id\": \"E3Hrdvfnyr\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX CRDM, 4% blastes en MO. Panells: IDH1, SRSF2. \"La semana primera de agosto sin falta tendremos la ficha\" (Dr Raya)",
+        "ground_truth": [
+            {
+                "from_id": "vDSHYwcykU",
+                "to_id": "dWeMToiJ8g",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "vDSHYwcykU",
+                "to_id": "dWeMToiJ8g",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"vDSHYwcykU\", \"to_id\": \"dWeMToiJ8g\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Ensayo Lena vs Placeno 5mg/dia, en la evaluación a día +169 no ha alcanzado mejoría eritroide y sigue en DT. Se suspende tras días +170 por no respuesta.",
+        "ground_truth": [
+            {
+                "from_id": "xnE_m4MmVE",
+                "to_id": "SBW7c7ixs6",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "u-yyPnDNUv",
+                "to_id": "SBW7c7ixs6",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "xnE_m4MmVE",
+                "to_id": "QhNxuxWbLG",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "u-yyPnDNUv",
+                "to_id": "QhNxuxWbLG",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "xnE_m4MmVE",
+                "to_id": "QhNxuxWbLG",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "u-yyPnDNUv",
+                "to_id": "QhNxuxWbLG",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "SBW7c7ixs6",
+                "to_id": "u-yyPnDNUv",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"xnE_m4MmVE\", \"to_id\": \"QhNxuxWbLG\", \"type\": \"has_dose\"}, {\"from_id\": \"u-yyPnDNUv\", \"to_id\": \"QhNxuxWbLG\", \"type\": \"has_dose\"}, {\"from_id\": \"SBW7c7ixs6\", \"to_id\": \"u-yyPnDNUv\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Se observan blastos en SP (no se especifica el %)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "TRMN. Es exfumador de fa 6 anys. Neoplasia prèvia Miastenia gravis, incicio 2009 fins 2021. Tractat amb Azatioprina.",
+        "ground_truth": [
+            {
+                "from_id": "bNF7PrlCv9",
+                "to_id": "hmKsIYijqP",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "bNF7PrlCv9",
+                "to_id": "BXBvIIbdXg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "cP6RwLuUc1",
+                "to_id": "bNF7PrlCv9",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "bNF7PrlCv9",
+                "to_id": "hmKsIYijqP",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "bNF7PrlCv9",
+                "to_id": "BXBvIIbdXg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "cP6RwLuUc1",
+                "to_id": "bNF7PrlCv9",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"bNF7PrlCv9\", \"to_id\": \"hmKsIYijqP\", \"type\": \"occurred_on\"}, {\"from_id\": \"bNF7PrlCv9\", \"to_id\": \"BXBvIIbdXg\", \"type\": \"occurred_on\"}, {\"from_id\": \"cP6RwLuUc1\", \"to_id\": \"bNF7PrlCv9\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Número de ciclos: 15 cicles (des 2016) Valoració reposta: 25/02/2016",
+        "ground_truth": [
+            {
+                "from_id": "OPHFFAOLEi",
+                "to_id": "rnzBw0sGEe",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "OPHFFAOLEi",
+                "to_id": "rnzBw0sGEe",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "OPHFFAOLEi",
+                "to_id": "yXydvvApzK",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"OPHFFAOLEi\", \"to_id\": \"rnzBw0sGEe\", \"type\": \"occurred_on\"}, {\"from_id\": \"OPHFFAOLEi\", \"to_id\": \"yXydvvApzK\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Es volia incloure a assaig MDS3001 amb imetelstat el 03/03/2016, pero finalment no va arribar a entrar. 11/04/2016: inici tto de suport Exjade",
+        "ground_truth": [
+            {
+                "from_id": "o2XXr-buRK",
+                "to_id": "Bx3QTLrYP-",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "o2XXr-buRK",
+                "to_id": "Bx3QTLrYP-",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"o2XXr-buRK\", \"to_id\": \"Bx3QTLrYP-\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Mostra de DX: neutropenia",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Nou DX: Gamapatia monoclonal y anemia sideroblastica, sense tto",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de seguiment. 0% Blastes MO, Exitus 27/03/2016",
+        "ground_truth": [
+            {
+                "from_id": "EVML230iB0",
+                "to_id": "miBlm_9SwE",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "EVML230iB0",
+                "to_id": "miBlm_9SwE",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"EVML230iB0\", \"to_id\": \"miBlm_9SwE\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Mostra Lena",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Toxicidad: Neutropenia grado III post-4 ciclo a dosis de 10 mg/21 día.  Fracaso terapéutico tras 13 meses (confirmada con AMO y biopsia)",
+        "ground_truth": [
+            {
+                "from_id": "VFN9SgOIPi",
+                "to_id": "7P-fuoKKmo",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "VFN9SgOIPi",
+                "to_id": "7P-fuoKKmo",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "VFN9SgOIPi",
+                "to_id": "IcDyUAvzH1",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "Vlad2Paf_A",
+                "to_id": "IcDyUAvzH1",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"VFN9SgOIPi\", \"to_id\": \"7P-fuoKKmo\", \"type\": \"has_dose\"}, {\"from_id\": \"VFN9SgOIPi\", \"to_id\": \"IcDyUAvzH1\", \"type\": \"has_outcome\"}, {\"from_id\": \"Vlad2Paf_A\", \"to_id\": \"IcDyUAvzH1\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Exitus tras dos ciclos",
+        "ground_truth": [],
+        "prediction": [
+            {
+                "from_id": "OGokfw6eSl",
+                "to_id": "1yseyAhQc6",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"OGokfw6eSl\", \"to_id\": \"1yseyAhQc6\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "IPSS-R dolent. LMA monoblastica",
+        "ground_truth": [
+            {
+                "from_id": "5HB5EE--97",
+                "to_id": "H6TWWoSgmm",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "LMMC-1. NGS: mutaciones en ASXL1 (48% VAF) RUNX1 (VAF 31.5%). Variantes posiblemente patogénicas en CEBPA (27.9% VAF) y RUNX1 (9.1% VAF).  Aumento población monocítica con 4% blastos. Suma blastos y promonocitos es del 6%. 4% sideroblastos tipo 1. Dismegacariopoyesis del 20%.",
+        "ground_truth": [
+            {
+                "from_id": "z0OdhJoSSr",
+                "to_id": "anGndMohRT",
+                "type": "has_value"
+            },
+            {
+                "from_id": "XJTU-Yt68B",
+                "to_id": "vbrV1wxAqY",
+                "type": "has_value"
+            },
+            {
+                "from_id": "r0Pb83hIfJ",
+                "to_id": "Py4iOWxCSp",
+                "type": "has_value"
+            },
+            {
+                "from_id": "AfXGt1ehNI",
+                "to_id": "dX63FephoH",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "z0OdhJoSSr",
+                "to_id": "anGndMohRT",
+                "type": "has_value"
+            },
+            {
+                "from_id": "XJTU-Yt68B",
+                "to_id": "vbrV1wxAqY",
+                "type": "has_value"
+            },
+            {
+                "from_id": "r0Pb83hIfJ",
+                "to_id": "Py4iOWxCSp",
+                "type": "has_value"
+            },
+            {
+                "from_id": "AfXGt1ehNI",
+                "to_id": "dX63FephoH",
+                "type": "has_value"
+            },
+            {
+                "from_id": "0MbNjZxzLC",
+                "to_id": "qc2Pbqmp82",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "Jr6pbBJAYB",
+                "to_id": "0MbNjZxzLC",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"z0OdhJoSSr\", \"to_id\": \"anGndMohRT\", \"type\": \"has_value\"}, {\"from_id\": \"XJTU-Yt68B\", \"to_id\": \"vbrV1wxAqY\", \"type\": \"has_value\"}, {\"from_id\": \"r0Pb83hIfJ\", \"to_id\": \"Py4iOWxCSp\", \"type\": \"has_value\"}, {\"from_id\": \"AfXGt1ehNI\", \"to_id\": \"dX63FephoH\", \"type\": \"has_value\"}, {\"from_id\": \"0MbNjZxzLC\", \"to_id\": \"qc2Pbqmp82\", \"type\": \"has_outcome\"}, {\"from_id\": \"Jr6pbBJAYB\", \"to_id\": \"0MbNjZxzLC\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "DX en l'Hospital de l'Esperit Sant a l'octubre 2014 es deriva a HGTIP octubre 2016 per valorar tractament    28/10/14:    -Leucopènia i neutropenia -AMO: amb grumoll escás però amb signes de displasia, immunofenotip normal, citogenética normal Juliol 2016: -Anemia i ferropenia -Immunofenotip: 8% de blasts de fenotip mieloide amb displasia important de la sèrie granulocitíca y monocítica ",
+        "ground_truth": [
+            {
+                "from_id": "ZlhotIu5pJ",
+                "to_id": "MV-tvN33Ae",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "lnkBXHWm0c",
+                "to_id": "tlBs8mu6hl",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "ZlhotIu5pJ",
+                "to_id": "MV-tvN33Ae",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "lnkBXHWm0c",
+                "to_id": "tlBs8mu6hl",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "qdu2t7rjoB",
+                "to_id": "tlBs8mu6hl",
+                "type": "has_value"
+            },
+            {
+                "from_id": "5J00oxJJvk",
+                "to_id": "tlBs8mu6hl",
+                "type": "Diagnosis"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"ZlhotIu5pJ\", \"to_id\": \"MV-tvN33Ae\", \"type\": \"occurred_on\"}, {\"from_id\": \"lnkBXHWm0c\", \"to_id\": \"tlBs8mu6hl\", \"type\": \"occurred_on\"}, {\"from_id\": \"qdu2t7rjoB\", \"to_id\": \"tlBs8mu6hl\", \"type\": \"has_value\"}, {\"from_id\": \"5J00oxJJvk\", \"to_id\": \"tlBs8mu6hl\", \"type\": \"Diagnosis\"}]"
+    },
+    {
+        "text": "SOSPITA SMD:PANCITOPENIA",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Llega muy poco volumen, todo para DNA.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Presenta una neoplasia de mama al 2008 i es tracta amb QT. CPSS-0 (low)",
+        "ground_truth": [
+            {
+                "from_id": "W4g45zLfzS",
+                "to_id": "YU03It762G",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "q7bZAnTDmY",
+                "to_id": "W4g45zLfzS",
+                "type": "treats"
+            },
+            {
+                "from_id": "W4g45zLfzS",
+                "to_id": "aeevn2CYSc",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "q7bZAnTDmY",
+                "to_id": "YU03It762G",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "W4g45zLfzS",
+                "to_id": "aeevn2CYSc",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"q7bZAnTDmY\", \"to_id\": \"YU03It762G\", \"type\": \"occurred_on\"}, {\"from_id\": \"W4g45zLfzS\", \"to_id\": \"aeevn2CYSc\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Sin tto a fecha 24/07/2023",
+        "ground_truth": [
+            {
+                "from_id": "XYZ2qZIGIo",
+                "to_id": "og0MDl7tZB",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "XYZ2qZIGIo",
+                "to_id": "og0MDl7tZB",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"XYZ2qZIGIo\", \"to_id\": \"og0MDl7tZB\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Enfermedad estable",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Paciente previamente diagnosticado de un LBDCG en julio 2010. En 2012 se detecta una CRDM (secundaria a tto?). Luego, en septiembre 2013 se diagnostica de un carcinoma pobremente diferenciado con infiltración de MO. Exitus en nov 2013.",
+        "ground_truth": [
+            {
+                "from_id": "sHYS42KArc",
+                "to_id": "LpIkY9CtsV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ChZQ_6H4_U",
+                "to_id": "ZWkrNM44Ck",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "zkl14lq5bw",
+                "to_id": "Rnnnhabh0s",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "2LLNjQQdHh",
+                "to_id": "gIs3Msx5Et",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "sHYS42KArc",
+                "to_id": "LpIkY9CtsV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ChZQ_6H4_U",
+                "to_id": "ZWkrNM44Ck",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "zkl14lq5bw",
+                "to_id": "Rnnnhabh0s",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "2LLNjQQdHh",
+                "to_id": "gIs3Msx5Et",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"sHYS42KArc\", \"to_id\": \"LpIkY9CtsV\", \"type\": \"occurred_on\"}, {\"from_id\": \"ChZQ_6H4_U\", \"to_id\": \"ZWkrNM44Ck\", \"type\": \"occurred_on\"}, {\"from_id\": \"zkl14lq5bw\", \"to_id\": \"Rnnnhabh0s\", \"type\": \"occurred_on\"}, {\"from_id\": \"2LLNjQQdHh\", \"to_id\": \"gIs3Msx5Et\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX junio 2012. Inicia AZA en abril 2013 por progresión (blastos y citopenias). Muestra pre AZA. Tiene componente de fibrosis medular.",
+        "ground_truth": [
+            {
+                "from_id": "ZK2VzIkXVs",
+                "to_id": "09YjhV74Ov",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "OSIsisJpoy",
+                "to_id": "xsutx4UVAj",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "ZK2VzIkXVs",
+                "to_id": "09YjhV74Ov",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "OSIsisJpoy",
+                "to_id": "xsutx4UVAj",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "DFxzlE8D-0",
+                "to_id": "ZK2VzIkXVs",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"ZK2VzIkXVs\", \"to_id\": \"09YjhV74Ov\", \"type\": \"occurred_on\"}, {\"from_id\": \"OSIsisJpoy\", \"to_id\": \"xsutx4UVAj\", \"type\": \"occurred_on\"}, {\"from_id\": \"DFxzlE8D-0\", \"to_id\": \"ZK2VzIkXVs\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Pacient DX de trombocitopènia autoimmune juliol 2013. Mare exitus per neoplàsia hematològica. DX de SMD maig 2017 H Esperit Sant (previ AMO febrer 2015 no valorable per DX). Nov 2017: empitjorament citopènies, displàsia important serie mega, no blastes, fibrosi grau 2 i esplenomegalia (JAK2 negatiu, HPN negativa). Remes HGTIP pel reavaluació. Ha rebut glucocorticoides, G-CSF i transfusions de plaquetes. NGS (04/07/2019 HGTiP): U2AF1 18%.   Disgranulopoyesis: 60%. Diseritropoyesis: 20% No disponemos de los datos del 2017. Solo el cariotipo es del 2017 (en 2019, aspirado seco)",
+        "ground_truth": [
+            {
+                "from_id": "NhvRWzkgm6",
+                "to_id": "gTWQ2zGttg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "SSATIvPd7V",
+                "to_id": "9CQ0ChpE0X",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "-R5lIdRXrz",
+                "to_id": "RL4KDCHaIF",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "P7IPD043cL",
+                "to_id": "RL4KDCHaIF",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "obanDD5x7m",
+                "to_id": "RL4KDCHaIF",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "nV3dW8StnA",
+                "to_id": "6gRHf-Qc9v",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "nV3dW8StnA",
+                "to_id": "nFXQNsWJXX",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "SSATIvPd7V",
+                "to_id": "9CQ0ChpE0X",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "SSATIvPd7V",
+                "to_id": "fEYPjDGEEN",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "SSATIvPd7V",
+                "to_id": "8rG0ER0HUh",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "nV3dW8StnA",
+                "to_id": "nFXQNsWJXX",
+                "type": "has_value"
+            },
+            {
+                "from_id": "nV3dW8StnA",
+                "to_id": "6gRHf-Qc9v",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"SSATIvPd7V\", \"to_id\": \"9CQ0ChpE0X\", \"type\": \"occurred_on\"}, {\"from_id\": \"SSATIvPd7V\", \"to_id\": \"fEYPjDGEEN\", \"type\": \"caused_by\"}, {\"from_id\": \"SSATIvPd7V\", \"to_id\": \"8rG0ER0HUh\", \"type\": \"associated_with\"}, {\"from_id\": \"nV3dW8StnA\", \"to_id\": \"nFXQNsWJXX\", \"type\": \"has_value\"}, {\"from_id\": \"nV3dW8StnA\", \"to_id\": \"6gRHf-Qc9v\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Al moment de la progressió a LMA inicia AZA amb suport transfusional S'atura per falta de resposta al C6 36% blastes ",
+        "ground_truth": [
+            {
+                "from_id": "30Bfwhk6dU",
+                "to_id": "rwymyo3OTy",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "30Bfwhk6dU",
+                "to_id": "dr9WJionpN",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "30Bfwhk6dU",
+                "to_id": "vV3Vbvbo7e",
+                "type": "treats"
+            },
+            {
+                "from_id": "30Bfwhk6dU",
+                "to_id": "dr9WJionpN",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "rwymyo3OTy",
+                "to_id": "dr9WJionpN",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"30Bfwhk6dU\", \"to_id\": \"vV3Vbvbo7e\", \"type\": \"treats\"}, {\"from_id\": \"30Bfwhk6dU\", \"to_id\": \"dr9WJionpN\", \"type\": \"has_outcome\"}, {\"from_id\": \"rwymyo3OTy\", \"to_id\": \"dr9WJionpN\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "LMMC-0 (LMMC-1) no proliferativa, mielodisplásica, CPSS-0 Cint-1. Reb transfusions i EPO  Aspirat de moll d'os> hipercel·lular amb hiperplàsia granulomonocítica i displàsia de les sèries granulopoètica i eritropoètica.  Soporte transfusional: CH (1/12/11, 2/12/12, 1/2/13)",
+        "ground_truth": [
+            {
+                "from_id": "VrNcceSqZE",
+                "to_id": "hTbn5rSqbD",
+                "type": "has_value"
+            },
+            {
+                "from_id": "MBYUWxKHf5",
+                "to_id": "VrNcceSqZE",
+                "type": "treats"
+            },
+            {
+                "from_id": "TkAnVLt2VZ",
+                "to_id": "VrNcceSqZE",
+                "type": "treats"
+            },
+            {
+                "from_id": "JaL3nBwomZ",
+                "to_id": "M1ItPJCM0v",
+                "type": "treats"
+            },
+            {
+                "from_id": "JaL3nBwomZ",
+                "to_id": "3NYnKWueO1",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "JaL3nBwomZ",
+                "to_id": "enkx6AB9yk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "JaL3nBwomZ",
+                "to_id": "wac5Ay0trf",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "VrNcceSqZE",
+                "to_id": "hTbn5rSqbD",
+                "type": "has_value"
+            },
+            {
+                "from_id": "VrNcceSqZE",
+                "to_id": "JaL3nBwomZ",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "MBYUWxKHf5",
+                "to_id": "JaL3nBwomZ",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "TkAnVLt2VZ",
+                "to_id": "JaL3nBwomZ",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "JaL3nBwomZ",
+                "to_id": "3NYnKWueO1",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "JaL3nBwomZ",
+                "to_id": "enkx6AB9yk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "JaL3nBwomZ",
+                "to_id": "wac5Ay0trf",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"VrNcceSqZE\", \"to_id\": \"hTbn5rSqbD\", \"type\": \"has_value\"}, {\"from_id\": \"VrNcceSqZE\", \"to_id\": \"JaL3nBwomZ\", \"type\": \"has_outcome\"}, {\"from_id\": \"MBYUWxKHf5\", \"to_id\": \"JaL3nBwomZ\", \"type\": \"has_outcome\"}, {\"from_id\": \"TkAnVLt2VZ\", \"to_id\": \"JaL3nBwomZ\", \"type\": \"has_outcome\"}, {\"from_id\": \"JaL3nBwomZ\", \"to_id\": \"3NYnKWueO1\", \"type\": \"occurred_on\"}, {\"from_id\": \"JaL3nBwomZ\", \"to_id\": \"enkx6AB9yk\", \"type\": \"occurred_on\"}, {\"from_id\": \"JaL3nBwomZ\", \"to_id\": \"wac5Ay0trf\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Mostra de DX: SMD inclassificable pero 5q-i 20q- sense displasia significativa, Trombopenia i anemia. Panells: TET2, TP53, CUX1, CALR",
+        "ground_truth": [
+            {
+                "from_id": "omzXhAu2G6",
+                "to_id": "J6weXJ0iAl",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "omzXhAu2G6",
+                "to_id": "J6weXJ0iAl",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "omzXhAu2G6",
+                "to_id": "wosaGp-McS",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "omzXhAu2G6",
+                "to_id": "9vQlT7ma8y",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "omzXhAu2G6",
+                "to_id": "gb2EvumgCw",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"omzXhAu2G6\", \"to_id\": \"J6weXJ0iAl\", \"type\": \"associated_with\"}, {\"from_id\": \"omzXhAu2G6\", \"to_id\": \"wosaGp-McS\", \"type\": \"has_outcome\"}, {\"from_id\": \"omzXhAu2G6\", \"to_id\": \"9vQlT7ma8y\", \"type\": \"has_outcome\"}, {\"from_id\": \"omzXhAu2G6\", \"to_id\": \"gb2EvumgCw\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "14/03/2019: LMMC proliferativa. CPSS-intermig 1.",
+        "ground_truth": [
+            {
+                "from_id": "uyCYgaLOzC",
+                "to_id": "OCRXbEmQYj",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "uyCYgaLOzC",
+                "to_id": "hYFFcUBfIk",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "uyCYgaLOzC",
+                "to_id": "hYFFcUBfIk",
+                "type": "has_value"
+            },
+            {
+                "from_id": "uyCYgaLOzC",
+                "to_id": "OCRXbEmQYj",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"uyCYgaLOzC\", \"to_id\": \"hYFFcUBfIk\", \"type\": \"has_value\"}, {\"from_id\": \"uyCYgaLOzC\", \"to_id\": \"OCRXbEmQYj\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Displasia en las tres lineas.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "En algun moment el pacient ha evolucionat a AREB-2 i ha iniciat AZA, mostra amb 4 cicles Aza",
+        "ground_truth": [
+            {
+                "from_id": "FL3GiEhb-u",
+                "to_id": "Yg2qKLlZl7",
+                "type": "treats"
+            },
+            {
+                "from_id": "kwPmxrS-Qi",
+                "to_id": "EVvbZhbcuX",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "kwPmxrS-Qi",
+                "to_id": "EVvbZhbcuX",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "FL3GiEhb-u",
+                "to_id": "kwPmxrS-Qi",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"kwPmxrS-Qi\", \"to_id\": \"EVvbZhbcuX\", \"type\": \"has_dose\"}, {\"from_id\": \"FL3GiEhb-u\", \"to_id\": \"kwPmxrS-Qi\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "NGS frecuencia alélica 41% TP53 c.524G>A. Frecuencia alélica 42% TP53 c546C>A",
+        "ground_truth": [
+            {
+                "from_id": "S7Y6PyN0jZ",
+                "to_id": "EuTeKG-W45",
+                "type": "has_value"
+            },
+            {
+                "from_id": "S7Y6PyN0jZ",
+                "to_id": "sIXe9Te0BW",
+                "type": "has_change_in"
+            },
+            {
+                "from_id": "b09-_2VKQX",
+                "to_id": "P29c74UQ1r",
+                "type": "has_value"
+            },
+            {
+                "from_id": "b09-_2VKQX",
+                "to_id": "6fCvckSkQZ",
+                "type": "has_change_in"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "b09-_2VKQX",
+                "to_id": "sIXe9Te0BW",
+                "type": "has_change_in"
+            },
+            {
+                "from_id": "b09-_2VKQX",
+                "to_id": "EuTeKG-W45",
+                "type": "has_value"
+            },
+            {
+                "from_id": "b09-_2VKQX",
+                "to_id": "P29c74UQ1r",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"b09-_2VKQX\", \"to_id\": \"sIXe9Te0BW\", \"type\": \"has_change_in\"}, {\"from_id\": \"b09-_2VKQX\", \"to_id\": \"EuTeKG-W45\", \"type\": \"has_value\"}, {\"from_id\": \"b09-_2VKQX\", \"to_id\": \"P29c74UQ1r\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Evaluació del tractament i sospita de progressió.Avaluació al C4 de tractament.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX: Dic 2020 SMD con displasia multilinea, del7, IPSS 1 intermedio",
+        "ground_truth": [
+            {
+                "from_id": "1GbRBPmr9r",
+                "to_id": "Pjt3vg_KxB",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "1GbRBPmr9r",
+                "to_id": "belE8HfAXh",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "1GbRBPmr9r",
+                "to_id": "9wiWR2m07U",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "1GbRBPmr9r",
+                "to_id": "Pjt3vg_KxB",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "1GbRBPmr9r",
+                "to_id": "belE8HfAXh",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "1GbRBPmr9r",
+                "to_id": "9wiWR2m07U",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"1GbRBPmr9r\", \"to_id\": \"Pjt3vg_KxB\", \"type\": \"occurred_on\"}, {\"from_id\": \"1GbRBPmr9r\", \"to_id\": \"belE8HfAXh\", \"type\": \"associated_with\"}, {\"from_id\": \"1GbRBPmr9r\", \"to_id\": \"9wiWR2m07U\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Con Hydroxiurea, sin cambios citologicos a nivel medular",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX: febre d'origen desconegut i pancitopenia. Sembla un quadre reactiu",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de DX: CRDM",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Ongoing a fecha 24/07/2023",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX: ARSA de baix risc al 2009. Mostra en reevaluacio. Ha rebut tto de suport (EPO i trasfusions) CG: Monosomia 7 de llarga duracio",
+        "ground_truth": [
+            {
+                "from_id": "DRz0AWI2eX",
+                "to_id": "C1PlTweW6Y",
+                "type": "has_value"
+            },
+            {
+                "from_id": "DRz0AWI2eX",
+                "to_id": "jxmYjbChyo",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "DRz0AWI2eX",
+                "to_id": "_5gPN0LjU2",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "DRz0AWI2eX",
+                "to_id": "C1PlTweW6Y",
+                "type": "has_value"
+            },
+            {
+                "from_id": "DRz0AWI2eX",
+                "to_id": "jxmYjbChyo",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"DRz0AWI2eX\", \"to_id\": \"C1PlTweW6Y\", \"type\": \"has_value\"}, {\"from_id\": \"DRz0AWI2eX\", \"to_id\": \"jxmYjbChyo\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Te el codi CSNK-1. Al final no es SMD, es una leucemia monocitica aguda.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Fa tractament amb estimulant eritropoiesi i evoluciona a CRDM amb cariotip complex (apartat 6). Llavors es deriva al ICO-Badalona per tractament amb QT (ICE) i perden el seguiment del pacient.",
+        "ground_truth": [
+            {
+                "from_id": "BRFAZY9pom",
+                "to_id": "d4jvcw74uO",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "Uk7TLftT8l",
+                "to_id": "BRFAZY9pom",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "RHJzg_TT_g",
+                "to_id": "BRFAZY9pom",
+                "type": "treats"
+            },
+            {
+                "from_id": "BRFAZY9pom",
+                "to_id": "d4jvcw74uO",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"RHJzg_TT_g\", \"to_id\": \"BRFAZY9pom\", \"type\": \"treats\"}, {\"from_id\": \"BRFAZY9pom\", \"to_id\": \"d4jvcw74uO\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Amb antecedents LA, amb pancitopenia. LMA con cambios displasicos refractaria (se ha tratado ya con quimio y con azacitidina).",
+        "ground_truth": [
+            {
+                "from_id": "PRAM_VQoqB",
+                "to_id": "oB-RMN6eOV",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "xCYztpXgLJ",
+                "to_id": "PRAM_VQoqB",
+                "type": "treats"
+            },
+            {
+                "from_id": "cAy4i4voN6",
+                "to_id": "PRAM_VQoqB",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "PRAM_VQoqB",
+                "to_id": "nAtg6FueEM",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "PRAM_VQoqB",
+                "to_id": "oB-RMN6eOV",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "cAy4i4voN6",
+                "to_id": "PRAM_VQoqB",
+                "type": "treats"
+            },
+            {
+                "from_id": "xCYztpXgLJ",
+                "to_id": "PRAM_VQoqB",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"PRAM_VQoqB\", \"to_id\": \"nAtg6FueEM\", \"type\": \"caused_by\"}, {\"from_id\": \"PRAM_VQoqB\", \"to_id\": \"oB-RMN6eOV\", \"type\": \"has_outcome\"}, {\"from_id\": \"cAy4i4voN6\", \"to_id\": \"PRAM_VQoqB\", \"type\": \"treats\"}, {\"from_id\": \"xCYztpXgLJ\", \"to_id\": \"PRAM_VQoqB\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Del tub per CG ens quedem 300uL del boto celular. A mes, CG ens remet el sobrant",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "També arriba saliva (DNA)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de reevaluacio. En resposta citologica.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "TRMN. Antecedents de tabaquisme, 1 paquet al dia.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Inici tto EPO juliol 2015, progresa a AREB-1 octubre 2016. Ara es SMD d'alt risc. Mostra pre-tto AZA",
+        "ground_truth": [
+            {
+                "from_id": "9blac_lKwS",
+                "to_id": "p-ckZOsQOa",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "G1oxLmIEoh",
+                "to_id": "LQlE2r18JC",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "DgWGEqJdrd",
+                "to_id": "7_f6iK01O9",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "9blac_lKwS",
+                "to_id": "p-ckZOsQOa",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "G1oxLmIEoh",
+                "to_id": "LQlE2r18JC",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "DgWGEqJdrd",
+                "to_id": "7_f6iK01O9",
+                "type": "has_value"
+            },
+            {
+                "from_id": "ORp7Vqy1hE",
+                "to_id": "DgWGEqJdrd",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"9blac_lKwS\", \"to_id\": \"p-ckZOsQOa\", \"type\": \"occurred_on\"}, {\"from_id\": \"G1oxLmIEoh\", \"to_id\": \"LQlE2r18JC\", \"type\": \"occurred_on\"}, {\"from_id\": \"DgWGEqJdrd\", \"to_id\": \"7_f6iK01O9\", \"type\": \"has_value\"}, {\"from_id\": \"ORp7Vqy1hE\", \"to_id\": \"DgWGEqJdrd\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Mostra de DX: bicitopenia 2a a QT",
+        "ground_truth": [
+            {
+                "from_id": "NuvmlJ5L7H",
+                "to_id": "7AKt2EXJVW",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra DX: ARSA",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Processada MO amb 36h desde l'extraccio. La SP  l'hem processat amb 24h desde l'obtencio",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Inicia suport transfusional el 06.11.2012  06.11.2013: AMO: Evoluciona SMD AREB-1 amb 8% de blastes i CG: 46,XX,del(5)(q13q31)[8]/46,XX[12] ",
+        "ground_truth": [
+            {
+                "from_id": "F6MGXlkybW",
+                "to_id": "QEV0fG4VzV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "IgkLQqxM9i",
+                "to_id": "HQbtH6l3W0",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "IgkLQqxM9i",
+                "to_id": "wt_0faXh6z",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "F6MGXlkybW",
+                "to_id": "QEV0fG4VzV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "IgkLQqxM9i",
+                "to_id": "wt_0faXh6z",
+                "type": "has_value"
+            },
+            {
+                "from_id": "IgkLQqxM9i",
+                "to_id": "F78_JyjUur",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"F6MGXlkybW\", \"to_id\": \"QEV0fG4VzV\", \"type\": \"occurred_on\"}, {\"from_id\": \"IgkLQqxM9i\", \"to_id\": \"wt_0faXh6z\", \"type\": \"has_value\"}, {\"from_id\": \"IgkLQqxM9i\", \"to_id\": \"F78_JyjUur\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "DX: Displasia granulocitica amb signicat incert",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Disgranulopoyesis, no concluyente de SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Es DX al 2019 pero comencen a colaborar al 2023. La mostra es del 2023",
+        "ground_truth": [
+            {
+                "from_id": "QRMY1ETXxL",
+                "to_id": "i2dhbkG0L4",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "QRMY1ETXxL",
+                "to_id": "i2dhbkG0L4",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "QRMY1ETXxL",
+                "to_id": "4kH3nZtDDp",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"QRMY1ETXxL\", \"to_id\": \"i2dhbkG0L4\", \"type\": \"occurred_on\"}, {\"from_id\": \"QRMY1ETXxL\", \"to_id\": \"4kH3nZtDDp\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "En tto AZA C5",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Es sospita de TRMN",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Seguimiento SMD con displasia multilínea (trombopenia). Low risk, IPSS 0, IPSS-R 1. Cariotipo normal. NGS: ETV6 VAF 36%.",
+        "ground_truth": [
+            {
+                "from_id": "vkWiZTG6bl",
+                "to_id": "y3E1mVz4el",
+                "type": "has_value"
+            },
+            {
+                "from_id": "vkWiZTG6bl",
+                "to_id": "_Y6qg0DfFy",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "LP-S6sTT2a",
+                "to_id": "1v9v0jDChG",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "vkWiZTG6bl",
+                "to_id": "y3E1mVz4el",
+                "type": "has_value"
+            },
+            {
+                "from_id": "vkWiZTG6bl",
+                "to_id": "_Y6qg0DfFy",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "LP-S6sTT2a",
+                "to_id": "1v9v0jDChG",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"vkWiZTG6bl\", \"to_id\": \"y3E1mVz4el\", \"type\": \"has_value\"}, {\"from_id\": \"vkWiZTG6bl\", \"to_id\": \"_Y6qg0DfFy\", \"type\": \"associated_with\"}, {\"from_id\": \"LP-S6sTT2a\", \"to_id\": \"1v9v0jDChG\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Mostra SP de seguiment Lena 5mesos. Esta responent a dosis plena de Lena amb Hb 11, IT i >100000 plaquetes",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "SMD secundario a QT/RT: Neoplasia previa: Cancer prostata. (2013) Tratamiento asociado: Radioterapia.  Presenta displasia de un 8% en la serie eritroblástica. De la serie granulocitica 37%. De la serie megacariocitica 9% ",
+        "ground_truth": [
+            {
+                "from_id": "nvfjscxkbp",
+                "to_id": "kuMnDq33PI",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "lNpoFSgQ8D",
+                "to_id": "nvfjscxkbp",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "UX-mXjQ1i4",
+                "to_id": "nvfjscxkbp",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "UX-mXjQ1i4",
+                "to_id": "kuMnDq33PI",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "UX-mXjQ1i4",
+                "to_id": "lNpoFSgQ8D",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"UX-mXjQ1i4\", \"to_id\": \"nvfjscxkbp\", \"type\": \"caused_by\"}, {\"from_id\": \"UX-mXjQ1i4\", \"to_id\": \"kuMnDq33PI\", \"type\": \"occurred_on\"}, {\"from_id\": \"UX-mXjQ1i4\", \"to_id\": \"lNpoFSgQ8D\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Mostra de DX Pendent de rebre de CI (parlem per tlf amb el Dr Pineda). Va fer tto amb AZA, va millorar el número de blastes. 14/06/2016 CF 15% blastos en MO",
+        "ground_truth": [
+            {
+                "from_id": "z5Ao2Grt6y",
+                "to_id": "b2qd0-4aXq",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "SkPfu9SlCF",
+                "to_id": "z5Ao2Grt6y",
+                "type": "has_blasts"
+            },
+            {
+                "from_id": "SkPfu9SlCF",
+                "to_id": "b2qd0-4aXq",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"SkPfu9SlCF\", \"to_id\": \"z5Ao2Grt6y\", \"type\": \"has_blasts\"}, {\"from_id\": \"SkPfu9SlCF\", \"to_id\": \"b2qd0-4aXq\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX AREB2 blastos MO 11.6%, displasia de las 3 series. Se decidió tratamiento  soporte. Exitus 12/08/14 por isquemia troncoencefálica",
+        "ground_truth": [
+            {
+                "from_id": "lzLv1kWJbg",
+                "to_id": "Jw_nmhq6SY",
+                "type": "has_value"
+            },
+            {
+                "from_id": "Zw3KIzkj54",
+                "to_id": "5Kj20CX1FY",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Zw3KIzkj54",
+                "to_id": "3ZUvYcq6qy",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "lzLv1kWJbg",
+                "to_id": "Jw_nmhq6SY",
+                "type": "has_value"
+            },
+            {
+                "from_id": "lzLv1kWJbg",
+                "to_id": "yleuJFVvBn",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "Zw3KIzkj54",
+                "to_id": "5Kj20CX1FY",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"lzLv1kWJbg\", \"to_id\": \"Jw_nmhq6SY\", \"type\": \"has_value\"}, {\"from_id\": \"lzLv1kWJbg\", \"to_id\": \"yleuJFVvBn\", \"type\": \"has_outcome\"}, {\"from_id\": \"Zw3KIzkj54\", \"to_id\": \"5Kj20CX1FY\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Exitus el 06/04/2014 por Neumonitis intersticial bilateral refractaria a tratamiento",
+        "ground_truth": [
+            {
+                "from_id": "RtKCDLG1Vk",
+                "to_id": "IR50mlwy_B",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "RtKCDLG1Vk",
+                "to_id": "FXg53g6-kR",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "RtKCDLG1Vk",
+                "to_id": "IR50mlwy_B",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"RtKCDLG1Vk\", \"to_id\": \"IR50mlwy_B\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX (09.1.14) de SMD 5q, es va incloure a l'assaig sintrarev. Des d'abril 2017 te anemia amb DT. Ara esta en transformacio AREB-1 i te blastes a MO, li començaran AZA. Mostra pre-AZA.",
+        "ground_truth": [
+            {
+                "from_id": "_UFWb4zwBt",
+                "to_id": "IQk4SFuwFj",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "_UFWb4zwBt",
+                "to_id": "fn9nUgqjR9",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ccw1agOM_F",
+                "to_id": "zMsaLTkYp8",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "jr3xQMkWez",
+                "to_id": "zMsaLTkYp8",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "_UFWb4zwBt",
+                "to_id": "IQk4SFuwFj",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "M1N7aItzQc",
+                "to_id": "zMsaLTkYp8",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ccw1agOM_F",
+                "to_id": "jr3xQMkWez",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "cWAy2p0Smy",
+                "to_id": "ddmWF-NW4J",
+                "type": "treats"
+            },
+            {
+                "from_id": "cWAy2p0Smy",
+                "to_id": "gHAIeBgweT",
+                "type": "has_dose"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"_UFWb4zwBt\", \"to_id\": \"IQk4SFuwFj\", \"type\": \"associated_with\"}, {\"from_id\": \"M1N7aItzQc\", \"to_id\": \"zMsaLTkYp8\", \"type\": \"occurred_on\"}, {\"from_id\": \"ccw1agOM_F\", \"to_id\": \"jr3xQMkWez\", \"type\": \"caused_by\"}, {\"from_id\": \"cWAy2p0Smy\", \"to_id\": \"ddmWF-NW4J\", \"type\": \"treats\"}, {\"from_id\": \"cWAy2p0Smy\", \"to_id\": \"gHAIeBgweT\", \"type\": \"has_dose\"}]"
+    },
+    {
+        "text": "Reordenamientos: Delecció p53 (17p13). 70% de los núcleos. Reordenament de NUP98 (11p15) en el 67% dels nuclis analizats resultat de la t(11;15) detectada al cariotip-Sonda de locus específic. ",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Inicia Dependencia Transfusional en Abril de 2010 e inicia tratamiento con AEE (Darbopoetina). En Enero 2013 inicia quelación con deferasirox. En el momento de iniciar LENA persistía la DT.",
+        "ground_truth": [
+            {
+                "from_id": "Svc6mzTlP5",
+                "to_id": "RRNQUm7dAo",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "RrcreMmaRY",
+                "to_id": "l6dicteTwi",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "c6Idp5qIvL",
+                "to_id": "cZphb4CAOv",
+                "type": "treats"
+            },
+            {
+                "from_id": "C-qDVHnqyd",
+                "to_id": "Svc6mzTlP5",
+                "type": "treats"
+            },
+            {
+                "from_id": "RrcreMmaRY",
+                "to_id": "c6Idp5qIvL",
+                "type": "treats"
+            },
+            {
+                "from_id": "c6Idp5qIvL",
+                "to_id": "l6dicteTwi",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "cZphb4CAOv",
+                "to_id": "RRNQUm7dAo",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"c6Idp5qIvL\", \"to_id\": \"cZphb4CAOv\", \"type\": \"treats\"}, {\"from_id\": \"C-qDVHnqyd\", \"to_id\": \"Svc6mzTlP5\", \"type\": \"treats\"}, {\"from_id\": \"RrcreMmaRY\", \"to_id\": \"c6Idp5qIvL\", \"type\": \"treats\"}, {\"from_id\": \"c6Idp5qIvL\", \"to_id\": \"l6dicteTwi\", \"type\": \"occurred_on\"}, {\"from_id\": \"cZphb4CAOv\", \"to_id\": \"RRNQUm7dAo\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Només envien SP. Ens donen DNA de MO de biologia molecular, aprox 700ng",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Se diagnostico incialmente de AREB-2 pero al al día siguiente del AMO debutó con una mononucleosis infecciosa, por lo que esa médula no es un SMD. La Dra Quiroz nos comenta que la paciente\"se ha cambiado a otro hospital y no podemos tener seguimiento de ellos\"",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de DX: SMDt secundari a tractament. Exitus 19.02.2015 per shock septic. Inici tto AZA 21.10.2014 pero perdua de resposta",
+        "ground_truth": [
+            {
+                "from_id": "5_VcZeuBdy",
+                "to_id": "Dm3OpzjsaY",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "5_VcZeuBdy",
+                "to_id": "xsYbXTZzrZ",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "F6-q28Je8Z",
+                "to_id": "ijh1GnRhuy",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "F6-q28Je8Z",
+                "to_id": "QFmjb73PXa",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "F6-q28Je8Z",
+                "to_id": "ijh1GnRhuy",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "F6-q28Je8Z",
+                "to_id": "QFmjb73PXa",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "5_VcZeuBdy",
+                "to_id": "Dm3OpzjsaY",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"F6-q28Je8Z\", \"to_id\": \"ijh1GnRhuy\", \"type\": \"occurred_on\"}, {\"from_id\": \"F6-q28Je8Z\", \"to_id\": \"QFmjb73PXa\", \"type\": \"has_outcome\"}, {\"from_id\": \"5_VcZeuBdy\", \"to_id\": \"Dm3OpzjsaY\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "NGS: FLI1 VAF 53%, ETV6 VAF% 49%",
+        "ground_truth": [
+            {
+                "from_id": "c4l_MDhpl5",
+                "to_id": "hJdzP5_SEf",
+                "type": "has_value"
+            },
+            {
+                "from_id": "tt2sfHDVJq",
+                "to_id": "uL6ireCeYI",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "c4l_MDhpl5",
+                "to_id": "hJdzP5_SEf",
+                "type": "has_value"
+            },
+            {
+                "from_id": "tt2sfHDVJq",
+                "to_id": "uL6ireCeYI",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"c4l_MDhpl5\", \"to_id\": \"hJdzP5_SEf\", \"type\": \"has_value\"}, {\"from_id\": \"tt2sfHDVJq\", \"to_id\": \"uL6ireCeYI\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Mostra de DX (DX DEF 18/12/2012) Només rep tto de suport",
+        "ground_truth": [
+            {
+                "from_id": "D50vUbWJ3E",
+                "to_id": "fRivsidn8q",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "D50vUbWJ3E",
+                "to_id": "fRivsidn8q",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "agZ753RpDB",
+                "to_id": "D50vUbWJ3E",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"D50vUbWJ3E\", \"to_id\": \"fRivsidn8q\", \"type\": \"occurred_on\"}, {\"from_id\": \"agZ753RpDB\", \"to_id\": \"D50vUbWJ3E\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Mostra creuada amb 359",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Ens comenten desde VH que no es Low risk, sino un TRMN.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de reevaluació (22.12.2014)arriba un EPP amb DNA Mostra en reevaluacio quan finalitza AZA (pre-Lena)  amb fibrosis i clona 5q sense +8",
+        "ground_truth": [
+            {
+                "from_id": "ybM-6EL3p5",
+                "to_id": "3RDCwDUwIy",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "QbNCS3oyhV",
+                "to_id": "3RDCwDUwIy",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "RcZuRYD9Ww",
+                "to_id": "3RDCwDUwIy",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "ybM-6EL3p5",
+                "to_id": "3RDCwDUwIy",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ybM-6EL3p5",
+                "to_id": "QbNCS3oyhV",
+                "type": "treats"
+            },
+            {
+                "from_id": "ybM-6EL3p5",
+                "to_id": "RcZuRYD9Ww",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"ybM-6EL3p5\", \"to_id\": \"3RDCwDUwIy\", \"type\": \"occurred_on\"}, {\"from_id\": \"ybM-6EL3p5\", \"to_id\": \"QbNCS3oyhV\", \"type\": \"treats\"}, {\"from_id\": \"ybM-6EL3p5\", \"to_id\": \"RcZuRYD9Ww\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Pacient DX al 2008 en un altre centre (no tenen la informacio). Es segueix a H Son Llatzer.  Al DX es un SMD associat a 5q- aïllada Octubre 2014: el pacient ha progressat a AREB1 amb 6% blastes pero encara no s'esta tractant.Resultats WES (projecte Andres Jerez): cap mutació somàtica, mutacions germinales rellevants: RYR1",
+        "ground_truth": [
+            {
+                "from_id": "Dh4vsR-Usi",
+                "to_id": "9mfmMxSLXY",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Dh4vsR-Usi",
+                "to_id": "aHd1jliaP1",
+                "type": "has_value"
+            },
+            {
+                "from_id": "uShOU6Ay9N",
+                "to_id": "iuKE480HjV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Oc8I4VMiQJ",
+                "to_id": "H4bS3j-7dt",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "Ocan9KwbIQ",
+                "to_id": "AzMv_R6t_D",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "uShOU6Ay9N",
+                "to_id": "pzCOJJfwm6",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "uShOU6Ay9N",
+                "to_id": "iuKE480HjV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "uShOU6Ay9N",
+                "to_id": "pzCOJJfwm6",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "Dh4vsR-Usi",
+                "to_id": "9mfmMxSLXY",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Dh4vsR-Usi",
+                "to_id": "aHd1jliaP1",
+                "type": "has_value"
+            },
+            {
+                "from_id": "2kgIzgBisK",
+                "to_id": "Dh4vsR-Usi",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"uShOU6Ay9N\", \"to_id\": \"iuKE480HjV\", \"type\": \"occurred_on\"}, {\"from_id\": \"uShOU6Ay9N\", \"to_id\": \"pzCOJJfwm6\", \"type\": \"associated_with\"}, {\"from_id\": \"Dh4vsR-Usi\", \"to_id\": \"9mfmMxSLXY\", \"type\": \"occurred_on\"}, {\"from_id\": \"Dh4vsR-Usi\", \"to_id\": \"aHd1jliaP1\", \"type\": \"has_value\"}, {\"from_id\": \"2kgIzgBisK\", \"to_id\": \"Dh4vsR-Usi\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Mostra en trasformacio a AREB-1",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de DX: CRDM",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Revaluació. Progressió de SMD a LAM.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Se paró azacitidina y se administró quimioterapia convencional con IDA-ARAC; no tuvo respuesta y se administró reinducción con FLAG-IDA, a lo que tampoco respondió.  En Noviembre de 2016 se desestima continuar con poliquimioterapia y se remite al centro de origen para valorar volver a iniciar tratamiento con azacitidina",
+        "ground_truth": [
+            {
+                "from_id": "fHpqqY8NJW",
+                "to_id": "SGzkA6y1nv",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "jacwI-Unrj",
+                "to_id": "SGzkA6y1nv",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "--wUEigev1",
+                "to_id": "zvIqa3SWv_",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "sfVLu7m57s",
+                "to_id": "WJ8cORbQrb",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "zUVTP0_ezK",
+                "to_id": "Xozbvl4AuR",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "fHpqqY8NJW",
+                "to_id": "jacwI-Unrj",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "--wUEigev1",
+                "to_id": "zvIqa3SWv_",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "WJ8cORbQrb",
+                "to_id": "sfVLu7m57s",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"zUVTP0_ezK\", \"to_id\": \"Xozbvl4AuR\", \"type\": \"caused_by\"}, {\"from_id\": \"fHpqqY8NJW\", \"to_id\": \"jacwI-Unrj\", \"type\": \"has_outcome\"}, {\"from_id\": \"--wUEigev1\", \"to_id\": \"zvIqa3SWv_\", \"type\": \"has_outcome\"}, {\"from_id\": \"WJ8cORbQrb\", \"to_id\": \"sfVLu7m57s\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "DX: neutropenia. Pacient amb cancer de mama",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Analitica screening> Le 46 (32000s), Hb 87, Pl 168, Cr 1,27, urat 7,8, Ca 8,4, Bil 0,78, FA 249, GOT 54, GPT 31, GGT 319, LDH 673 Aspirat de moll d'os sec, s'ha fet biòpsia de moll d'os. ",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX 03/05/2012: CRDM-SA bajo riesgo. Inicia tto amb EPO pero sense resposta. 15/07/13: inicia Lena, completa 2 cicles fins que es exitus.",
+        "ground_truth": [
+            {
+                "from_id": "NAvSczJ7yp",
+                "to_id": "oj7RGH17xX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "NAvSczJ7yp",
+                "to_id": "Rl-yfzFPMC",
+                "type": "has_value"
+            },
+            {
+                "from_id": "S2z5x-gvII",
+                "to_id": "NAvSczJ7yp",
+                "type": "treats"
+            },
+            {
+                "from_id": "S2z5x-gvII",
+                "to_id": "pwL8rjR5rU",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "NxhiMjH7xA",
+                "to_id": "kpiVLrDC7s",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "NxhiMjH7xA",
+                "to_id": "kjvK5CSizv",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "NAvSczJ7yp",
+                "to_id": "Rl-yfzFPMC",
+                "type": "has_value"
+            },
+            {
+                "from_id": "S2z5x-gvII",
+                "to_id": "NAvSczJ7yp",
+                "type": "treats"
+            },
+            {
+                "from_id": "pwL8rjR5rU",
+                "to_id": "NAvSczJ7yp",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "NxhiMjH7xA",
+                "to_id": "kjvK5CSizv",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "0jruLRWpko",
+                "to_id": "kjvK5CSizv",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "0jruLRWpko",
+                "to_id": "NxhiMjH7xA",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"NAvSczJ7yp\", \"to_id\": \"Rl-yfzFPMC\", \"type\": \"has_value\"}, {\"from_id\": \"S2z5x-gvII\", \"to_id\": \"NAvSczJ7yp\", \"type\": \"treats\"}, {\"from_id\": \"pwL8rjR5rU\", \"to_id\": \"NAvSczJ7yp\", \"type\": \"has_outcome\"}, {\"from_id\": \"NxhiMjH7xA\", \"to_id\": \"kjvK5CSizv\", \"type\": \"has_dose\"}, {\"from_id\": \"0jruLRWpko\", \"to_id\": \"kjvK5CSizv\", \"type\": \"caused_by\"}, {\"from_id\": \"0jruLRWpko\", \"to_id\": \"NxhiMjH7xA\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "Setembre 2014. Evaluació tto Lena",
+        "ground_truth": [
+            {
+                "from_id": "26qEtVRtkq",
+                "to_id": "KNQB7qz4JQ",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "26qEtVRtkq",
+                "to_id": "KNQB7qz4JQ",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"26qEtVRtkq\", \"to_id\": \"KNQB7qz4JQ\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Enfermedad estable en ausencia de respuesta estable y mantiene DT-RBC.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Poca quantitat obtinguda DNA CD34+",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "ID: hlu144 Ens envien 1 criotub. Es guarda a la caixa de SMD de -150 tank 2. ",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "No fem CD3+ pq tenim prou quantitat",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Juny 2016: sembla que progresa a LMA amb 9% blastes. Mostra amb tto Exjade.",
+        "ground_truth": [
+            {
+                "from_id": "xlzueV7h0K",
+                "to_id": "vr_gDMkXBd",
+                "type": "has_value"
+            },
+            {
+                "from_id": "xlzueV7h0K",
+                "to_id": "0cX9QTxGWo",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "lK8rVULdY-",
+                "to_id": "xlzueV7h0K",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "xlzueV7h0K",
+                "to_id": "0cX9QTxGWo",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "xlzueV7h0K",
+                "to_id": "vr_gDMkXBd",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"xlzueV7h0K\", \"to_id\": \"0cX9QTxGWo\", \"type\": \"occurred_on\"}, {\"from_id\": \"xlzueV7h0K\", \"to_id\": \"vr_gDMkXBd\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Mostra de DX: arriba epp amb DNA del DX (04/07/2012). Número de MO segons el Dr. Jerez M51. Panell: SH2B3, WT1, NRAS, ZRSR2",
+        "ground_truth": [
+            {
+                "from_id": "C8OF4IlvVV",
+                "to_id": "fkLny69Yqk",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "C8OF4IlvVV",
+                "to_id": "fkLny69Yqk",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"C8OF4IlvVV\", \"to_id\": \"fkLny69Yqk\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX revisado en junio 2022. Inicialmente (enero 2020) SMD-SF3B1. Los valores de la analítica son del primer dx",
+        "ground_truth": [
+            {
+                "from_id": "tSsx2_RlxB",
+                "to_id": "dwXUuGz7eP",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "tSsx2_RlxB",
+                "to_id": "dVzniGbUSF",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "tSsx2_RlxB",
+                "to_id": "dVzniGbUSF",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tSsx2_RlxB",
+                "to_id": "oBgVYL8TNt",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"tSsx2_RlxB\", \"to_id\": \"dVzniGbUSF\", \"type\": \"occurred_on\"}, {\"from_id\": \"tSsx2_RlxB\", \"to_id\": \"oBgVYL8TNt\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX setembre 2007: ARSA + LLC-B",
+        "ground_truth": [
+            {
+                "from_id": "xexLb6pKMy",
+                "to_id": "GIpl1SexGb",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "pwezNhprV2",
+                "to_id": "GIpl1SexGb",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "pwezNhprV2",
+                "to_id": "GIpl1SexGb",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "xexLb6pKMy",
+                "to_id": "GIpl1SexGb",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"pwezNhprV2\", \"to_id\": \"GIpl1SexGb\", \"type\": \"occurred_on\"}, {\"from_id\": \"xexLb6pKMy\", \"to_id\": \"GIpl1SexGb\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "En l'assaig SintraREV Set 84",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Dona 70 any amb AREB-2 2a a terapia.IPSS Alt Risc (score 3): 14% blastes, cariotip complex i pancitopenia. Exitus 11/05/2015",
+        "ground_truth": [
+            {
+                "from_id": "BXK6Imx4bs",
+                "to_id": "Sa088PdsLS",
+                "type": "has_value"
+            },
+            {
+                "from_id": "BXK6Imx4bs",
+                "to_id": "cE63QOaENJ",
+                "type": "has_value"
+            },
+            {
+                "from_id": "BXK6Imx4bs",
+                "to_id": "ONzaQvpYNa",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "Wc71-Ctzou",
+                "to_id": "TaxPgKlY2c",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "BXK6Imx4bs",
+                "to_id": "Sa088PdsLS",
+                "type": "has_value"
+            },
+            {
+                "from_id": "BXK6Imx4bs",
+                "to_id": "cE63QOaENJ",
+                "type": "has_value"
+            },
+            {
+                "from_id": "BXK6Imx4bs",
+                "to_id": "ONzaQvpYNa",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "BXK6Imx4bs",
+                "to_id": "7au1FLoqoD",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "Wc71-Ctzou",
+                "to_id": "TaxPgKlY2c",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"BXK6Imx4bs\", \"to_id\": \"Sa088PdsLS\", \"type\": \"has_value\"}, {\"from_id\": \"BXK6Imx4bs\", \"to_id\": \"cE63QOaENJ\", \"type\": \"has_value\"}, {\"from_id\": \"BXK6Imx4bs\", \"to_id\": \"ONzaQvpYNa\", \"type\": \"associated_with\"}, {\"from_id\": \"BXK6Imx4bs\", \"to_id\": \"7au1FLoqoD\", \"type\": \"associated_with\"}, {\"from_id\": \"Wc71-Ctzou\", \"to_id\": \"TaxPgKlY2c\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Sospita LMA",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Presenta respuesta eritroide completa. Sigue con EPO a fecha de 01/06/2023",
+        "ground_truth": [
+            {
+                "from_id": "7GIJyLS0Qv",
+                "to_id": "0byu7_C8R6",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "0byu7_C8R6",
+                "to_id": "Etb4q7dwDp",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "7GIJyLS0Qv",
+                "to_id": "Etb4q7dwDp",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "7GIJyLS0Qv",
+                "to_id": "0byu7_C8R6",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"7GIJyLS0Qv\", \"to_id\": \"Etb4q7dwDp\", \"type\": \"occurred_on\"}, {\"from_id\": \"7GIJyLS0Qv\", \"to_id\": \"0byu7_C8R6\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Por toxicidad hematológica grado 3  en el ciclo 2 se disminuyó la dosis al 50%: - 5mg: días 1-15 - 10mg: día 15 en adelante  ",
+        "ground_truth": [],
+        "prediction": [
+            {
+                "from_id": "xgV9x3NXSd",
+                "to_id": "GZQzZh21_X",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"xgV9x3NXSd\", \"to_id\": \"GZQzZh21_X\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Mostra de 18 cicles amb AZA. En RC citogenetica.",
+        "ground_truth": [
+            {
+                "from_id": "Fwx3PUyB7-",
+                "to_id": "HBYeoPMFsx",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "Fwx3PUyB7-",
+                "to_id": "rf0CjtZUX9",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Fwx3PUyB7-",
+                "to_id": "HBYeoPMFsx",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "Fwx3PUyB7-",
+                "to_id": "rf0CjtZUX9",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Fwx3PUyB7-\", \"to_id\": \"HBYeoPMFsx\", \"type\": \"has_dose\"}, {\"from_id\": \"Fwx3PUyB7-\", \"to_id\": \"rf0CjtZUX9\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Proyecto SMDg. DX SMD hipoplásico. 2 familiares con trombopenia",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX sep 15: ARSA-t (IPSS-R baix risc) JAK2+. Va pendre Exjade 18.11.15, pero suspes per alteracio renal. Maig 2016:amb tto de suport (EPO i CH) i Hidroxiurea. Pendiente ficha rellena por el doctor. Envien mostra 31/1",
+        "ground_truth": [
+            {
+                "from_id": "Q2AqWkRauT",
+                "to_id": "XL-X0hgLOo",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Q2AqWkRauT",
+                "to_id": "X3KxF7SpEA",
+                "type": "has_value"
+            },
+            {
+                "from_id": "79jLEyiW-Q",
+                "to_id": "eJ3OpqAXSV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "PTUBDZ9eyi",
+                "to_id": "Ev3h9tjJgX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "B47mhyUD8M",
+                "to_id": "Ev3h9tjJgX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Hv9gUwUXAD",
+                "to_id": "Ev3h9tjJgX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "79jLEyiW-Q",
+                "to_id": "Q2AqWkRauT",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Q2AqWkRauT",
+                "to_id": "X3KxF7SpEA",
+                "type": "has_value"
+            },
+            {
+                "from_id": "Q2AqWkRauT",
+                "to_id": "b1CKbNjQb5",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "79jLEyiW-Q",
+                "to_id": "eJ3OpqAXSV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "QFxQB-6sM8",
+                "to_id": "eJ3OpqAXSV",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "PTUBDZ9eyi",
+                "to_id": "Ev3h9tjJgX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Hv9gUwUXAD",
+                "to_id": "Ev3h9tjJgX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "79jLEyiW-Q",
+                "to_id": "QFxQB-6sM8",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Q2AqWkRauT\", \"to_id\": \"X3KxF7SpEA\", \"type\": \"has_value\"}, {\"from_id\": \"Q2AqWkRauT\", \"to_id\": \"b1CKbNjQb5\", \"type\": \"associated_with\"}, {\"from_id\": \"79jLEyiW-Q\", \"to_id\": \"eJ3OpqAXSV\", \"type\": \"occurred_on\"}, {\"from_id\": \"QFxQB-6sM8\", \"to_id\": \"eJ3OpqAXSV\", \"type\": \"caused_by\"}, {\"from_id\": \"PTUBDZ9eyi\", \"to_id\": \"Ev3h9tjJgX\", \"type\": \"occurred_on\"}, {\"from_id\": \"Hv9gUwUXAD\", \"to_id\": \"Ev3h9tjJgX\", \"type\": \"occurred_on\"}, {\"from_id\": \"79jLEyiW-Q\", \"to_id\": \"QFxQB-6sM8\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "SP se procesa 5 días después de la extracción.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD 2a a tto: pancitopenia. SMDt vs hipoplasia medular.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD: Bicitopenia",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "18/01/2016: signa CI i accepta entrar en el projecte 5q  Probablement iniciara AZA (per KC i exces de blastes)",
+        "ground_truth": [
+            {
+                "from_id": "K8uaxhJ_Fi",
+                "to_id": "wVJh8Lhm05",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "AgzsjK19ag",
+                "to_id": "K8uaxhJ_Fi",
+                "type": "treats"
+            },
+            {
+                "from_id": "AgzsjK19ag",
+                "to_id": "YioHvpus49",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "K8uaxhJ_Fi",
+                "to_id": "F-6ZCZEmf4",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "AgzsjK19ag",
+                "to_id": "wVJh8Lhm05",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "AgzsjK19ag",
+                "to_id": "K8uaxhJ_Fi",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"AgzsjK19ag\", \"to_id\": \"wVJh8Lhm05\", \"type\": \"caused_by\"}, {\"from_id\": \"AgzsjK19ag\", \"to_id\": \"K8uaxhJ_Fi\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "SP poco volumen, todo para DNA",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra en tto AZA. Al 3r cicle: stop per febre persistent (al C3D5)i aconsegueix remissio  completa",
+        "ground_truth": [
+            {
+                "from_id": "PrfjHnA0Sm",
+                "to_id": "xYTVsbU0M7",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "PrfjHnA0Sm",
+                "to_id": "BvNugzlbX2",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "xYTVsbU0M7",
+                "to_id": "BvNugzlbX2",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"xYTVsbU0M7\", \"to_id\": \"BvNugzlbX2\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "46,XY,del(5)(q31q35)[8]/46,XY[2]",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "En tto AZA C5 (Exitus el 19/06/2018)",
+        "ground_truth": [
+            {
+                "from_id": "h9_ZDedCHU",
+                "to_id": "N3wvGR0Cjq",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "h9_ZDedCHU",
+                "to_id": "N3wvGR0Cjq",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "rNrgJnMFAl",
+                "to_id": "h9_ZDedCHU",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"h9_ZDedCHU\", \"to_id\": \"N3wvGR0Cjq\", \"type\": \"occurred_on\"}, {\"from_id\": \"rNrgJnMFAl\", \"to_id\": \"h9_ZDedCHU\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "Dr Esteve (març 2019): sembla ara un IDUS (persistència de displàsia granulocítica) amb probable CHIP, per dues variants a TET2, c.2599T>C p.Tyr867His amb una freqüència del 49,4%, i c.5167C>T p.Pro1723Ser, amb una freqüència del 47,1%, prèviament descrites però amb significat funcional incert. Però no té ara cap citopènia (en va tenir fa anys, transitòria, en el context d'una neutropènia), criteri princeps per admetre una SMD",
+        "ground_truth": [
+            {
+                "from_id": "kYq4N8D-BB",
+                "to_id": "irAEQOPThh",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "_lT4dLf4wk",
+                "type": "has_change_in"
+            },
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "BYKAYJS3U7",
+                "type": "has_change_in"
+            },
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "dVAxFbrEel",
+                "type": "has_value"
+            },
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "MHDND5QYXT",
+                "type": "has_change_in"
+            },
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "iR_zsdVpn_",
+                "type": "has_change_in"
+            },
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "IKBqnpjB_k",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "_lT4dLf4wk",
+                "type": "has_value"
+            },
+            {
+                "from_id": "_lT4dLf4wk",
+                "to_id": "dVAxFbrEel",
+                "type": "has_value"
+            },
+            {
+                "from_id": "oeT7EjJVoK",
+                "to_id": "iR_zsdVpn_",
+                "type": "has_value"
+            },
+            {
+                "from_id": "iR_zsdVpn_",
+                "to_id": "IKBqnpjB_k",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"oeT7EjJVoK\", \"to_id\": \"_lT4dLf4wk\", \"type\": \"has_value\"}, {\"from_id\": \"_lT4dLf4wk\", \"to_id\": \"dVAxFbrEel\", \"type\": \"has_value\"}, {\"from_id\": \"oeT7EjJVoK\", \"to_id\": \"iR_zsdVpn_\", \"type\": \"has_value\"}, {\"from_id\": \"iR_zsdVpn_\", \"to_id\": \"IKBqnpjB_k\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Revaluació. Se retira la Lenalidomina por intolerancia.",
+        "ground_truth": [
+            {
+                "from_id": "AaOx6wdmY1",
+                "to_id": "OEa0w5XQzp",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX novembre 2010 SMD amb 5q-. Mostra de seguiment sense tto. No s'ha tractat pel SMD pero va tenir altres malalties i complicacions. Panells: KMT2d",
+        "ground_truth": [
+            {
+                "from_id": "CRcmh85f3R",
+                "to_id": "jD70LnoQNL",
+                "type": "treats"
+            },
+            {
+                "from_id": "jD70LnoQNL",
+                "to_id": "AV-m8g6wi5",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "jD70LnoQNL",
+                "to_id": "vFz7LIF6e5",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "9brXegdd0L",
+                "to_id": "vFz7LIF6e5",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "9brXegdd0L",
+                "to_id": "jD70LnoQNL",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "jD70LnoQNL",
+                "to_id": "AV-m8g6wi5",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"9brXegdd0L\", \"to_id\": \"vFz7LIF6e5\", \"type\": \"occurred_on\"}, {\"from_id\": \"9brXegdd0L\", \"to_id\": \"jD70LnoQNL\", \"type\": \"associated_with\"}, {\"from_id\": \"jD70LnoQNL\", \"to_id\": \"AV-m8g6wi5\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "DX CRDM 10/08/2016",
+        "ground_truth": [
+            {
+                "from_id": "lv9BeVeLm7",
+                "to_id": "k7N-VD5KmM",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "lv9BeVeLm7",
+                "to_id": "k7N-VD5KmM",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"lv9BeVeLm7\", \"to_id\": \"k7N-VD5KmM\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "TE, mielofibrosi post-TE i AREB",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita de SMD de baix risc",
+        "ground_truth": [
+            {
+                "from_id": "C9f0Glwb1r",
+                "to_id": "4UMU33uBnT",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "C9f0Glwb1r",
+                "to_id": "4UMU33uBnT",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"C9f0Glwb1r\", \"to_id\": \"4UMU33uBnT\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Mostra de DX. CG gener 2015: IPSS(1) desfavorable i IPSS-R(4) molt desfavorable. 3% blastes morfologicament i 4% blastes per CG. Trombopenia, degranulacio. Exitus 04/10/2015",
+        "ground_truth": [
+            {
+                "from_id": "1H5fnSEuKq",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "f5PAc3Adya",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Nf73Q0YBNF",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "4c5-6BtJQ9",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "CLsZCcTMPa",
+                "to_id": "eqfrPzo-9N",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "1H5fnSEuKq",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "f5PAc3Adya",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Nf73Q0YBNF",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "4c5-6BtJQ9",
+                "to_id": "K-MIK2v0OQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "oruOTI62Tu",
+                "to_id": "K-MIK2v0OQ",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "CLsZCcTMPa",
+                "to_id": "eqfrPzo-9N",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"1H5fnSEuKq\", \"to_id\": \"K-MIK2v0OQ\", \"type\": \"occurred_on\"}, {\"from_id\": \"f5PAc3Adya\", \"to_id\": \"K-MIK2v0OQ\", \"type\": \"occurred_on\"}, {\"from_id\": \"Nf73Q0YBNF\", \"to_id\": \"K-MIK2v0OQ\", \"type\": \"occurred_on\"}, {\"from_id\": \"4c5-6BtJQ9\", \"to_id\": \"K-MIK2v0OQ\", \"type\": \"occurred_on\"}, {\"from_id\": \"oruOTI62Tu\", \"to_id\": \"K-MIK2v0OQ\", \"type\": \"associated_with\"}, {\"from_id\": \"CLsZCcTMPa\", \"to_id\": \"eqfrPzo-9N\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "SMD alto riesgo + DDX41 germinal. Projecte SMDg",
+        "ground_truth": [
+            {
+                "from_id": "LpNUQ6K9zu",
+                "to_id": "r8i5tpxeq-",
+                "type": "has_value"
+            },
+            {
+                "from_id": "cEG79uGD3A",
+                "to_id": "Egm2UTkwK0",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "LpNUQ6K9zu",
+                "to_id": "r8i5tpxeq-",
+                "type": "has_value"
+            },
+            {
+                "from_id": "cEG79uGD3A",
+                "to_id": "Egm2UTkwK0",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"LpNUQ6K9zu\", \"to_id\": \"r8i5tpxeq-\", \"type\": \"has_value\"}, {\"from_id\": \"cEG79uGD3A\", \"to_id\": \"Egm2UTkwK0\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "Antecedents mare amb neo de mama. Dx de nefritis als 12 anys, epilepsia, hipotiroidisme, maculopatia. Anemia cronica desde fa 23 anys.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX (29.12.2011). Pacient en tractament amb LENA (inici tto 17.06.2012). Reb 9 cicles de LENA i 9 cicles d'AZA pero no sabem quan comença. Possible evolució a NMP (LMMC). Panell: JARDI2, TP53, NF1",
+        "ground_truth": [
+            {
+                "from_id": "ACvgOyd9Gr",
+                "to_id": "abretE4xLZ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "gH0efpNW62",
+                "to_id": "8nsPI-kgYa",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "0B4KnDQQZ-",
+                "to_id": "VOZNDB0qP5",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "SEKHaCyJUo",
+                "to_id": "wGK2gHqx4o",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "gH0efpNW62",
+                "to_id": "8nsPI-kgYa",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "0B4KnDQQZ-",
+                "to_id": "wGK2gHqx4o",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "gH0efpNW62",
+                "to_id": "ACvgOyd9Gr",
+                "type": "treats"
+            },
+            {
+                "from_id": "SEKHaCyJUo",
+                "to_id": "wGK2gHqx4o",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "ACvgOyd9Gr",
+                "to_id": "abretE4xLZ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "ggWzHZ09Y_",
+                "to_id": "ACvgOyd9Gr",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"gH0efpNW62\", \"to_id\": \"8nsPI-kgYa\", \"type\": \"occurred_on\"}, {\"from_id\": \"0B4KnDQQZ-\", \"to_id\": \"wGK2gHqx4o\", \"type\": \"has_dose\"}, {\"from_id\": \"gH0efpNW62\", \"to_id\": \"ACvgOyd9Gr\", \"type\": \"treats\"}, {\"from_id\": \"SEKHaCyJUo\", \"to_id\": \"wGK2gHqx4o\", \"type\": \"has_dose\"}, {\"from_id\": \"ACvgOyd9Gr\", \"to_id\": \"abretE4xLZ\", \"type\": \"occurred_on\"}, {\"from_id\": \"ggWzHZ09Y_\", \"to_id\": \"ACvgOyd9Gr\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "Està en tractament",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "AZA stop, valorar si hi ha progessio",
+        "ground_truth": [
+            {
+                "from_id": "oyfuCSmiMd",
+                "to_id": "G-pgi0-8zg",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita LMMC: DX LMC confirmat amb trombopenia severa, pancitopenia",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX  desembre 2014 AREB, progressio a LMA 2a al gener 2015. Pacient derivada al H Jerez (Informacio pdnt de confirmar) Va iniciar 2 cicles AZA",
+        "ground_truth": [
+            {
+                "from_id": "xttOE-_1Vk",
+                "to_id": "yuNuSR-rPX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "HS-tKbcVPA",
+                "to_id": "fSE1T7UvG-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "GO-u90JTOu",
+                "to_id": "GRp7sbtudB",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "xttOE-_1Vk",
+                "to_id": "yuNuSR-rPX",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "HS-tKbcVPA",
+                "to_id": "fSE1T7UvG-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "GO-u90JTOu",
+                "to_id": "GRp7sbtudB",
+                "type": "has_dose"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"xttOE-_1Vk\", \"to_id\": \"yuNuSR-rPX\", \"type\": \"occurred_on\"}, {\"from_id\": \"HS-tKbcVPA\", \"to_id\": \"fSE1T7UvG-\", \"type\": \"occurred_on\"}, {\"from_id\": \"GO-u90JTOu\", \"to_id\": \"GRp7sbtudB\", \"type\": \"has_dose\"}]"
+    },
+    {
+        "text": "Es un TRMN. Va tenir un Mieloma Múltiple (2007). Va rebre tractament VBCMP/VBAD (2+2) i Btzx2  RP + Talidomida  ",
+        "ground_truth": [
+            {
+                "from_id": "vhxbo8RbsM",
+                "to_id": "7FmmsTYfob",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "5VmhNL7JcH",
+                "to_id": "_OU2oZkiS2",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "IMBSbiuxOc",
+                "to_id": "vhxbo8RbsM",
+                "type": "treats"
+            },
+            {
+                "from_id": "5VmhNL7JcH",
+                "to_id": "vhxbo8RbsM",
+                "type": "treats"
+            },
+            {
+                "from_id": "wthvcYHQQZ",
+                "to_id": "vhxbo8RbsM",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "IMBSbiuxOc",
+                "to_id": "_OU2oZkiS2",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "5VmhNL7JcH",
+                "to_id": "_OU2oZkiS2",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"IMBSbiuxOc\", \"to_id\": \"_OU2oZkiS2\", \"type\": \"has_outcome\"}, {\"from_id\": \"5VmhNL7JcH\", \"to_id\": \"_OU2oZkiS2\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "DX 25/07/2007: Sindrome 5q- (OMS 2001). Sabem que es va tractar amb Lena i als 2 cicles va respondre (va pujar Hb de 7,4 fins a 11) i la va mantenir però no sabem data d'inici ni si la va perdre en algun moment",
+        "ground_truth": [
+            {
+                "from_id": "NKbgBQrRnh",
+                "to_id": "AnRT2FakzB",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "NKbgBQrRnh",
+                "to_id": "NFAHs0JHiT",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "RwSDRX93md",
+                "to_id": "UtncNMy3R3",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "RwSDRX93md",
+                "to_id": "e2etslZ_vR",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "RwSDRX93md",
+                "to_id": "NFAHs0JHiT",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "RwSDRX93md",
+                "to_id": "NKbgBQrRnh",
+                "type": "treats"
+            },
+            {
+                "from_id": "UtncNMy3R3",
+                "to_id": "NKbgBQrRnh",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "UtncNMy3R3",
+                "to_id": "e2etslZ_vR",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"RwSDRX93md\", \"to_id\": \"NFAHs0JHiT\", \"type\": \"associated_with\"}, {\"from_id\": \"RwSDRX93md\", \"to_id\": \"NKbgBQrRnh\", \"type\": \"treats\"}, {\"from_id\": \"UtncNMy3R3\", \"to_id\": \"NKbgBQrRnh\", \"type\": \"has_dose\"}, {\"from_id\": \"UtncNMy3R3\", \"to_id\": \"e2etslZ_vR\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Continua en tractament. Dia 22 del cicle 15 de 5-AZA.",
+        "ground_truth": [
+            {
+                "from_id": "DU968UZyQD",
+                "to_id": "1kWN2cTXD-",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "DU968UZyQD",
+                "to_id": "1kWN2cTXD-",
+                "type": "has_dose"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"DU968UZyQD\", \"to_id\": \"1kWN2cTXD-\", \"type\": \"has_dose\"}]"
+    },
+    {
+        "text": "Hi ha pocs millons de celules de MO. Es decideix fer DNA amb 2.35M i no 4M, i la resta es fa crio.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX ANEMIA TR CRÓNICO",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Cariotips despres de tractament: 46,XX,t(4;12)(q35;q13)[6] / 47,XX.+11[3] / 46,XX[11]",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de DX: Sd Hipereosinofilo/AHAI CD- Pacient sense seguiment a hematologia",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Neoplasia de Mama 2016",
+        "ground_truth": [
+            {
+                "from_id": "Rp3KzPmPZs",
+                "to_id": "mrtDeYnviz",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Rp3KzPmPZs",
+                "to_id": "mrtDeYnviz",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Rp3KzPmPZs\", \"to_id\": \"mrtDeYnviz\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX febrer 17: SMD 5q-, no te DT. Restras mental",
+        "ground_truth": [
+            {
+                "from_id": "IWMX4cCBJj",
+                "to_id": "SzMHtNsoE7",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "IWMX4cCBJj",
+                "to_id": "4UUiASegAQ",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "IWMX4cCBJj",
+                "to_id": "4UUiASegAQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "IWMX4cCBJj",
+                "to_id": "SzMHtNsoE7",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "iejzKs9xEG",
+                "to_id": "4UUiASegAQ",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"IWMX4cCBJj\", \"to_id\": \"4UUiASegAQ\", \"type\": \"occurred_on\"}, {\"from_id\": \"IWMX4cCBJj\", \"to_id\": \"SzMHtNsoE7\", \"type\": \"associated_with\"}, {\"from_id\": \"iejzKs9xEG\", \"to_id\": \"4UUiASegAQ\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Es detecta progressió a MF al cicle 2. Pacient de sessio citologica. El 25/04/2016 ingresa i és exitus a principis de juny 2016 per ictus isquemic. Panell: KDM6A, BCORL1",
+        "ground_truth": [
+            {
+                "from_id": "YPNRjNo3lT",
+                "to_id": "PzxsTDXwBa",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "YPNRjNo3lT",
+                "to_id": "5KRLCgNPVO",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "eBht0_qq4k",
+                "to_id": "goI52-GEVy",
+                "type": "treats"
+            },
+            {
+                "from_id": "YPNRjNo3lT",
+                "to_id": "3MP80UvtGF",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "YPNRjNo3lT",
+                "to_id": "5KRLCgNPVO",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "YPNRjNo3lT",
+                "to_id": "PzxsTDXwBa",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"eBht0_qq4k\", \"to_id\": \"goI52-GEVy\", \"type\": \"treats\"}, {\"from_id\": \"YPNRjNo3lT\", \"to_id\": \"3MP80UvtGF\", \"type\": \"occurred_on\"}, {\"from_id\": \"YPNRjNo3lT\", \"to_id\": \"5KRLCgNPVO\", \"type\": \"caused_by\"}, {\"from_id\": \"YPNRjNo3lT\", \"to_id\": \"PzxsTDXwBa\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX: sindrome linfoproliferativo. Pancitopenia en estudi",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "La mostra es demana a citometria, 4 dies despres de l'aspirat. Hi ha bastant mort celular i es treu pellet per DNA i s'intenta criopreservar el possible.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Pancitopenia tras QT + TPH por LDCG . Se ha solicitado biopsia de médula ósea para descartar recaída del linfoma. Aparece la t(16;22) Octubre 2016: MO hipocelular, blastos MO 5 %, AREB-1",
+        "ground_truth": [
+            {
+                "from_id": "e4LuhfmLS7",
+                "to_id": "oKsjZu_zga",
+                "type": "treats"
+            },
+            {
+                "from_id": "e1D1vfOi_7",
+                "to_id": "oKsjZu_zga",
+                "type": "treats"
+            },
+            {
+                "from_id": "MwGj0PHjnE",
+                "to_id": "SNjsWseZ3z",
+                "type": "has_value"
+            },
+            {
+                "from_id": "MwGj0PHjnE",
+                "to_id": "6xs43cZi6u",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "e4LuhfmLS7",
+                "to_id": "Cu4KjR5VRk",
+                "type": "treats"
+            },
+            {
+                "from_id": "e1D1vfOi_7",
+                "to_id": "Cu4KjR5VRk",
+                "type": "treats"
+            },
+            {
+                "from_id": "oKsjZu_zga",
+                "to_id": "Cu4KjR5VRk",
+                "type": "treats"
+            },
+            {
+                "from_id": "MkHGurkOsK",
+                "to_id": "Cu4KjR5VRk",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "6xs43cZi6u",
+                "to_id": "Cu4KjR5VRk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "MwGj0PHjnE",
+                "to_id": "6xs43cZi6u",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "MwGj0PHjnE",
+                "to_id": "SNjsWseZ3z",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"e4LuhfmLS7\", \"to_id\": \"Cu4KjR5VRk\", \"type\": \"treats\"}, {\"from_id\": \"e1D1vfOi_7\", \"to_id\": \"Cu4KjR5VRk\", \"type\": \"treats\"}, {\"from_id\": \"oKsjZu_zga\", \"to_id\": \"Cu4KjR5VRk\", \"type\": \"treats\"}, {\"from_id\": \"MkHGurkOsK\", \"to_id\": \"Cu4KjR5VRk\", \"type\": \"associated_with\"}, {\"from_id\": \"6xs43cZi6u\", \"to_id\": \"Cu4KjR5VRk\", \"type\": \"occurred_on\"}, {\"from_id\": \"MwGj0PHjnE\", \"to_id\": \"6xs43cZi6u\", \"type\": \"occurred_on\"}, {\"from_id\": \"MwGj0PHjnE\", \"to_id\": \"SNjsWseZ3z\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "MO progresión.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "EPO des d'agost a novembre 2021, es para, i desprès es reinicia al febrer 2022 i continua actualment (maig 2022).",
+        "ground_truth": [
+            {
+                "from_id": "X2ocMmoYuz",
+                "to_id": "elYMJ3vupk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "X2ocMmoYuz",
+                "to_id": "K8zU6Yms4s",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "X2ocMmoYuz",
+                "to_id": "z6BxMi8UmL",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "X2ocMmoYuz",
+                "to_id": "elYMJ3vupk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "X2ocMmoYuz",
+                "to_id": "K8zU6Yms4s",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "X2ocMmoYuz",
+                "to_id": "z6BxMi8UmL",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"X2ocMmoYuz\", \"to_id\": \"elYMJ3vupk\", \"type\": \"occurred_on\"}, {\"from_id\": \"X2ocMmoYuz\", \"to_id\": \"K8zU6Yms4s\", \"type\": \"occurred_on\"}, {\"from_id\": \"X2ocMmoYuz\", \"to_id\": \"z6BxMi8UmL\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Sense resposta a EPO pel que es suspen. Actualment amb suport transfussional. MO del 09/01/2018 (86/18-MO).",
+        "ground_truth": [
+            {
+                "from_id": "Zvfe4FDDWe",
+                "to_id": "TwQjci_x64",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Zvfe4FDDWe",
+                "to_id": "TwQjci_x64",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "8FupwQyBjE",
+                "to_id": "lTFn9MoHwf",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Zvfe4FDDWe\", \"to_id\": \"TwQjci_x64\", \"type\": \"has_outcome\"}, {\"from_id\": \"8FupwQyBjE\", \"to_id\": \"lTFn9MoHwf\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX 01/05/2015: SMD-U",
+        "ground_truth": [
+            {
+                "from_id": "4lqFExW_k_",
+                "to_id": "VG2Zy5uInR",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "4lqFExW_k_",
+                "to_id": "VG2Zy5uInR",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"4lqFExW_k_\", \"to_id\": \"VG2Zy5uInR\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Mostra tto amb EPO. Panell: DNMT3A y ASXL1 (en SP) CSNK1A1 (también por WES)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX: 14/11/2024. Proyecto low risk, seguimiento. NGS KMT2A VAF 51,22%, hija con leucopenia. Datos clínicos: SMD-DU según OMS 2017- SMD-LB según OMS 2022. IPSS bajo, WPSS muy bajo.",
+        "ground_truth": [
+            {
+                "from_id": "HhC_Zu1_t2",
+                "to_id": "5Du2fy-8rV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "qJYK9q4Gxg",
+                "to_id": "5Du2fy-8rV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "qJYK9q4Gxg",
+                "to_id": "i_jxDJdnca",
+                "type": "has_value"
+            },
+            {
+                "from_id": "qJYK9q4Gxg",
+                "to_id": "_fg6KgrMU2",
+                "type": "has_value"
+            },
+            {
+                "from_id": "lFYgtXEHNX",
+                "to_id": "5j969AtLJ_",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "HhC_Zu1_t2",
+                "to_id": "i_jxDJdnca",
+                "type": "has_value"
+            },
+            {
+                "from_id": "qJYK9q4Gxg",
+                "to_id": "_fg6KgrMU2",
+                "type": "has_value"
+            },
+            {
+                "from_id": "lFYgtXEHNX",
+                "to_id": "5j969AtLJ_",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"HhC_Zu1_t2\", \"to_id\": \"i_jxDJdnca\", \"type\": \"has_value\"}, {\"from_id\": \"qJYK9q4Gxg\", \"to_id\": \"_fg6KgrMU2\", \"type\": \"has_value\"}, {\"from_id\": \"lFYgtXEHNX\", \"to_id\": \"5j969AtLJ_\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "SMD DX 18/11/2013 Inicia tto AZA 16/12/2013. Muestra de 6 ciclos AZA, primera evaluacion medular del tto (RHC)",
+        "ground_truth": [
+            {
+                "from_id": "4BtVWXjOIk",
+                "to_id": "NoSoRhECno",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "4BtVWXjOIk",
+                "to_id": "t5B9JbY2rk",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "8mVRH6_PXN",
+                "to_id": "HAJkQUDPNd",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "8QAf8FmfLi",
+                "to_id": "31_z_UivHt",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "8QAf8FmfLi",
+                "to_id": "HAJkQUDPNd",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "8QAf8FmfLi",
+                "to_id": "31_z_UivHt",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "4BtVWXjOIk",
+                "to_id": "NoSoRhECno",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "8QAf8FmfLi",
+                "to_id": "t5B9JbY2rk",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"8QAf8FmfLi\", \"to_id\": \"HAJkQUDPNd\", \"type\": \"occurred_on\"}, {\"from_id\": \"8QAf8FmfLi\", \"to_id\": \"31_z_UivHt\", \"type\": \"occurred_on\"}, {\"from_id\": \"4BtVWXjOIk\", \"to_id\": \"NoSoRhECno\", \"type\": \"has_dose\"}, {\"from_id\": \"8QAf8FmfLi\", \"to_id\": \"t5B9JbY2rk\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Anell de PBMC vermellos",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Fármaco: Lenalidomida (tras 3 años de transfusiones periódicas)  Sep. 2008 (Se interrumpe por toxicidad grave)",
+        "ground_truth": [
+            {
+                "from_id": "9_UEGWYwHX",
+                "to_id": "OM925JNxV-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "WFR_gdUIVf",
+                "to_id": "9_UEGWYwHX",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "WFR_gdUIVf",
+                "to_id": "r7ySZ0nHa8",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "WFR_gdUIVf",
+                "to_id": "OM925JNxV-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "WFR_gdUIVf",
+                "to_id": "9_UEGWYwHX",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"WFR_gdUIVf\", \"to_id\": \"r7ySZ0nHa8\", \"type\": \"has_dose\"}, {\"from_id\": \"WFR_gdUIVf\", \"to_id\": \"OM925JNxV-\", \"type\": \"occurred_on\"}, {\"from_id\": \"WFR_gdUIVf\", \"to_id\": \"9_UEGWYwHX\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "SMD con displasia unilínea (serie blanca). Neutropenia",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD: aplasia medular vs SMD hipoplásico",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX H Esperit Sant 24/07/2013 i es deriva a HGTIP per considerar tto: lo lleva la Dra Nerea Castillo. CI propi projecte SMD",
+        "ground_truth": [
+            {
+                "from_id": "osGYFnEey3",
+                "to_id": "rFZlb0apjw",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "osGYFnEey3",
+                "to_id": "rFZlb0apjw",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"osGYFnEey3\", \"to_id\": \"rFZlb0apjw\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Ensayo clínico ACE-536-MDS-002 (Luspatercept vs EPO, rama Luspa) Sigue en EC a fecha del 13/07/2023 Consigue independencia transfusional",
+        "ground_truth": [
+            {
+                "from_id": "v4dDtSExm1",
+                "to_id": "PTMFZfFTre",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "8AtswVH4sh",
+                "to_id": "v4dDtSExm1",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "RSAMcv3WCE",
+                "to_id": "v4dDtSExm1",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "8AtswVH4sh",
+                "to_id": "PTMFZfFTre",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "RSAMcv3WCE",
+                "to_id": "PTMFZfFTre",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "v4dDtSExm1",
+                "to_id": "PTMFZfFTre",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"8AtswVH4sh\", \"to_id\": \"PTMFZfFTre\", \"type\": \"occurred_on\"}, {\"from_id\": \"RSAMcv3WCE\", \"to_id\": \"PTMFZfFTre\", \"type\": \"occurred_on\"}, {\"from_id\": \"v4dDtSExm1\", \"to_id\": \"PTMFZfFTre\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Sospita SMD. Demano mostra per Single Cell",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de DX AREB-1",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra amb AZA, 3 cicles",
+        "ground_truth": [
+            {
+                "from_id": "GRcedg6ac5",
+                "to_id": "OLYpZpmwcn",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "GRcedg6ac5",
+                "to_id": "OLYpZpmwcn",
+                "type": "has_dose"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"GRcedg6ac5\", \"to_id\": \"OLYpZpmwcn\", \"type\": \"has_dose\"}]"
+    },
+    {
+        "text": "Tipo tratamiento: EC KER050-MD. Respuesta hematológica.",
+        "ground_truth": [
+            {
+                "from_id": "Wn2EANKlQj",
+                "to_id": "zjpbh_PTAQ",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra DX Tras el DX Inicia EPO y GCSF por criterios de posible buena respuesta",
+        "ground_truth": [
+            {
+                "from_id": "PDUaouEIMG",
+                "to_id": "RqscPlXFpT",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "8h3h7d3qAt",
+                "to_id": "RqscPlXFpT",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "PDUaouEIMG",
+                "to_id": "RqscPlXFpT",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"8h3h7d3qAt\", \"to_id\": \"RqscPlXFpT\", \"type\": \"has_outcome\"}, {\"from_id\": \"PDUaouEIMG\", \"to_id\": \"RqscPlXFpT\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Sospita trombocitopenia esencial. Te antecedents familiars de cancer: oncle amb neo cerebral, neboda amb LH i mare amb carcinomes cutanis. Va tenir un mioma no tractat.",
+        "ground_truth": [
+            {
+                "from_id": "FHEJ9Orxe6",
+                "to_id": "SjOASAuyxG",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "SjOASAuyxG",
+                "to_id": "FHEJ9Orxe6",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"SjOASAuyxG\", \"to_id\": \"FHEJ9Orxe6\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "EPO + AZACITIDINA - Ongoing a fecha 24/07/2023",
+        "ground_truth": [
+            {
+                "from_id": "63TKKxJYcs",
+                "to_id": "4DcMb9u73g",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "uD-tmo7Q0H",
+                "to_id": "4DcMb9u73g",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "63TKKxJYcs",
+                "to_id": "4DcMb9u73g",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "uD-tmo7Q0H",
+                "to_id": "4DcMb9u73g",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"63TKKxJYcs\", \"to_id\": \"4DcMb9u73g\", \"type\": \"occurred_on\"}, {\"from_id\": \"uD-tmo7Q0H\", \"to_id\": \"4DcMb9u73g\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Primero 150mg/semana, posteriormente 80mg/semana (Hb 13.9) - a retirar",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "SMD amb -7/7q-",
+        "ground_truth": [
+            {
+                "from_id": "4ynsFnmp-4",
+                "to_id": "RAqVuE43ad",
+                "type": "associated_with"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "4ynsFnmp-4",
+                "to_id": "RAqVuE43ad",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"4ynsFnmp-4\", \"to_id\": \"RAqVuE43ad\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "Estudi per pancitopenia (es sospitava de 5q- per citologia, pero es negatiu tant per CG com per FISH)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX gener 2012 AREB2 (13% blastes) IPSS Int-2. Inici AZA feb 2012, suspes desprès de 6 cicles sense resposta. Progressió 24% blastes (agost 2013). Ha iniciado QT estándar con ida/citarabina 03/09/13. Evol LMA: QT (2/5)  Rci. Recaida LMA y EXITUS 08/04/14 por sepsis",
+        "ground_truth": [
+            {
+                "from_id": "Psi8KUiezr",
+                "to_id": "gt_gO6VwvF",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Psi8KUiezr",
+                "to_id": "JCKLRaCjWO",
+                "type": "has_value"
+            },
+            {
+                "from_id": "Psi8KUiezr",
+                "to_id": "mCYJdc-1NW",
+                "type": "has_value"
+            },
+            {
+                "from_id": "1lg-ds-nk1",
+                "to_id": "qyhuGtRHcf",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "1lg-ds-nk1",
+                "to_id": "u4zHr11LAv",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "1lg-ds-nk1",
+                "to_id": "n0C6vRk2Uw",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "uG9hlZmKkU",
+                "to_id": "tuAMmi4akK",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "u2LO3hSP60",
+                "to_id": "iDRJuQJMrg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "anCGkeEjOK",
+                "to_id": "iDRJuQJMrg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "VWK40t3Dt8",
+                "to_id": "hLxTci_BeK",
+                "type": "treats"
+            },
+            {
+                "from_id": "zUQP8BrGqO",
+                "to_id": "GagSToItlm",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "zUQP8BrGqO",
+                "to_id": "8b35Sb4gWP",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Psi8KUiezr",
+                "to_id": "JCKLRaCjWO",
+                "type": "has_value"
+            },
+            {
+                "from_id": "Psi8KUiezr",
+                "to_id": "mCYJdc-1NW",
+                "type": "has_value"
+            },
+            {
+                "from_id": "1lg-ds-nk1",
+                "to_id": "qyhuGtRHcf",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "1lg-ds-nk1",
+                "to_id": "u4zHr11LAv",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "1lg-ds-nk1",
+                "to_id": "n0C6vRk2Uw",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "Psi8KUiezr",
+                "to_id": "uG9hlZmKkU",
+                "type": "has_value"
+            },
+            {
+                "from_id": "anCGkeEjOK",
+                "to_id": "u2LO3hSP60",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "anCGkeEjOK",
+                "to_id": "iDRJuQJMrg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "hLxTci_BeK",
+                "to_id": "mP9qMdlThZ",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "zUQP8BrGqO",
+                "to_id": "GagSToItlm",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "zUQP8BrGqO",
+                "to_id": "8b35Sb4gWP",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Psi8KUiezr\", \"to_id\": \"JCKLRaCjWO\", \"type\": \"has_value\"}, {\"from_id\": \"Psi8KUiezr\", \"to_id\": \"mCYJdc-1NW\", \"type\": \"has_value\"}, {\"from_id\": \"1lg-ds-nk1\", \"to_id\": \"qyhuGtRHcf\", \"type\": \"occurred_on\"}, {\"from_id\": \"1lg-ds-nk1\", \"to_id\": \"u4zHr11LAv\", \"type\": \"has_dose\"}, {\"from_id\": \"1lg-ds-nk1\", \"to_id\": \"n0C6vRk2Uw\", \"type\": \"has_outcome\"}, {\"from_id\": \"Psi8KUiezr\", \"to_id\": \"uG9hlZmKkU\", \"type\": \"has_value\"}, {\"from_id\": \"anCGkeEjOK\", \"to_id\": \"u2LO3hSP60\", \"type\": \"has_dose\"}, {\"from_id\": \"anCGkeEjOK\", \"to_id\": \"iDRJuQJMrg\", \"type\": \"occurred_on\"}, {\"from_id\": \"hLxTci_BeK\", \"to_id\": \"mP9qMdlThZ\", \"type\": \"associated_with\"}, {\"from_id\": \"zUQP8BrGqO\", \"to_id\": \"GagSToItlm\", \"type\": \"occurred_on\"}, {\"from_id\": \"zUQP8BrGqO\", \"to_id\": \"8b35Sb4gWP\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "31.03.2015: sense tto, amb suport transfusional cada 2 setmanes",
+        "ground_truth": [
+            {
+                "from_id": "CKUF9o8NP1",
+                "to_id": "u1nMZIsa-U",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "KyGFlRZZ6I",
+                "to_id": "u1nMZIsa-U",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "CKUF9o8NP1",
+                "to_id": "u1nMZIsa-U",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "KyGFlRZZ6I",
+                "to_id": "u1nMZIsa-U",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"CKUF9o8NP1\", \"to_id\": \"u1nMZIsa-U\", \"type\": \"occurred_on\"}, {\"from_id\": \"KyGFlRZZ6I\", \"to_id\": \"u1nMZIsa-U\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Ja ha iniciat tractament amb Azacitidina-Venetoclax, actualment en el dia +14.",
+        "ground_truth": [
+            {
+                "from_id": "INVVSJ4c27",
+                "to_id": "hRo8DIh-71",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "3q1ylVT5aM",
+                "to_id": "hRo8DIh-71",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Ha rebut Lena pero ha evolucionat a LMAs",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Se inició tratamiento con Hydrea y EPO el 19/12/2014, pero se tuvo que suspender Hydrea por cuadro de Mielosupresion en Marzo de 2015. Desde entonces persistió anemia con necesidad de transfusiones sanguineas cada 10-12 dias. Tras normalización de valores analiticos se inició tratamiento con Anagrelide en febrero de 2016, que se suspendió tras 3 dosis.",
+        "ground_truth": [
+            {
+                "from_id": "zZnsPKV1DV",
+                "to_id": "0uvyxKDUOS",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "siE8qHd0QD",
+                "to_id": "0uvyxKDUOS",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "RsEwjWq6Ss",
+                "to_id": "mGf44H_l_T",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "RsEwjWq6Ss",
+                "to_id": "-UymlFivOs",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Gv8XtFI4vp",
+                "to_id": "WqpH_MDflU",
+                "type": "treats"
+            },
+            {
+                "from_id": "5dvKy1VwMe",
+                "to_id": "x0AT669vw9",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "5dvKy1VwMe",
+                "to_id": "usQl3sxvyb",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "zZnsPKV1DV",
+                "to_id": "0uvyxKDUOS",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "siE8qHd0QD",
+                "to_id": "0uvyxKDUOS",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "RsEwjWq6Ss",
+                "to_id": "mGf44H_l_T",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "RsEwjWq6Ss",
+                "to_id": "-UymlFivOs",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "WqpH_MDflU",
+                "to_id": "x0AT669vw9",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "5dvKy1VwMe",
+                "to_id": "x0AT669vw9",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "5dvKy1VwMe",
+                "to_id": "usQl3sxvyb",
+                "type": "has_dose"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"zZnsPKV1DV\", \"to_id\": \"0uvyxKDUOS\", \"type\": \"occurred_on\"}, {\"from_id\": \"siE8qHd0QD\", \"to_id\": \"0uvyxKDUOS\", \"type\": \"occurred_on\"}, {\"from_id\": \"RsEwjWq6Ss\", \"to_id\": \"mGf44H_l_T\", \"type\": \"caused_by\"}, {\"from_id\": \"RsEwjWq6Ss\", \"to_id\": \"-UymlFivOs\", \"type\": \"occurred_on\"}, {\"from_id\": \"WqpH_MDflU\", \"to_id\": \"x0AT669vw9\", \"type\": \"occurred_on\"}, {\"from_id\": \"5dvKy1VwMe\", \"to_id\": \"x0AT669vw9\", \"type\": \"occurred_on\"}, {\"from_id\": \"5dvKy1VwMe\", \"to_id\": \"usQl3sxvyb\", \"type\": \"has_dose\"}]"
+    },
+    {
+        "text": "DX: CRDM",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita LMMC. Demanar CI a Susana Vives. No es pot descartar LMMC, monocitosis atipica (gener 2017) ultima entrada del SAP al juliol 2016",
+        "ground_truth": [
+            {
+                "from_id": "67Rv1EuPWI",
+                "to_id": "Q1CV_Z4nkV",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "67Rv1EuPWI",
+                "to_id": "Q1CV_Z4nkV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "67Rv1EuPWI",
+                "to_id": "03n3IMFUhB",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"67Rv1EuPWI\", \"to_id\": \"Q1CV_Z4nkV\", \"type\": \"occurred_on\"}, {\"from_id\": \"67Rv1EuPWI\", \"to_id\": \"03n3IMFUhB\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Rebem DNA - ID_17H1627",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Número de ciclos: 108 setmanes - Junio 2014: 3 ciclos (valoración respuesta) - Octubre 2014: 28 semanas (lleva 7 ciclos) - Febrero 2015: 44 semanas (11 ciclos)  - 04/05/2015: 56 setmanes ",
+        "ground_truth": [
+            {
+                "from_id": "7If0KLvxB7",
+                "to_id": "6GsPYnWfQP",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "rqgO4lJtH3",
+                "to_id": "a1g8IjmPAk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "HCtF4jBCpN",
+                "to_id": "BoWjJ1mtm0",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "7If0KLvxB7",
+                "to_id": "6GsPYnWfQP",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "rqgO4lJtH3",
+                "to_id": "a1g8IjmPAk",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "HCtF4jBCpN",
+                "to_id": "BoWjJ1mtm0",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "x7_prSpKGY",
+                "to_id": "BoWjJ1mtm0",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"7If0KLvxB7\", \"to_id\": \"6GsPYnWfQP\", \"type\": \"occurred_on\"}, {\"from_id\": \"rqgO4lJtH3\", \"to_id\": \"a1g8IjmPAk\", \"type\": \"occurred_on\"}, {\"from_id\": \"HCtF4jBCpN\", \"to_id\": \"BoWjJ1mtm0\", \"type\": \"occurred_on\"}, {\"from_id\": \"x7_prSpKGY\", \"to_id\": \"BoWjJ1mtm0\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "La puresa de CD34 es no valorable",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX CRDM, es realitza AMO per bicitopenia avançada",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Nos envian un tubo con DNA procedente de MO.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Va tenir cancer de mama al 13/12/2017 i va ser tractada amb TAXOL-PERTUZUMAB-TRASTUZUMAB (24/02/2022)",
+        "ground_truth": [
+            {
+                "from_id": "5FFqE2JE2G",
+                "to_id": "FQ_GCOpjea",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "GAU7dah9Gr",
+                "to_id": "zA7Ec6zJ2x",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "-W26g__RIH",
+                "to_id": "zA7Ec6zJ2x",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "7HgLBlbFYV",
+                "to_id": "zA7Ec6zJ2x",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "7HgLBlbFYV",
+                "to_id": "5FFqE2JE2G",
+                "type": "treats"
+            },
+            {
+                "from_id": "-W26g__RIH",
+                "to_id": "5FFqE2JE2G",
+                "type": "treats"
+            },
+            {
+                "from_id": "GAU7dah9Gr",
+                "to_id": "5FFqE2JE2G",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "7HgLBlbFYV",
+                "to_id": "5FFqE2JE2G",
+                "type": "treats"
+            },
+            {
+                "from_id": "-W26g__RIH",
+                "to_id": "5FFqE2JE2G",
+                "type": "treats"
+            },
+            {
+                "from_id": "GAU7dah9Gr",
+                "to_id": "5FFqE2JE2G",
+                "type": "treats"
+            },
+            {
+                "from_id": "7HgLBlbFYV",
+                "to_id": "FQ_GCOpjea",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "GAU7dah9Gr",
+                "to_id": "zA7Ec6zJ2x",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"7HgLBlbFYV\", \"to_id\": \"5FFqE2JE2G\", \"type\": \"treats\"}, {\"from_id\": \"-W26g__RIH\", \"to_id\": \"5FFqE2JE2G\", \"type\": \"treats\"}, {\"from_id\": \"GAU7dah9Gr\", \"to_id\": \"5FFqE2JE2G\", \"type\": \"treats\"}, {\"from_id\": \"7HgLBlbFYV\", \"to_id\": \"FQ_GCOpjea\", \"type\": \"occurred_on\"}, {\"from_id\": \"GAU7dah9Gr\", \"to_id\": \"zA7Ec6zJ2x\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Mostra DX",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "SMD/SMPC no LMMC (ARSA-t)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX LMAs M4 a SMD (SMD/AREB/LMA)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD low risk.",
+        "ground_truth": [
+            {
+                "from_id": "gVwBD9YhK6",
+                "to_id": "1xiH0cpGcX",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "gVwBD9YhK6",
+                "to_id": "1xiH0cpGcX",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"gVwBD9YhK6\", \"to_id\": \"1xiH0cpGcX\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Agost 2013 arriba com sospita SMD. Ago 2013 informen MO Reactiu",
+        "ground_truth": [
+            {
+                "from_id": "odNo_k68oA",
+                "to_id": "3kDGBCWkT3",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "odNo_k68oA",
+                "to_id": "3kDGBCWkT3",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "odNo_k68oA",
+                "to_id": "2hWCZ9s8MS",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"odNo_k68oA\", \"to_id\": \"3kDGBCWkT3\", \"type\": \"occurred_on\"}, {\"from_id\": \"odNo_k68oA\", \"to_id\": \"2hWCZ9s8MS\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "SMDt 2ari a LNH T perfièric q ha rebut QT CHOEP i GEMOX. Probablement LMA 2aria",
+        "ground_truth": [],
+        "prediction": [
+            {
+                "from_id": "YBKlBv7llx",
+                "to_id": "fgC0UjR5oZ",
+                "type": "treats"
+            },
+            {
+                "from_id": "hw4hhHjeTl",
+                "to_id": "fgC0UjR5oZ",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"YBKlBv7llx\", \"to_id\": \"fgC0UjR5oZ\", \"type\": \"treats\"}, {\"from_id\": \"hw4hhHjeTl\", \"to_id\": \"fgC0UjR5oZ\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Mostra de DX: 04/12/2014 ARSA (44% SA). IPSS-R: 1 (very low)",
+        "ground_truth": [
+            {
+                "from_id": "DAdUd85i4v",
+                "to_id": "h-WPP9fQMQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "DAdUd85i4v",
+                "to_id": "VlCkXW3f0n",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "DAdUd85i4v",
+                "to_id": "h-WPP9fQMQ",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "DAdUd85i4v",
+                "to_id": "VlCkXW3f0n",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"DAdUd85i4v\", \"to_id\": \"h-WPP9fQMQ\", \"type\": \"occurred_on\"}, {\"from_id\": \"DAdUd85i4v\", \"to_id\": \"VlCkXW3f0n\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Sospita SMD. Guardem 2 pellets de RNA  a -80 C  (PR_368)",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra pre tto. Al març 2013 es tracta amb EPO.Ttos: EPO y ATG+CyA+GC. AloTPH el 22/10/2013. EXITUS 12/01/2014 por Aspergilosis pulmonar y cerebral.",
+        "ground_truth": [
+            {
+                "from_id": "yqKHzbQE3b",
+                "to_id": "SOXcsTmBdW",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "9DItUo3AEl",
+                "to_id": "J6q51m06w-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tLP_rAoJwr",
+                "to_id": "ccku5t7tVe",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tLP_rAoJwr",
+                "to_id": "cAliegZVAX",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "yqKHzbQE3b",
+                "to_id": "SOXcsTmBdW",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "9DItUo3AEl",
+                "to_id": "J6q51m06w-",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tLP_rAoJwr",
+                "to_id": "ccku5t7tVe",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "cAliegZVAX",
+                "to_id": "tLP_rAoJwr",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"yqKHzbQE3b\", \"to_id\": \"SOXcsTmBdW\", \"type\": \"occurred_on\"}, {\"from_id\": \"9DItUo3AEl\", \"to_id\": \"J6q51m06w-\", \"type\": \"occurred_on\"}, {\"from_id\": \"tLP_rAoJwr\", \"to_id\": \"ccku5t7tVe\", \"type\": \"occurred_on\"}, {\"from_id\": \"cAliegZVAX\", \"to_id\": \"tLP_rAoJwr\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "Mostra de 12 cicles AZA, mante remisio completa hematologica (RCH)",
+        "ground_truth": [
+            {
+                "from_id": "mU_AHwsUbm",
+                "to_id": "UtQutzGnLN",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "mU_AHwsUbm",
+                "to_id": "PdDfOnOANI",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "mU_AHwsUbm",
+                "to_id": "UtQutzGnLN",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "mU_AHwsUbm",
+                "to_id": "PdDfOnOANI",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"mU_AHwsUbm\", \"to_id\": \"UtQutzGnLN\", \"type\": \"has_dose\"}, {\"from_id\": \"mU_AHwsUbm\", \"to_id\": \"PdDfOnOANI\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Segons la OMS 2022, LMMC.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "No citopenias, de momento no cumple criterios de SMD.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Pacient amb leucitosi, no compleix criteris de SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Actualmente en soporte transfusional.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Es va tractar amb AZA, completa 22 cicles. Mostra CETLAM seguiment. Fet QT pero torna a recaure",
+        "ground_truth": [
+            {
+                "from_id": "3tbQ_zL9I3",
+                "to_id": "2gFXmrlJpa",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "1JcOaT9nK_",
+                "to_id": "Qa7EfJCFba",
+                "type": "has_dose"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "1JcOaT9nK_",
+                "to_id": "Qa7EfJCFba",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "3tbQ_zL9I3",
+                "to_id": "2gFXmrlJpa",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"1JcOaT9nK_\", \"to_id\": \"Qa7EfJCFba\", \"type\": \"has_dose\"}, {\"from_id\": \"3tbQ_zL9I3\", \"to_id\": \"2gFXmrlJpa\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Rebem DNA - ID_16H3194",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Anemia macrocitica.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Avaluació per decidir si es tracta amb Lena (mai tractada amb Lena abans). Mostra pre Lena. EXITUS: 07.03.2015 (SEPSIS)",
+        "ground_truth": [
+            {
+                "from_id": "nTc6fkw9wx",
+                "to_id": "Tpoz7PloY3",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "nTc6fkw9wx",
+                "to_id": "mfyvILfW_j",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "nTc6fkw9wx",
+                "to_id": "Tpoz7PloY3",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "nTc6fkw9wx",
+                "to_id": "mfyvILfW_j",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"nTc6fkw9wx\", \"to_id\": \"Tpoz7PloY3\", \"type\": \"occurred_on\"}, {\"from_id\": \"nTc6fkw9wx\", \"to_id\": \"mfyvILfW_j\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "Mostra pre-tto Lena Torna a iniciar Lena el 27/04/2015. Per panells te mutacio en EZH2 i SH2B3 i SETBP1. Hi ha mostra del DX a Biologia Molecular: 1681/14-MO",
+        "ground_truth": [
+            {
+                "from_id": "xvmVMDn99n",
+                "to_id": "ixDsr2AU7f",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "xvmVMDn99n",
+                "to_id": "OCiyp4BK8K",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "OCiyp4BK8K",
+                "to_id": "ixDsr2AU7f",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"xvmVMDn99n\", \"to_id\": \"OCiyp4BK8K\", \"type\": \"caused_by\"}, {\"from_id\": \"OCiyp4BK8K\", \"to_id\": \"ixDsr2AU7f\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Un dels tubs de SP s'obre fora de campana, nomes es processa per PBMC",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "SMD hipoplásico IPSSR-R 2. NGS: 14% TET2, 19% TET2.  ",
+        "ground_truth": [
+            {
+                "from_id": "Shk2kGR8Uc",
+                "to_id": "xWj4oQGOsG",
+                "type": "has_value"
+            },
+            {
+                "from_id": "wsqlTTnu3H",
+                "to_id": "86Gd5Ps3CK",
+                "type": "has_value"
+            },
+            {
+                "from_id": "4qdVpPNPfT",
+                "to_id": "aJdao9SMoI",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Shk2kGR8Uc",
+                "to_id": "xWj4oQGOsG",
+                "type": "has_value"
+            },
+            {
+                "from_id": "wsqlTTnu3H",
+                "to_id": "86Gd5Ps3CK",
+                "type": "has_value"
+            },
+            {
+                "from_id": "wsqlTTnu3H",
+                "to_id": "aJdao9SMoI",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Shk2kGR8Uc\", \"to_id\": \"xWj4oQGOsG\", \"type\": \"has_value\"}, {\"from_id\": \"wsqlTTnu3H\", \"to_id\": \"86Gd5Ps3CK\", \"type\": \"has_value\"}, {\"from_id\": \"wsqlTTnu3H\", \"to_id\": \"aJdao9SMoI\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Es un TRMN. Neoplasia previa adenocarcinoma de recte baix diagnostica el 29/12/2020. Tractament IQ (02/2021) sense neoadjuvancia. Inici de FOLFOX adjuvant el 12/04/2021. (FOLFOX x2 -> 5FU per toxicitat). Ex fumador de fa 12-14 anys(aprox 1 paquet al dia).",
+        "ground_truth": [
+            {
+                "from_id": "q6VBgkle8N",
+                "to_id": "NMJ3c7hx90",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "jV470eLqBj",
+                "to_id": "q6VBgkle8N",
+                "type": "treats"
+            },
+            {
+                "from_id": "jV470eLqBj",
+                "to_id": "upqraaNtK0",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "jV470eLqBj",
+                "to_id": "YOkUbuj-Vs",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "h-gS9xkms-",
+                "to_id": "x1a7FNRHxH",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "x1a7FNRHxH",
+                "to_id": "fiEElmjfHg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "VmS-n5OZ3r",
+                "to_id": "BkipSBU8c_",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "BkipSBU8c_",
+                "to_id": "rkzeouRhm7",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "q6VBgkle8N",
+                "to_id": "NMJ3c7hx90",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "jV470eLqBj",
+                "to_id": "q6VBgkle8N",
+                "type": "treats"
+            },
+            {
+                "from_id": "jV470eLqBj",
+                "to_id": "upqraaNtK0",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "h-gS9xkms-",
+                "to_id": "x1a7FNRHxH",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "h-gS9xkms-",
+                "to_id": "fiEElmjfHg",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "h-gS9xkms-",
+                "to_id": "BkipSBU8c_",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "h-gS9xkms-",
+                "to_id": "rkzeouRhm7",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"q6VBgkle8N\", \"to_id\": \"NMJ3c7hx90\", \"type\": \"occurred_on\"}, {\"from_id\": \"jV470eLqBj\", \"to_id\": \"q6VBgkle8N\", \"type\": \"treats\"}, {\"from_id\": \"jV470eLqBj\", \"to_id\": \"upqraaNtK0\", \"type\": \"occurred_on\"}, {\"from_id\": \"h-gS9xkms-\", \"to_id\": \"x1a7FNRHxH\", \"type\": \"occurred_on\"}, {\"from_id\": \"h-gS9xkms-\", \"to_id\": \"fiEElmjfHg\", \"type\": \"occurred_on\"}, {\"from_id\": \"h-gS9xkms-\", \"to_id\": \"BkipSBU8c_\", \"type\": \"has_outcome\"}, {\"from_id\": \"h-gS9xkms-\", \"to_id\": \"rkzeouRhm7\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "DX (25/04/2013): SMDt 2 a tractament alquilant per limfoma limfocitic amb pancitopenia. Nomes rep tto suport",
+        "ground_truth": [
+            {
+                "from_id": "tPcvZYcI0f",
+                "to_id": "jU6oQJF8n6",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "svT8W155-e",
+                "to_id": "FEKlXy7LC7",
+                "type": "treats"
+            },
+            {
+                "from_id": "wbS5NcYaVi",
+                "to_id": "tPcvZYcI0f",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "tPcvZYcI0f",
+                "to_id": "jU6oQJF8n6",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tPcvZYcI0f",
+                "to_id": "FEKlXy7LC7",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "svT8W155-e",
+                "to_id": "tPcvZYcI0f",
+                "type": "treats"
+            },
+            {
+                "from_id": "9ObjedUXZP",
+                "to_id": "tPcvZYcI0f",
+                "type": "treats"
+            },
+            {
+                "from_id": "wbS5NcYaVi",
+                "to_id": "tPcvZYcI0f",
+                "type": "treats"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"tPcvZYcI0f\", \"to_id\": \"jU6oQJF8n6\", \"type\": \"occurred_on\"}, {\"from_id\": \"tPcvZYcI0f\", \"to_id\": \"FEKlXy7LC7\", \"type\": \"caused_by\"}, {\"from_id\": \"svT8W155-e\", \"to_id\": \"tPcvZYcI0f\", \"type\": \"treats\"}, {\"from_id\": \"9ObjedUXZP\", \"to_id\": \"tPcvZYcI0f\", \"type\": \"treats\"}, {\"from_id\": \"wbS5NcYaVi\", \"to_id\": \"tPcvZYcI0f\", \"type\": \"treats\"}]"
+    },
+    {
+        "text": "Adenocarcinoma de pròstata. ",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX LMA 24/10/2024",
+        "ground_truth": [
+            {
+                "from_id": "SY4Fk77KEn",
+                "to_id": "miuEZayUFA",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "SY4Fk77KEn",
+                "to_id": "miuEZayUFA",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"SY4Fk77KEn\", \"to_id\": \"miuEZayUFA\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Pancitopenia, ens confirmen que es SMD baix risc.",
+        "ground_truth": [
+            {
+                "from_id": "NE7DOgz_m4",
+                "to_id": "BPxI15Wu7u",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "NE7DOgz_m4",
+                "to_id": "BPxI15Wu7u",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"NE7DOgz_m4\", \"to_id\": \"BPxI15Wu7u\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "En l'assaig SintraREV. Stop assaig 31/10/17. Enviaran mostra el 31/11/17 post assaig, sembla que ha rebut Lena pq hb esta normalitzada",
+        "ground_truth": [
+            {
+                "from_id": "pPRd49WJGf",
+                "to_id": "6CHy4yexbG",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "IskWTbZKIj",
+                "to_id": "kgDw_c_KBN",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "pPRd49WJGf",
+                "to_id": "43KyfbXLY_",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "pPRd49WJGf",
+                "to_id": "6CHy4yexbG",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"IskWTbZKIj\", \"to_id\": \"kgDw_c_KBN\", \"type\": \"occurred_on\"}, {\"from_id\": \"pPRd49WJGf\", \"to_id\": \"43KyfbXLY_\", \"type\": \"occurred_on\"}, {\"from_id\": \"pPRd49WJGf\", \"to_id\": \"6CHy4yexbG\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Incremento por falta de respuesta. (4000 Ul/semana)",
+        "ground_truth": [
+            {
+                "from_id": "cSim58jSnc",
+                "to_id": "0SJGGeNglx",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Estudi citogenètic: S'ha observat una inversió del cromosoma 9 polimòrfica sense repercusió clínica. Biopsia MO: celularidad aumentada.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Dx de MDS-MLD el març 2022 amb IPSS-R baix risc. Sospita de progressió a MDS-IB amb IPSS-R high 5.5. Pendent descartar germinalitat per mutacio a DDX41.",
+        "ground_truth": [
+            {
+                "from_id": "u0_vC7I35S",
+                "to_id": "Mkja_vWO1e",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "NCOb0ILYI-",
+                "to_id": "dVBXZSA_-p",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "NCOb0ILYI-",
+                "to_id": "V1qswg8xG_",
+                "type": "has_value"
+            },
+            {
+                "from_id": "I61628B5DV",
+                "to_id": "O6a7t6ChyF",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "NCOb0ILYI-",
+                "to_id": "dVBXZSA_-p",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "NCOb0ILYI-",
+                "to_id": "V1qswg8xG_",
+                "type": "has_value"
+            },
+            {
+                "from_id": "I61628B5DV",
+                "to_id": "O6a7t6ChyF",
+                "type": "has_value"
+            },
+            {
+                "from_id": "I61628B5DV",
+                "to_id": "Mkja_vWO1e",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "u0_vC7I35S",
+                "to_id": "Mkja_vWO1e",
+                "type": "associated_with"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"NCOb0ILYI-\", \"to_id\": \"dVBXZSA_-p\", \"type\": \"occurred_on\"}, {\"from_id\": \"NCOb0ILYI-\", \"to_id\": \"V1qswg8xG_\", \"type\": \"has_value\"}, {\"from_id\": \"I61628B5DV\", \"to_id\": \"O6a7t6ChyF\", \"type\": \"has_value\"}, {\"from_id\": \"I61628B5DV\", \"to_id\": \"Mkja_vWO1e\", \"type\": \"associated_with\"}, {\"from_id\": \"u0_vC7I35S\", \"to_id\": \"Mkja_vWO1e\", \"type\": \"associated_with\"}]"
+    },
+    {
+        "text": "Mostra en tto: esplenomegalia",
+        "ground_truth": [
+            {
+                "from_id": "sRdMyPR_-h",
+                "to_id": "kRLglROD5m",
+                "type": "treats"
+            }
+        ],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "DX LMMC-1 variante displasica: Anemia i trombopenia, estudio por monocitosis. Panell: TET2, SETBP1, ZRSR2, SH2B3. Pte separar CD3+. Recibiremos el CI en octubre 2017",
+        "ground_truth": [],
+        "prediction": [
+            {
+                "from_id": "6I25wT6tH0",
+                "to_id": "yXK3h51XMr",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "6I25wT6tH0",
+                "to_id": "VnQAZgNDrn",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "6I25wT6tH0",
+                "to_id": "Z1cg_IRzW3",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"6I25wT6tH0\", \"to_id\": \"yXK3h51XMr\", \"type\": \"has_outcome\"}, {\"from_id\": \"6I25wT6tH0\", \"to_id\": \"VnQAZgNDrn\", \"type\": \"has_outcome\"}, {\"from_id\": \"6I25wT6tH0\", \"to_id\": \"Z1cg_IRzW3\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Mostra amb AZA",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Toxicidad: Si (hematológica grave): suspensión por toxicidad",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "El Coulter s'espatlla i es compten les PBMC i PBPMNC en l'equip de HGTIP",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "SMD alt risc.",
+        "ground_truth": [
+            {
+                "from_id": "9WezB20jZO",
+                "to_id": "vh52guBegF",
+                "type": "has_value"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "9WezB20jZO",
+                "to_id": "vh52guBegF",
+                "type": "has_value"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"9WezB20jZO\", \"to_id\": \"vh52guBegF\", \"type\": \"has_value\"}]"
+    },
+    {
+        "text": "Numero de MO segons el Dr. Jerez: M55 Inici Lena 10.07.2014 Porta 3 cicles (en RC)",
+        "ground_truth": [
+            {
+                "from_id": "iJ6D5wbgnu",
+                "to_id": "nq2iP6Rkfz",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "iJ6D5wbgnu",
+                "to_id": "F6ommwACHX",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "iJ6D5wbgnu",
+                "to_id": "0XClWCwrSc",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "iJ6D5wbgnu",
+                "to_id": "nq2iP6Rkfz",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "iJ6D5wbgnu",
+                "to_id": "F6ommwACHX",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "F6ommwACHX",
+                "to_id": "0XClWCwrSc",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"iJ6D5wbgnu\", \"to_id\": \"nq2iP6Rkfz\", \"type\": \"occurred_on\"}, {\"from_id\": \"iJ6D5wbgnu\", \"to_id\": \"F6ommwACHX\", \"type\": \"has_dose\"}, {\"from_id\": \"F6ommwACHX\", \"to_id\": \"0XClWCwrSc\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Anemia multifactorial (se descarta SMD) La pacient no es vol tornar a punxar ni a fer res més",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra pre Lena: utilitzem per Single Cell.  Febrer 2016: comença Lena assistencial, detecten blastes en MO",
+        "ground_truth": [
+            {
+                "from_id": "enAp5bq2Kk",
+                "to_id": "Nr1N8cxjXt",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "enAp5bq2Kk",
+                "to_id": "Nr1N8cxjXt",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"enAp5bq2Kk\", \"to_id\": \"Nr1N8cxjXt\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "DX SMD con 5q de 02/07/2013 Mostra pre Lena.  20/12/2013 inicia Lena",
+        "ground_truth": [
+            {
+                "from_id": "3zoMbp7uP6",
+                "to_id": "2lhIodDA7N",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "y6TZTlzlBc",
+                "to_id": "3zoMbp7uP6",
+                "type": "treats"
+            },
+            {
+                "from_id": "NycIML9DhN",
+                "to_id": "wYOY_fRoHe",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "NycIML9DhN",
+                "to_id": "3zoMbp7uP6",
+                "type": "treats"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "3zoMbp7uP6",
+                "to_id": "2lhIodDA7N",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "y6TZTlzlBc",
+                "to_id": "3zoMbp7uP6",
+                "type": "treats"
+            },
+            {
+                "from_id": "NycIML9DhN",
+                "to_id": "wYOY_fRoHe",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"3zoMbp7uP6\", \"to_id\": \"2lhIodDA7N\", \"type\": \"occurred_on\"}, {\"from_id\": \"y6TZTlzlBc\", \"to_id\": \"3zoMbp7uP6\", \"type\": \"treats\"}, {\"from_id\": \"NycIML9DhN\", \"to_id\": \"wYOY_fRoHe\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Rebem DNA - ID_19H6769 - Sin progresión.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra de DX: Sindrome 5q- (OMS 2001). Inicia EPO 20/07/2010 i finalitza el 10/01/2011 per falta de resposta.",
+        "ground_truth": [
+            {
+                "from_id": "4RCtj6rHwp",
+                "to_id": "nzRvXpmPCi",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "7B1kH95PLA",
+                "to_id": "tR3hUXTMg8",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "7B1kH95PLA",
+                "to_id": "26cni4v_bD",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "7B1kH95PLA",
+                "to_id": "V_WHRWjDMH",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "7B1kH95PLA",
+                "to_id": "tR3hUXTMg8",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "7B1kH95PLA",
+                "to_id": "26cni4v_bD",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "7B1kH95PLA",
+                "to_id": "V_WHRWjDMH",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"7B1kH95PLA\", \"to_id\": \"tR3hUXTMg8\", \"type\": \"occurred_on\"}, {\"from_id\": \"7B1kH95PLA\", \"to_id\": \"26cni4v_bD\", \"type\": \"occurred_on\"}, {\"from_id\": \"7B1kH95PLA\", \"to_id\": \"V_WHRWjDMH\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "Envien MO i només 3ml de SP",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra en tto 3 cicle Lena. Desembre: sense RCG",
+        "ground_truth": [
+            {
+                "from_id": "Sh8PGn7vFd",
+                "to_id": "cgoL4-Fb4s",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "liqOFmObOj",
+                "to_id": "qUy5SsQLHT",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "Sh8PGn7vFd",
+                "to_id": "liqOFmObOj",
+                "type": "has_outcome"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "Sh8PGn7vFd",
+                "to_id": "cgoL4-Fb4s",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "Sh8PGn7vFd",
+                "to_id": "liqOFmObOj",
+                "type": "has_outcome"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"Sh8PGn7vFd\", \"to_id\": \"cgoL4-Fb4s\", \"type\": \"has_dose\"}, {\"from_id\": \"Sh8PGn7vFd\", \"to_id\": \"liqOFmObOj\", \"type\": \"has_outcome\"}]"
+    },
+    {
+        "text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Estudi molecular pendent",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra pre tto.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Avaluació de tto. El 26/12/2013 sigue vivo, dentro del EC y con muy buena respuesta.",
+        "ground_truth": [
+            {
+                "from_id": "F9QxvkSm64",
+                "to_id": "AbJpFYhsT5",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "F9QxvkSm64",
+                "to_id": "AbJpFYhsT5",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"F9QxvkSm64\", \"to_id\": \"AbJpFYhsT5\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Dx 05/10/2010 cariotip SD, es tracta amb EPO i NO respon. A data de 27/06/2011 té cariotip amb del(5q) aillada Inicia LENA: 27/06/2011. Fa un total de 8 cicles (interromp pel mig: fitxa) Aquesta mostra es de la progressio a AREB-2 (inici transformació: 10.04.2012) i cariotip complex, abans de iniciar AZA (21/05/2012).",
+        "ground_truth": [
+            {
+                "from_id": "6vMNmx4J_R",
+                "to_id": "8vgvHNjqvV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "6vMNmx4J_R",
+                "to_id": "xSeYtYgo3V",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "GoCqHXVsVx",
+                "to_id": "6vMNmx4J_R",
+                "type": "treats"
+            },
+            {
+                "from_id": "GoCqHXVsVx",
+                "to_id": "HOJT45Uox2",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "v1yXaeZ3V6",
+                "to_id": "BsNvEj8XrC",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "5WXr8hdjUd",
+                "to_id": "WaUkXgXfum",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "5WXr8hdjUd",
+                "to_id": "TFWyJ3OA3W",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "o_bYhUnxf8",
+                "to_id": "UDzDE_eo_h",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "o_bYhUnxf8",
+                "to_id": "33DgNQ7NOu",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "41RlABWF0m",
+                "to_id": "mBa2u5DaV1",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "6vMNmx4J_R",
+                "to_id": "8vgvHNjqvV",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "6vMNmx4J_R",
+                "to_id": "xSeYtYgo3V",
+                "type": "associated_with"
+            },
+            {
+                "from_id": "GoCqHXVsVx",
+                "to_id": "HOJT45Uox2",
+                "type": "has_outcome"
+            },
+            {
+                "from_id": "5WXr8hdjUd",
+                "to_id": "TFWyJ3OA3W",
+                "type": "has_dose"
+            },
+            {
+                "from_id": "5WXr8hdjUd",
+                "to_id": "WaUkXgXfum",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "41RlABWF0m",
+                "to_id": "mBa2u5DaV1",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "o_bYhUnxf8",
+                "to_id": "UDzDE_eo_h",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"6vMNmx4J_R\", \"to_id\": \"8vgvHNjqvV\", \"type\": \"occurred_on\"}, {\"from_id\": \"6vMNmx4J_R\", \"to_id\": \"xSeYtYgo3V\", \"type\": \"associated_with\"}, {\"from_id\": \"GoCqHXVsVx\", \"to_id\": \"HOJT45Uox2\", \"type\": \"has_outcome\"}, {\"from_id\": \"5WXr8hdjUd\", \"to_id\": \"TFWyJ3OA3W\", \"type\": \"has_dose\"}, {\"from_id\": \"5WXr8hdjUd\", \"to_id\": \"WaUkXgXfum\", \"type\": \"occurred_on\"}, {\"from_id\": \"41RlABWF0m\", \"to_id\": \"mBa2u5DaV1\", \"type\": \"occurred_on\"}, {\"from_id\": \"o_bYhUnxf8\", \"to_id\": \"UDzDE_eo_h\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Mielograma muestra diseritropoyesis (30%), disgranulopoyesis (2%) y dismegacariopoyesis (20%).",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Mostra seguiment. Fue exitus el 17/12/2014 por progresión a LMA y fallo multiorgánico.",
+        "ground_truth": [
+            {
+                "from_id": "tEaMoKQo4e",
+                "to_id": "ED5oVyV1O_",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tEaMoKQo4e",
+                "to_id": "B_YduhE6i_",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "tEaMoKQo4e",
+                "to_id": "lCVACcpyf1",
+                "type": "caused_by"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "tEaMoKQo4e",
+                "to_id": "ED5oVyV1O_",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "tEaMoKQo4e",
+                "to_id": "B_YduhE6i_",
+                "type": "caused_by"
+            },
+            {
+                "from_id": "tEaMoKQo4e",
+                "to_id": "lCVACcpyf1",
+                "type": "caused_by"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"tEaMoKQo4e\", \"to_id\": \"ED5oVyV1O_\", \"type\": \"occurred_on\"}, {\"from_id\": \"tEaMoKQo4e\", \"to_id\": \"B_YduhE6i_\", \"type\": \"caused_by\"}, {\"from_id\": \"tEaMoKQo4e\", \"to_id\": \"lCVACcpyf1\", \"type\": \"caused_by\"}]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Sospita SMD",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Nos envian DNA de MO del 29/07/2015. DX 29/7/15 AREB-1",
+        "ground_truth": [
+            {
+                "from_id": "6mpYQJwtQv",
+                "to_id": "ExofA7v51T",
+                "type": "occurred_on"
+            }
+        ],
+        "prediction": [
+            {
+                "from_id": "6mpYQJwtQv",
+                "to_id": "ExofA7v51T",
+                "type": "occurred_on"
+            },
+            {
+                "from_id": "6mpYQJwtQv",
+                "to_id": "7gkuuzEBpp",
+                "type": "occurred_on"
+            }
+        ],
+        "raw_output": "[{\"from_id\": \"6mpYQJwtQv\", \"to_id\": \"ExofA7v51T\", \"type\": \"occurred_on\"}, {\"from_id\": \"6mpYQJwtQv\", \"to_id\": \"7gkuuzEBpp\", \"type\": \"occurred_on\"}]"
+    },
+    {
+        "text": "Prova AutoMACS 2",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    },
+    {
+        "text": "Ens envien SP al mati i es criopreserva tot ja que no tenim MO. El MO arriba a la tarda i es separa DNA pel projecte FCA.",
+        "ground_truth": [],
+        "prediction": [],
+        "raw_output": "[]"
+    }
+]

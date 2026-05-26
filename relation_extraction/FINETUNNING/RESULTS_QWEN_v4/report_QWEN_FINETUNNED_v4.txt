@@ -1,0 +1,12 @@
+  Relation Type Precision Recall F1-Score Support
+      caused_by    10.34% 37.50%   16.22%       8
+         treats    32.35% 21.57%   25.88%      51
+    occurred_on    57.42% 53.61%   55.45%     166
+  has_change_in    22.22% 50.00%   30.77%       4
+      has_value    70.59% 64.86%   67.61%      37
+    has_outcome    43.48% 47.62%   45.45%      21
+       has_dose    46.67% 53.85%   50.00%      26
+associated_with    32.14% 64.29%   42.86%      14
+---------------                                  
+      macro avg    39.40% 49.16%   41.78%     327
+   weighted avg    50.59% 49.54%   49.34%     327
