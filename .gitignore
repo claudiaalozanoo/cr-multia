@@ -11,6 +11,9 @@
 **/checkpoint-*/
 **/checkpoints/
 
+# Data folder
+**/data/
+
 # Virtual environments and cache
 __pycache__/
 *.pyc
