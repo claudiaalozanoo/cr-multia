@@ -24,17 +24,19 @@ The system splits complex clinical NLP tasks into three specialized roles.
 
 ## Repository Structure
 
-├── medical_ner/                  # Agent 1
-│   ├── FEW_SHOT/                 # Baseline Benchmark of Generative Models Using Few-Shot Prompting Technique
-│   └── FINETUNNING/              # Fine-tuning the Best Perfoming Generative Model and the Discriminative one
-├── attribute_association/        # Agent 2
-│   ├── FEW_SHOT/                 # Baseline Benchmark of Generative Models Using Few-Shot Prompting Technique
-│   └── FINETUNNING/              # Fine-tuning the Best Perfoming Generative Model and the Discriminative one
-├── relation_extraction/          # Agent 3
-│   ├── FEW_SHOT/                 # Baseline Benchmark of Generative Models Using Few-Shot Prompting Technique
-│   └── FINETUNNING/              # Fine-tuning the Best Perfoming Generative Model and the Discriminative one
-├── data/                         # 2,566 free-text clinical notes, division of the dataset to test few-shot with different amounts of data
-└── PIPELINE/                     # End-to-end script to test the full pipeline
+```text
+.
+├── medical_ner/                 # Agent 1: Named Entity Recognition
+│   ├── FEW_SHOT/                # Baseline Benchmark of Generative Models Using Few-Shot Prompting Technique
+│   └── FINETUNNING/             # Fine-tuning the Best Performing Generative Model and the Discriminative one
+├── attribute_association/       # Agent 2: Attribute Association
+│   ├── FEW_SHOT/                # Baseline Benchmark of Generative Models Using Few-Shot Prompting Technique
+│   └── FINETUNNING/             # Fine-tuning the Best Performing Generative Model and the Discriminative one
+├── relation_extraction/         # Agent 3: Relation Extraction
+│   ├── FEW_SHOT/                # Baseline Benchmark of Generative Models Using Few-Shot Prompting Technique
+│   └── FINETUNNING/             # Fine-tuning the Best Performing Generative Model and the Discriminative one
+├── data/                        # 2,566 free-text clinical notes (Dataset splits for few-shot testing)
+└── PIPELINE/                    # End-to-end script to test the full multi-agent pipeline
 
 ## Installation & Setup
 
