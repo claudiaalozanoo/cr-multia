@@ -1,16 +1,21 @@
 # cr-multia
 
-A collection of useful Python scripts for [insert brief description here, e.g., automating daily tasks, data processing, web scraping].
+## Project Overview
+This repository contains the core methodology, architecture, and logic for my project on **A LLM Multi-Agent System for Extraction and Interpretation of Myelodysplastic Syndromes Clinical Records**. 
+
+The main objective of this project is to design, implement, and evaluate a LLM multi-agent framework for the automated structuring of complex clinical records in Myeloid Neoplasms, comparing Generative vs. Discriminative approaches for each specific task.
+
+> ⚠️ **Scope:** This repository focuses on the **methodological framework, agent definitions, prompts, and workflows**. In compliance with data privacy regulations (GDPR/HIPAA) and GitHub storage limits, this repository **does not** contain real patient data, fine-tuned model weights, or LoRA adapters.
 
 ---
 
-## 🚀 Getting Started
+## Methodology & Agent Architecture
 
-Follow these steps to set up the environment and run the scripts locally.
+The system splits complex clinical NLP tasks into three specialized roles. 
 
-### Prerequisites
+### Agent Roles:
+*   **Named Entity Recognition:** Identifies clinical entities and classifies them into the defined taxonomy.
+*   **Attribute Classification:** Examines the context of the detected entity and defines an attribute or status related to that specific entity.
+*   **Relation Extraction:** Stablishes connections or relationships between entities and classifies them.
 
-Make sure you have Python installed (version 3.8 or higher is recommended). You can check your version by running:
-
-```bash
-python --version
+![System Workflow Diagram](workflow.png)
