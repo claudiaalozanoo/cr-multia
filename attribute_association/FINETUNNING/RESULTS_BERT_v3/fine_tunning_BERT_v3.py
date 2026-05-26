@@ -39,12 +39,12 @@ from collections import Counter
 import unicodedata
 
 # login to hugging face
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 
 ## 1. Data Load and Preprocessing
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566_FIXED.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -361,7 +361,7 @@ for i, w in enumerate(class_weights):
     print(f"  {id2label[i]:<15} {w:.3f}  (n={attr_counts.get(id2label[i], 0)})")
 
 training_args = TrainingArguments(
-    output_dir="/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/FINETUNNING/RESULTS_BERT_v3",
+    output_dir="cr-multia/attribute_association/FINETUNNING/RESULTS_BERT_v3",
     eval_strategy="epoch",
     learning_rate=2e-5,           # XLM-R can handle a slightly higher LR than DeBERTa
     lr_scheduler_type="linear",   # Ensures smooth transitions
@@ -406,7 +406,7 @@ trainer = WeightedTrainer(
 trainer.train()
 
 # save adapter
-OUT_DIR_LLM = "/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/FINETUNNING/RESULTS_BERT_v3"
+OUT_DIR_LLM = "cr-multia/attribute_association/FINETUNNING/RESULTS_BERT_v3"
 out = trainer.save_model(OUT_DIR_LLM)
 out
 print("Adapter would be saved to:", OUT_DIR_LLM)
@@ -440,7 +440,7 @@ def final_classification_report_attr(trainer, dataset, id2label, label_list):
 results, report, cm = final_classification_report_attr(trainer, ds_test, id2label, unique_attributes)
 
 # save results
-output_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/FINETUNNING/RESULTS_BERT_v3")
+output_path = Path("cr-multia/attribute_association/FINETUNNING/RESULTS_BERT_v3")
 output_path.mkdir(parents=True, exist_ok=True)
 
 with open(output_path / "bert_results_v3.json", "w", encoding="utf-8") as f:

@@ -35,12 +35,12 @@ from huggingface_hub import login
 
 
 # login to hugging face
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 
 # ## 1. Data Load and Preprocessing
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566_FIXED.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -229,7 +229,7 @@ trainer.train()
 
 
 # save adapter
-OUT_DIR_LLM = "/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/FINETUNNING/RESULTS_LLAMA_confmatrix/"
+OUT_DIR_LLM = "cr-multia/attribute_association/FINETUNNING/RESULTS_LLAMA_confmatrix/"
 out = trainer.save_model(OUT_DIR_LLM)
 out
 print("Adapter would be saved to:", OUT_DIR_LLM)
@@ -330,7 +330,7 @@ REGLAS ESTRICTAS:
 report, results = evaluate_attribute_model(model, tokenizer, test_set)
 
 # save results
-output_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/FINETUNNING/RESULTS_LLAMA_confmatrix")
+output_path = Path("cr-multia/attribute_association/FINETUNNING/RESULTS_LLAMA_confmatrix")
 output_path.mkdir(parents=True, exist_ok=True)
 
 with open(output_path / "llama3_results_v1.json", "w", encoding="utf-8") as f:

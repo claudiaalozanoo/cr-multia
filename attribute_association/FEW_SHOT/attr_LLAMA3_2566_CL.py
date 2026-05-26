@@ -36,11 +36,11 @@ from pathlib import Path
 
 # ## Authentification HF
 
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 # ## Data Load
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566_FIXED.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -239,7 +239,7 @@ for task in tqdm_cli(valid_tasks):
 # In[85]:
 
 
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/PLAIN/llama3_results_2566.json", "w", encoding="utf-8") as f:
+with open("cr-multia/attribute_association/FEW_SHOT/llama3_results_2566.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
     
 print("Results saved to llama3_results_2566.json")
@@ -279,7 +279,7 @@ for etype in entity_types:
         print(f"{etype:15}: {correct/len(etype_true):.2%} (Support: {len(etype_true)})")
 
 
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/PLAIN/report_LLAMA3_2566.txt", "w") as f:
+with open("cr-multia/attribute_association/FEW_SHOT/report_LLAMA3_2566.txt", "w") as f:
     f.write("Attribute Classification Report\n")
     f.write(report)
 

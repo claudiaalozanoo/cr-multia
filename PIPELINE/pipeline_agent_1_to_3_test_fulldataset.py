@@ -1,4 +1,4 @@
-# TEST PIPELINE 1: FROM AGENT 1 TO AGENT 2
+# TEST FULL PIPELINE: FROM AGENT 1 TO AGENT 3
 
 # dependencies
 import pandas as pd
@@ -24,7 +24,7 @@ from sklearn.metrics import classification_report, accuracy_score, precision_rec
 
 from pipeline_agent_1_to_3_llama import final_pipeline
 
-DATA_PATH = "/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566_FIXED.json"
+DATA_PATH = "PATH_TO_YOUR_DATA"
 
 OUTPUT_FILE = "test_results_full_pipeline.json"
 

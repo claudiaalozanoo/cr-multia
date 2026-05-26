@@ -35,12 +35,12 @@ from huggingface_hub import login
 
 
 # login to hugging face
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 
 # ## 1. Data Load and Preprocessing
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566_FIXED.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -328,7 +328,7 @@ model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 
 sft_config = SFTConfig(
-    output_dir="/ijc/LABS/SOLE/DATA/tfm_CLG/relation_extraction/FINETUNNING/RESULTS_QWEN_v6",
+    output_dir="cr-multia/relation_extraction/FINETUNNING/RESULTS_QWEN_v6",
     per_device_train_batch_size=2,
     gradient_accumulation_steps=4,
     num_train_epochs=5,
@@ -354,7 +354,7 @@ trainer.train()
 
 
 # save adapter
-OUT_DIR_LLM = "/ijc/LABS/SOLE/DATA/tfm_CLG/relation_extraction/FINETUNNING/RESULTS_QWEN_v6"
+OUT_DIR_LLM = "cr-multia/relation_extraction/FINETUNNING/RESULTS_QWEN_v6"
 out = trainer.save_model(OUT_DIR_LLM)
 out
 print("Adapter would be saved to:", OUT_DIR_LLM)
@@ -497,7 +497,7 @@ print("\n--- FINAL REPORT RELATION EXTRACTION ---")
 print(report.to_string(index=False))
 
 # save results
-output_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/relation_extraction/FINETUNNING/RESULTS_QWEN_v6")
+output_path = Path("cr-multia/relation_extraction/FINETUNNING/RESULTS_QWEN_v6")
 output_path.mkdir(parents=True, exist_ok=True)
 
 with open(output_path / "qwen_results.json", "w", encoding="utf-8") as f:

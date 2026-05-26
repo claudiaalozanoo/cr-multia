@@ -36,11 +36,11 @@ from pathlib import Path
 
 # ## Authentification HF
 
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 # ## Data Load
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_236_FIXED.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -373,7 +373,7 @@ print("\nRelation Extaction Report")
 print("=" * 70)
 print(report.to_string(index=False))
 
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/relation_extraction/ZERO-SHOT/report_LLAMA3_236.txt", "w") as f:
+with open("cr-multia/relation_extraction/FEW_SHOT/report_LLAMA3_236.txt", "w") as f:
     f.write("Relation Extraction Report\n")
     f.write("=" * 70 + "\n")
     f.write(report.to_string(index=False))

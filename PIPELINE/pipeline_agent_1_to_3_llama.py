@@ -1,4 +1,4 @@
-# TEST PIPELINE 1: FROM AGENT 1 TO AGENT 2
+# TEST FULL PIPELINE: FROM AGENT 1 TO AGENT 3
 
 # dependencies
 import sys
@@ -15,10 +15,10 @@ from transformers import (
 from peft import PeftModel
 
 # path to agents
-PATH_AGENT_1 = "/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_BERT_V1/RESULTS_BERT_V1/checkpoint-1290"
+PATH_AGENT_1 = "YOUR_PATH_TO_AGENT1_TRAINED_MODEL"
 PATH_AGENT_2_BASE  = "meta-llama/Meta-Llama-3-8B-Instruct"
-PATH_AGENT_2_LORA  = "/ijc/LABS/SOLE/DATA/tfm_CLG/attribute_association/FINETUNNING/RESULTS_LLAMA"
-PATH_AGENT_3_LORA = "/ijc/LABS/SOLE/DATA/tfm_CLG/relation_extraction/FINETUNNING/RESULTS_LLAMA_v6"
+PATH_AGENT_2_LORA  = "YOUR_PATH_TO_AGENT2_ADAPTERS"
+PATH_AGENT_3_LORA = "YOUR_PATH_TO_AGENT3_ADAPTERS"
 
 # LABEL DEFINITIONS
 ALLOWED_LABELS = ["Diagnosis", "Smoker", "GeneMutation", "Treatment", "Exitus", "FamilyHistory"]
