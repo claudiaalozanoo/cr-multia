@@ -40,7 +40,7 @@ from huggingface_hub import login
 # In[2]:
 
 
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 
 # ## 1. Data Load and Preprocessing
@@ -48,7 +48,7 @@ login(token="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")
 # In[5]:
 
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -374,13 +374,13 @@ results, report, conf_matrix = final_classification_report(trainer, tokenized_ds
 # In[ ]:
 
 
-output_path_json = "/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_BERT_V1/BERT_results.json"
+output_path_json = "cr-multia/medical_ner/FINETUNNING/RESULTS_BERT_V1/BERT_results.json"
 with open(output_path_json, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
 
 print(f"Results saved to {output_path_json}")
 
-output_path_txt = "/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_BERT_V1/medical_ner_report_BERT_FINETUNNED.txt"
+output_path_txt = "cr-multia/medical_ner/FINETUNNING/RESULTS_BERT_V1/medical_ner_report_BERT_FINETUNNED.txt"
 with open(output_path_txt, "w") as f:
     f.write("Medical NER Classification Report\n")
     f.write(report)

@@ -37,7 +37,7 @@ from huggingface_hub import login
 # In[ ]:
 
 
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 
 # ## 1. Data Load and Preprocessing
@@ -45,7 +45,7 @@ login(token="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")
 # In[2]:
 
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -316,7 +316,7 @@ trainer.train()
 
 
 # save adapter
-OUT_DIR_LLM = "/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING"
+OUT_DIR_LLM = "cr-multia/medical_ner/FINETUNNING"
 out = trainer.save_model(OUT_DIR_LLM)
 out
 print("Adapter would be saved to:", OUT_DIR_LLM)
@@ -408,14 +408,14 @@ print(report)
 
 
 # save results
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/llama3_results_v2.json", "w", encoding="utf-8") as f:
+with open("cr-multia/medical_ner/FINETUNNING/llama3_results_v2.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
 
 print("Results saved to llama3_results_v2.json")
 
 
 # save report
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/medical_ner_report_LLAMA3_FINETUNNED_v2.txt", "w") as f:
+with open("cr-multia/medical_ner/FINETUNNING/medical_ner_report_LLAMA3_FINETUNNED_v2.txt", "w") as f:
     f.write("Medical NER Classification Report\n")
     f.write(report)
 

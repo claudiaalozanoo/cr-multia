@@ -39,7 +39,7 @@ from huggingface_hub import login
 # In[ ]:
 
 
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 
 # ## 1. Data Load and Preprocessing
@@ -47,7 +47,7 @@ login(token="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")
 # In[2]:
 
 
-dataset_path = Path("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_2566.json")
+dataset_path = "PATH_TO_YOUR_DATA"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     ner_dataset = json.load(f)
@@ -317,7 +317,7 @@ trainer.train()
 
 
 # save adapter
-OUT_DIR_LLM = "/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_V2_confmatrix"
+OUT_DIR_LLM = "cr-multia/medical_ner/FINETUNNING/RESULTS_V2_confmatrix"
 out = trainer.save_model(OUT_DIR_LLM)
 out
 print("Adapter would be saved to:", OUT_DIR_LLM)
@@ -434,14 +434,14 @@ print(report)
 
 
 # save results
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_V2_confmatrix/llama3_results_v2.json", "w", encoding="utf-8") as f:
+with open("cr-multia/medical_ner/FINETUNNING/RESULTS_V2_confmatrix/llama3_results_v2.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
 
 print("Results saved to llama3_results_v2.json")
 
 
 # save report
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_V2_confmatrix/medical_ner_report_LLAMA3_FINETUNNED_v2.txt", "w") as f:
+with open("cr-multia/medical_ner/FINETUNNING/RESULTS_V2_confmatrix/medical_ner_report_LLAMA3_FINETUNNED_v2.txt", "w") as f:
     f.write("Medical NER Classification Report\n")
     f.write(report)
 
@@ -456,6 +456,6 @@ cm = confusion_matrix(all_true, all_pred, labels=label_list)
 cm_df = pd.DataFrame(cm, index=label_list, columns=label_list)
 
 # Save to CSV
-cm_path = "/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/FINETUNNING/RESULTS_V2_confmatrix/confusion_matrix_llama3_v2.csv"
+cm_path = "cr-multia/medical_ner/FINETUNNING/RESULTS_V2_confmatrix/confusion_matrix_llama3_v2.csv"
 cm_df.to_csv(cm_path)
 print(f"Confusion matrix saved to {cm_path}")

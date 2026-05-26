@@ -40,7 +40,7 @@ from huggingface_hub import login
 # In[ ]:
 
 
-login(token="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")
+login(token="YOUR_HF_TOKEN_HERE")
 
 
 # ## Data Load
@@ -48,7 +48,7 @@ login(token="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")
 # In[5]:
 
 
-file_path = '/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/data/subsample_236.json'
+file_path = 'PATH_TO_YOUR_DATA'
 
 with open(file_path, 'r', encoding='utf-8') as f:
     data = json.load(f)
@@ -336,7 +336,7 @@ print(report)
 # In[85]:
 
 
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/HF/deepseek7b_results_236.json", "w", encoding="utf-8") as f:
+with open("cr-multia/medical_ner/FEW_SHOT/deepseek7b_results_236.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
     
 print("Results saved to deepseek7b_results_236.json")
@@ -345,7 +345,7 @@ print("Results saved to deepseek7b_results_236.json")
 # In[ ]:
 
 
-with open("/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/HF/medical_ner_report_DEEPSEEK7B_236.txt", "w") as f:
+with open("cr-multia/medical_ner/FEW_SHOT/medical_ner_report_DEEPSEEK7B_236.txt", "w") as f:
     f.write("Medical NER Classification Report\n")
     f.write(report)
 
