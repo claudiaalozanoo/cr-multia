@@ -42,4 +42,32 @@ The system splits complex clinical NLP tasks into three specialized roles.
 ## Installation & Setup
 
 ### Prerequisites
+
 - Python 3.10+
+- A HuggingFace key for downloading the models
+
+### Setup Instructions
+
+1. Clone the repository (code only):
+```bash
+git clone [https://github.com/](https://github.com/)claudiaalozanoo/cr-multia.git
+cd cr-multia
+```
+   
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Evaluation & Results
+
+The methodology is evaluated based on:
+
+- Performance Metrics: Precision, Recall, and F1-score compared against a gold-standard.
+- Hallucination Mitigation: Qualitative analysis of results.
+
+## License and Authors
+
+Author: Clàudia Lozano - claudialozanogargallo@gmail.com
+
+Academic Institution: Universitat Rovira i Virgili / Josep Carreras Leukemia Research Institute
