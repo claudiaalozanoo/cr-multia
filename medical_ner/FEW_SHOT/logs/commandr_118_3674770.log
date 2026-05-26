@@ -1,1291 +1,0 @@
-/var/spool/slurmd/job3674770/slurm_script: line 16: module: command not found
-# packages in environment at /mnt/beegfs/clozano/.conda/envs/medical_ner_env:
-#
-# Name                    Version                   Build  Channel
-_libgcc_mutex             0.1                        main  
-_openmp_mutex             5.1                       1_gnu  
-_python_abi3_support      1.0                  hd8ed1ab_2    conda-forge
-accelerate                1.12.0             pyhcf101f3_0    conda-forge
-annotated-doc             0.0.4              pyhcf101f3_0    conda-forge
-annotated-types           0.7.0              pyhd8ed1ab_1    conda-forge
-anyio                     4.12.1             pyhcf101f3_0    conda-forge
-aom                       3.9.1                hac33072_0    conda-forge
-attrs                     25.4.0             pyhcf101f3_1    conda-forge
-backports.zstd            1.3.0           py310h69bd2ac_0    conda-forge
-beautifulsoup4            4.14.3             pyha770c72_0    conda-forge
-bitsandbytes              0.49.2                   pypi_0    pypi
-blas                      2.305                  openblas    conda-forge
-blas-devel                3.11.0          5_h1ea3ea9_openblas    conda-forge
-bleach                    6.3.0              pyhcf101f3_1    conda-forge
-bleach-with-css           6.3.0                hbca2aae_1    conda-forge
-brotli                    1.2.0                hed03a55_1    conda-forge
-brotli-bin                1.2.0                hb03c661_1    conda-forge
-brotli-python             1.2.0           py310hba01987_1    conda-forge
-bzip2                     1.0.8                h5eee18b_6  
-c-ares                    1.34.6               hb03c661_0    conda-forge
-ca-certificates           2026.1.4             hbd8a1cb_0    conda-forge
-cairo                     1.18.4               h44eff21_0  
-certifi                   2026.01.04      py310h06a4308_0  
-charset-normalizer        3.4.4              pyhd8ed1ab_0    conda-forge
-click                     8.3.1              pyh8f84b5b_1    conda-forge
-contourpy                 1.3.2           py310h3788b33_0    conda-forge
-cpython                   3.10.19         py310hd8ed1ab_3    conda-forge
-cuda-cudart               12.6.77              h5888daf_0    conda-forge
-cuda-cudart_linux-64      12.6.77              h3f2d84a_0    conda-forge
-cuda-nvrtc                12.6.85              hbd13f7d_0    conda-forge
-cuda-version              12.6                 h7480c83_3    conda-forge
-cycler                    0.12.1             pyhcf101f3_2    conda-forge
-cyrus-sasl                2.1.28               h1110e0f_3  
-dav1d                     1.2.1                hd590300_0    conda-forge
-dbus                      1.16.2               h3c4dab8_0    conda-forge
-defusedxml                0.7.1              pyhd8ed1ab_0    conda-forge
-deprecated                1.3.1              pyhd8ed1ab_1    conda-forge
-exceptiongroup            1.3.1              pyhd8ed1ab_0    conda-forge
-expat                     2.7.1                h6a678d5_0  
-faiss-gpu                 1.9.0                h418687c_0    conda-forge
-filelock                  3.24.2             pyhd8ed1ab_0    conda-forge
-fontconfig                2.14.1               h55d465d_3  
-fonttools                 4.61.1          py310h3406613_0    conda-forge
-freetype                  2.14.1               ha770c72_0    conda-forge
-fribidi                   1.0.16               hb03c661_0    conda-forge
-fsspec                    2026.2.0           pyhd8ed1ab_0    conda-forge
-gmp                       6.3.0                hac33072_2    conda-forge
-gmpy2                     2.2.1           py310h63ebcad_2    conda-forge
-graphite2                 1.3.14               hecca717_2    conda-forge
-h11                       0.16.0             pyhcf101f3_1    conda-forge
-h2                        4.3.0              pyhcf101f3_0    conda-forge
-harfbuzz                  10.2.0               hdfddeaa_1  
-hf-xet                    1.2.0                    pypi_0    pypi
-hpack                     4.1.0              pyhd8ed1ab_0    conda-forge
-httpcore                  1.0.9              pyh29332c3_0    conda-forge
-httpx                     0.28.1             pyhd8ed1ab_0    conda-forge
-huggingface_hub           1.4.1              pyhd8ed1ab_0    conda-forge
-hyperframe                6.1.0              pyhd8ed1ab_0    conda-forge
-icu                       73.2                 h59595ed_0    conda-forge
-idna                      3.11               pyhd8ed1ab_0    conda-forge
-importlib-metadata        8.7.0              pyhe01879c_1    conda-forge
-jinja2                    3.1.6              pyhcf101f3_1    conda-forge
-joblib                    1.5.3              pyhd8ed1ab_0    conda-forge
-jpeg                      9e                   h0b41bf4_3    conda-forge
-jsonschema                4.26.0             pyhcf101f3_0    conda-forge
-jsonschema-specifications 2025.9.1           pyhcf101f3_0    conda-forge
-jupyter_client            8.8.0              pyhcf101f3_0    conda-forge
-jupyter_core              5.9.1              pyhc90fa1f_0    conda-forge
-jupyterlab_pygments       0.3.0              pyhd8ed1ab_2    conda-forge
-keyutils                  1.6.3                hb9d3cd8_0    conda-forge
-kiwisolver                1.4.9           py310haaf941d_2    conda-forge
-krb5                      1.22.2               ha1258a1_0    conda-forge
-lcms2                     2.16                 h92b89f2_1  
-ld_impl_linux-64          2.40                 h12ee557_0  
-lerc                      4.0.0                h0aef613_1    conda-forge
-libabseil                 20250127.0      cxx17_hbbce691_0    conda-forge
-libavif                   1.3.0                h316e467_3    conda-forge
-libavif16                 1.3.0                h316e467_3    conda-forge
-libblas                   3.11.0          5_h4a7cf45_openblas    conda-forge
-libbrotlicommon           1.2.0                hb03c661_1    conda-forge
-libbrotlidec              1.2.0                hb03c661_1    conda-forge
-libbrotlienc              1.2.0                hb03c661_1    conda-forge
-libcblas                  3.11.0          5_h0358290_openblas    conda-forge
-libclang13                14.0.6          default_h9986a30_1    conda-forge
-libcublas                 12.6.4.1             h5888daf_1    conda-forge
-libcups                   2.4.2                h252cb56_2  
-libcurand                 10.3.7.77            hbd13f7d_0    conda-forge
-libcurl                   8.18.0               hcf29cc6_1    conda-forge
-libdeflate                1.22                 hb9d3cd8_0    conda-forge
-libdrm                    2.4.125              hb03c661_1    conda-forge
-libedit                   3.1.20250104    pl5321h7949ede_0    conda-forge
-libegl                    1.7.0                ha4b6fd6_2    conda-forge
-libev                     4.33                 hd590300_2    conda-forge
-libevent                  2.1.12               hf998b51_1    conda-forge
-libexpat                  2.7.1                hecca717_0    conda-forge
-libfaiss                  1.9.0           cuda126h4727808_0_cuda    conda-forge
-libffi                    3.4.4                h6a678d5_1  
-libfreetype               2.14.1               ha770c72_0    conda-forge
-libfreetype6              2.14.1               h73754d4_0    conda-forge
-libgcc                    15.2.0              he0feb66_18    conda-forge
-libgcc-ng                 15.2.0              h69a702a_18    conda-forge
-libgfortran               15.2.0              h69a702a_18    conda-forge
-libgfortran5              15.2.0              h68bc16d_18    conda-forge
-libgl                     1.7.0                ha4b6fd6_2    conda-forge
-libglib                   2.84.2               h37c7471_0  
-libglvnd                  1.7.0                ha4b6fd6_2    conda-forge
-libglx                    1.7.0                ha4b6fd6_2    conda-forge
-libgomp                   15.2.0              he0feb66_18    conda-forge
-libiconv                  1.18                 h3b78370_2    conda-forge
-libkrb5                   1.21.3               h520c7b4_4  
-liblapack                 3.11.0          5_h47877c9_openblas    conda-forge
-liblapacke                3.11.0          5_h6ae95b6_openblas    conda-forge
-libllvm14                 14.0.6               hcd5def8_4    conda-forge
-libllvm20                 20.1.8               hecd9e04_0    conda-forge
-libnghttp2                1.67.0               had1ee68_0    conda-forge
-libnsl                    2.0.0                h5eee18b_0  
-libopenblas               0.3.30          pthreads_h94d23a6_4    conda-forge
-libpciaccess              0.18                 hb9d3cd8_0    conda-forge
-libpng                    1.6.55               h421ea60_0    conda-forge
-libpq                     17.4                 h02b6914_2  
-libprotobuf               5.29.3               h501fc15_0    conda-forge
-libsodium                 1.0.18               h36c2ea0_1    conda-forge
-libsqlite                 3.51.2               h0c1763c_0    conda-forge
-libssh2                   1.11.1               hcf80075_0    conda-forge
-libstdcxx                 15.2.0              h934c35e_18    conda-forge
-libstdcxx-ng              15.2.0              hdf11a46_18    conda-forge
-libtiff                   4.7.0                hde9077f_0  
-libtorch                  2.6.0           cpu_openblas_h70a2a0d_6  
-libuuid                   1.41.5               h5eee18b_0  
-libuv                     1.51.0               hb03c661_1    conda-forge
-libwebp-base              1.6.0                hd42ef1d_0    conda-forge
-libxcb                    1.17.0               h9b100fa_0  
-libxkbcommon              1.11.0               he8b52b9_0    conda-forge
-libxml2                   2.13.8               hfdd30dd_0  
-libxslt                   1.1.43               h7a3aeb2_0    conda-forge
-libzlib                   1.3.1                hb25bd0a_0  
-lmdb                      0.9.35               h25c0377_0    conda-forge
-lz4-c                     1.9.4                hcb278e6_0    conda-forge
-markdown-it-py            4.0.0              pyhd8ed1ab_0    conda-forge
-markupsafe                3.0.3           py310h3406613_0    conda-forge
-matplotlib                3.10.8          py310hff52083_0    conda-forge
-matplotlib-base           3.10.8          py310hfde16b3_0    conda-forge
-mdurl                     0.1.2              pyhd8ed1ab_1    conda-forge
-mesalib                   25.0.5               h57bcd07_2    conda-forge
-minizip                   4.0.7                h401b404_0    conda-forge
-mistune                   3.2.0              pyhcf101f3_0    conda-forge
-mpc                       1.3.1                h24ddda3_1    conda-forge
-mpfr                      4.2.1                h90cbb55_3    conda-forge
-mpmath                    1.3.0              pyhd8ed1ab_1    conda-forge
-munkres                   1.1.4              pyhd8ed1ab_1    conda-forge
-mysql                     8.4.0                h721767e_2  
-nbclient                  0.10.4             pyhd8ed1ab_0    conda-forge
-nbconvert                 7.17.0               h14065e2_0    conda-forge
-nbconvert-core            7.17.0             pyhcf101f3_0    conda-forge
-nbconvert-pandoc          7.17.0               hc3985f0_0    conda-forge
-nbformat                  5.10.4             pyhd8ed1ab_1    conda-forge
-ncurses                   6.5                  h7934f7d_0  
-networkx                  3.4.2              pyh267e887_2    conda-forge
-nomkl                     1.0                  h5ca1d4c_0    conda-forge
-nspr                      4.38                 h29cc59b_0    conda-forge
-nss                       3.118                h445c969_0    conda-forge
-numpy                     2.2.6           py310hefbff90_0    conda-forge
-nvidia-cublas-cu12        12.4.5.8                 pypi_0    pypi
-nvidia-cuda-cupti-cu12    12.4.127                 pypi_0    pypi
-nvidia-cuda-nvrtc-cu12    12.4.127                 pypi_0    pypi
-nvidia-cuda-runtime-cu12  12.4.127                 pypi_0    pypi
-nvidia-cudnn-cu12         9.1.0.70                 pypi_0    pypi
-nvidia-cufft-cu12         11.2.1.3                 pypi_0    pypi
-nvidia-curand-cu12        10.3.5.147               pypi_0    pypi
-nvidia-cusolver-cu12      11.6.1.9                 pypi_0    pypi
-nvidia-cusparse-cu12      12.3.1.170               pypi_0    pypi
-nvidia-cusparselt-cu12    0.6.2                    pypi_0    pypi
-nvidia-nccl-cu12          2.21.5                   pypi_0    pypi
-nvidia-nvjitlink-cu12     12.4.127                 pypi_0    pypi
-nvidia-nvtx-cu12          12.4.127                 pypi_0    pypi
-ollama                    0.16.2           cpu_hba3e463_0    conda-forge
-ollama-python             0.6.1              pyhd8ed1ab_0    conda-forge
-openblas                  0.3.30          pthreads_h6ec200e_4    conda-forge
-openjpeg                  2.5.3                h55fea9a_1    conda-forge
-openldap                  2.6.10               h8e75217_0  
-openssl                   3.6.1                h35e630c_1    conda-forge
-opentelemetry-api         1.39.1             pyhd8ed1ab_0    conda-forge
-packaging                 25.0            py310h06a4308_1  
-pandas                    2.3.3           py310h0158d43_2    conda-forge
-pandoc                    3.9                  ha770c72_0    conda-forge
-pandocfilters             1.5.0              pyhd8ed1ab_0    conda-forge
-patsy                     1.0.2              pyhcf101f3_0    conda-forge
-pcre2                     10.42                hcad00b1_0    conda-forge
-pillow                    12.0.0                   pypi_0    pypi
-pip                       26.0.1             pyhc872135_0  
-pixman                    0.46.4               h54a6638_1    conda-forge
-platformdirs              4.9.2              pyhcf101f3_0    conda-forge
-psutil                    7.2.2           py310h139afa4_0    conda-forge
-pthread-stubs             0.3                  h0ce48e5_1  
-pydantic                  2.12.5             pyhcf101f3_1    conda-forge
-pydantic-core             2.41.5          py310hd8f68c5_1    conda-forge
-pygments                  2.19.2             pyhd8ed1ab_0    conda-forge
-pyparsing                 3.3.2              pyhcf101f3_0    conda-forge
-pyside6                   6.7.3           py310hfe4ef28_1  
-pysocks                   1.7.1              pyha55dd90_7    conda-forge
-python                    3.10.19              h6fa692b_0  
-python-crfsuite           0.9.12          py310h25320af_0    conda-forge
-python-dateutil           2.9.0.post0        pyhe01879c_2    conda-forge
-python-fastjsonschema     2.21.2             pyhe01879c_0    conda-forge
-python-gil                3.10.19              hd8ed1ab_3    conda-forge
-python-tzdata             2025.3             pyhd8ed1ab_0    conda-forge
-python_abi                3.10                    2_cp310    conda-forge
-pytz                      2025.2             pyhd8ed1ab_0    conda-forge
-pyyaml                    6.0.3           py310h3406613_1    conda-forge
-pyzmq                     27.1.0          py310h4f33d48_0    conda-forge
-qhull                     2020.2               h434a139_5    conda-forge
-qtbase                    6.7.3                h10a5587_4  
-qtdeclarative             6.7.3                h7934f7d_1  
-qtshadertools             6.7.3                h7934f7d_1  
-qtsvg                     6.7.3                he4bddd1_1  
-qttools                   6.7.3                h5a8de97_1  
-qtwebchannel              6.7.3                h7934f7d_1  
-qtwebengine               6.7.3                h7abb84b_0  
-qtwebsockets              6.7.3                h7934f7d_1  
-rav1e                     0.7.1                h8fae777_3    conda-forge
-readline                  8.3                  hc2a1206_0  
-referencing               0.37.0             pyhcf101f3_0    conda-forge
-regex                     2026.1.15                pypi_0    pypi
-requests                  2.32.5             pyhcf101f3_1    conda-forge
-rich                      14.3.2             pyhcf101f3_0    conda-forge
-rpds-py                   0.30.0          py310hd8f68c5_0    conda-forge
-safetensors               0.7.0           py310hdfeec95_0    conda-forge
-scikit-learn              1.7.2           py310h228f341_0    conda-forge
-scipy                     1.15.2          py310h1d65ade_0    conda-forge
-seaborn                   0.13.2               hd8ed1ab_3    conda-forge
-seaborn-base              0.13.2             pyhd8ed1ab_3    conda-forge
-setuptools                80.10.2         py310h06a4308_0  
-shellingham               1.5.4              pyhd8ed1ab_2    conda-forge
-six                       1.17.0             pyhe01879c_1    conda-forge
-sklearn-crfsuite          0.5.0                    pypi_0    pypi
-sleef                     3.9.0                ha0421bc_0    conda-forge
-sniffio                   1.3.1              pyhd8ed1ab_2    conda-forge
-soupsieve                 2.8.3              pyhd8ed1ab_0    conda-forge
-spirv-tools               2025.5               hb700be7_0    conda-forge
-sqlite                    3.50.2               hb25bd0a_1  
-statsmodels               0.14.6          py310hf779ad0_0    conda-forge
-svt-av1                   4.0.0                hecca717_0    conda-forge
-sympy                     1.13.1                   pypi_0    pypi
-tabulate                  0.9.0                    pypi_0    pypi
-threadpoolctl             3.6.0              pyhecae5ae_0    conda-forge
-tinycss2                  1.4.0              pyhd8ed1ab_0    conda-forge
-tk                        8.6.15               h54e0aa7_0  
-tokenizers                0.22.2                   pypi_0    pypi
-torch                     2.6.0+cu124              pypi_0    pypi
-torchaudio                2.6.0+cu124              pypi_0    pypi
-torchvision               0.21.0+cu124             pypi_0    pypi
-tornado                   6.5.3           py310h7c4b9e2_0    conda-forge
-tqdm                      4.67.3             pyh8f84b5b_0    conda-forge
-traitlets                 5.14.3             pyhd8ed1ab_1    conda-forge
-transformers              5.1.0                    pypi_0    pypi
-triton                    3.2.0                    pypi_0    pypi
-typer                     0.24.0             pyhcf101f3_0    conda-forge
-typer-slim                0.24.0             pyhcf101f3_0    conda-forge
-typing-extensions         4.15.0               h396c80c_0    conda-forge
-typing-inspection         0.4.2              pyhd8ed1ab_1    conda-forge
-typing_extensions         4.15.0             pyhcf101f3_0    conda-forge
-tzdata                    2025c                he532380_0  
-unicodedata2              17.0.1          py310h7c4b9e2_0    conda-forge
-urllib3                   2.6.3              pyhd8ed1ab_0    conda-forge
-webencodings              0.5.1              pyhd8ed1ab_3    conda-forge
-wheel                     0.46.3          py310h06a4308_0  
-wrapt                     2.1.1           py310h7c4b9e2_0    conda-forge
-xcb-util                  0.4.1                h4f16b4b_2    conda-forge
-xcb-util-cursor           0.1.6                hb03c661_0    conda-forge
-xcb-util-image            0.4.0                hb711507_2    conda-forge
-xcb-util-keysyms          0.4.1                hb711507_0    conda-forge
-xcb-util-renderutil       0.3.10               hb711507_0    conda-forge
-xcb-util-wm               0.4.2                hb711507_0    conda-forge
-xkeyboard-config          2.46                 hb03c661_0    conda-forge
-xorg-libice               1.1.2                hb9d3cd8_0    conda-forge
-xorg-libsm                1.2.6                h9b100fa_0  
-xorg-libx11               1.8.12               h9b100fa_1  
-xorg-libxau               1.0.12               h9b100fa_0  
-xorg-libxdmcp             1.1.5                h9b100fa_0  
-xorg-libxext              1.3.7                hb03c661_0    conda-forge
-xorg-libxrandr            1.5.5                hb03c661_0    conda-forge
-xorg-libxrender           0.9.12               hb9d3cd8_0    conda-forge
-xorg-libxshmfence         1.3.3                hb9d3cd8_0    conda-forge
-xorg-xorgproto            2024.1               h5eee18b_1  
-xz                        5.6.4                h5eee18b_1  
-yaml                      0.2.5                h280c20c_3    conda-forge
-zeromq                    4.3.5                h59595ed_1    conda-forge
-zipp                      3.23.0             pyhcf101f3_1    conda-forge
-zlib                      1.3.1                hb25bd0a_0  
-zstd                      1.5.7                hb78ec9c_6    conda-forge
-/var/spool/slurmd/job3674770/slurm_script: line 24: ulimit: virtual memory: cannot modify limit: Operation not permitted
-`torch_dtype` is deprecated! Use `dtype` instead!
-Text: Novembre 2016: amb AZA i estable, es reevaluarà aviat
-Annotations: [{'value': {'start': 0, 'end': 13, 'text': 'Novembre 2016', 'labels': ['Date']}, 'id': 'n8YVNSxh13', 'from_name': 'label', 'to_name': 'text', 'type': 'labels', 'origin': 'manual'}, {'value': {'start': 19, 'end': 22, 'text': 'AZA', 'labels': ['Treatment']}, 'id': 'yiyCgMLVyy', 'from_name': 'label', 'to_name': 'text', 'type': 'labels', 'origin': 'manual'}, {'value': {'start': 19, 'end': 22, 'text': 'AZA', 'choices': ['Yes']}, 'id': 'yiyCgMLVyy', 'from_name': 'presence_status', 'to_name': 'text', 'type': 'choices', 'origin': 'manual'}, {'value': {'start': 25, 'end': 32, 'text': 'estable', 'labels': ['Response']}, 'id': 'UGQNphz8vO', 'from_name': 'label', 'to_name': 'text', 'type': 'labels', 'origin': 'manual'}, {'from_id': 'yiyCgMLVyy', 'to_id': 'UGQNphz8vO', 'type': 'relation', 'direction': 'right', 'labels': ['has_outcome']}, {'from_id': 'UGQNphz8vO', 'to_id': 'n8YVNSxh13', 'type': 'relation', 'direction': 'right', 'labels': ['occurred_on']}]
-Loading weights:   0%|          | 0/322 [00:00<?, ?it/s]Loading weights:   0%|          | 1/322 [00:00<00:00, 14979.66it/s, Materializing param=model.embed_tokens.weight]Loading weights:   0%|          | 1/322 [00:00<00:00, 1383.80it/s, Materializing param=model.embed_tokens.weight] Loading weights:   1%|          | 2/322 [00:56<2:30:42, 28.26s/it, Materializing param=model.embed_tokens.weight]Loading weights:   1%|          | 2/322 [00:56<2:30:42, 28.26s/it, Materializing param=model.layers.0.input_layernorm.weight]Loading weights:   1%|          | 2/322 [00:56<2:30:42, 28.26s/it, Materializing param=model.layers.0.input_layernorm.weight]Loading weights:   1%|          | 3/322 [00:56<2:30:14, 28.26s/it, Materializing param=model.layers.0.mlp.down_proj.weight]  Loading weights:   1%|          | 3/322 [00:56<2:30:14, 28.26s/it, Materializing param=model.layers.0.mlp.down_proj.weight]Loading weights:   1%|          | 4/322 [00:59<1:07:04, 12.66s/it, Materializing param=model.layers.0.mlp.down_proj.weight]Loading weights:   1%|          | 4/322 [00:59<1:07:04, 12.66s/it, Materializing param=model.layers.0.mlp.gate_proj.weight]Loading weights:   1%|          | 4/322 [00:59<1:07:04, 12.66s/it, Materializing param=model.layers.0.mlp.gate_proj.weight]Loading weights:   2%|▏         | 5/322 [00:59<1:06:51, 12.66s/it, Materializing param=model.layers.0.mlp.up_proj.weight]  Loading weights:   2%|▏         | 5/322 [00:59<1:06:51, 12.66s/it, Materializing param=model.layers.0.mlp.up_proj.weight]Loading weights:   2%|▏         | 6/322 [00:59<1:06:39, 12.66s/it, Materializing param=model.layers.0.self_attn.k_proj.weight]Loading weights:   2%|▏         | 6/322 [00:59<1:06:39, 12.66s/it, Materializing param=model.layers.0.self_attn.k_proj.weight]Loading weights:   2%|▏         | 7/322 [00:59<1:06:26, 12.66s/it, Materializing param=model.layers.0.self_attn.o_proj.weight]Loading weights:   2%|▏         | 7/322 [00:59<1:06:26, 12.66s/it, Materializing param=model.layers.0.self_attn.o_proj.weight]Loading weights:   2%|▏         | 8/322 [01:00<1:06:13, 12.66s/it, Materializing param=model.layers.0.self_attn.q_proj.weight]Loading weights:   2%|▏         | 8/322 [01:00<1:06:13, 12.66s/it, Materializing param=model.layers.0.self_attn.q_proj.weight]Loading weights:   3%|▎         | 9/322 [01:00<1:06:01, 12.66s/it, Materializing param=model.layers.0.self_attn.v_proj.weight]Loading weights:   3%|▎         | 9/322 [01:00<1:06:01, 12.66s/it, Materializing param=model.layers.0.self_attn.v_proj.weight]Loading weights:   3%|▎         | 10/322 [01:00<1:05:48, 12.66s/it, Materializing param=model.layers.1.input_layernorm.weight]Loading weights:   3%|▎         | 10/322 [01:00<1:05:48, 12.66s/it, Materializing param=model.layers.1.input_layernorm.weight]Loading weights:   3%|▎         | 11/322 [01:00<1:05:36, 12.66s/it, Materializing param=model.layers.1.mlp.down_proj.weight]  Loading weights:   3%|▎         | 11/322 [01:00<1:05:36, 12.66s/it, Materializing param=model.layers.1.mlp.down_proj.weight]Loading weights:   4%|▎         | 12/322 [01:00<1:05:23, 12.66s/it, Materializing param=model.layers.1.mlp.gate_proj.weight]Loading weights:   4%|▎         | 12/322 [01:00<1:05:23, 12.66s/it, Materializing param=model.layers.1.mlp.gate_proj.weight]Loading weights:   4%|▍         | 13/322 [01:00<1:05:10, 12.66s/it, Materializing param=model.layers.1.mlp.up_proj.weight]  Loading weights:   4%|▍         | 13/322 [01:00<1:05:10, 12.66s/it, Materializing param=model.layers.1.mlp.up_proj.weight]Loading weights:   4%|▍         | 14/322 [01:00<1:04:58, 12.66s/it, Materializing param=model.layers.1.self_attn.k_proj.weight]Loading weights:   4%|▍         | 14/322 [01:00<1:04:58, 12.66s/it, Materializing param=model.layers.1.self_attn.k_proj.weight]Loading weights:   5%|▍         | 15/322 [01:00<1:04:45, 12.66s/it, Materializing param=model.layers.1.self_attn.o_proj.weight]Loading weights:   5%|▍         | 15/322 [01:00<1:04:45, 12.66s/it, Materializing param=model.layers.1.self_attn.o_proj.weight]Loading weights:   5%|▍         | 16/322 [01:00<1:04:32, 12.66s/it, Materializing param=model.layers.1.self_attn.q_proj.weight]Loading weights:   5%|▍         | 16/322 [01:00<1:04:32, 12.66s/it, Materializing param=model.layers.1.self_attn.q_proj.weight]Loading weights:   5%|▌         | 17/322 [01:00<1:04:20, 12.66s/it, Materializing param=model.layers.1.self_attn.v_proj.weight]Loading weights:   5%|▌         | 17/322 [01:00<1:04:20, 12.66s/it, Materializing param=model.layers.1.self_attn.v_proj.weight]Loading weights:   6%|▌         | 18/322 [01:00<1:04:07, 12.66s/it, Materializing param=model.layers.2.input_layernorm.weight] Loading weights:   6%|▌         | 18/322 [01:00<1:04:07, 12.66s/it, Materializing param=model.layers.2.input_layernorm.weight]Loading weights:   6%|▌         | 19/322 [01:00<1:03:54, 12.66s/it, Materializing param=model.layers.2.mlp.down_proj.weight]  Loading weights:   6%|▌         | 19/322 [01:00<1:03:54, 12.66s/it, Materializing param=model.layers.2.mlp.down_proj.weight]Loading weights:   6%|▌         | 20/322 [01:00<1:03:42, 12.66s/it, Materializing param=model.layers.2.mlp.gate_proj.weight]Loading weights:   6%|▌         | 20/322 [01:00<1:03:42, 12.66s/it, Materializing param=model.layers.2.mlp.gate_proj.weight]Loading weights:   7%|▋         | 21/322 [01:00<1:03:29, 12.66s/it, Materializing param=model.layers.2.mlp.up_proj.weight]  Loading weights:   7%|▋         | 21/322 [01:00<1:03:29, 12.66s/it, Materializing param=model.layers.2.mlp.up_proj.weight]Loading weights:   7%|▋         | 22/322 [01:00<1:03:16, 12.66s/it, Materializing param=model.layers.2.self_attn.k_proj.weight]Loading weights:   7%|▋         | 22/322 [01:00<1:03:16, 12.66s/it, Materializing param=model.layers.2.self_attn.k_proj.weight]Loading weights:   7%|▋         | 23/322 [01:00<1:03:04, 12.66s/it, Materializing param=model.layers.2.self_attn.o_proj.weight]Loading weights:   7%|▋         | 23/322 [01:00<1:03:04, 12.66s/it, Materializing param=model.layers.2.self_attn.o_proj.weight]Loading weights:   7%|▋         | 24/322 [01:00<1:02:51, 12.66s/it, Materializing param=model.layers.2.self_attn.q_proj.weight]Loading weights:   7%|▋         | 24/322 [01:00<1:02:51, 12.66s/it, Materializing param=model.layers.2.self_attn.q_proj.weight]Loading weights:   8%|▊         | 25/322 [01:00<1:02:38, 12.66s/it, Materializing param=model.layers.2.self_attn.v_proj.weight]Loading weights:   8%|▊         | 25/322 [01:00<1:02:38, 12.66s/it, Materializing param=model.layers.2.self_attn.v_proj.weight]Loading weights:   8%|▊         | 26/322 [01:00<1:02:26, 12.66s/it, Materializing param=model.layers.3.input_layernorm.weight] Loading weights:   8%|▊         | 26/322 [01:00<1:02:26, 12.66s/it, Materializing param=model.layers.3.input_layernorm.weight]Loading weights:   8%|▊         | 27/322 [01:00<1:02:13, 12.66s/it, Materializing param=model.layers.3.mlp.down_proj.weight]  Loading weights:   8%|▊         | 27/322 [01:00<1:02:13, 12.66s/it, Materializing param=model.layers.3.mlp.down_proj.weight]Loading weights:   9%|▊         | 28/322 [01:00<1:02:00, 12.66s/it, Materializing param=model.layers.3.mlp.gate_proj.weight]Loading weights:   9%|▊         | 28/322 [01:00<1:02:00, 12.66s/it, Materializing param=model.layers.3.mlp.gate_proj.weight]Loading weights:   9%|▉         | 29/322 [01:00<1:01:48, 12.66s/it, Materializing param=model.layers.3.mlp.up_proj.weight]  Loading weights:   9%|▉         | 29/322 [01:00<1:01:48, 12.66s/it, Materializing param=model.layers.3.mlp.up_proj.weight]Loading weights:   9%|▉         | 30/322 [01:00<1:01:35, 12.66s/it, Materializing param=model.layers.3.self_attn.k_proj.weight]Loading weights:   9%|▉         | 30/322 [01:00<1:01:35, 12.66s/it, Materializing param=model.layers.3.self_attn.k_proj.weight]Loading weights:  10%|▉         | 31/322 [01:00<1:01:22, 12.66s/it, Materializing param=model.layers.3.self_attn.o_proj.weight]Loading weights:  10%|▉         | 31/322 [01:00<1:01:22, 12.66s/it, Materializing param=model.layers.3.self_attn.o_proj.weight]Loading weights:  10%|▉         | 32/322 [01:00<1:01:10, 12.66s/it, Materializing param=model.layers.3.self_attn.q_proj.weight]Loading weights:  10%|▉         | 32/322 [01:00<1:01:10, 12.66s/it, Materializing param=model.layers.3.self_attn.q_proj.weight]Loading weights:  10%|█         | 33/322 [01:00<1:00:57, 12.66s/it, Materializing param=model.layers.3.self_attn.v_proj.weight]Loading weights:  10%|█         | 33/322 [01:00<1:00:57, 12.66s/it, Materializing param=model.layers.3.self_attn.v_proj.weight]Loading weights:  11%|█         | 34/322 [01:00<1:00:44, 12.66s/it, Materializing param=model.layers.4.input_layernorm.weight] Loading weights:  11%|█         | 34/322 [01:00<1:00:44, 12.66s/it, Materializing param=model.layers.4.input_layernorm.weight]Loading weights:  11%|█         | 35/322 [01:00<1:00:32, 12.66s/it, Materializing param=model.layers.4.mlp.down_proj.weight]  Loading weights:  11%|█         | 35/322 [01:00<1:00:32, 12.66s/it, Materializing param=model.layers.4.mlp.down_proj.weight]Loading weights:  11%|█         | 36/322 [01:00<1:00:19, 12.66s/it, Materializing param=model.layers.4.mlp.gate_proj.weight]Loading weights:  11%|█         | 36/322 [01:00<1:00:19, 12.66s/it, Materializing param=model.layers.4.mlp.gate_proj.weight]Loading weights:  11%|█▏        | 37/322 [01:00<04:03,  1.17it/s, Materializing param=model.layers.4.mlp.gate_proj.weight]  Loading weights:  11%|█▏        | 37/322 [01:00<04:03,  1.17it/s, Materializing param=model.layers.4.mlp.up_proj.weight]  Loading weights:  11%|█▏        | 37/322 [01:00<04:03,  1.17it/s, Materializing param=model.layers.4.mlp.up_proj.weight]Loading weights:  12%|█▏        | 38/322 [01:00<04:02,  1.17it/s, Materializing param=model.layers.4.self_attn.k_proj.weight]Loading weights:  12%|█▏        | 38/322 [01:00<04:02,  1.17it/s, Materializing param=model.layers.4.self_attn.k_proj.weight]Loading weights:  12%|█▏        | 39/322 [01:00<04:01,  1.17it/s, Materializing param=model.layers.4.self_attn.o_proj.weight]Loading weights:  12%|█▏        | 39/322 [01:00<04:01,  1.17it/s, Materializing param=model.layers.4.self_attn.o_proj.weight]Loading weights:  12%|█▏        | 40/322 [01:00<04:00,  1.17it/s, Materializing param=model.layers.4.self_attn.q_proj.weight]Loading weights:  12%|█▏        | 40/322 [01:00<04:00,  1.17it/s, Materializing param=model.layers.4.self_attn.q_proj.weight]Loading weights:  13%|█▎        | 41/322 [01:00<04:00,  1.17it/s, Materializing param=model.layers.4.self_attn.v_proj.weight]Loading weights:  13%|█▎        | 41/322 [01:00<04:00,  1.17it/s, Materializing param=model.layers.4.self_attn.v_proj.weight]Loading weights:  13%|█▎        | 42/322 [01:00<03:59,  1.17it/s, Materializing param=model.layers.5.input_layernorm.weight] Loading weights:  13%|█▎        | 42/322 [01:00<03:59,  1.17it/s, Materializing param=model.layers.5.input_layernorm.weight]Loading weights:  13%|█▎        | 43/322 [01:00<03:58,  1.17it/s, Materializing param=model.layers.5.mlp.down_proj.weight]  Loading weights:  13%|█▎        | 43/322 [01:00<03:58,  1.17it/s, Materializing param=model.layers.5.mlp.down_proj.weight]Loading weights:  14%|█▎        | 44/322 [01:00<03:57,  1.17it/s, Materializing param=model.layers.5.mlp.gate_proj.weight]Loading weights:  14%|█▎        | 44/322 [01:00<03:57,  1.17it/s, Materializing param=model.layers.5.mlp.gate_proj.weight]Loading weights:  14%|█▍        | 45/322 [01:00<03:56,  1.17it/s, Materializing param=model.layers.5.mlp.up_proj.weight]  Loading weights:  14%|█▍        | 45/322 [01:00<03:56,  1.17it/s, Materializing param=model.layers.5.mlp.up_proj.weight]Loading weights:  14%|█▍        | 46/322 [01:00<03:55,  1.17it/s, Materializing param=model.layers.5.self_attn.k_proj.weight]Loading weights:  14%|█▍        | 46/322 [01:00<03:55,  1.17it/s, Materializing param=model.layers.5.self_attn.k_proj.weight]Loading weights:  15%|█▍        | 47/322 [01:00<03:54,  1.17it/s, Materializing param=model.layers.5.self_attn.o_proj.weight]Loading weights:  15%|█▍        | 47/322 [01:00<03:54,  1.17it/s, Materializing param=model.layers.5.self_attn.o_proj.weight]Loading weights:  15%|█▍        | 48/322 [01:00<03:54,  1.17it/s, Materializing param=model.layers.5.self_attn.q_proj.weight]Loading weights:  15%|█▍        | 48/322 [01:00<03:54,  1.17it/s, Materializing param=model.layers.5.self_attn.q_proj.weight]Loading weights:  15%|█▌        | 49/322 [01:00<03:53,  1.17it/s, Materializing param=model.layers.5.self_attn.v_proj.weight]Loading weights:  15%|█▌        | 49/322 [01:00<03:53,  1.17it/s, Materializing param=model.layers.5.self_attn.v_proj.weight]Loading weights:  16%|█▌        | 50/322 [01:00<03:52,  1.17it/s, Materializing param=model.layers.6.input_layernorm.weight] Loading weights:  16%|█▌        | 50/322 [01:00<03:52,  1.17it/s, Materializing param=model.layers.6.input_layernorm.weight]Loading weights:  16%|█▌        | 51/322 [01:00<03:51,  1.17it/s, Materializing param=model.layers.6.mlp.down_proj.weight]  Loading weights:  16%|█▌        | 51/322 [01:00<03:51,  1.17it/s, Materializing param=model.layers.6.mlp.down_proj.weight]Loading weights:  16%|█▌        | 52/322 [01:00<03:50,  1.17it/s, Materializing param=model.layers.6.mlp.gate_proj.weight]Loading weights:  16%|█▌        | 52/322 [01:00<03:50,  1.17it/s, Materializing param=model.layers.6.mlp.gate_proj.weight]Loading weights:  16%|█▋        | 53/322 [01:00<03:49,  1.17it/s, Materializing param=model.layers.6.mlp.up_proj.weight]  Loading weights:  16%|█▋        | 53/322 [01:00<03:49,  1.17it/s, Materializing param=model.layers.6.mlp.up_proj.weight]Loading weights:  17%|█▋        | 54/322 [01:00<03:48,  1.17it/s, Materializing param=model.layers.6.self_attn.k_proj.weight]Loading weights:  17%|█▋        | 54/322 [01:00<03:48,  1.17it/s, Materializing param=model.layers.6.self_attn.k_proj.weight]Loading weights:  17%|█▋        | 55/322 [01:00<03:48,  1.17it/s, Materializing param=model.layers.6.self_attn.o_proj.weight]Loading weights:  17%|█▋        | 55/322 [01:00<03:48,  1.17it/s, Materializing param=model.layers.6.self_attn.o_proj.weight]Loading weights:  17%|█▋        | 56/322 [01:00<03:47,  1.17it/s, Materializing param=model.layers.6.self_attn.q_proj.weight]Loading weights:  17%|█▋        | 56/322 [01:00<03:47,  1.17it/s, Materializing param=model.layers.6.self_attn.q_proj.weight]Loading weights:  18%|█▊        | 57/322 [01:00<03:46,  1.17it/s, Materializing param=model.layers.6.self_attn.v_proj.weight]Loading weights:  18%|█▊        | 57/322 [01:00<03:46,  1.17it/s, Materializing param=model.layers.6.self_attn.v_proj.weight]Loading weights:  18%|█▊        | 58/322 [01:00<03:45,  1.17it/s, Materializing param=model.layers.7.input_layernorm.weight] Loading weights:  18%|█▊        | 58/322 [01:00<03:45,  1.17it/s, Materializing param=model.layers.7.input_layernorm.weight]Loading weights:  18%|█▊        | 59/322 [01:00<03:44,  1.17it/s, Materializing param=model.layers.7.mlp.down_proj.weight]  Loading weights:  18%|█▊        | 59/322 [01:00<03:44,  1.17it/s, Materializing param=model.layers.7.mlp.down_proj.weight]Loading weights:  19%|█▊        | 60/322 [01:01<02:01,  2.16it/s, Materializing param=model.layers.7.mlp.down_proj.weight]Loading weights:  19%|█▊        | 60/322 [01:01<02:01,  2.16it/s, Materializing param=model.layers.7.mlp.gate_proj.weight]Loading weights:  19%|█▊        | 60/322 [01:01<02:01,  2.16it/s, Materializing param=model.layers.7.mlp.gate_proj.weight]Loading weights:  19%|█▉        | 61/322 [01:01<02:00,  2.16it/s, Materializing param=model.layers.7.mlp.up_proj.weight]  Loading weights:  19%|█▉        | 61/322 [01:01<02:00,  2.16it/s, Materializing param=model.layers.7.mlp.up_proj.weight]Loading weights:  19%|█▉        | 62/322 [01:02<02:00,  2.16it/s, Materializing param=model.layers.7.self_attn.k_proj.weight]Loading weights:  19%|█▉        | 62/322 [01:02<02:00,  2.16it/s, Materializing param=model.layers.7.self_attn.k_proj.weight]Loading weights:  20%|█▉        | 63/322 [01:02<02:00,  2.16it/s, Materializing param=model.layers.7.self_attn.o_proj.weight]Loading weights:  20%|█▉        | 63/322 [01:02<02:00,  2.16it/s, Materializing param=model.layers.7.self_attn.o_proj.weight]Loading weights:  20%|█▉        | 64/322 [01:02<01:59,  2.16it/s, Materializing param=model.layers.7.self_attn.q_proj.weight]Loading weights:  20%|█▉        | 64/322 [01:02<01:59,  2.16it/s, Materializing param=model.layers.7.self_attn.q_proj.weight]Loading weights:  20%|██        | 65/322 [01:02<01:59,  2.16it/s, Materializing param=model.layers.7.self_attn.v_proj.weight]Loading weights:  20%|██        | 65/322 [01:02<01:59,  2.16it/s, Materializing param=model.layers.7.self_attn.v_proj.weight]Loading weights:  20%|██        | 66/322 [01:03<01:58,  2.16it/s, Materializing param=model.layers.8.input_layernorm.weight] Loading weights:  20%|██        | 66/322 [01:03<01:58,  2.16it/s, Materializing param=model.layers.8.input_layernorm.weight]Loading weights:  21%|██        | 67/322 [01:03<01:58,  2.16it/s, Materializing param=model.layers.8.mlp.down_proj.weight]  Loading weights:  21%|██        | 67/322 [01:03<01:58,  2.16it/s, Materializing param=model.layers.8.mlp.down_proj.weight]Loading weights:  21%|██        | 68/322 [01:06<01:57,  2.16it/s, Materializing param=model.layers.8.mlp.gate_proj.weight]Loading weights:  21%|██        | 68/322 [01:06<01:57,  2.16it/s, Materializing param=model.layers.8.mlp.gate_proj.weight]Loading weights:  21%|██▏       | 69/322 [01:07<01:57,  2.16it/s, Materializing param=model.layers.8.mlp.up_proj.weight]  Loading weights:  21%|██▏       | 69/322 [01:07<01:57,  2.16it/s, Materializing param=model.layers.8.mlp.up_proj.weight]Loading weights:  22%|██▏       | 70/322 [01:07<01:56,  2.16it/s, Materializing param=model.layers.8.self_attn.k_proj.weight]Loading weights:  22%|██▏       | 70/322 [01:07<01:56,  2.16it/s, Materializing param=model.layers.8.self_attn.k_proj.weight]Loading weights:  22%|██▏       | 71/322 [01:07<01:56,  2.16it/s, Materializing param=model.layers.8.self_attn.o_proj.weight]Loading weights:  22%|██▏       | 71/322 [01:07<01:56,  2.16it/s, Materializing param=model.layers.8.self_attn.o_proj.weight]Loading weights:  22%|██▏       | 72/322 [01:07<02:00,  2.08it/s, Materializing param=model.layers.8.self_attn.o_proj.weight]Loading weights:  22%|██▏       | 72/322 [01:07<02:00,  2.08it/s, Materializing param=model.layers.8.self_attn.q_proj.weight]Loading weights:  22%|██▏       | 72/322 [01:07<02:00,  2.08it/s, Materializing param=model.layers.8.self_attn.q_proj.weight]Loading weights:  23%|██▎       | 73/322 [01:08<01:59,  2.08it/s, Materializing param=model.layers.8.self_attn.v_proj.weight]Loading weights:  23%|██▎       | 73/322 [01:08<01:59,  2.08it/s, Materializing param=model.layers.8.self_attn.v_proj.weight]Loading weights:  23%|██▎       | 74/322 [01:08<01:59,  2.08it/s, Materializing param=model.layers.9.input_layernorm.weight] Loading weights:  23%|██▎       | 74/322 [01:08<01:59,  2.08it/s, Materializing param=model.layers.9.input_layernorm.weight]Loading weights:  23%|██▎       | 75/322 [01:08<01:58,  2.08it/s, Materializing param=model.layers.9.mlp.down_proj.weight]  Loading weights:  23%|██▎       | 75/322 [01:08<01:58,  2.08it/s, Materializing param=model.layers.9.mlp.down_proj.weight]Loading weights:  24%|██▎       | 76/322 [01:11<01:58,  2.08it/s, Materializing param=model.layers.9.mlp.gate_proj.weight]Loading weights:  24%|██▎       | 76/322 [01:11<01:58,  2.08it/s, Materializing param=model.layers.9.mlp.gate_proj.weight]Loading weights:  24%|██▍       | 77/322 [01:11<01:58,  2.08it/s, Materializing param=model.layers.9.mlp.up_proj.weight]  Loading weights:  24%|██▍       | 77/322 [01:11<01:58,  2.08it/s, Materializing param=model.layers.9.mlp.up_proj.weight]Loading weights:  24%|██▍       | 78/322 [01:12<01:57,  2.08it/s, Materializing param=model.layers.9.self_attn.k_proj.weight]Loading weights:  24%|██▍       | 78/322 [01:12<01:57,  2.08it/s, Materializing param=model.layers.9.self_attn.k_proj.weight]Loading weights:  25%|██▍       | 79/322 [01:12<01:57,  2.08it/s, Materializing param=model.layers.9.self_attn.o_proj.weight]Loading weights:  25%|██▍       | 79/322 [01:13<01:57,  2.08it/s, Materializing param=model.layers.9.self_attn.o_proj.weight]Loading weights:  25%|██▍       | 80/322 [01:13<02:06,  1.91it/s, Materializing param=model.layers.9.self_attn.o_proj.weight]Loading weights:  25%|██▍       | 80/322 [01:13<02:06,  1.91it/s, Materializing param=model.layers.9.self_attn.q_proj.weight]Loading weights:  25%|██▍       | 80/322 [01:13<02:06,  1.91it/s, Materializing param=model.layers.9.self_attn.q_proj.weight]Loading weights:  25%|██▌       | 81/322 [01:13<02:06,  1.91it/s, Materializing param=model.layers.9.self_attn.v_proj.weight]Loading weights:  25%|██▌       | 81/322 [01:13<02:06,  1.91it/s, Materializing param=model.layers.9.self_attn.v_proj.weight]Loading weights:  25%|██▌       | 82/322 [01:13<02:05,  1.91it/s, Materializing param=model.layers.10.input_layernorm.weight]Loading weights:  25%|██▌       | 82/322 [01:13<02:05,  1.91it/s, Materializing param=model.layers.10.input_layernorm.weight]Loading weights:  26%|██▌       | 83/322 [01:13<02:05,  1.91it/s, Materializing param=model.layers.10.mlp.down_proj.weight]  Loading weights:  26%|██▌       | 83/322 [01:13<02:05,  1.91it/s, Materializing param=model.layers.10.mlp.down_proj.weight]Loading weights:  26%|██▌       | 84/322 [01:16<02:04,  1.91it/s, Materializing param=model.layers.10.mlp.gate_proj.weight]Loading weights:  26%|██▌       | 84/322 [01:16<02:04,  1.91it/s, Materializing param=model.layers.10.mlp.gate_proj.weight]Loading weights:  26%|██▋       | 85/322 [01:17<02:20,  1.69it/s, Materializing param=model.layers.10.mlp.gate_proj.weight]Loading weights:  26%|██▋       | 85/322 [01:17<02:20,  1.69it/s, Materializing param=model.layers.10.mlp.up_proj.weight]  Loading weights:  26%|██▋       | 85/322 [01:17<02:20,  1.69it/s, Materializing param=model.layers.10.mlp.up_proj.weight]Loading weights:  27%|██▋       | 86/322 [01:17<02:19,  1.69it/s, Materializing param=model.layers.10.self_attn.k_proj.weight]Loading weights:  27%|██▋       | 86/322 [01:17<02:19,  1.69it/s, Materializing param=model.layers.10.self_attn.k_proj.weight]Loading weights:  27%|██▋       | 87/322 [01:17<02:19,  1.69it/s, Materializing param=model.layers.10.self_attn.o_proj.weight]Loading weights:  27%|██▋       | 87/322 [01:17<02:19,  1.69it/s, Materializing param=model.layers.10.self_attn.o_proj.weight]Loading weights:  27%|██▋       | 88/322 [01:17<02:18,  1.69it/s, Materializing param=model.layers.10.self_attn.q_proj.weight]Loading weights:  27%|██▋       | 88/322 [01:17<02:18,  1.69it/s, Materializing param=model.layers.10.self_attn.q_proj.weight]Loading weights:  28%|██▊       | 89/322 [01:18<02:01,  1.92it/s, Materializing param=model.layers.10.self_attn.q_proj.weight]Loading weights:  28%|██▊       | 89/322 [01:18<02:01,  1.92it/s, Materializing param=model.layers.10.self_attn.v_proj.weight]Loading weights:  28%|██▊       | 89/322 [01:18<02:01,  1.92it/s, Materializing param=model.layers.10.self_attn.v_proj.weight]Loading weights:  28%|██▊       | 90/322 [01:18<02:00,  1.92it/s, Materializing param=model.layers.11.input_layernorm.weight] Loading weights:  28%|██▊       | 90/322 [01:18<02:00,  1.92it/s, Materializing param=model.layers.11.input_layernorm.weight]Loading weights:  28%|██▊       | 91/322 [01:18<02:00,  1.92it/s, Materializing param=model.layers.11.mlp.down_proj.weight]  Loading weights:  28%|██▊       | 91/322 [01:18<02:00,  1.92it/s, Materializing param=model.layers.11.mlp.down_proj.weight]Loading weights:  29%|██▊       | 92/322 [01:22<02:27,  1.56it/s, Materializing param=model.layers.11.mlp.down_proj.weight]Loading weights:  29%|██▊       | 92/322 [01:22<02:27,  1.56it/s, Materializing param=model.layers.11.mlp.gate_proj.weight]Loading weights:  29%|██▊       | 92/322 [01:22<02:27,  1.56it/s, Materializing param=model.layers.11.mlp.gate_proj.weight]Loading weights:  29%|██▉       | 93/322 [01:22<02:27,  1.56it/s, Materializing param=model.layers.11.mlp.up_proj.weight]  Loading weights:  29%|██▉       | 93/322 [01:22<02:27,  1.56it/s, Materializing param=model.layers.11.mlp.up_proj.weight]Loading weights:  29%|██▉       | 94/322 [01:22<02:10,  1.74it/s, Materializing param=model.layers.11.mlp.up_proj.weight]Loading weights:  29%|██▉       | 94/322 [01:22<02:10,  1.74it/s, Materializing param=model.layers.11.self_attn.k_proj.weight]Loading weights:  29%|██▉       | 94/322 [01:22<02:10,  1.74it/s, Materializing param=model.layers.11.self_attn.k_proj.weight]Loading weights:  30%|██▉       | 95/322 [01:22<02:10,  1.74it/s, Materializing param=model.layers.11.self_attn.o_proj.weight]Loading weights:  30%|██▉       | 95/322 [01:22<02:10,  1.74it/s, Materializing param=model.layers.11.self_attn.o_proj.weight]Loading weights:  30%|██▉       | 96/322 [01:22<02:09,  1.74it/s, Materializing param=model.layers.11.self_attn.q_proj.weight]Loading weights:  30%|██▉       | 96/322 [01:22<02:09,  1.74it/s, Materializing param=model.layers.11.self_attn.q_proj.weight]Loading weights:  30%|███       | 97/322 [01:24<02:12,  1.69it/s, Materializing param=model.layers.11.self_attn.q_proj.weight]Loading weights:  30%|███       | 97/322 [01:24<02:12,  1.69it/s, Materializing param=model.layers.11.self_attn.v_proj.weight]Loading weights:  30%|███       | 97/322 [01:24<02:12,  1.69it/s, Materializing param=model.layers.11.self_attn.v_proj.weight]Loading weights:  30%|███       | 98/322 [01:24<02:12,  1.69it/s, Materializing param=model.layers.12.input_layernorm.weight] Loading weights:  30%|███       | 98/322 [01:24<02:12,  1.69it/s, Materializing param=model.layers.12.input_layernorm.weight]Loading weights:  31%|███       | 99/322 [01:24<02:11,  1.69it/s, Materializing param=model.layers.12.mlp.down_proj.weight]  Loading weights:  31%|███       | 99/322 [01:24<02:11,  1.69it/s, Materializing param=model.layers.12.mlp.down_proj.weight]Loading weights:  31%|███       | 100/322 [01:27<02:33,  1.45it/s, Materializing param=model.layers.12.mlp.down_proj.weight]Loading weights:  31%|███       | 100/322 [01:27<02:33,  1.45it/s, Materializing param=model.layers.12.mlp.gate_proj.weight]Loading weights:  31%|███       | 100/322 [01:27<02:33,  1.45it/s, Materializing param=model.layers.12.mlp.gate_proj.weight]Loading weights:  31%|███▏      | 101/322 [01:27<02:32,  1.45it/s, Materializing param=model.layers.12.mlp.up_proj.weight]  Loading weights:  31%|███▏      | 101/322 [01:27<02:32,  1.45it/s, Materializing param=model.layers.12.mlp.up_proj.weight]Loading weights:  32%|███▏      | 102/322 [01:29<02:40,  1.37it/s, Materializing param=model.layers.12.mlp.up_proj.weight]Loading weights:  32%|███▏      | 102/322 [01:29<02:40,  1.37it/s, Materializing param=model.layers.12.self_attn.k_proj.weight]Loading weights:  32%|███▏      | 102/322 [01:29<02:40,  1.37it/s, Materializing param=model.layers.12.self_attn.k_proj.weight]Loading weights:  32%|███▏      | 103/322 [01:29<02:40,  1.37it/s, Materializing param=model.layers.12.self_attn.o_proj.weight]Loading weights:  32%|███▏      | 103/322 [01:29<02:40,  1.37it/s, Materializing param=model.layers.12.self_attn.o_proj.weight]Loading weights:  32%|███▏      | 104/322 [01:29<02:39,  1.37it/s, Materializing param=model.layers.12.self_attn.q_proj.weight]Loading weights:  32%|███▏      | 104/322 [01:29<02:39,  1.37it/s, Materializing param=model.layers.12.self_attn.q_proj.weight]Loading weights:  33%|███▎      | 105/322 [01:29<02:38,  1.37it/s, Materializing param=model.layers.12.self_attn.v_proj.weight]Loading weights:  33%|███▎      | 105/322 [01:29<02:38,  1.37it/s, Materializing param=model.layers.12.self_attn.v_proj.weight]Loading weights:  33%|███▎      | 106/322 [01:29<01:50,  1.96it/s, Materializing param=model.layers.12.self_attn.v_proj.weight]Loading weights:  33%|███▎      | 106/322 [01:29<01:50,  1.96it/s, Materializing param=model.layers.13.input_layernorm.weight] Loading weights:  33%|███▎      | 106/322 [01:29<01:50,  1.96it/s, Materializing param=model.layers.13.input_layernorm.weight]Loading weights:  33%|███▎      | 107/322 [01:29<01:49,  1.96it/s, Materializing param=model.layers.13.mlp.down_proj.weight]  Loading weights:  33%|███▎      | 107/322 [01:29<01:49,  1.96it/s, Materializing param=model.layers.13.mlp.down_proj.weight]Loading weights:  34%|███▎      | 108/322 [01:33<02:33,  1.40it/s, Materializing param=model.layers.13.mlp.down_proj.weight]Loading weights:  34%|███▎      | 108/322 [01:33<02:33,  1.40it/s, Materializing param=model.layers.13.mlp.gate_proj.weight]Loading weights:  34%|███▎      | 108/322 [01:33<02:33,  1.40it/s, Materializing param=model.layers.13.mlp.gate_proj.weight]Loading weights:  34%|███▍      | 109/322 [01:34<02:55,  1.21it/s, Materializing param=model.layers.13.mlp.gate_proj.weight]Loading weights:  34%|███▍      | 109/322 [01:34<02:55,  1.21it/s, Materializing param=model.layers.13.mlp.up_proj.weight]  Loading weights:  34%|███▍      | 109/322 [01:34<02:55,  1.21it/s, Materializing param=model.layers.13.mlp.up_proj.weight]Loading weights:  34%|███▍      | 110/322 [01:34<02:54,  1.21it/s, Materializing param=model.layers.13.self_attn.k_proj.weight]Loading weights:  34%|███▍      | 110/322 [01:34<02:54,  1.21it/s, Materializing param=model.layers.13.self_attn.k_proj.weight]Loading weights:  34%|███▍      | 111/322 [01:34<02:54,  1.21it/s, Materializing param=model.layers.13.self_attn.o_proj.weight]Loading weights:  34%|███▍      | 111/322 [01:34<02:54,  1.21it/s, Materializing param=model.layers.13.self_attn.o_proj.weight]Loading weights:  35%|███▍      | 112/322 [01:34<02:53,  1.21it/s, Materializing param=model.layers.13.self_attn.q_proj.weight]Loading weights:  35%|███▍      | 112/322 [01:34<02:53,  1.21it/s, Materializing param=model.layers.13.self_attn.q_proj.weight]Loading weights:  35%|███▌      | 113/322 [01:34<02:52,  1.21it/s, Materializing param=model.layers.13.self_attn.v_proj.weight]Loading weights:  35%|███▌      | 113/322 [01:34<02:52,  1.21it/s, Materializing param=model.layers.13.self_attn.v_proj.weight]Loading weights:  35%|███▌      | 114/322 [01:34<02:51,  1.21it/s, Materializing param=model.layers.14.input_layernorm.weight] Loading weights:  35%|███▌      | 114/322 [01:34<02:51,  1.21it/s, Materializing param=model.layers.14.input_layernorm.weight]Loading weights:  36%|███▌      | 115/322 [01:34<02:50,  1.21it/s, Materializing param=model.layers.14.mlp.down_proj.weight]  Loading weights:  36%|███▌      | 115/322 [01:34<02:50,  1.21it/s, Materializing param=model.layers.14.mlp.down_proj.weight]Loading weights:  36%|███▌      | 116/322 [01:39<02:35,  1.33it/s, Materializing param=model.layers.14.mlp.down_proj.weight]Loading weights:  36%|███▌      | 116/322 [01:39<02:35,  1.33it/s, Materializing param=model.layers.14.mlp.gate_proj.weight]Loading weights:  36%|███▌      | 116/322 [01:39<02:35,  1.33it/s, Materializing param=model.layers.14.mlp.gate_proj.weight]Loading weights:  36%|███▋      | 117/322 [01:39<02:34,  1.33it/s, Materializing param=model.layers.14.mlp.up_proj.weight]  Loading weights:  36%|███▋      | 117/322 [01:39<02:34,  1.33it/s, Materializing param=model.layers.14.mlp.up_proj.weight]Loading weights:  37%|███▋      | 118/322 [01:39<02:33,  1.33it/s, Materializing param=model.layers.14.self_attn.k_proj.weight]Loading weights:  37%|███▋      | 118/322 [01:39<02:33,  1.33it/s, Materializing param=model.layers.14.self_attn.k_proj.weight]Loading weights:  37%|███▋      | 119/322 [01:39<02:33,  1.33it/s, Materializing param=model.layers.14.self_attn.o_proj.weight]Loading weights:  37%|███▋      | 119/322 [01:39<02:33,  1.33it/s, Materializing param=model.layers.14.self_attn.o_proj.weight]Loading weights:  37%|███▋      | 120/322 [01:39<02:32,  1.33it/s, Materializing param=model.layers.14.self_attn.q_proj.weight]Loading weights:  37%|███▋      | 120/322 [01:39<02:32,  1.33it/s, Materializing param=model.layers.14.self_attn.q_proj.weight]Loading weights:  38%|███▊      | 121/322 [01:40<01:46,  1.88it/s, Materializing param=model.layers.14.self_attn.q_proj.weight]Loading weights:  38%|███▊      | 121/322 [01:40<01:46,  1.88it/s, Materializing param=model.layers.14.self_attn.v_proj.weight]Loading weights:  38%|███▊      | 121/322 [01:40<01:46,  1.88it/s, Materializing param=model.layers.14.self_attn.v_proj.weight]Loading weights:  38%|███▊      | 122/322 [01:41<01:57,  1.71it/s, Materializing param=model.layers.14.self_attn.v_proj.weight]Loading weights:  38%|███▊      | 122/322 [01:41<01:57,  1.71it/s, Materializing param=model.layers.15.input_layernorm.weight] Loading weights:  38%|███▊      | 122/322 [01:41<01:57,  1.71it/s, Materializing param=model.layers.15.input_layernorm.weight]Loading weights:  38%|███▊      | 123/322 [01:41<01:56,  1.71it/s, Materializing param=model.layers.15.mlp.down_proj.weight]  Loading weights:  38%|███▊      | 123/322 [01:41<01:56,  1.71it/s, Materializing param=model.layers.15.mlp.down_proj.weight]Loading weights:  39%|███▊      | 124/322 [01:44<02:40,  1.23it/s, Materializing param=model.layers.15.mlp.down_proj.weight]Loading weights:  39%|███▊      | 124/322 [01:44<02:40,  1.23it/s, Materializing param=model.layers.15.mlp.gate_proj.weight]Loading weights:  39%|███▊      | 124/322 [01:44<02:40,  1.23it/s, Materializing param=model.layers.15.mlp.gate_proj.weight]Loading weights:  39%|███▉      | 125/322 [01:44<02:22,  1.39it/s, Materializing param=model.layers.15.mlp.gate_proj.weight]Loading weights:  39%|███▉      | 125/322 [01:44<02:22,  1.39it/s, Materializing param=model.layers.15.mlp.up_proj.weight]  Loading weights:  39%|███▉      | 125/322 [01:44<02:22,  1.39it/s, Materializing param=model.layers.15.mlp.up_proj.weight]Loading weights:  39%|███▉      | 126/322 [01:45<02:19,  1.41it/s, Materializing param=model.layers.15.mlp.up_proj.weight]Loading weights:  39%|███▉      | 126/322 [01:45<02:19,  1.41it/s, Materializing param=model.layers.15.self_attn.k_proj.weight]Loading weights:  39%|███▉      | 126/322 [01:45<02:19,  1.41it/s, Materializing param=model.layers.15.self_attn.k_proj.weight]Loading weights:  39%|███▉      | 127/322 [01:45<02:18,  1.41it/s, Materializing param=model.layers.15.self_attn.o_proj.weight]Loading weights:  39%|███▉      | 127/322 [01:45<02:18,  1.41it/s, Materializing param=model.layers.15.self_attn.o_proj.weight]Loading weights:  40%|███▉      | 128/322 [01:45<02:18,  1.41it/s, Materializing param=model.layers.15.self_attn.q_proj.weight]Loading weights:  40%|███▉      | 128/322 [01:45<02:18,  1.41it/s, Materializing param=model.layers.15.self_attn.q_proj.weight]Loading weights:  40%|████      | 129/322 [01:46<01:41,  1.90it/s, Materializing param=model.layers.15.self_attn.q_proj.weight]Loading weights:  40%|████      | 129/322 [01:46<01:41,  1.90it/s, Materializing param=model.layers.15.self_attn.v_proj.weight]Loading weights:  40%|████      | 129/322 [01:46<01:41,  1.90it/s, Materializing param=model.layers.15.self_attn.v_proj.weight]Loading weights:  40%|████      | 130/322 [01:46<01:29,  2.16it/s, Materializing param=model.layers.15.self_attn.v_proj.weight]Loading weights:  40%|████      | 130/322 [01:46<01:29,  2.16it/s, Materializing param=model.layers.16.input_layernorm.weight] Loading weights:  40%|████      | 130/322 [01:46<01:29,  2.16it/s, Materializing param=model.layers.16.input_layernorm.weight]Loading weights:  41%|████      | 131/322 [01:46<01:28,  2.16it/s, Materializing param=model.layers.16.mlp.down_proj.weight]  Loading weights:  41%|████      | 131/322 [01:46<01:28,  2.16it/s, Materializing param=model.layers.16.mlp.down_proj.weight]Loading weights:  41%|████      | 132/322 [01:50<03:04,  1.03it/s, Materializing param=model.layers.16.mlp.down_proj.weight]Loading weights:  41%|████      | 132/322 [01:50<03:04,  1.03it/s, Materializing param=model.layers.16.mlp.gate_proj.weight]Loading weights:  41%|████      | 132/322 [01:50<03:04,  1.03it/s, Materializing param=model.layers.16.mlp.gate_proj.weight]Loading weights:  41%|████▏     | 133/322 [01:50<03:03,  1.03it/s, Materializing param=model.layers.16.mlp.up_proj.weight]  Loading weights:  41%|████▏     | 133/322 [01:50<03:03,  1.03it/s, Materializing param=model.layers.16.mlp.up_proj.weight]Loading weights:  42%|████▏     | 134/322 [01:50<02:10,  1.45it/s, Materializing param=model.layers.16.mlp.up_proj.weight]Loading weights:  42%|████▏     | 134/322 [01:50<02:10,  1.45it/s, Materializing param=model.layers.16.self_attn.k_proj.weight]Loading weights:  42%|████▏     | 134/322 [01:50<02:10,  1.45it/s, Materializing param=model.layers.16.self_attn.k_proj.weight]Loading weights:  42%|████▏     | 135/322 [01:50<02:09,  1.45it/s, Materializing param=model.layers.16.self_attn.o_proj.weight]Loading weights:  42%|████▏     | 135/322 [01:50<02:09,  1.45it/s, Materializing param=model.layers.16.self_attn.o_proj.weight]Loading weights:  42%|████▏     | 136/322 [01:50<02:08,  1.45it/s, Materializing param=model.layers.16.self_attn.q_proj.weight]Loading weights:  42%|████▏     | 136/322 [01:50<02:08,  1.45it/s, Materializing param=model.layers.16.self_attn.q_proj.weight]Loading weights:  43%|████▎     | 137/322 [01:52<02:07,  1.45it/s, Materializing param=model.layers.16.self_attn.q_proj.weight]Loading weights:  43%|████▎     | 137/322 [01:52<02:07,  1.45it/s, Materializing param=model.layers.16.self_attn.v_proj.weight]Loading weights:  43%|████▎     | 137/322 [01:52<02:07,  1.45it/s, Materializing param=model.layers.16.self_attn.v_proj.weight]Loading weights:  43%|████▎     | 138/322 [01:52<02:07,  1.45it/s, Materializing param=model.layers.17.input_layernorm.weight] Loading weights:  43%|████▎     | 138/322 [01:52<02:07,  1.45it/s, Materializing param=model.layers.17.input_layernorm.weight]Loading weights:  43%|████▎     | 139/322 [01:52<02:06,  1.45it/s, Materializing param=model.layers.17.mlp.down_proj.weight]  Loading weights:  43%|████▎     | 139/322 [01:52<02:06,  1.45it/s, Materializing param=model.layers.17.mlp.down_proj.weight]Loading weights:  43%|████▎     | 140/322 [01:56<02:34,  1.18it/s, Materializing param=model.layers.17.mlp.down_proj.weight]Loading weights:  43%|████▎     | 140/322 [01:56<02:34,  1.18it/s, Materializing param=model.layers.17.mlp.gate_proj.weight]Loading weights:  43%|████▎     | 140/322 [01:56<02:34,  1.18it/s, Materializing param=model.layers.17.mlp.gate_proj.weight]Loading weights:  44%|████▍     | 141/322 [01:56<02:14,  1.34it/s, Materializing param=model.layers.17.mlp.gate_proj.weight]Loading weights:  44%|████▍     | 141/322 [01:56<02:14,  1.34it/s, Materializing param=model.layers.17.mlp.up_proj.weight]  Loading weights:  44%|████▍     | 141/322 [01:56<02:14,  1.34it/s, Materializing param=model.layers.17.mlp.up_proj.weight]Loading weights:  44%|████▍     | 142/322 [01:56<02:13,  1.35it/s, Materializing param=model.layers.17.mlp.up_proj.weight]Loading weights:  44%|████▍     | 142/322 [01:56<02:13,  1.35it/s, Materializing param=model.layers.17.self_attn.k_proj.weight]Loading weights:  44%|████▍     | 142/322 [01:56<02:13,  1.35it/s, Materializing param=model.layers.17.self_attn.k_proj.weight]Loading weights:  44%|████▍     | 143/322 [01:56<02:12,  1.35it/s, Materializing param=model.layers.17.self_attn.o_proj.weight]Loading weights:  44%|████▍     | 143/322 [01:56<02:12,  1.35it/s, Materializing param=model.layers.17.self_attn.o_proj.weight]Loading weights:  45%|████▍     | 144/322 [01:56<02:11,  1.35it/s, Materializing param=model.layers.17.self_attn.q_proj.weight]Loading weights:  45%|████▍     | 144/322 [01:56<02:11,  1.35it/s, Materializing param=model.layers.17.self_attn.q_proj.weight]Loading weights:  45%|████▌     | 145/322 [01:57<01:31,  1.93it/s, Materializing param=model.layers.17.self_attn.q_proj.weight]Loading weights:  45%|████▌     | 145/322 [01:57<01:31,  1.93it/s, Materializing param=model.layers.17.self_attn.v_proj.weight]Loading weights:  45%|████▌     | 145/322 [01:57<01:31,  1.93it/s, Materializing param=model.layers.17.self_attn.v_proj.weight]Loading weights:  45%|████▌     | 146/322 [01:58<01:38,  1.79it/s, Materializing param=model.layers.17.self_attn.v_proj.weight]Loading weights:  45%|████▌     | 146/322 [01:58<01:38,  1.79it/s, Materializing param=model.layers.18.input_layernorm.weight] Loading weights:  45%|████▌     | 146/322 [01:58<01:38,  1.79it/s, Materializing param=model.layers.18.input_layernorm.weight]Loading weights:  46%|████▌     | 147/322 [01:58<01:37,  1.79it/s, Materializing param=model.layers.18.mlp.down_proj.weight]  Loading weights:  46%|████▌     | 147/322 [01:58<01:37,  1.79it/s, Materializing param=model.layers.18.mlp.down_proj.weight]Loading weights:  46%|████▌     | 148/322 [02:01<02:44,  1.06it/s, Materializing param=model.layers.18.mlp.down_proj.weight]Loading weights:  46%|████▌     | 148/322 [02:01<02:44,  1.06it/s, Materializing param=model.layers.18.mlp.gate_proj.weight]Loading weights:  46%|████▌     | 148/322 [02:01<02:44,  1.06it/s, Materializing param=model.layers.18.mlp.gate_proj.weight]Loading weights:  46%|████▋     | 149/322 [02:01<02:43,  1.06it/s, Materializing param=model.layers.18.mlp.up_proj.weight]  Loading weights:  46%|████▋     | 149/322 [02:01<02:43,  1.06it/s, Materializing param=model.layers.18.mlp.up_proj.weight]Loading weights:  47%|████▋     | 150/322 [02:02<02:01,  1.42it/s, Materializing param=model.layers.18.mlp.up_proj.weight]Loading weights:  47%|████▋     | 150/322 [02:02<02:01,  1.42it/s, Materializing param=model.layers.18.self_attn.k_proj.weight]Loading weights:  47%|████▋     | 150/322 [02:02<02:01,  1.42it/s, Materializing param=model.layers.18.self_attn.k_proj.weight]Loading weights:  47%|████▋     | 151/322 [02:02<02:00,  1.42it/s, Materializing param=model.layers.18.self_attn.o_proj.weight]Loading weights:  47%|████▋     | 151/322 [02:02<02:00,  1.42it/s, Materializing param=model.layers.18.self_attn.o_proj.weight]Loading weights:  47%|████▋     | 152/322 [02:02<01:59,  1.42it/s, Materializing param=model.layers.18.self_attn.q_proj.weight]Loading weights:  47%|████▋     | 152/322 [02:02<01:59,  1.42it/s, Materializing param=model.layers.18.self_attn.q_proj.weight]Loading weights:  48%|████▊     | 153/322 [02:03<01:38,  1.71it/s, Materializing param=model.layers.18.self_attn.q_proj.weight]Loading weights:  48%|████▊     | 153/322 [02:03<01:38,  1.71it/s, Materializing param=model.layers.18.self_attn.v_proj.weight]Loading weights:  48%|████▊     | 153/322 [02:03<01:38,  1.71it/s, Materializing param=model.layers.18.self_attn.v_proj.weight]Loading weights:  48%|████▊     | 154/322 [02:03<01:26,  1.94it/s, Materializing param=model.layers.18.self_attn.v_proj.weight]Loading weights:  48%|████▊     | 154/322 [02:03<01:26,  1.94it/s, Materializing param=model.layers.19.input_layernorm.weight] Loading weights:  48%|████▊     | 154/322 [02:03<01:26,  1.94it/s, Materializing param=model.layers.19.input_layernorm.weight]Loading weights:  48%|████▊     | 155/322 [02:03<01:26,  1.94it/s, Materializing param=model.layers.19.mlp.down_proj.weight]  Loading weights:  48%|████▊     | 155/322 [02:03<01:26,  1.94it/s, Materializing param=model.layers.19.mlp.down_proj.weight]Loading weights:  48%|████▊     | 156/322 [02:07<02:42,  1.02it/s, Materializing param=model.layers.19.mlp.down_proj.weight]Loading weights:  48%|████▊     | 156/322 [02:07<02:42,  1.02it/s, Materializing param=model.layers.19.mlp.gate_proj.weight]Loading weights:  48%|████▊     | 156/322 [02:07<02:42,  1.02it/s, Materializing param=model.layers.19.mlp.gate_proj.weight]Loading weights:  49%|████▉     | 157/322 [02:07<02:16,  1.21it/s, Materializing param=model.layers.19.mlp.gate_proj.weight]Loading weights:  49%|████▉     | 157/322 [02:07<02:16,  1.21it/s, Materializing param=model.layers.19.mlp.up_proj.weight]  Loading weights:  49%|████▉     | 157/322 [02:07<02:16,  1.21it/s, Materializing param=model.layers.19.mlp.up_proj.weight]Loading weights:  49%|████▉     | 158/322 [02:08<02:18,  1.18it/s, Materializing param=model.layers.19.mlp.up_proj.weight]Loading weights:  49%|████▉     | 158/322 [02:08<02:18,  1.18it/s, Materializing param=model.layers.19.self_attn.k_proj.weight]Loading weights:  49%|████▉     | 158/322 [02:08<02:18,  1.18it/s, Materializing param=model.layers.19.self_attn.k_proj.weight]Loading weights:  49%|████▉     | 159/322 [02:08<02:17,  1.18it/s, Materializing param=model.layers.19.self_attn.o_proj.weight]Loading weights:  49%|████▉     | 159/322 [02:08<02:17,  1.18it/s, Materializing param=model.layers.19.self_attn.o_proj.weight]Loading weights:  50%|████▉     | 160/322 [02:08<02:17,  1.18it/s, Materializing param=model.layers.19.self_attn.q_proj.weight]Loading weights:  50%|████▉     | 160/322 [02:08<02:17,  1.18it/s, Materializing param=model.layers.19.self_attn.q_proj.weight]Loading weights:  50%|█████     | 161/322 [02:09<01:34,  1.70it/s, Materializing param=model.layers.19.self_attn.q_proj.weight]Loading weights:  50%|█████     | 161/322 [02:09<01:34,  1.70it/s, Materializing param=model.layers.19.self_attn.v_proj.weight]Loading weights:  50%|█████     | 161/322 [02:09<01:34,  1.70it/s, Materializing param=model.layers.19.self_attn.v_proj.weight]Loading weights:  50%|█████     | 162/322 [02:09<01:34,  1.70it/s, Materializing param=model.layers.20.input_layernorm.weight] Loading weights:  50%|█████     | 162/322 [02:09<01:34,  1.70it/s, Materializing param=model.layers.20.input_layernorm.weight]Loading weights:  51%|█████     | 163/322 [02:09<01:33,  1.70it/s, Materializing param=model.layers.20.mlp.down_proj.weight]  Loading weights:  51%|█████     | 163/322 [02:09<01:33,  1.70it/s, Materializing param=model.layers.20.mlp.down_proj.weight]Loading weights:  51%|█████     | 164/322 [02:12<02:06,  1.25it/s, Materializing param=model.layers.20.mlp.down_proj.weight]Loading weights:  51%|█████     | 164/322 [02:12<02:06,  1.25it/s, Materializing param=model.layers.20.mlp.gate_proj.weight]Loading weights:  51%|█████     | 164/322 [02:12<02:06,  1.25it/s, Materializing param=model.layers.20.mlp.gate_proj.weight]Loading weights:  51%|█████     | 165/322 [02:13<01:57,  1.34it/s, Materializing param=model.layers.20.mlp.gate_proj.weight]Loading weights:  51%|█████     | 165/322 [02:13<01:57,  1.34it/s, Materializing param=model.layers.20.mlp.up_proj.weight]  Loading weights:  51%|█████     | 165/322 [02:13<01:57,  1.34it/s, Materializing param=model.layers.20.mlp.up_proj.weight]Loading weights:  52%|█████▏    | 166/322 [02:14<02:08,  1.21it/s, Materializing param=model.layers.20.mlp.up_proj.weight]Loading weights:  52%|█████▏    | 166/322 [02:14<02:08,  1.21it/s, Materializing param=model.layers.20.self_attn.k_proj.weight]Loading weights:  52%|█████▏    | 166/322 [02:14<02:08,  1.21it/s, Materializing param=model.layers.20.self_attn.k_proj.weight]Loading weights:  52%|█████▏    | 167/322 [02:14<02:08,  1.21it/s, Materializing param=model.layers.20.self_attn.o_proj.weight]Loading weights:  52%|█████▏    | 167/322 [02:14<02:08,  1.21it/s, Materializing param=model.layers.20.self_attn.o_proj.weight]Loading weights:  52%|█████▏    | 168/322 [02:14<02:07,  1.21it/s, Materializing param=model.layers.20.self_attn.q_proj.weight]Loading weights:  52%|█████▏    | 168/322 [02:14<02:07,  1.21it/s, Materializing param=model.layers.20.self_attn.q_proj.weight]Loading weights:  52%|█████▏    | 169/322 [02:14<02:06,  1.21it/s, Materializing param=model.layers.20.self_attn.v_proj.weight]Loading weights:  52%|█████▏    | 169/322 [02:14<02:06,  1.21it/s, Materializing param=model.layers.20.self_attn.v_proj.weight]Loading weights:  53%|█████▎    | 170/322 [02:14<01:03,  2.38it/s, Materializing param=model.layers.20.self_attn.v_proj.weight]Loading weights:  53%|█████▎    | 170/322 [02:14<01:03,  2.38it/s, Materializing param=model.layers.21.input_layernorm.weight] Loading weights:  53%|█████▎    | 170/322 [02:14<01:03,  2.38it/s, Materializing param=model.layers.21.input_layernorm.weight]Loading weights:  53%|█████▎    | 171/322 [02:14<01:03,  2.38it/s, Materializing param=model.layers.21.mlp.down_proj.weight]  Loading weights:  53%|█████▎    | 171/322 [02:14<01:03,  2.38it/s, Materializing param=model.layers.21.mlp.down_proj.weight]Loading weights:  53%|█████▎    | 172/322 [02:17<01:45,  1.42it/s, Materializing param=model.layers.21.mlp.down_proj.weight]Loading weights:  53%|█████▎    | 172/322 [02:17<01:45,  1.42it/s, Materializing param=model.layers.21.mlp.gate_proj.weight]Loading weights:  53%|█████▎    | 172/322 [02:17<01:45,  1.42it/s, Materializing param=model.layers.21.mlp.gate_proj.weight]Loading weights:  54%|█████▎    | 173/322 [02:19<02:05,  1.18it/s, Materializing param=model.layers.21.mlp.gate_proj.weight]Loading weights:  54%|█████▎    | 173/322 [02:19<02:05,  1.18it/s, Materializing param=model.layers.21.mlp.up_proj.weight]  Loading weights:  54%|█████▎    | 173/322 [02:19<02:05,  1.18it/s, Materializing param=model.layers.21.mlp.up_proj.weight]Loading weights:  54%|█████▍    | 174/322 [02:19<02:05,  1.18it/s, Materializing param=model.layers.21.self_attn.k_proj.weight]Loading weights:  54%|█████▍    | 174/322 [02:19<02:05,  1.18it/s, Materializing param=model.layers.21.self_attn.k_proj.weight]Loading weights:  54%|█████▍    | 175/322 [02:19<02:04,  1.18it/s, Materializing param=model.layers.21.self_attn.o_proj.weight]Loading weights:  54%|█████▍    | 175/322 [02:19<02:04,  1.18it/s, Materializing param=model.layers.21.self_attn.o_proj.weight]Loading weights:  55%|█████▍    | 176/322 [02:19<02:03,  1.18it/s, Materializing param=model.layers.21.self_attn.q_proj.weight]Loading weights:  55%|█████▍    | 176/322 [02:19<02:03,  1.18it/s, Materializing param=model.layers.21.self_attn.q_proj.weight]Loading weights:  55%|█████▍    | 177/322 [02:19<02:02,  1.18it/s, Materializing param=model.layers.21.self_attn.v_proj.weight]Loading weights:  55%|█████▍    | 177/322 [02:19<02:02,  1.18it/s, Materializing param=model.layers.21.self_attn.v_proj.weight]Loading weights:  55%|█████▌    | 178/322 [02:20<01:10,  2.04it/s, Materializing param=model.layers.21.self_attn.v_proj.weight]Loading weights:  55%|█████▌    | 178/322 [02:20<01:10,  2.04it/s, Materializing param=model.layers.22.input_layernorm.weight] Loading weights:  55%|█████▌    | 178/322 [02:20<01:10,  2.04it/s, Materializing param=model.layers.22.input_layernorm.weight]Loading weights:  56%|█████▌    | 179/322 [02:20<01:10,  2.04it/s, Materializing param=model.layers.22.mlp.down_proj.weight]  Loading weights:  56%|█████▌    | 179/322 [02:20<01:10,  2.04it/s, Materializing param=model.layers.22.mlp.down_proj.weight]Loading weights:  56%|█████▌    | 180/322 [02:23<01:51,  1.27it/s, Materializing param=model.layers.22.mlp.down_proj.weight]Loading weights:  56%|█████▌    | 180/322 [02:23<01:51,  1.27it/s, Materializing param=model.layers.22.mlp.gate_proj.weight]Loading weights:  56%|█████▌    | 180/322 [02:23<01:51,  1.27it/s, Materializing param=model.layers.22.mlp.gate_proj.weight]Loading weights:  56%|█████▌    | 181/322 [02:23<01:51,  1.27it/s, Materializing param=model.layers.22.mlp.up_proj.weight]  Loading weights:  56%|█████▌    | 181/322 [02:23<01:51,  1.27it/s, Materializing param=model.layers.22.mlp.up_proj.weight]Loading weights:  57%|█████▋    | 182/322 [02:23<01:50,  1.27it/s, Materializing param=model.layers.22.self_attn.k_proj.weight]Loading weights:  57%|█████▋    | 182/322 [02:23<01:50,  1.27it/s, Materializing param=model.layers.22.self_attn.k_proj.weight]Loading weights:  57%|█████▋    | 183/322 [02:23<01:49,  1.27it/s, Materializing param=model.layers.22.self_attn.o_proj.weight]Loading weights:  57%|█████▋    | 183/322 [02:23<01:49,  1.27it/s, Materializing param=model.layers.22.self_attn.o_proj.weight]Loading weights:  57%|█████▋    | 184/322 [02:23<01:48,  1.27it/s, Materializing param=model.layers.22.self_attn.q_proj.weight]Loading weights:  57%|█████▋    | 184/322 [02:23<01:48,  1.27it/s, Materializing param=model.layers.22.self_attn.q_proj.weight]Loading weights:  57%|█████▋    | 185/322 [02:25<01:28,  1.55it/s, Materializing param=model.layers.22.self_attn.q_proj.weight]Loading weights:  57%|█████▋    | 185/322 [02:25<01:28,  1.55it/s, Materializing param=model.layers.22.self_attn.v_proj.weight]Loading weights:  57%|█████▋    | 185/322 [02:25<01:28,  1.55it/s, Materializing param=model.layers.22.self_attn.v_proj.weight]Loading weights:  58%|█████▊    | 186/322 [02:25<01:28,  1.55it/s, Materializing param=model.layers.23.input_layernorm.weight] Loading weights:  58%|█████▊    | 186/322 [02:25<01:28,  1.55it/s, Materializing param=model.layers.23.input_layernorm.weight]Loading weights:  58%|█████▊    | 187/322 [02:25<01:27,  1.55it/s, Materializing param=model.layers.23.mlp.down_proj.weight]  Loading weights:  58%|█████▊    | 187/322 [02:25<01:27,  1.55it/s, Materializing param=model.layers.23.mlp.down_proj.weight]Loading weights:  58%|█████▊    | 188/322 [02:28<01:37,  1.38it/s, Materializing param=model.layers.23.mlp.down_proj.weight]Loading weights:  58%|█████▊    | 188/322 [02:28<01:37,  1.38it/s, Materializing param=model.layers.23.mlp.gate_proj.weight]Loading weights:  58%|█████▊    | 188/322 [02:28<01:37,  1.38it/s, Materializing param=model.layers.23.mlp.gate_proj.weight]Loading weights:  59%|█████▊    | 189/322 [02:28<01:36,  1.38it/s, Materializing param=model.layers.23.mlp.up_proj.weight]  Loading weights:  59%|█████▊    | 189/322 [02:28<01:36,  1.38it/s, Materializing param=model.layers.23.mlp.up_proj.weight]Loading weights:  59%|█████▉    | 190/322 [02:29<01:26,  1.53it/s, Materializing param=model.layers.23.mlp.up_proj.weight]Loading weights:  59%|█████▉    | 190/322 [02:29<01:26,  1.53it/s, Materializing param=model.layers.23.self_attn.k_proj.weight]Loading weights:  59%|█████▉    | 190/322 [02:29<01:26,  1.53it/s, Materializing param=model.layers.23.self_attn.k_proj.weight]Loading weights:  59%|█████▉    | 191/322 [02:29<01:25,  1.53it/s, Materializing param=model.layers.23.self_attn.o_proj.weight]Loading weights:  59%|█████▉    | 191/322 [02:29<01:25,  1.53it/s, Materializing param=model.layers.23.self_attn.o_proj.weight]Loading weights:  60%|█████▉    | 192/322 [02:29<01:25,  1.53it/s, Materializing param=model.layers.23.self_attn.q_proj.weight]Loading weights:  60%|█████▉    | 192/322 [02:29<01:25,  1.53it/s, Materializing param=model.layers.23.self_attn.q_proj.weight]Loading weights:  60%|█████▉    | 193/322 [02:30<01:06,  1.95it/s, Materializing param=model.layers.23.self_attn.q_proj.weight]Loading weights:  60%|█████▉    | 193/322 [02:30<01:06,  1.95it/s, Materializing param=model.layers.23.self_attn.v_proj.weight]Loading weights:  60%|█████▉    | 193/322 [02:30<01:06,  1.95it/s, Materializing param=model.layers.23.self_attn.v_proj.weight]Loading weights:  60%|██████    | 194/322 [02:30<01:03,  2.02it/s, Materializing param=model.layers.23.self_attn.v_proj.weight]Loading weights:  60%|██████    | 194/322 [02:30<01:03,  2.02it/s, Materializing param=model.layers.24.input_layernorm.weight] Loading weights:  60%|██████    | 194/322 [02:30<01:03,  2.02it/s, Materializing param=model.layers.24.input_layernorm.weight]Loading weights:  61%|██████    | 195/322 [02:30<01:02,  2.02it/s, Materializing param=model.layers.24.mlp.down_proj.weight]  Loading weights:  61%|██████    | 195/322 [02:30<01:02,  2.02it/s, Materializing param=model.layers.24.mlp.down_proj.weight]Loading weights:  61%|██████    | 196/322 [02:34<01:50,  1.14it/s, Materializing param=model.layers.24.mlp.down_proj.weight]Loading weights:  61%|██████    | 196/322 [02:34<01:50,  1.14it/s, Materializing param=model.layers.24.mlp.gate_proj.weight]Loading weights:  61%|██████    | 196/322 [02:34<01:50,  1.14it/s, Materializing param=model.layers.24.mlp.gate_proj.weight]Loading weights:  61%|██████    | 197/322 [02:34<01:50,  1.14it/s, Materializing param=model.layers.24.mlp.up_proj.weight]  Loading weights:  61%|██████    | 197/322 [02:34<01:50,  1.14it/s, Materializing param=model.layers.24.mlp.up_proj.weight]Loading weights:  61%|██████▏   | 198/322 [02:34<01:23,  1.49it/s, Materializing param=model.layers.24.mlp.up_proj.weight]Loading weights:  61%|██████▏   | 198/322 [02:34<01:23,  1.49it/s, Materializing param=model.layers.24.self_attn.k_proj.weight]Loading weights:  61%|██████▏   | 198/322 [02:34<01:23,  1.49it/s, Materializing param=model.layers.24.self_attn.k_proj.weight]Loading weights:  62%|██████▏   | 199/322 [02:34<01:22,  1.49it/s, Materializing param=model.layers.24.self_attn.o_proj.weight]Loading weights:  62%|██████▏   | 199/322 [02:34<01:22,  1.49it/s, Materializing param=model.layers.24.self_attn.o_proj.weight]Loading weights:  62%|██████▏   | 200/322 [02:34<01:22,  1.49it/s, Materializing param=model.layers.24.self_attn.q_proj.weight]Loading weights:  62%|██████▏   | 200/322 [02:34<01:22,  1.49it/s, Materializing param=model.layers.24.self_attn.q_proj.weight]Loading weights:  62%|██████▏   | 201/322 [02:36<01:17,  1.56it/s, Materializing param=model.layers.24.self_attn.q_proj.weight]Loading weights:  62%|██████▏   | 201/322 [02:36<01:17,  1.56it/s, Materializing param=model.layers.24.self_attn.v_proj.weight]Loading weights:  62%|██████▏   | 201/322 [02:36<01:17,  1.56it/s, Materializing param=model.layers.24.self_attn.v_proj.weight]Loading weights:  63%|██████▎   | 202/322 [02:36<01:16,  1.56it/s, Materializing param=model.layers.25.input_layernorm.weight] Loading weights:  63%|██████▎   | 202/322 [02:36<01:16,  1.56it/s, Materializing param=model.layers.25.input_layernorm.weight]Loading weights:  63%|██████▎   | 203/322 [02:36<01:16,  1.56it/s, Materializing param=model.layers.25.mlp.down_proj.weight]  Loading weights:  63%|██████▎   | 203/322 [02:36<01:16,  1.56it/s, Materializing param=model.layers.25.mlp.down_proj.weight]Loading weights:  63%|██████▎   | 204/322 [02:39<01:29,  1.31it/s, Materializing param=model.layers.25.mlp.down_proj.weight]Loading weights:  63%|██████▎   | 204/322 [02:39<01:29,  1.31it/s, Materializing param=model.layers.25.mlp.gate_proj.weight]Loading weights:  63%|██████▎   | 204/322 [02:39<01:29,  1.31it/s, Materializing param=model.layers.25.mlp.gate_proj.weight]Loading weights:  64%|██████▎   | 205/322 [02:39<01:29,  1.31it/s, Materializing param=model.layers.25.mlp.up_proj.weight]  Loading weights:  64%|██████▎   | 205/322 [02:39<01:29,  1.31it/s, Materializing param=model.layers.25.mlp.up_proj.weight]Loading weights:  64%|██████▍   | 206/322 [02:40<01:17,  1.50it/s, Materializing param=model.layers.25.mlp.up_proj.weight]Loading weights:  64%|██████▍   | 206/322 [02:40<01:17,  1.50it/s, Materializing param=model.layers.25.self_attn.k_proj.weight]Loading weights:  64%|██████▍   | 206/322 [02:40<01:17,  1.50it/s, Materializing param=model.layers.25.self_attn.k_proj.weight]Loading weights:  64%|██████▍   | 207/322 [02:40<01:16,  1.50it/s, Materializing param=model.layers.25.self_attn.o_proj.weight]Loading weights:  64%|██████▍   | 207/322 [02:40<01:16,  1.50it/s, Materializing param=model.layers.25.self_attn.o_proj.weight]Loading weights:  65%|██████▍   | 208/322 [02:40<01:16,  1.50it/s, Materializing param=model.layers.25.self_attn.q_proj.weight]Loading weights:  65%|██████▍   | 208/322 [02:40<01:16,  1.50it/s, Materializing param=model.layers.25.self_attn.q_proj.weight]Loading weights:  65%|██████▍   | 209/322 [02:40<00:55,  2.04it/s, Materializing param=model.layers.25.self_attn.q_proj.weight]Loading weights:  65%|██████▍   | 209/322 [02:40<00:55,  2.04it/s, Materializing param=model.layers.25.self_attn.v_proj.weight]Loading weights:  65%|██████▍   | 209/322 [02:40<00:55,  2.04it/s, Materializing param=model.layers.25.self_attn.v_proj.weight]Loading weights:  65%|██████▌   | 210/322 [02:40<00:54,  2.04it/s, Materializing param=model.layers.26.input_layernorm.weight] Loading weights:  65%|██████▌   | 210/322 [02:40<00:54,  2.04it/s, Materializing param=model.layers.26.input_layernorm.weight]Loading weights:  66%|██████▌   | 211/322 [02:40<00:54,  2.04it/s, Materializing param=model.layers.26.mlp.down_proj.weight]  Loading weights:  66%|██████▌   | 211/322 [02:40<00:54,  2.04it/s, Materializing param=model.layers.26.mlp.down_proj.weight]Loading weights:  66%|██████▌   | 212/322 [02:44<01:24,  1.31it/s, Materializing param=model.layers.26.mlp.down_proj.weight]Loading weights:  66%|██████▌   | 212/322 [02:44<01:24,  1.31it/s, Materializing param=model.layers.26.mlp.gate_proj.weight]Loading weights:  66%|██████▌   | 212/322 [02:44<01:24,  1.31it/s, Materializing param=model.layers.26.mlp.gate_proj.weight]Loading weights:  66%|██████▌   | 213/322 [02:44<01:17,  1.40it/s, Materializing param=model.layers.26.mlp.gate_proj.weight]Loading weights:  66%|██████▌   | 213/322 [02:44<01:17,  1.40it/s, Materializing param=model.layers.26.mlp.up_proj.weight]  Loading weights:  66%|██████▌   | 213/322 [02:44<01:17,  1.40it/s, Materializing param=model.layers.26.mlp.up_proj.weight]Loading weights:  66%|██████▋   | 214/322 [02:45<01:13,  1.47it/s, Materializing param=model.layers.26.mlp.up_proj.weight]Loading weights:  66%|██████▋   | 214/322 [02:45<01:13,  1.47it/s, Materializing param=model.layers.26.self_attn.k_proj.weight]Loading weights:  66%|██████▋   | 214/322 [02:45<01:13,  1.47it/s, Materializing param=model.layers.26.self_attn.k_proj.weight]Loading weights:  67%|██████▋   | 215/322 [02:45<01:12,  1.47it/s, Materializing param=model.layers.26.self_attn.o_proj.weight]Loading weights:  67%|██████▋   | 215/322 [02:45<01:12,  1.47it/s, Materializing param=model.layers.26.self_attn.o_proj.weight]Loading weights:  67%|██████▋   | 216/322 [02:45<01:12,  1.47it/s, Materializing param=model.layers.26.self_attn.q_proj.weight]Loading weights:  67%|██████▋   | 216/322 [02:45<01:12,  1.47it/s, Materializing param=model.layers.26.self_attn.q_proj.weight]Loading weights:  67%|██████▋   | 217/322 [02:46<00:54,  1.93it/s, Materializing param=model.layers.26.self_attn.q_proj.weight]Loading weights:  67%|██████▋   | 217/322 [02:46<00:54,  1.93it/s, Materializing param=model.layers.26.self_attn.v_proj.weight]Loading weights:  67%|██████▋   | 217/322 [02:46<00:54,  1.93it/s, Materializing param=model.layers.26.self_attn.v_proj.weight]Loading weights:  68%|██████▊   | 218/322 [02:46<00:53,  1.93it/s, Materializing param=model.layers.27.input_layernorm.weight] Loading weights:  68%|██████▊   | 218/322 [02:46<00:53,  1.93it/s, Materializing param=model.layers.27.input_layernorm.weight]Loading weights:  68%|██████▊   | 219/322 [02:46<00:53,  1.93it/s, Materializing param=model.layers.27.mlp.down_proj.weight]  Loading weights:  68%|██████▊   | 219/322 [02:46<00:53,  1.93it/s, Materializing param=model.layers.27.mlp.down_proj.weight]Loading weights:  68%|██████▊   | 220/322 [02:49<01:19,  1.28it/s, Materializing param=model.layers.27.mlp.down_proj.weight]Loading weights:  68%|██████▊   | 220/322 [02:49<01:19,  1.28it/s, Materializing param=model.layers.27.mlp.gate_proj.weight]Loading weights:  68%|██████▊   | 220/322 [02:49<01:19,  1.28it/s, Materializing param=model.layers.27.mlp.gate_proj.weight]Loading weights:  69%|██████▊   | 221/322 [02:50<01:12,  1.39it/s, Materializing param=model.layers.27.mlp.gate_proj.weight]Loading weights:  69%|██████▊   | 221/322 [02:50<01:12,  1.39it/s, Materializing param=model.layers.27.mlp.up_proj.weight]  Loading weights:  69%|██████▊   | 221/322 [02:50<01:12,  1.39it/s, Materializing param=model.layers.27.mlp.up_proj.weight]Loading weights:  69%|██████▉   | 222/322 [02:50<01:10,  1.42it/s, Materializing param=model.layers.27.mlp.up_proj.weight]Loading weights:  69%|██████▉   | 222/322 [02:50<01:10,  1.42it/s, Materializing param=model.layers.27.self_attn.k_proj.weight]Loading weights:  69%|██████▉   | 222/322 [02:50<01:10,  1.42it/s, Materializing param=model.layers.27.self_attn.k_proj.weight]Loading weights:  69%|██████▉   | 223/322 [02:50<01:09,  1.42it/s, Materializing param=model.layers.27.self_attn.o_proj.weight]Loading weights:  69%|██████▉   | 223/322 [02:50<01:09,  1.42it/s, Materializing param=model.layers.27.self_attn.o_proj.weight]Loading weights:  70%|██████▉   | 224/322 [02:50<01:08,  1.42it/s, Materializing param=model.layers.27.self_attn.q_proj.weight]Loading weights:  70%|██████▉   | 224/322 [02:50<01:08,  1.42it/s, Materializing param=model.layers.27.self_attn.q_proj.weight]Loading weights:  70%|██████▉   | 225/322 [02:51<00:43,  2.24it/s, Materializing param=model.layers.27.self_attn.q_proj.weight]Loading weights:  70%|██████▉   | 225/322 [02:51<00:43,  2.24it/s, Materializing param=model.layers.27.self_attn.v_proj.weight]Loading weights:  70%|██████▉   | 225/322 [02:51<00:43,  2.24it/s, Materializing param=model.layers.27.self_attn.v_proj.weight]Loading weights:  70%|███████   | 226/322 [02:51<00:42,  2.24it/s, Materializing param=model.layers.28.input_layernorm.weight] Loading weights:  70%|███████   | 226/322 [02:51<00:42,  2.24it/s, Materializing param=model.layers.28.input_layernorm.weight]Loading weights:  70%|███████   | 227/322 [02:51<00:42,  2.24it/s, Materializing param=model.layers.28.mlp.down_proj.weight]  Loading weights:  70%|███████   | 227/322 [02:51<00:42,  2.24it/s, Materializing param=model.layers.28.mlp.down_proj.weight]Loading weights:  71%|███████   | 228/322 [02:53<00:55,  1.68it/s, Materializing param=model.layers.28.mlp.down_proj.weight]Loading weights:  71%|███████   | 228/322 [02:53<00:55,  1.68it/s, Materializing param=model.layers.28.mlp.gate_proj.weight]Loading weights:  71%|███████   | 228/322 [02:53<00:55,  1.68it/s, Materializing param=model.layers.28.mlp.gate_proj.weight]Loading weights:  71%|███████   | 229/322 [02:55<01:11,  1.30it/s, Materializing param=model.layers.28.mlp.gate_proj.weight]Loading weights:  71%|███████   | 229/322 [02:55<01:11,  1.30it/s, Materializing param=model.layers.28.mlp.up_proj.weight]  Loading weights:  71%|███████   | 229/322 [02:55<01:11,  1.30it/s, Materializing param=model.layers.28.mlp.up_proj.weight]Loading weights:  71%|███████▏  | 230/322 [02:55<01:10,  1.30it/s, Materializing param=model.layers.28.self_attn.k_proj.weight]Loading weights:  71%|███████▏  | 230/322 [02:55<01:10,  1.30it/s, Materializing param=model.layers.28.self_attn.k_proj.weight]Loading weights:  72%|███████▏  | 231/322 [02:55<01:10,  1.30it/s, Materializing param=model.layers.28.self_attn.o_proj.weight]Loading weights:  72%|███████▏  | 231/322 [02:55<01:10,  1.30it/s, Materializing param=model.layers.28.self_attn.o_proj.weight]Loading weights:  72%|███████▏  | 232/322 [02:55<01:09,  1.30it/s, Materializing param=model.layers.28.self_attn.q_proj.weight]Loading weights:  72%|███████▏  | 232/322 [02:55<01:09,  1.30it/s, Materializing param=model.layers.28.self_attn.q_proj.weight]Loading weights:  72%|███████▏  | 233/322 [02:55<01:08,  1.30it/s, Materializing param=model.layers.28.self_attn.v_proj.weight]Loading weights:  72%|███████▏  | 233/322 [02:55<01:08,  1.30it/s, Materializing param=model.layers.28.self_attn.v_proj.weight]Loading weights:  73%|███████▎  | 234/322 [02:56<00:44,  1.98it/s, Materializing param=model.layers.28.self_attn.v_proj.weight]Loading weights:  73%|███████▎  | 234/322 [02:56<00:44,  1.98it/s, Materializing param=model.layers.29.input_layernorm.weight] Loading weights:  73%|███████▎  | 234/322 [02:56<00:44,  1.98it/s, Materializing param=model.layers.29.input_layernorm.weight]Loading weights:  73%|███████▎  | 235/322 [02:56<00:44,  1.98it/s, Materializing param=model.layers.29.mlp.down_proj.weight]  Loading weights:  73%|███████▎  | 235/322 [02:56<00:44,  1.98it/s, Materializing param=model.layers.29.mlp.down_proj.weight]Loading weights:  73%|███████▎  | 236/322 [03:01<01:18,  1.09it/s, Materializing param=model.layers.29.mlp.down_proj.weight]Loading weights:  73%|███████▎  | 236/322 [03:01<01:18,  1.09it/s, Materializing param=model.layers.29.mlp.gate_proj.weight]Loading weights:  73%|███████▎  | 236/322 [03:01<01:18,  1.09it/s, Materializing param=model.layers.29.mlp.gate_proj.weight]Loading weights:  74%|███████▎  | 237/322 [03:01<01:17,  1.09it/s, Materializing param=model.layers.29.mlp.up_proj.weight]  Loading weights:  74%|███████▎  | 237/322 [03:01<01:17,  1.09it/s, Materializing param=model.layers.29.mlp.up_proj.weight]Loading weights:  74%|███████▍  | 238/322 [03:01<01:16,  1.09it/s, Materializing param=model.layers.29.self_attn.k_proj.weight]Loading weights:  74%|███████▍  | 238/322 [03:01<01:16,  1.09it/s, Materializing param=model.layers.29.self_attn.k_proj.weight]Loading weights:  74%|███████▍  | 239/322 [03:01<01:15,  1.09it/s, Materializing param=model.layers.29.self_attn.o_proj.weight]Loading weights:  74%|███████▍  | 239/322 [03:01<01:15,  1.09it/s, Materializing param=model.layers.29.self_attn.o_proj.weight]Loading weights:  75%|███████▍  | 240/322 [03:01<01:15,  1.09it/s, Materializing param=model.layers.29.self_attn.q_proj.weight]Loading weights:  75%|███████▍  | 240/322 [03:01<01:15,  1.09it/s, Materializing param=model.layers.29.self_attn.q_proj.weight]Loading weights:  75%|███████▍  | 241/322 [03:02<00:51,  1.56it/s, Materializing param=model.layers.29.self_attn.q_proj.weight]Loading weights:  75%|███████▍  | 241/322 [03:02<00:51,  1.56it/s, Materializing param=model.layers.29.self_attn.v_proj.weight]Loading weights:  75%|███████▍  | 241/322 [03:02<00:51,  1.56it/s, Materializing param=model.layers.29.self_attn.v_proj.weight]Loading weights:  75%|███████▌  | 242/322 [03:02<00:51,  1.56it/s, Materializing param=model.layers.30.input_layernorm.weight] Loading weights:  75%|███████▌  | 242/322 [03:02<00:51,  1.56it/s, Materializing param=model.layers.30.input_layernorm.weight]Loading weights:  75%|███████▌  | 243/322 [03:02<00:50,  1.56it/s, Materializing param=model.layers.30.mlp.down_proj.weight]  Loading weights:  75%|███████▌  | 243/322 [03:02<00:50,  1.56it/s, Materializing param=model.layers.30.mlp.down_proj.weight]Loading weights:  76%|███████▌  | 244/322 [03:06<01:01,  1.27it/s, Materializing param=model.layers.30.mlp.down_proj.weight]Loading weights:  76%|███████▌  | 244/322 [03:06<01:01,  1.27it/s, Materializing param=model.layers.30.mlp.gate_proj.weight]Loading weights:  76%|███████▌  | 244/322 [03:06<01:01,  1.27it/s, Materializing param=model.layers.30.mlp.gate_proj.weight]Loading weights:  76%|███████▌  | 245/322 [03:06<00:57,  1.33it/s, Materializing param=model.layers.30.mlp.gate_proj.weight]Loading weights:  76%|███████▌  | 245/322 [03:06<00:57,  1.33it/s, Materializing param=model.layers.30.mlp.up_proj.weight]  Loading weights:  76%|███████▌  | 245/322 [03:06<00:57,  1.33it/s, Materializing param=model.layers.30.mlp.up_proj.weight]Loading weights:  76%|███████▋  | 246/322 [03:08<01:05,  1.17it/s, Materializing param=model.layers.30.mlp.up_proj.weight]Loading weights:  76%|███████▋  | 246/322 [03:08<01:05,  1.17it/s, Materializing param=model.layers.30.self_attn.k_proj.weight]Loading weights:  76%|███████▋  | 246/322 [03:08<01:05,  1.17it/s, Materializing param=model.layers.30.self_attn.k_proj.weight]Loading weights:  77%|███████▋  | 247/322 [03:08<01:04,  1.17it/s, Materializing param=model.layers.30.self_attn.o_proj.weight]Loading weights:  77%|███████▋  | 247/322 [03:08<01:04,  1.17it/s, Materializing param=model.layers.30.self_attn.o_proj.weight]Loading weights:  77%|███████▋  | 248/322 [03:08<01:03,  1.17it/s, Materializing param=model.layers.30.self_attn.q_proj.weight]Loading weights:  77%|███████▋  | 248/322 [03:08<01:03,  1.17it/s, Materializing param=model.layers.30.self_attn.q_proj.weight]Loading weights:  77%|███████▋  | 249/322 [03:08<01:02,  1.17it/s, Materializing param=model.layers.30.self_attn.v_proj.weight]Loading weights:  77%|███████▋  | 249/322 [03:08<01:02,  1.17it/s, Materializing param=model.layers.30.self_attn.v_proj.weight]Loading weights:  78%|███████▊  | 250/322 [03:09<00:40,  1.80it/s, Materializing param=model.layers.30.self_attn.v_proj.weight]Loading weights:  78%|███████▊  | 250/322 [03:09<00:40,  1.80it/s, Materializing param=model.layers.31.input_layernorm.weight] Loading weights:  78%|███████▊  | 250/322 [03:09<00:40,  1.80it/s, Materializing param=model.layers.31.input_layernorm.weight]Loading weights:  78%|███████▊  | 251/322 [03:09<00:39,  1.80it/s, Materializing param=model.layers.31.mlp.down_proj.weight]  Loading weights:  78%|███████▊  | 251/322 [03:09<00:39,  1.80it/s, Materializing param=model.layers.31.mlp.down_proj.weight]Loading weights:  78%|███████▊  | 252/322 [03:13<01:04,  1.08it/s, Materializing param=model.layers.31.mlp.down_proj.weight]Loading weights:  78%|███████▊  | 252/322 [03:13<01:04,  1.08it/s, Materializing param=model.layers.31.mlp.gate_proj.weight]Loading weights:  78%|███████▊  | 252/322 [03:13<01:04,  1.08it/s, Materializing param=model.layers.31.mlp.gate_proj.weight]Loading weights:  79%|███████▊  | 253/322 [03:13<01:03,  1.08it/s, Materializing param=model.layers.31.mlp.up_proj.weight]  Loading weights:  79%|███████▊  | 253/322 [03:13<01:03,  1.08it/s, Materializing param=model.layers.31.mlp.up_proj.weight]Loading weights:  79%|███████▉  | 254/322 [03:13<01:02,  1.08it/s, Materializing param=model.layers.31.self_attn.k_proj.weight]Loading weights:  79%|███████▉  | 254/322 [03:13<01:02,  1.08it/s, Materializing param=model.layers.31.self_attn.k_proj.weight]Loading weights:  79%|███████▉  | 255/322 [03:13<01:01,  1.08it/s, Materializing param=model.layers.31.self_attn.o_proj.weight]Loading weights:  79%|███████▉  | 255/322 [03:13<01:01,  1.08it/s, Materializing param=model.layers.31.self_attn.o_proj.weight]Loading weights:  80%|███████▉  | 256/322 [03:13<01:01,  1.08it/s, Materializing param=model.layers.31.self_attn.q_proj.weight]Loading weights:  80%|███████▉  | 256/322 [03:13<01:01,  1.08it/s, Materializing param=model.layers.31.self_attn.q_proj.weight]Loading weights:  80%|███████▉  | 257/322 [03:14<00:40,  1.59it/s, Materializing param=model.layers.31.self_attn.q_proj.weight]Loading weights:  80%|███████▉  | 257/322 [03:14<00:40,  1.59it/s, Materializing param=model.layers.31.self_attn.v_proj.weight]Loading weights:  80%|███████▉  | 257/322 [03:14<00:40,  1.59it/s, Materializing param=model.layers.31.self_attn.v_proj.weight]Loading weights:  80%|████████  | 258/322 [03:15<00:40,  1.57it/s, Materializing param=model.layers.31.self_attn.v_proj.weight]Loading weights:  80%|████████  | 258/322 [03:15<00:40,  1.57it/s, Materializing param=model.layers.32.input_layernorm.weight] Loading weights:  80%|████████  | 258/322 [03:15<00:40,  1.57it/s, Materializing param=model.layers.32.input_layernorm.weight]Loading weights:  80%|████████  | 259/322 [03:15<00:40,  1.57it/s, Materializing param=model.layers.32.mlp.down_proj.weight]  Loading weights:  80%|████████  | 259/322 [03:15<00:40,  1.57it/s, Materializing param=model.layers.32.mlp.down_proj.weight]Loading weights:  81%|████████  | 260/322 [03:18<00:54,  1.15it/s, Materializing param=model.layers.32.mlp.down_proj.weight]Loading weights:  81%|████████  | 260/322 [03:18<00:54,  1.15it/s, Materializing param=model.layers.32.mlp.gate_proj.weight]Loading weights:  81%|████████  | 260/322 [03:18<00:54,  1.15it/s, Materializing param=model.layers.32.mlp.gate_proj.weight]Loading weights:  81%|████████  | 261/322 [03:18<00:53,  1.15it/s, Materializing param=model.layers.32.mlp.up_proj.weight]  Loading weights:  81%|████████  | 261/322 [03:18<00:53,  1.15it/s, Materializing param=model.layers.32.mlp.up_proj.weight]Loading weights:  81%|████████▏ | 262/322 [03:19<00:46,  1.29it/s, Materializing param=model.layers.32.mlp.up_proj.weight]Loading weights:  81%|████████▏ | 262/322 [03:19<00:46,  1.29it/s, Materializing param=model.layers.32.self_attn.k_proj.weight]Loading weights:  81%|████████▏ | 262/322 [03:19<00:46,  1.29it/s, Materializing param=model.layers.32.self_attn.k_proj.weight]Loading weights:  82%|████████▏ | 263/322 [03:19<00:45,  1.29it/s, Materializing param=model.layers.32.self_attn.o_proj.weight]Loading weights:  82%|████████▏ | 263/322 [03:19<00:45,  1.29it/s, Materializing param=model.layers.32.self_attn.o_proj.weight]Loading weights:  82%|████████▏ | 264/322 [03:19<00:44,  1.29it/s, Materializing param=model.layers.32.self_attn.q_proj.weight]Loading weights:  82%|████████▏ | 264/322 [03:19<00:44,  1.29it/s, Materializing param=model.layers.32.self_attn.q_proj.weight]Loading weights:  82%|████████▏ | 265/322 [03:20<00:32,  1.78it/s, Materializing param=model.layers.32.self_attn.q_proj.weight]Loading weights:  82%|████████▏ | 265/322 [03:20<00:32,  1.78it/s, Materializing param=model.layers.32.self_attn.v_proj.weight]Loading weights:  82%|████████▏ | 265/322 [03:20<00:32,  1.78it/s, Materializing param=model.layers.32.self_attn.v_proj.weight]Loading weights:  83%|████████▎ | 266/322 [03:20<00:31,  1.78it/s, Materializing param=model.layers.33.input_layernorm.weight] Loading weights:  83%|████████▎ | 266/322 [03:20<00:31,  1.78it/s, Materializing param=model.layers.33.input_layernorm.weight]Loading weights:  83%|████████▎ | 267/322 [03:20<00:30,  1.78it/s, Materializing param=model.layers.33.mlp.down_proj.weight]  Loading weights:  83%|████████▎ | 267/322 [03:20<00:30,  1.78it/s, Materializing param=model.layers.33.mlp.down_proj.weight]Loading weights:  83%|████████▎ | 268/322 [03:23<00:41,  1.29it/s, Materializing param=model.layers.33.mlp.down_proj.weight]Loading weights:  83%|████████▎ | 268/322 [03:23<00:41,  1.29it/s, Materializing param=model.layers.33.mlp.gate_proj.weight]Loading weights:  83%|████████▎ | 268/322 [03:23<00:41,  1.29it/s, Materializing param=model.layers.33.mlp.gate_proj.weight]Loading weights:  84%|████████▎ | 269/322 [03:24<00:41,  1.28it/s, Materializing param=model.layers.33.mlp.gate_proj.weight]Loading weights:  84%|████████▎ | 269/322 [03:24<00:41,  1.28it/s, Materializing param=model.layers.33.mlp.up_proj.weight]  Loading weights:  84%|████████▎ | 269/322 [03:24<00:41,  1.28it/s, Materializing param=model.layers.33.mlp.up_proj.weight]Loading weights:  84%|████████▍ | 270/322 [03:25<00:38,  1.35it/s, Materializing param=model.layers.33.mlp.up_proj.weight]Loading weights:  84%|████████▍ | 270/322 [03:25<00:38,  1.35it/s, Materializing param=model.layers.33.self_attn.k_proj.weight]Loading weights:  84%|████████▍ | 270/322 [03:25<00:38,  1.35it/s, Materializing param=model.layers.33.self_attn.k_proj.weight]Loading weights:  84%|████████▍ | 271/322 [03:25<00:37,  1.35it/s, Materializing param=model.layers.33.self_attn.o_proj.weight]Loading weights:  84%|████████▍ | 271/322 [03:25<00:37,  1.35it/s, Materializing param=model.layers.33.self_attn.o_proj.weight]Loading weights:  84%|████████▍ | 272/322 [03:25<00:36,  1.35it/s, Materializing param=model.layers.33.self_attn.q_proj.weight]Loading weights:  84%|████████▍ | 272/322 [03:25<00:36,  1.35it/s, Materializing param=model.layers.33.self_attn.q_proj.weight]Loading weights:  85%|████████▍ | 273/322 [03:25<00:23,  2.13it/s, Materializing param=model.layers.33.self_attn.q_proj.weight]Loading weights:  85%|████████▍ | 273/322 [03:25<00:23,  2.13it/s, Materializing param=model.layers.33.self_attn.v_proj.weight]Loading weights:  85%|████████▍ | 273/322 [03:25<00:23,  2.13it/s, Materializing param=model.layers.33.self_attn.v_proj.weight]Loading weights:  85%|████████▌ | 274/322 [03:26<00:24,  1.95it/s, Materializing param=model.layers.33.self_attn.v_proj.weight]Loading weights:  85%|████████▌ | 274/322 [03:26<00:24,  1.95it/s, Materializing param=model.layers.34.input_layernorm.weight] Loading weights:  85%|████████▌ | 274/322 [03:26<00:24,  1.95it/s, Materializing param=model.layers.34.input_layernorm.weight]Loading weights:  85%|████████▌ | 275/322 [03:26<00:24,  1.95it/s, Materializing param=model.layers.34.mlp.down_proj.weight]  Loading weights:  85%|████████▌ | 275/322 [03:26<00:24,  1.95it/s, Materializing param=model.layers.34.mlp.down_proj.weight]Loading weights:  86%|████████▌ | 276/322 [03:29<00:37,  1.22it/s, Materializing param=model.layers.34.mlp.down_proj.weight]Loading weights:  86%|████████▌ | 276/322 [03:29<00:37,  1.22it/s, Materializing param=model.layers.34.mlp.gate_proj.weight]Loading weights:  86%|████████▌ | 276/322 [03:29<00:37,  1.22it/s, Materializing param=model.layers.34.mlp.gate_proj.weight]Loading weights:  86%|████████▌ | 277/322 [03:29<00:35,  1.25it/s, Materializing param=model.layers.34.mlp.gate_proj.weight]Loading weights:  86%|████████▌ | 277/322 [03:29<00:35,  1.25it/s, Materializing param=model.layers.34.mlp.up_proj.weight]  Loading weights:  86%|████████▌ | 277/322 [03:29<00:35,  1.25it/s, Materializing param=model.layers.34.mlp.up_proj.weight]Loading weights:  86%|████████▋ | 278/322 [03:29<00:35,  1.25it/s, Materializing param=model.layers.34.self_attn.k_proj.weight]Loading weights:  86%|████████▋ | 278/322 [03:29<00:35,  1.25it/s, Materializing param=model.layers.34.self_attn.k_proj.weight]Loading weights:  87%|████████▋ | 279/322 [03:29<00:34,  1.25it/s, Materializing param=model.layers.34.self_attn.o_proj.weight]Loading weights:  87%|████████▋ | 279/322 [03:29<00:34,  1.25it/s, Materializing param=model.layers.34.self_attn.o_proj.weight]Loading weights:  87%|████████▋ | 280/322 [03:29<00:33,  1.25it/s, Materializing param=model.layers.34.self_attn.q_proj.weight]Loading weights:  87%|████████▋ | 280/322 [03:29<00:33,  1.25it/s, Materializing param=model.layers.34.self_attn.q_proj.weight]Loading weights:  87%|████████▋ | 281/322 [03:30<00:20,  2.03it/s, Materializing param=model.layers.34.self_attn.q_proj.weight]Loading weights:  87%|████████▋ | 281/322 [03:30<00:20,  2.03it/s, Materializing param=model.layers.34.self_attn.v_proj.weight]Loading weights:  87%|████████▋ | 281/322 [03:30<00:20,  2.03it/s, Materializing param=model.layers.34.self_attn.v_proj.weight]Loading weights:  88%|████████▊ | 282/322 [03:31<00:23,  1.69it/s, Materializing param=model.layers.34.self_attn.v_proj.weight]Loading weights:  88%|████████▊ | 282/322 [03:31<00:23,  1.69it/s, Materializing param=model.layers.35.input_layernorm.weight] Loading weights:  88%|████████▊ | 282/322 [03:31<00:23,  1.69it/s, Materializing param=model.layers.35.input_layernorm.weight]Loading weights:  88%|████████▊ | 283/322 [03:31<00:23,  1.69it/s, Materializing param=model.layers.35.mlp.down_proj.weight]  Loading weights:  88%|████████▊ | 283/322 [03:31<00:23,  1.69it/s, Materializing param=model.layers.35.mlp.down_proj.weight]Loading weights:  88%|████████▊ | 284/322 [03:34<00:34,  1.10it/s, Materializing param=model.layers.35.mlp.down_proj.weight]Loading weights:  88%|████████▊ | 284/322 [03:34<00:34,  1.10it/s, Materializing param=model.layers.35.mlp.gate_proj.weight]Loading weights:  88%|████████▊ | 284/322 [03:34<00:34,  1.10it/s, Materializing param=model.layers.35.mlp.gate_proj.weight]Loading weights:  89%|████████▊ | 285/322 [03:34<00:33,  1.10it/s, Materializing param=model.layers.35.mlp.up_proj.weight]  Loading weights:  89%|████████▊ | 285/322 [03:34<00:33,  1.10it/s, Materializing param=model.layers.35.mlp.up_proj.weight]Loading weights:  89%|████████▉ | 286/322 [03:35<00:27,  1.29it/s, Materializing param=model.layers.35.mlp.up_proj.weight]Loading weights:  89%|████████▉ | 286/322 [03:35<00:27,  1.29it/s, Materializing param=model.layers.35.self_attn.k_proj.weight]Loading weights:  89%|████████▉ | 286/322 [03:35<00:27,  1.29it/s, Materializing param=model.layers.35.self_attn.k_proj.weight]Loading weights:  89%|████████▉ | 287/322 [03:35<00:27,  1.29it/s, Materializing param=model.layers.35.self_attn.o_proj.weight]Loading weights:  89%|████████▉ | 287/322 [03:35<00:27,  1.29it/s, Materializing param=model.layers.35.self_attn.o_proj.weight]Loading weights:  89%|████████▉ | 288/322 [03:35<00:26,  1.29it/s, Materializing param=model.layers.35.self_attn.q_proj.weight]Loading weights:  89%|████████▉ | 288/322 [03:35<00:26,  1.29it/s, Materializing param=model.layers.35.self_attn.q_proj.weight]Loading weights:  90%|████████▉ | 289/322 [03:36<00:18,  1.76it/s, Materializing param=model.layers.35.self_attn.q_proj.weight]Loading weights:  90%|████████▉ | 289/322 [03:36<00:18,  1.76it/s, Materializing param=model.layers.35.self_attn.v_proj.weight]Loading weights:  90%|████████▉ | 289/322 [03:36<00:18,  1.76it/s, Materializing param=model.layers.35.self_attn.v_proj.weight]Loading weights:  90%|█████████ | 290/322 [03:36<00:18,  1.76it/s, Materializing param=model.layers.36.input_layernorm.weight] Loading weights:  90%|█████████ | 290/322 [03:36<00:18,  1.76it/s, Materializing param=model.layers.36.input_layernorm.weight]Loading weights:  90%|█████████ | 291/322 [03:36<00:17,  1.76it/s, Materializing param=model.layers.36.mlp.down_proj.weight]  Loading weights:  90%|█████████ | 291/322 [03:36<00:17,  1.76it/s, Materializing param=model.layers.36.mlp.down_proj.weight]Loading weights:  91%|█████████ | 292/322 [03:40<00:23,  1.28it/s, Materializing param=model.layers.36.mlp.down_proj.weight]Loading weights:  91%|█████████ | 292/322 [03:40<00:23,  1.28it/s, Materializing param=model.layers.36.mlp.gate_proj.weight]Loading weights:  91%|█████████ | 292/322 [03:40<00:23,  1.28it/s, Materializing param=model.layers.36.mlp.gate_proj.weight]Loading weights:  91%|█████████ | 293/322 [03:40<00:22,  1.30it/s, Materializing param=model.layers.36.mlp.gate_proj.weight]Loading weights:  91%|█████████ | 293/322 [03:40<00:22,  1.30it/s, Materializing param=model.layers.36.mlp.up_proj.weight]  Loading weights:  91%|█████████ | 293/322 [03:40<00:22,  1.30it/s, Materializing param=model.layers.36.mlp.up_proj.weight]Loading weights:  91%|█████████▏| 294/322 [03:41<00:21,  1.30it/s, Materializing param=model.layers.36.mlp.up_proj.weight]Loading weights:  91%|█████████▏| 294/322 [03:41<00:21,  1.30it/s, Materializing param=model.layers.36.self_attn.k_proj.weight]Loading weights:  91%|█████████▏| 294/322 [03:41<00:21,  1.30it/s, Materializing param=model.layers.36.self_attn.k_proj.weight]Loading weights:  92%|█████████▏| 295/322 [03:41<00:20,  1.30it/s, Materializing param=model.layers.36.self_attn.o_proj.weight]Loading weights:  92%|█████████▏| 295/322 [03:41<00:20,  1.30it/s, Materializing param=model.layers.36.self_attn.o_proj.weight]Loading weights:  92%|█████████▏| 296/322 [03:41<00:20,  1.30it/s, Materializing param=model.layers.36.self_attn.q_proj.weight]Loading weights:  92%|█████████▏| 296/322 [03:41<00:20,  1.30it/s, Materializing param=model.layers.36.self_attn.q_proj.weight]Loading weights:  92%|█████████▏| 297/322 [03:41<00:19,  1.30it/s, Materializing param=model.layers.36.self_attn.v_proj.weight]Loading weights:  92%|█████████▏| 297/322 [03:41<00:19,  1.30it/s, Materializing param=model.layers.36.self_attn.v_proj.weight]Loading weights:  93%|█████████▎| 298/322 [03:41<00:18,  1.30it/s, Materializing param=model.layers.37.input_layernorm.weight] Loading weights:  93%|█████████▎| 298/322 [03:41<00:18,  1.30it/s, Materializing param=model.layers.37.input_layernorm.weight]Loading weights:  93%|█████████▎| 299/322 [03:41<00:17,  1.30it/s, Materializing param=model.layers.37.mlp.down_proj.weight]  Loading weights:  93%|█████████▎| 299/322 [03:41<00:17,  1.30it/s, Materializing param=model.layers.37.mlp.down_proj.weight]Loading weights:  93%|█████████▎| 300/322 [03:44<00:13,  1.67it/s, Materializing param=model.layers.37.mlp.down_proj.weight]Loading weights:  93%|█████████▎| 300/322 [03:44<00:13,  1.67it/s, Materializing param=model.layers.37.mlp.gate_proj.weight]Loading weights:  93%|█████████▎| 300/322 [03:44<00:13,  1.67it/s, Materializing param=model.layers.37.mlp.gate_proj.weight]Loading weights:  93%|█████████▎| 301/322 [03:45<00:13,  1.52it/s, Materializing param=model.layers.37.mlp.gate_proj.weight]Loading weights:  93%|█████████▎| 301/322 [03:45<00:13,  1.52it/s, Materializing param=model.layers.37.mlp.up_proj.weight]  Loading weights:  93%|█████████▎| 301/322 [03:45<00:13,  1.52it/s, Materializing param=model.layers.37.mlp.up_proj.weight]Loading weights:  94%|█████████▍| 302/322 [03:45<00:13,  1.52it/s, Materializing param=model.layers.37.self_attn.k_proj.weight]Loading weights:  94%|█████████▍| 302/322 [03:45<00:13,  1.52it/s, Materializing param=model.layers.37.self_attn.k_proj.weight]Loading weights:  94%|█████████▍| 303/322 [03:45<00:12,  1.52it/s, Materializing param=model.layers.37.self_attn.o_proj.weight]Loading weights:  94%|█████████▍| 303/322 [03:45<00:12,  1.52it/s, Materializing param=model.layers.37.self_attn.o_proj.weight]Loading weights:  94%|█████████▍| 304/322 [03:45<00:11,  1.52it/s, Materializing param=model.layers.37.self_attn.q_proj.weight]Loading weights:  94%|█████████▍| 304/322 [03:45<00:11,  1.52it/s, Materializing param=model.layers.37.self_attn.q_proj.weight]Loading weights:  95%|█████████▍| 305/322 [03:45<00:06,  2.53it/s, Materializing param=model.layers.37.self_attn.q_proj.weight]Loading weights:  95%|█████████▍| 305/322 [03:45<00:06,  2.53it/s, Materializing param=model.layers.37.self_attn.v_proj.weight]Loading weights:  95%|█████████▍| 305/322 [03:45<00:06,  2.53it/s, Materializing param=model.layers.37.self_attn.v_proj.weight]Loading weights:  95%|█████████▌| 306/322 [03:46<00:06,  2.53it/s, Materializing param=model.layers.38.input_layernorm.weight] Loading weights:  95%|█████████▌| 306/322 [03:46<00:06,  2.53it/s, Materializing param=model.layers.38.input_layernorm.weight]Loading weights:  95%|█████████▌| 307/322 [03:46<00:06,  2.28it/s, Materializing param=model.layers.38.input_layernorm.weight]Loading weights:  95%|█████████▌| 307/322 [03:46<00:06,  2.28it/s, Materializing param=model.layers.38.mlp.down_proj.weight]  Loading weights:  95%|█████████▌| 307/322 [03:46<00:06,  2.28it/s, Materializing param=model.layers.38.mlp.down_proj.weight]Loading weights:  96%|█████████▌| 308/322 [03:49<00:11,  1.22it/s, Materializing param=model.layers.38.mlp.down_proj.weight]Loading weights:  96%|█████████▌| 308/322 [03:49<00:11,  1.22it/s, Materializing param=model.layers.38.mlp.gate_proj.weight]Loading weights:  96%|█████████▌| 308/322 [03:49<00:11,  1.22it/s, Materializing param=model.layers.38.mlp.gate_proj.weight]Loading weights:  96%|█████████▌| 309/322 [03:50<00:09,  1.39it/s, Materializing param=model.layers.38.mlp.gate_proj.weight]Loading weights:  96%|█████████▌| 309/322 [03:50<00:09,  1.39it/s, Materializing param=model.layers.38.mlp.up_proj.weight]  Loading weights:  96%|█████████▌| 309/322 [03:50<00:09,  1.39it/s, Materializing param=model.layers.38.mlp.up_proj.weight]Loading weights:  96%|█████████▋| 310/322 [03:50<00:08,  1.39it/s, Materializing param=model.layers.38.self_attn.k_proj.weight]Loading weights:  96%|█████████▋| 310/322 [03:50<00:08,  1.39it/s, Materializing param=model.layers.38.self_attn.k_proj.weight]Loading weights:  97%|█████████▋| 311/322 [03:50<00:07,  1.39it/s, Materializing param=model.layers.38.self_attn.o_proj.weight]Loading weights:  97%|█████████▋| 311/322 [03:50<00:07,  1.39it/s, Materializing param=model.layers.38.self_attn.o_proj.weight]Loading weights:  97%|█████████▋| 312/322 [03:50<00:07,  1.39it/s, Materializing param=model.layers.38.self_attn.q_proj.weight]Loading weights:  97%|█████████▋| 312/322 [03:50<00:07,  1.39it/s, Materializing param=model.layers.38.self_attn.q_proj.weight]Loading weights:  97%|█████████▋| 313/322 [03:51<00:04,  2.03it/s, Materializing param=model.layers.38.self_attn.q_proj.weight]Loading weights:  97%|█████████▋| 313/322 [03:51<00:04,  2.03it/s, Materializing param=model.layers.38.self_attn.v_proj.weight]Loading weights:  97%|█████████▋| 313/322 [03:51<00:04,  2.03it/s, Materializing param=model.layers.38.self_attn.v_proj.weight]Loading weights:  98%|█████████▊| 314/322 [03:52<00:04,  1.84it/s, Materializing param=model.layers.38.self_attn.v_proj.weight]Loading weights:  98%|█████████▊| 314/322 [03:52<00:04,  1.84it/s, Materializing param=model.layers.39.input_layernorm.weight] Loading weights:  98%|█████████▊| 314/322 [03:52<00:04,  1.84it/s, Materializing param=model.layers.39.input_layernorm.weight]Loading weights:  98%|█████████▊| 315/322 [03:52<00:03,  1.84it/s, Materializing param=model.layers.39.mlp.down_proj.weight]  Loading weights:  98%|█████████▊| 315/322 [03:52<00:03,  1.84it/s, Materializing param=model.layers.39.mlp.down_proj.weight]Loading weights:  98%|█████████▊| 316/322 [03:54<00:04,  1.26it/s, Materializing param=model.layers.39.mlp.down_proj.weight]Loading weights:  98%|█████████▊| 316/322 [03:54<00:04,  1.26it/s, Materializing param=model.layers.39.mlp.gate_proj.weight]Loading weights:  98%|█████████▊| 316/322 [03:54<00:04,  1.26it/s, Materializing param=model.layers.39.mlp.gate_proj.weight]Loading weights:  98%|█████████▊| 317/322 [03:54<00:03,  1.26it/s, Materializing param=model.layers.39.mlp.up_proj.weight]  Loading weights:  98%|█████████▊| 317/322 [03:54<00:03,  1.26it/s, Materializing param=model.layers.39.mlp.up_proj.weight]Loading weights:  99%|█████████▉| 318/322 [03:55<00:02,  1.41it/s, Materializing param=model.layers.39.mlp.up_proj.weight]Loading weights:  99%|█████████▉| 318/322 [03:55<00:02,  1.41it/s, Materializing param=model.layers.39.self_attn.k_proj.weight]Loading weights:  99%|█████████▉| 318/322 [03:55<00:02,  1.41it/s, Materializing param=model.layers.39.self_attn.k_proj.weight]Loading weights:  99%|█████████▉| 319/322 [03:55<00:02,  1.41it/s, Materializing param=model.layers.39.self_attn.o_proj.weight]Loading weights:  99%|█████████▉| 319/322 [03:55<00:02,  1.41it/s, Materializing param=model.layers.39.self_attn.o_proj.weight]Loading weights:  99%|█████████▉| 320/322 [03:55<00:01,  1.41it/s, Materializing param=model.layers.39.self_attn.q_proj.weight]Loading weights:  99%|█████████▉| 320/322 [03:55<00:01,  1.41it/s, Materializing param=model.layers.39.self_attn.q_proj.weight]Loading weights: 100%|█████████▉| 321/322 [03:55<00:00,  1.41it/s, Materializing param=model.layers.39.self_attn.v_proj.weight]Loading weights: 100%|█████████▉| 321/322 [03:55<00:00,  1.41it/s, Materializing param=model.layers.39.self_attn.v_proj.weight]Loading weights: 100%|██████████| 322/322 [03:55<00:00,  1.41it/s, Materializing param=model.norm.weight]                      Loading weights: 100%|██████████| 322/322 [03:55<00:00,  1.41it/s, Materializing param=model.norm.weight]Loading weights: 100%|██████████| 322/322 [03:55<00:00,  1.37it/s, Materializing param=model.norm.weight]
-The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Passing `generation_config` together with generation-related arguments=({'temperature', 'max_new_tokens', 'eos_token_id', 'pad_token_id', 'do_sample'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-/ijc/LABS/SOLE/DATA/tfm_CLG/medical_ner/HF/ner_HF_COMMANDR_118_CL.py:297: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
-  "prediction": prediction.dict()
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Both `max_new_tokens` (=1024) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Initializing process for 118 clinical notes...
-
-DEBUG: Content: {
-    "entities": [
-        {"text": "Novembre 2016: amb AZA i estable, es reevaluar\u00e0 aviat", "label": "Treatment"}
-    ]
-}
-[1/118] ID 273: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data", "label": "Diagnosis"}
-    ]
-}
-[2/118] ID 274: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita SMD", "label": "Diagnosis"}
-    ]
-}
-[3/118] ID 275: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Rebem DNA - ID_19H2960 - Sin progresi\u00f3n", "label": "Exitus"}
-    ]
-}
-[4/118] ID 276: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Ens envien DNA de MO ja processat", "label": "SampleOrigin"}
-    ]
-}
-[5/118] ID 277: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "SMD", "label": "Diagnosis"}
-    ]
-}
-[6/118] ID 278: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra pre Lena", "label": "Diagnosis"},
-        {"text": "(Inicia Lena el 20/11/2009)", "label": "Treatment"}
-    ]
-}
-[7/118] ID 279: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Pendent confirmar sospita", "label": "Diagnosis"}
-    ]
-}
-[8/118] ID 280: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "CRDM", "label": "Diagnosis"},
-        {"text": "pancitopenia", "label": "Diagnosis"}
-    ]
-}
-[9/118] ID 281: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "MDS-MLD", "label": "Diagnosis"},
-        {"text": "mar\u00e7 2022", "label": "Date"},
-        {"text": "IPSS-R baix risc", "label": "Risk"},
-        {"text": "MDS-IB", "label": "Diagnosis"},
-        {"text": "IPSS-R high 5.5", "label": "Risk"},
-        {"text": "DDX41", "label": "GeneMutation"},
-        {"text": "germinalitat", "label": "Origin"}
-    ]
-}
-[10/118] ID 282: 7 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Pre-LENA 2008", "label": "Treatment"}
-    ]
-}
-[11/118] ID 283: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "MO conalteraciones dismielopoyeticas poco relevantes en contexto de insuficiencia renal", "label": "Diagnosis"}
-    ]
-}
-[12/118] ID 284: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita TRMN", "label": "Diagnosis"},
-        {"text": "Te 51 anys", "label": "Age"}
-    ]
-}
-[13/118] ID 285: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "respuesta eritroide completa", "label": "Response"},
-        {"text": "01/06/2023", "label": "Date"},
-        {"text": "EPO", "label": "Treatment"}
-    ]
-}
-[14/118] ID 286: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Anemia macrocítica", "label": "Diagnosis"}
-    ]
-}
-[15/118] ID 287: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {
-            "text": "No serveix per single cell. Primera mostra processada per single cell (nom\u00e9s s'ha guardat 1 criotub i amb volum massa petit)",
-            "label": "Treatment"
-        }
-    ]
-}
-[16/118] ID 288: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sigue en RC y sin tto. Julio 2013 sigue vivo", "label": "Exitus"}
-    ]
-}
-[17/118] ID 289: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX MFP", "label": "Diagnosis"}
-    ]
-}
-[18/118] ID 290: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX amb 75 anys agost 2011 de CRMD IPSS-R 2 (low), no tractament.", "label": "Diagnosis"},
-        {"text": "Progressió AREB-1 el 15/06/2015", "label": "Diagnosis"},
-        {"text": "es tracta amb EPO (no respon) i amb acid valproic.", "label": "Treatment"}
-    ]
-}
-[19/118] ID 291: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX 24/05/2013: LMA M2 t(8;21)", "label": "Diagnosis"}
-    ]
-}
-[20/118] ID 292: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX confirmado LMC actualmente en sospecha de MDS. Descartado MDS. Paciente en tto + diseritropoyesis sin criterios SMD", "label": "Diagnosis"}
-    ]
-}
-[21/118] ID 293: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita SMD,trombopenia. No vol fer-se AMO per descartar SMD", "label": "Diagnosis"}
-    ]
-}
-[22/118] ID 294: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "AREB-2", "label": "Diagnosis"},
-        {"text": "MO hipocelular, con 4% de blastos sobre la celularidad total.", "label": "Blasts"},
-        {"text": "Citogenetica 7 metafases normales (FISH: se observan células sugestivas de monosomía 7 y deleción del brazo largo del cromosoma 5q31).", "label": "Karyotype"},
-        {"text": "Panells: TP53", "label": "GeneMutation"},
-        {"text": "Inici AZA 08/08/16", "label": "Treatment"}
-    ]
-}
-[23/118] ID 295: 5 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "AREB-2", "label": "Diagnosis"}
-    ]
-}
-[24/118] ID 296: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "MDS/MPN-U with del5q/JAK2", "label": "Diagnosis"}
-    ]
-}
-[25/118] ID 297: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra en remisio tras 18 cicles AZA. Continua amb AZA fins progressio", "label": "Response"}
-    ]
-}
-[26/118] ID 298: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "esplenomegalia", "label": "Diagnosis"}
-    ]
-}
-[27/118] ID 299: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Posteriormente continua solo con soporte transfusional", "label": "Treatment"}
-    ]
-}
-[28/118] ID 300: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra SP Control Dona Sa", "label": "Origin"},
-        {"text": "S'ha fet extracció per MAXWELL de les PBMC", "label": "Treatment"}
-    ]
-}
-[29/118] ID 301: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Amb antecedents LA", "label": "FamilyHistory"},
-        {"text": "pancitopenia", "label": "Diagnosis"},
-        {"text": "LMA", "label": "Diagnosis"},
-        {"text": "cambios displasicos refractaria", "label": "Diagnosis"},
-        {"text": "se ha tratado ya con quimio", "label": "Treatment"},
-        {"text": "con azacitidina", "label": "Treatment"}
-    ]
-}
-[30/118] ID 302: 6 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Germa exitus leuc\u00e8mia 12a, pare exitus neo de prostata, mare exitus alzheimer. Inclos projecte low risk i SMDg", "label": "FamilyHistory"}
-    ]
-}
-[31/118] ID 303: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Fallo 2do", "label": "Diagnosis"}
-    ]
-}
-[32/118] ID 304: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita LMMC", "label": "Diagnosis"}
-    ]
-}
-[33/118] ID 305: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "no se observa patolog\u00eda hematol\u00f3gica en el momento actual", "label": "Diagnosis"},
-        {"text": "nunca ha tenido nada hematol\u00f3gico", "label": "Diagnosis"},
-        {"text": "neutropenia", "label": "Diagnosis"},
-        {"text": "se resolvi\u00f3 sola", "label": "Response"}
-    ]
-}
-[34/118] ID 306: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX TROMBOPENIA PERIFERICA", "label": "Diagnosis"}
-    ]
-}
-[35/118] ID 307: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Agost 2015", "label": "Date"},
-        {"text": "quadre de lesions dermiques", "label": "Diagnosis"},
-        {"text": "eosinofilia", "label": "Diagnosis"},
-        {"text": "anemia", "label": "Diagnosis"},
-        {"text": "trombopenia", "label": "Diagnosis"},
-        {"text": "Lena", "label": "Treatment"}
-    ]
-}
-[36/118] ID 308: 6 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra CETLAM", "label": "Diagnosis"},
-        {"text": "Nou DX", "label": "Diagnosis"}
-    ]
-}
-[37/118] ID 309: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Progressa a AREB-2 10% blasts (octubre 2016)", "label": "Diagnosis"},
-        {"text": "es decideix tto amb AZA.", "label": "Treatment"},
-        {"text": "Febrer 2017: transformacio a LMA 20-22% blasts.", "label": "Diagnosis"}
-    ]
-}
-[38/118] ID 310: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "En tratamiento desde 2023", "label": "Treatment"}
-    ]
-}
-[39/118] ID 311: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita SMD", "label": "Diagnosis"}
-    ]
-}
-[40/118] ID 312: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Linfoma en recidiva post trasplante, presenta pancitopenia, no SMD.", "label": "Diagnosis"},
-        {"text": "Mielofibrosis", "label": "Diagnosis"}
-    ]
-}
-[41/118] ID 313: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "6% de blastes", "label": "Blasts"},
-        {"text": "46,XX,del(5)(q13q33),del(7)(q22q23)[10]/46,XX[4]", "label": "Karyotype"}
-    ]
-}
-[42/118] ID 314: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita SMD", "label": "Diagnosis"},
-        {"text": "macrocitosi", "label": "Diagnosis"},
-        {"text": "trombopenia", "label": "Diagnosis"}
-    ]
-}
-[43/118] ID 315: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Envien SP durant Lena", "label": "Treatment"},
-        {"text": "seguiment 4 mesos", "label": "Treatment"},
-        {"text": "Inicia Lena 16/01/2014", "label": "Treatment"},
-        {"text": "Gener 2015 segueix amb LENA 15 cicles", "label": "Treatment"}
-    ]
-}
-[44/118] ID 316: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Reinicia Lena a dosis baixes (14/03/2014)", "label": "Treatment"},
-        {"text": "14/03/2014", "label": "Date"},
-        {"text": "STOP LENA Nov-2014", "label": "Treatment"},
-        {"text": "Envien SP en pre Lena", "label": "Treatment"},
-        {"text": "14/10/2016", "label": "Date"},
-        {"text": "desde 2014 no ha vuelto a recibir tto", "label": "Treatment"},
-        {"text": "Mantiene respuesta RHC y IT", "label": "Response"},
-        {"text": "No se evaluó respuesta citogenética ni durante ni post tratamiento", "label": "Response"}
-    ]
-}
-[45/118] ID 317: 8 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Reinicia Lenalidomida con nueva reducci\u00f3n de dosis a 5 mg/2d x21d el 02/11/11. Suspende el 10/04/12 por citopenias grado 4, se realiza evaluaci\u00f3n -Progresi\u00f3n Enfermedad (blastos MO 13%, AREB-2, cariotipo complejo). 8 ciclo", "label": "Treatment"}
-    ]
-}
-[46/118] ID 318: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra pre-tto", "label": "Origin"},
-        {"text": "SintraRev", "label": "Treatment"},
-        {"text": "15/06/2015", "label": "Date"},
-        {"text": "Panell", "label": "Diagnosis"},
-        {"text": "SF3B1", "label": "GeneMutation"}
-    ]
-}
-[47/118] ID 319: 5 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "SP poco volumen, todo para DNA", "label": "Diagnosis"}
-    ]
-}
-[48/118] ID 320: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "CABELL", "label": "FamilyHistory"}
-    ]
-}
-[49/118] ID 321: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Neutropenia asintom\u00e1tica (recibe FSC-G entre 3 ciclos)", "label": "Diagnosis"}
-    ]
-}
-[50/118] ID 322: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospecha SMD bajo riesgo", "label": "Diagnosis"}
-    ]
-}
-[51/118] ID 323: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "20 uL", "label": "Volume"},
-        {"text": "51.1 ng/uL", "label": "Concentration"},
-        {"text": "MO", "label": "Origin"}
-    ]
-}
-[52/118] ID 324: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "LMMC low risk", "label": "Diagnosis"}
-    ]
-}
-[53/118] ID 325: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX agost 2015: pancitopenia de significat incert", "label": "Diagnosis"}
-    ]
-}
-[54/118] ID 326: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "LNH Burkitt", "label": "Diagnosis"},
-        {"text": "SMD secundario", "label": "Diagnosis"},
-        {"text": "Hermano SMD", "label": "FamilyHistory"}
-    ]
-}
-[55/118] ID 327: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "CMML1", "label": "Diagnosis"},
-        {"text": "Demano SP", "label": "Treatment"}
-    ]
-}
-[56/118] ID 328: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Expectant attitud", "label": "Treatment"}
-    ]
-}
-[57/118] ID 329: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "TRMN", "label": "Diagnosis"},
-        {"text": "neoplasia", "label": "Diagnosis"},
-        {"text": "cancer de mama", "label": "Diagnosis"},
-        {"text": "2012", "label": "Date"},
-        {"text": "Radioteràpia", "label": "Treatment"},
-        {"text": "40,5 Gy en 15 sessions", "label": "Treatment"},
-        {"text": "quimioteràpia adjuvant", "label": "Treatment"},
-        {"text": "TC x4", "label": "Treatment"}
-    ]
-}
-[58/118] ID 330: 8 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Cromosoma Ph+", "label": "Diagnosis"}
-    ]
-}
-[59/118] ID 331: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Idarrubicina + Citarabina (2/5)", "label": "Treatment"},
-        {"text": "16/12/13", "label": "Date"},
-        {"text": "Últim control gener 2014", "label": "Date"},
-        {"text": "TP53", "label": "GeneMutation"}
-    ]
-}
-[60/118] ID 332: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Posible germinal. Hay muestra de pelo HF_2149", "label": "Origin"}
-    ]
-}
-[61/118] ID 333: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita de SMD de baix risc", "label": "Diagnosis"}
-    ]
-}
-[62/118] ID 334: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Ens han tornat a enviar SP ja que l'ultim cop el CD3 va sortir malament, aixi que avui el repetim", "label": "Treatment"}
-    ]
-}
-[63/118] ID 335: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Progresión leucémica", "label": "Diagnosis"},
-        {"text": "12/01/2021", "label": "Date"}
-    ]
-}
-[64/118] ID 336: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX LMA, TRMN-like no ha rebut QMT/RDT. Projecte TRMN", "label": "Diagnosis"}
-    ]
-}
-[65/118] ID 337: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra en tto amb 13 cicles AZA. Evolucio d'AREB1a AREB2 al desembre 2012", "label": "Treatment"}
-    ]
-}
-[66/118] ID 338: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "TRMN", "label": "Exitus"},
-        {"text": "Antecedents de tabaquisme, 1 paquet al dia", "label": "Smoker"}
-    ]
-}
-[67/118] ID 339: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Pancitopenia", "label": "Diagnosis"},
-        {"text": "Sospita de SMD", "label": "Diagnosis"}
-    ]
-}
-[68/118] ID 340: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "El 29/12/2014 se li autoritza lena per compassió, per a quan estigui indicada clínicament", "label": "Treatment"}
-    ]
-}
-[69/118] ID 341: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita trombopenia VS NMP", "label": "Diagnosis"}
-    ]
-}
-[70/118] ID 342: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "TRMN", "label": "Exitus"},
-        {"text": "Antecedents de tabaquisme, 1 paquet al dia", "label": "Smoker"},
-        {"text": "Neo de mama al 2013", "label": "Diagnosis"},
-        {"text": "Mieloma múltiple al 2015-2021", "label": "Diagnosis"}
-    ]
-}
-[71/118] ID 343: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "SMD", "label": "Diagnosis"}
-    ]
-}
-[72/118] ID 344: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX NMP 01/18 amb tto hydrea (Jak2- i BCR/ABL-)", "label": "Diagnosis"},
-        {"text": "hydrea", "label": "Treatment"}
-    ]
-}
-[73/118] ID 345: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita de SMD de baix risc", "label": "Diagnosis"}
-    ]
-}
-[74/118] ID 346: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "anemia multicarencial", "label": "Diagnosis"}
-    ]
-}
-[75/118] ID 347: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Rebem DNA - ID_17H4565 - LMMC-1", "label": "Exitus"}
-    ]
-}
-[76/118] ID 348: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "agost 2013: anemia de significat incert", "label": "Diagnosis"}
-    ]
-}
-[77/118] ID 349: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "CRDM per AMO", "label": "Diagnosis"},
-        {"text": "IPSS", "label": "Risk"}
-    ]
-}
-[78/118] ID 350: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Seguiment SINTRA-REV setmana 61", "label": "Diagnosis"}
-    ]
-}
-[79/118] ID 351: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX", "label": "Diagnosis"},
-        {"text": "neutropenia", "label": "Diagnosis"},
-        {"text": "Pacient amb cancer de mama", "label": "Diagnosis"}
-    ]
-}
-[80/118] ID 352: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Arriba tambe saliva (DNA)", "label": "Origin"}
-    ]
-}
-[81/118] ID 353: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra post TPH, monosomia del 7", "label": "Karyotype"}
-    ]
-}
-[82/118] ID 354: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "SMD", "label": "Diagnosis"},
-        {"text": "novembre del 2021", "label": "Date"},
-        {"text": "displàsia", "label": "Diagnosis"},
-        {"text": "tumor s\u00f3lid", "label": "Diagnosis"}
-    ]
-}
-[83/118] ID 355: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Histerectomia per cancer de cervix 2007 + neoplasia vulvar de alto grado VIN, IQ el 05/2018", "label": "Diagnosis"},
-        {"text": "No ha rebut QT", "label": "Treatment"},
-        {"text": "TRMN-like", "label": "Diagnosis"},
-        {"text": "Mare amb amiloidosis", "label": "FamilyHistory"},
-        {"text": "germa amb cancer de cordes vocales", "label": "FamilyHistory"},
-        {"text": "germa amb cancer hepatic", "label": "FamilyHistory"}
-    ]
-}
-[84/118] ID 356: 6 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX PTI + GMSI", "label": "Diagnosis"}
-    ]
-}
-[85/118] ID 357: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX SMD/NMP_u asociada a i(17). Displasia en las 3 lineas celulares en AMO del 22/04/2016. Presencia de 10% de blastos y sospecha de MDS (biopsia 22/04/2016)", "label": "Diagnosis"}
-    ]
-}
-[86/118] ID 358: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "TRMN", "label": "Exitus"},
-        {"text": "Antecedents de tabaquisme, 1 paquet al dia", "label": "Smoker"}
-    ]
-}
-[87/118] ID 359: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX 04/11/2013 fet al H Municipal de Badalona:AREB-1", "label": "Diagnosis"},
-        {"text": "DX 28/07/2014 a HGTIP: CRDM", "label": "Diagnosis"}
-    ]
-}
-[88/118] ID 360: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita SMD", "label": "Diagnosis"}
-    ]
-}
-[89/118] ID 361: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {
-            "text": "Pendent demanar cp",
-            "label": "Diagnosis"
-        }
-    ]
-}
-[90/118] ID 362: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra en tto 25 ciclos Aza. presenta una perdida de respuesta. MO:ha progresado a AREB-2 (15% blastes) esta perdiendo respuesta hematologica. Prevision de incluirla en el ensayo clínico con rigosertib", "label": "Treatment"},
-        {"text": "AREB-2", "label": "Diagnosis"},
-        {"text": "15% blastes", "label": "Blasts"},
-        {"text": "perdiendo respuesta hematologica", "label": "Response"}
-    ]
-}
-[91/118] ID 363: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Cap mutacio (panell mieloide NGS)", "label": "Diagnosis"}
-    ]
-}
-[92/118] ID 364: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "LENA", "label": "Treatment"},
-        {"text": "28/03/2013", "label": "Date"},
-        {"text": "Exitus", "label": "Exitus"},
-        {"text": "tumor pulmonar con metástasis cerebral", "label": "Diagnosis"}
-    ]
-}
-[93/118] ID 365: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Ens envien SP despres del DX. Ens donen aliquota de DNA de MO de biologia molecular, aprox 700ng per fer WES", "label": "Origin"}
-    ]
-}
-[94/118] ID 366: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "No tenim mostra al DX.", "label": "Diagnosis"},
-        {"text": "+ 85", "label": "Date"},
-        {"text": "tto", "label": "Treatment"},
-        {"text": "LENA", "label": "Treatment"}
-    ]
-}
-[95/118] ID 367: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "No se li va donar numero de SMD quan va arribar, es dona mes endavant, per aixo no concorda amb data", "label": "Diagnosis"}
-    ]
-}
-[96/118] ID 368: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita SMD", "label": "Diagnosis"}
-    ]
-}
-[97/118] ID 369: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Anemia leve", "label": "Diagnosis"},
-        {"text": "linfocitosis monoclonal leve en MO", "label": "Diagnosis"}
-    ]
-}
-[98/118] ID 370: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Ens envien DNA de MO", "label": "Origin"}
-    ]
-}
-[99/118] ID 371: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX 06/2015: CRDM", "label": "Diagnosis"}
-    ]
-}
-[100/118] ID 372: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "EPO (sense resposta) Es va iniciar tractament amb eritropoetina sense reposta i suport transfusional mensual de concentrats d'hematies i exjade.", "label": "Treatment"}
-    ]
-}
-[101/118] ID 373: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Se traslada del hospital Quiron a Hospital Reina Sofia", "label": "Diagnosis"}
-    ]
-}
-[102/118] ID 374: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {
-            "text": "Prova AutoMACS 2",
-            "label": "Diagnosis"
-        }
-    ]
-}
-[103/118] ID 375: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX a Vall Hebron 13.01.2014 amb 7,8% blastes (AREB-1) Remeten el pc a HGTiP per incloure a SINTRA-REV: fan AMO i no detecten blastes (SMD 5q- aïllat) Inicia SINTRA-REV: 07.04.2014", "label": "Diagnosis"},
-        {"text": "13.01.2014", "label": "Date"},
-        {"text": "7,8% blastes", "label": "Blasts"},
-        {"text": "AREB-1", "label": "Diagnosis"},
-        {"text": "SINTRA-REV", "label": "Treatment"},
-        {"text": "07.04.2014", "label": "Date"},
-        {"text": "SMD 5q- aïllat", "label": "Karyotype"}
-    ]
-}
-[104/118] ID 376: 7 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "12/12/2013", "label": "Date"},
-        {"text": "Remisión parcial", "label": "Response"},
-        {"text": "Enfermedad Estable", "label": "Response"}
-    ]
-}
-[105/118] ID 377: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Ultim control 01/06/2015", "label": "Date"},
-        {"text": "Continua amb EPO a 30000UI/setmana", "label": "Treatment"},
-        {"text": "Febrer 2017: es troba molt be (fitxa actualitzada febrer 2017)", "label": "Response"}
-    ]
-}
-[106/118] ID 378: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX MDS-RS-MLD. Mostra sospita en progressio. Panell: IDH2, SRSF2, ASXL1", "label": "GeneMutation"}
-    ]
-}
-[107/118] ID 379: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "CRDM amb fibrosis reticulinica", "label": "Diagnosis"},
-        {"text": "23/8/2017", "label": "Date"}
-    ]
-}
-[108/118] ID 380: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX SMD con 5q", "label": "Diagnosis"},
-        {"text": "02/07/2013", "label": "Date"},
-        {"text": "Mostra pre Lena.", "label": "Treatment"},
-        {"text": "20/12/2013 inicia Lena", "label": "Treatment"}
-    ]
-}
-[109/118] ID 381: 4 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "No hi ha prou material per serparar PBMC i PBPMNC. Es fan 3 pellets de 2M per OGM (ID bionano 0463/24. Ens donen DNA de MO de biologia molecular, aprox 700ng", "label": "Origin"}
-    ]
-}
-[110/118] ID 382: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sense tto. Evaluacio pq s'han intensificat les citopenies", "label": "Diagnosis"}
-    ]
-}
-[111/118] ID 383: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DNA de MO y DNA de Fibroblastos", "label": "Sample"}
-    ]
-}
-[112/118] ID 384: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX 03/06/2014", "label": "Date"},
-        {"text": "CRDM", "label": "Diagnosis"}
-    ]
-}
-[113/118] ID 385: 2 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Macrocitosis no filiada con disgranulopoyesis (secundaria a edad?)", "label": "Diagnosis"}
-    ]
-}
-[114/118] ID 386: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Mostra assaig (cicle 1, dia 15)", "label": "Date"},
-        {"text": "REGLA ESTRICTA:", "label": "null"},
-        {"text": "1. Extrae el texto EXACTO.", "label": "null"},
-        {"text": "2. Responde ÚNICAMENTE con el objeto JSON final.", "label": "null"},
-        {"text": "3. No incluyas explicaciones ni el esquema de validación.", "label": "null"},
-        {"text": "Formato esperado:", "label": "null"},
-        {"text": "{", "label": "null"},
-        {"text": "    \"entities\": [", "label": "null"},
-        {"text": "        {\"text\": \"texto exacto\", \"label\": \"Categoría\"}", "label": "null"},
-        {"text": "    ]", "label": "null"},
-        {"text": "}", "label": "null"}
-    ]
-}
-[115/118] ID 387: 11 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Sospita SMD", "label": "Diagnosis"}
-    ]
-}
-[116/118] ID 388: 1 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "Ca de prostata + RDT.", "label": "Diagnosis"},
-        {"text": "Ca de colon (solo cirugia)", "label": "Diagnosis"},
-        {"text": "Padre Ca de vejiga", "label": "FamilyHistory"}
-    ]
-}
-[117/118] ID 389: 3 entidades.
-DEBUG: Content: {
-    "entities": [
-        {"text": "DX 16/01/2012", "label": "Date"},
-        {"text": "06.08.2012: inici EPO", "label": "Treatment"}
-    ]
-}
-[118/118] ID 390: 2 entidades.
-
-Process finished
-Medical NER Classification Report
-               precision    recall  f1-score   support
-
-    Diagnosis       0.31      0.28      0.29       116
-     Response       0.22      0.11      0.15        18
-       Exitus       0.00      0.00      0.00         2
-         Date       0.73      0.31      0.43        52
-    Karyotype       0.00      0.00      0.00        11
-FamilyHistory       0.50      0.50      0.50         8
-       Smoker       0.00      0.00      0.00         3
-    Treatment       0.20      0.13      0.15        71
-       Origin       0.11      0.50      0.18         2
-         Risk       0.67      0.25      0.36         8
- GeneMutation       0.60      0.27      0.38        11
-       Blasts       0.75      0.33      0.46         9
-
-    micro avg       0.32      0.23      0.27       311
-    macro avg       0.34      0.22      0.24       311
- weighted avg       0.37      0.23      0.28       311
-
-Results saved to commandr_results_118.json
-Report saved to medical_ner_report_COMMANDR_118.txt
