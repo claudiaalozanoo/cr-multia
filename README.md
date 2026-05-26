@@ -18,4 +18,4 @@ The system splits complex clinical NLP tasks into three specialized roles.
 *   **Attribute Classification:** Examines the context of the detected entity and defines an attribute or status related to that specific entity.
 *   **Relation Extraction:** Stablishes connections or relationships between entities and classifies them.
 
-![System Workflow Diagram](workflow.png)
+![System Workflow Diagram](general_pipeline.png)
