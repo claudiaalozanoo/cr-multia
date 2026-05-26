@@ -37,7 +37,7 @@ The system splits complex clinical NLP tasks into three specialized roles.
 │   └── FINETUNNING/             # Fine-tuning the Best Performing Generative Model and the Discriminative one
 ├── data/                        # 2,566 free-text clinical notes (Dataset splits for few-shot testing)
 └── PIPELINE/                    # End-to-end script to test the full multi-agent pipeline
-``
+```
 
 ## Installation & Setup
 
