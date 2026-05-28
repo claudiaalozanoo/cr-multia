@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning LLMs: LLAMA3
-
-# In[1]:
-
+# Fine tunning LLAMA3 AGENT 1
 
 import os
 import json
@@ -34,16 +28,12 @@ import seqeval
 from huggingface_hub import login
 
 
-# In[ ]:
-
+## Autentification HF
 
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## 1. Data Load and Preprocessing
-
-# In[2]:
-
+## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -52,15 +42,7 @@ with open(dataset_path, "r", encoding="utf-8") as f:
 
 print(f"Loaded {len(ner_dataset)} clinical notes")
 
-
-# In[3]:
-
-
 ner_dataset[0]
-
-
-# In[5]:
-
 
 TOKEN_RE = re.compile(r'\S+')
 
@@ -86,8 +68,6 @@ def process_item(item):
     labels = ["O"] * len(tokens)
     for i, (word, t_start, t_end) in enumerate(tokens_data):
         for span in spans:
-            # Lógica de solapamiento (Overlap):
-            # El token se etiqueta si hay una intersección entre sus caracteres y los de la etiqueta
             if max(t_start, span["start"]) < min(t_end, span["end"]):
                 labels[i] = span["label"]
                 break 
@@ -96,9 +76,6 @@ def process_item(item):
 
 result = process_item(ner_dataset[0])
 print(result)
-
-
-# In[6]:
 
 
 TOKEN_RE = re.compile(r'\w+|[^\w\s]')
@@ -115,9 +92,8 @@ def process_ner_dataset(ner_dataset):
         tokens_data = tokenize_with_offsets(text)
         tokens = [t[0] for t in tokens_data]
         
-        # Extraer anotaciones de tipo 'labels'
+        # extract annotations type label
         spans = []
-        # Verificamos que existan anotaciones para evitar errores
         if not item.get("annotations"):
             continue
             
@@ -132,11 +108,10 @@ def process_ner_dataset(ner_dataset):
                 })
                 unique_labels.add(label)
         
-        # Asignación con lógica de solapamiento
+        # token assignation
         labels = ["O"] * len(tokens)
         for i, (word, t_start, t_end) in enumerate(tokens_data):
             for span in spans:
-                # Si el token y el span se tocan en al menos 1 carácter
                 if max(t_start, span["start"]) < min(t_end, span["end"]):
                     labels[i] = span["label"]
                     break
@@ -148,11 +123,10 @@ def process_ner_dataset(ner_dataset):
         
     return processed_data, sorted(list(unique_labels))
 
-# 2. Ejecutamos el bucle
+# final samples 
 final_samples, label_list = process_ner_dataset(ner_dataset)
 
-# 3. Creamos el mapeo de IDs (Indispensable para el modelo)
-# 'O' siempre debe ser el ID 0
+# mapping ids
 if "O" in label_list: label_list.remove("O")
 label_list = ["O"] + label_list
 label2id = {label: i for i, label in enumerate(label_list)}
@@ -162,16 +136,10 @@ print(f"Procesados {len(final_samples)} ejemplos.")
 print(f"Etiquetas encontradas: {label_list}")
 
 
-# In[15]:
-
-
 final_samples[700]
 
 
-# ## 2. Train-test Split
-
-# In[16]:
-
+## Train-test Split
 
 # seed for reproducibility
 random.seed(42)
@@ -195,10 +163,7 @@ print(f"Total samples: {n_total}")
 print(f"Train: {len(train_set)}, Validation: {len(val_set)}, Test: {len(test_set)}")
 
 
-# ## 3. Fine Tune Llama3
-
-# In[17]:
-
+## Fine Tune Llama3
 
 # fine tune with qlora llama3 8B
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
@@ -241,22 +206,18 @@ def format_example(note):
 
     for token, label in zip(tokens, labels):
         if label != "O":
-            # Si ya hay una entidad en curso y es de la misma etiqueta, concatenamos
             if current_entity and current_entity["label"] == label:
                current_entity["text"] += f" {token}"
             else:
-               # Si es una etiqueta nueva, creamos entidad nueva
                current_entity = {"text": token, "label": label}
                entities.append(current_entity)
         else:
-            # Si el token es "O", cerramos la entidad actual
             current_entity = None
 
     instruction = "Identifica y extrae las entidades clínicas (Diagnosis, Treatment, Response, Date, Blasts, GeneMutation, VAF, ProteinChange, cDNAChange, Origin, Karyotype, Risk, FamilyHistory, Smoker, Exitus) del texto médico y devuélvelas en formato JSON."    
     input_text = " ".join(note['tokens'])
     response_text = json.dumps(entities, ensure_ascii=False)
 
-    # IMPORTANTE: Añadir el token de finalización del tokenizer
     eos_token = tokenizer.eos_token
 
     full_prompt = (
@@ -267,21 +228,12 @@ def format_example(note):
 
     return {"text": full_prompt}
 
-# convert to dataset from the lists
 ds_train = Dataset.from_list(train_set).map(format_example)
 ds_val = Dataset.from_list(val_set).map(format_example)
 ds_test = Dataset.from_list(test_set).map(format_example)
 
-
-# In[ ]:
-
-
-# remove solution from train and val
 ds_train = ds_train.remove_columns(['tokens', 'labels'])
 ds_val = ds_val.remove_columns(['tokens', 'labels'])
-
-
-# In[ ]:
 
 
 sft_config = SFTConfig(
@@ -311,10 +263,6 @@ trainer = SFTTrainer(
 
 trainer.train()
 
-
-# In[ ]:
-
-
 # save adapter
 OUT_DIR_LLM = "cr-multia/medical_ner/FINETUNNING"
 out = trainer.save_model(OUT_DIR_LLM)
@@ -322,10 +270,7 @@ out
 print("Adapter would be saved to:", OUT_DIR_LLM)
 
 
-# ## 4. Get Results
-
-# In[ ]:
-
+## Get Results
 
 def generate_ner_report(model, tokenizer, test_set, save_path="predicciones_tfm.json"):
     all_true_labels = []
@@ -396,16 +341,8 @@ def generate_ner_report(model, tokenizer, test_set, save_path="predicciones_tfm.
     report = classification_report(all_true_labels, all_pred_labels, digits=3)
     return report, results
 
-
-# In[ ]:
-
-
 report, results = generate_ner_report(model, tokenizer, test_set)
 print(report)
-
-
-# In[ ]:
-
 
 # save results
 with open("cr-multia/medical_ner/FINETUNNING/llama3_results_v2.json", "w", encoding="utf-8") as f:
