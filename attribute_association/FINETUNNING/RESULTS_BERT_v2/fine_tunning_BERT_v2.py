@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning SLM
+# Fine tunning BERT AGENT 2
 
 # dependencies
 import os
@@ -41,7 +38,7 @@ from collections import Counter
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## 1. Data Load and Preprocessing
+## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -95,7 +92,6 @@ def prepare_attribute_data(dataset):
             if info["label"] not in ALLOWED_LABELS:
                 continue
             
-            # Formatear contexto igual que en inferencia
             full_context = text[:info['start']] + f"[{info['text']}]" + text[info['end']:]
             true_attr = id_to_choice.get(region_id, "None")
 
@@ -118,7 +114,6 @@ random.seed(42)
 all_samples = prepare_attribute_data(ner_dataset)
 
 # DEBUG
-# Distribución global de atributos
 attr_counts = Counter(r["attribute"] for r in all_samples)
 total = sum(attr_counts.values())
 
@@ -126,7 +121,6 @@ print("=== Distribución de atributos ===")
 for attr, count in sorted(attr_counts.items(), key=lambda x: -x[1]):
     print(f"  {attr:<15} {count:>5}  ({100*count/total:.1f}%)")
 
-# Distribución por tipo de entidad (más informativo)
 print("\n=== Distribución por entidad ===")
 for label in ALLOWED_LABELS:
     subset = [r for r in all_samples if r["entity_label"] == label]
@@ -154,11 +148,9 @@ test_set = ner_dataset_shuffled[n_train + n_val:]
 print(f"Total samples: {n_total}")
 print(f"Train: {len(train_set)}, Validation: {len(val_set)}, Test: {len(test_set)}")
 
+## Fine Tune
 
-# ## 3. Fine Tune Llama3
 
-
-# fine tune with qlora llama3 8B
 model_id = "FacebookAI/xlm-roberta-base"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, add_prefix_space=True)
@@ -283,7 +275,7 @@ out
 print("Adapter would be saved to:", OUT_DIR_LLM)
 
 
-# ## 4. Get Results
+## Get Results
 
 def final_classification_report_attr(trainer, dataset, id2label, label_list):
     output = trainer.predict(dataset)
@@ -327,11 +319,11 @@ def save_confusion_matrix(cm_df, output_path="confusion_matrix_roberta_v2.png"):
     
     plot = sns.heatmap(
         cm_df, 
-        annot=True,     # Pone los números en las celdas
-        fmt='d',        # Formato de número entero
-        cmap='Blues',   # Color azul (muy estándar en papers)
-        cbar=True,      # Barra de color lateral
-        linewidths=.5   # Líneas finas entre celdas
+        annot=True,   
+        fmt='d',      
+        cmap='Blues', 
+        cbar=True,   
+        linewidths=.5  
     )
     
     plt.title('Confusion Matrix - Agent 2 XLM-RoBERTa', fontsize=15)
