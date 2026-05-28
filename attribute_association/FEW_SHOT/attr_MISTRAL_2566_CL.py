@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Epic 2 HF: First Pipeline Generic LLM
-
+# FEW-SHOT BENCHMARK AGENT 2
 
 ### library dependencies
 
@@ -141,7 +137,6 @@ Label de la entidad: {task['entity_label']}
 Atributo:"""
     return user_prompt, system_prompt
 
-# In[8]:
 
 model_id = "mistralai/Mistral-7B-Instruct-v0.3"
 
@@ -230,7 +225,6 @@ for task in tqdm_cli(valid_tasks):
         "raw_llm_out": raw_response
     })
     
-# In[85]:
 
 
 with open("cr-multia/attribute_association/FEW_SHOT/mistral_results_2566.json", "w", encoding="utf-8") as f:

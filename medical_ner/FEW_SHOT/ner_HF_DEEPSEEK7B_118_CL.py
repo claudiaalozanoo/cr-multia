@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # FEW-SHOT BENCHMARK AGENT 1
-
-# In[1]:
-
 
 ### library dependencies
 
@@ -37,7 +31,6 @@ from huggingface_hub import login
 
 # ## Authentification HF
 
-# In[ ]:
 
 
 login(token="YOUR_HF_TOKEN_HERE")
@@ -45,7 +38,6 @@ login(token="YOUR_HF_TOKEN_HERE")
 
 # ## Data Load
 
-# In[5]:
 
 
 file_path = 'PATH_TO_YOUR_DATA'
@@ -61,7 +53,6 @@ print(f"Annotations: {first_note['annotations'][0]['result']}")
 
 # ## Functions Definition
 
-# In[6]:
 
 
 # pydantic model
@@ -89,7 +80,6 @@ class MedicalEntity(BaseModel):
 class NERResponse(BaseModel):
     entities: List[MedicalEntity]
 
-# In[7]:
 
 
 system_prompt = """Eres un experto en extracción de información médica (NER). 
@@ -145,7 +135,6 @@ Aquí te dejo algunos ejemplos:
 """
 
 
-# In[8]:
 
 
 def process_ner(text):
@@ -211,7 +200,6 @@ def process_ner(text):
         print(f"Error parseando nota: {e}")
         return NERResponse(entities=[])    
     
-# In[8]:
 
 
 def get_evaluation_lists(all_notes_data, all_predictions):
@@ -260,7 +248,6 @@ def get_evaluation_lists(all_notes_data, all_predictions):
 
 # ## Deep Seek QWen Distill 1.5B  Model HF
 
-# In[4]:
 
 
 # hugging face model
@@ -282,7 +269,6 @@ pipe = pipeline(
     return_full_text=False
 )
 
-# In[9]:
 
 
 results = []
@@ -315,13 +301,11 @@ for i, entry in enumerate(data, 1):
 print(f"\nProcess finished")
 
 
-# In[75]:
 
 
 results[0]
 
 
-# In[78]:
 
 
 y_true, y_pred = get_evaluation_lists(data, results)
@@ -333,7 +317,6 @@ print("Medical NER Classification Report")
 print(report)
 
 
-# In[85]:
 
 
 with open("cr-multia/medical_ner/FEW_SHOT/deepseek7b_results_118.json", "w", encoding="utf-8") as f:
@@ -342,7 +325,6 @@ with open("cr-multia/medical_ner/FEW_SHOT/deepseek7b_results_118.json", "w", enc
 print("Results saved to deepseek7b_results_118.json")
 
 
-# In[ ]:
 
 
 with open("cr-multia/medical_ner/FEW_SHOT/medical_ner_report_DEEPSEEK7B_118.txt", "w") as f:

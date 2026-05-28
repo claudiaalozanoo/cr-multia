@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Epic 2 HF: First Pipeline Generic LLM
-
+# FEW-SHOT BENCHMARK AGENT 2
 
 ### library dependencies
 
@@ -141,7 +137,6 @@ Label de la entidad: {task['entity_label']}
 Atributo:"""
     return user_prompt, system_prompt
 
-# In[8]:
 
 model_id = "google/gemma-3-4b-it"
 
@@ -232,7 +227,6 @@ for task in tqdm_cli(valid_tasks):
         "raw_llm_out": raw_response
     })
     
-# In[85]:
 
 
 with open("cr-multia/attribute_association/FEW_SHOT/gemma_results_520.json", "w", encoding="utf-8") as f:

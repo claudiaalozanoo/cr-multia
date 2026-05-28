@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Epic 2 HF: First Pipeline Generic LLM
-
+# FEW-SHOT BENCHMARK AGENT 2
 
 ### library dependencies
 
@@ -133,7 +129,6 @@ ENTIDAD A CLASIFICAR: "{task['entity_text']}" (Tipo: {task['entity_label']})
 Clasificación:"""
     return prompt
 
-# In[8]:
 
 model_id = "openai/gpt-oss-20b"
 
@@ -221,7 +216,6 @@ for task in tqdm_cli(valid_tasks):
         "raw_llm_out": raw_response
     })
     
-# In[85]:
 
 
 with open("cr-multia/attribute_association/FEW_SHOT/gpt_results_118.json", "w", encoding="utf-8") as f:
