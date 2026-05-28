@@ -210,7 +210,7 @@ def get_evaluation_lists(all_notes_data, all_predictions):
                 y_pred.append(pred_map.get(mention, "O"))
                 
         except Exception as e:
-            print(f"❌ Error processing note {entry_id}: {e}")
+            print(f"Error processing note {entry_id}: {e}")
             continue 
             
     return y_true, y_pred
