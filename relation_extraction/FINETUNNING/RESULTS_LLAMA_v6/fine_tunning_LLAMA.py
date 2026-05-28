@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning LLMs: LLAMA
+#Fine tunning LLAMA AGENT 3
 
 # dependencies
 import os
@@ -38,7 +35,7 @@ from huggingface_hub import login
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## 1. Data Load and Preprocessing
+# ## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -69,8 +66,8 @@ def prepare_relation_tasks(ls_dataset):
                     "id": r["id"],
                     "text": r["value"]["text"],
                     "label": r["value"]["labels"][0],
-                    "start": r["value"]["start"],   # ✅ real offset
-                    "end": r["value"]["end"]         # ✅ real offset
+                    "start": r["value"]["start"],   # real offset
+                    "end": r["value"]["end"]         # real offset
                 })
             
             elif r["type"] == "relation":
@@ -158,7 +155,7 @@ stats = debug_relation_counts({
     'Test': test_set
 })
 
-# ## 3. Fine Tune QWen2.5 
+## Fine Tune LLAMA
 
 # fine tune with qlora
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
@@ -360,7 +357,7 @@ out
 print("Adapter would be saved to:", OUT_DIR_LLM)
 
 
-# ## 4. Get Results
+## Get Results
 
 def evaluate_re_model(model, tokenizer, ds_test):
     model.eval()
