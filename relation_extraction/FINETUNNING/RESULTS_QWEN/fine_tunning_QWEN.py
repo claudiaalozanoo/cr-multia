@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning LLMs: QWEN
+#Fine tunning QWEN AGENT 3
 
 # dependencies
 import os
@@ -37,7 +34,7 @@ from huggingface_hub import login
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## 1. Data Load and Preprocessing
+## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -125,7 +122,7 @@ print(f"Total samples: {n_total}")
 print(f"Train: {len(train_set)}, Validation: {len(val_set)}, Test: {len(test_set)}")
 
 
-# ## 3. Fine Tune QWen2.5 
+## Fine Tune QWen2.5 
 
 # fine tune with qlora
 model_id = "Qwen/Qwen2.5-7B-Instruct"
@@ -261,7 +258,7 @@ out
 print("Adapter would be saved to:", OUT_DIR_LLM)
 
 
-# ## 4. Get Results
+## Get Results
 
 def evaluate_re_model(model, tokenizer, test_data):
     model.eval()
@@ -273,7 +270,7 @@ def evaluate_re_model(model, tokenizer, test_data):
         "has_value", "has_outcome", "has_dose", "associated_with"
     ]
     
-    # Diccionarios para acumular TP, FP, FN por cada tipo de relaci髇
+    # Diccionarios para acumular TP, FP, FN por cada tipo de relaci贸n
     metrics = {rel: {"tp": 0, "fp": 0, "fn": 0} for rel in rel_labels}
 
     print(f"Evaluando {len(test_data)} muestras de test...")
@@ -330,13 +327,13 @@ Salida:"""
         
         generated_text = tokenizer.decode(outputs[0][inputs.input_ids.shape[1]:], skip_special_tokens=True).strip()
         
-        # 1. Parsing de la predicci髇
+        # 1. Parsing de la predicci贸n
         try:
             pred_json = json.loads(re.search(r'\[.*\]', generated_text, re.DOTALL).group())
         except:
             pred_json = []
 
-        # 2. L骻ica de comparaci髇 para el reporte (Ground Truth vs Prediction)
+        # 2. L贸gica de comparaci贸n para el reporte (Ground Truth vs Prediction)
         for rel_type in rel_labels:
             gt_set = set([
                 (r.get('from_id', ''), r.get('to_id', '')) 
