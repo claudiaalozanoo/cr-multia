@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning LLMs: LLAMA3
+#Fine tunning LLAMA3 AGENT 2
 
 # dependencies
 import os
@@ -36,7 +33,7 @@ from huggingface_hub import login
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## 1. Data Load and Preprocessing
+## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -77,7 +74,6 @@ def prepare_attribute_data(dataset):
             if info["label"] not in ALLOWED_LABELS:
                 continue
             
-            # Formatear contexto igual que en inferencia
             full_context = text[:info['start']] + f"[{info['text']}]" + text[info['end']:]
             true_attr = id_to_choice.get(region_id, "None")
             
@@ -112,7 +108,7 @@ print(f"Total samples: {n_total}")
 print(f"Train: {len(train_set)}, Validation: {len(val_set)}, Test: {len(test_set)}")
 
 
-# ## 3. Fine Tune Llama3
+## Fine Tune Llama3
 
 
 # fine tune with qlora llama3 8B
@@ -234,7 +230,7 @@ out
 print("Adapter would be saved to:", OUT_DIR_LLM)
 
 
-# ## 4. Get Results
+## Get Results
 
 def evaluate_attribute_model(model, tokenizer, test_data):
     model.eval()
