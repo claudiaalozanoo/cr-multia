@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning BERT
-
-# In[4]:
-
+# Fine tunning BERT AGENT 1
 
 import os
 import json
@@ -36,17 +30,12 @@ from transformers import (
 import seqeval
 from huggingface_hub import login
 
-
-# In[2]:
-
+## Autentification HF
 
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## 1. Data Load and Preprocessing
-
-# In[5]:
-
+## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -55,14 +44,7 @@ with open(dataset_path, "r", encoding="utf-8") as f:
 
 print(f"Loaded {len(ner_dataset)} clinical notes")
 
-
-# In[6]:
-
-
 ner_dataset[0]
-
-
-# In[ ]:
 
 
 TOKEN_RE = re.compile(r'\w+|[^\w\s]')
@@ -79,9 +61,8 @@ def process_ner_dataset(ner_dataset):
         tokens_data = tokenize_with_offsets(text)
         tokens = [t[0] for t in tokens_data]
         
-        # Extraer anotaciones de tipo 'labels'
+        # extract annotations type label
         spans = []
-        # Verificamos que existan anotaciones para evitar errores
         if not item.get("annotations"):
             continue
             
@@ -96,11 +77,10 @@ def process_ner_dataset(ner_dataset):
                 })
                 unique_labels.add(label)
         
-        # Asignación con lógica de solapamiento
+        # token assignation
         labels = ["O"] * len(tokens)
         for i, (word, t_start, t_end) in enumerate(tokens_data):
             for span in spans:
-                # Si el token y el span se tocan en al menos 1 carácter
                 if max(t_start, span["start"]) < min(t_end, span["end"]):
                     labels[i] = span["label"]
                     break
@@ -112,7 +92,7 @@ def process_ner_dataset(ner_dataset):
         
     return processed_data, sorted(list(unique_labels))
 
-# 2. Ejecutamos el bucle
+# obtain final prepared samples
 final_samples, label_list = process_ner_dataset(ner_dataset)
 
 # --- DEBUG 1 ---
@@ -125,8 +105,7 @@ print(f"Labels asignadas: {debug_sample['labels'][:20]}")
 entidades_encontradas = [l for l in debug_sample['labels'] if l != "O"]
 print(f"Total tokens con etiqueta médica en esta muestra: {len(entidades_encontradas)}")
 
-# 3. Creamos el mapeo de IDs (Indispensable para el modelo)
-# 'O' siempre debe ser el ID 0
+# mapping with ids
 if "O" in label_list: label_list.remove("O")
 label_list = ["O"] + label_list
 label2id = {label: i for i, label in enumerate(label_list)}
@@ -135,17 +114,10 @@ id2label = {i: label for i, label in enumerate(label_list)}
 print(f"Procesados {len(final_samples)} ejemplos.")
 print(f"Etiquetas encontradas: {label_list}")
 
-
-# In[ ]:
-
-
 final_samples[700]
 
 
-# ## 2. Train-test Split
-
-# In[3]:
-
+## Train-test Split
 
 # seed for reproducibility
 random.seed(43)
@@ -169,10 +141,7 @@ print(f"Total samples: {n_total}")
 print(f"Train: {len(train_set)}, Validation: {len(val_set)}, Test: {len(test_set)}")
 
 
-# ## 3. Fine Tune mBERT
-
-# In[ ]:
-
+## Fine Tune mBERT
 
 dataset_dict = DatasetDict({
     "train": Dataset.from_list(train_set),
@@ -203,8 +172,7 @@ def tokenize_and_align_labels(examples):
     tokenized_inputs["labels"] = labels
     return tokenized_inputs
 
-# In[ ]:
-
+# MODEL LOADING
 
 model_id = "FacebookAI/xlm-roberta-base"
 # add_prefix_space is essential for RoBERTa-based models when passing word lists
@@ -220,7 +188,7 @@ tokenized_ds = dataset_dict.map(
 print("\n--- DEBUG 2 ---")
 test_idx = 10
 example = tokenized_ds["train"][test_idx]
-# Recuperamos los tokens que DeBERTa ve realmente
+
 deberta_tokens = tokenizer.convert_ids_to_tokens(example["input_ids"])
 labels_with_ids = example["labels"]
 
@@ -230,8 +198,6 @@ for t, l_id in zip(deberta_tokens[:30], labels_with_ids[:30]):
     l_name = id2label[l_id] if l_id != -100 else "IGNORAR (-100)"
     print(f"{t:<20} | {l_id:<10} | {l_name}")
 
-# In[ ]:
-
 config = XLMRobertaConfig.from_pretrained(
     model_id, 
     num_labels=len(label_list), 
@@ -240,8 +206,6 @@ config = XLMRobertaConfig.from_pretrained(
 )
 
 model = AutoModelForTokenClassification.from_pretrained(model_id, config=config)
-
-# In[ ]:
 
 
 metric = evaluate.load("seqeval")
@@ -262,9 +226,9 @@ def compute_metrics(p):
     # DEBUG 3
     unique_preds, counts_preds = np.unique(y_pred, return_counts=True)
     pred_dist = dict(zip([id2label[i] for i in unique_preds], counts_preds))
-    print(f"\n[Epoch Debug] Predicciones del modelo: {pred_dist}")
+    print(f"\n[Epoch Debug] Model predictions: {pred_dist}")
 
-    # Calculamos métricas globales por token
+    # global metrics per token
     precision, recall, f1, _ = precision_recall_fscore_support(y_true, y_pred, average='macro')
     acc = accuracy_score(y_true, y_pred)
     
@@ -303,33 +267,18 @@ trainer = Trainer(
     compute_metrics=compute_metrics,
 )
 
-# Tomamos el primer batch que vería el modelo
 batch = data_collator([tokenized_ds["train"][i] for i in range(5)])
 
-print("--- INSPECCIÓN DE TENSORES ---")
-print(f"Forma de los Input IDs: {batch['input_ids'].shape}")
-print(f"Forma de los Labels: {batch['labels'].shape}")
-
-# Contamos cuántas etiquetas NO son 'O' (ID 0) y NO son ignore_index (-100)
 labels_planas = batch['labels'].flatten()
 entidades_reales = torch.sum((labels_planas > 0)).item()
 tokens_ignorados = torch.sum((labels_planas == -100)).item()
 tokens_o = torch.sum((labels_planas == 0)).item()
 
-print(f"Tokens 'O' (clase 0): {tokens_o}")
-print(f"Tokens Médicos (clase > 0): {entidades_reales}")
-print(f"Tokens Ignorados (-100): {tokens_ignorados}")
-
-if entidades_reales == 0:
-    print("\n¡ALERTA!: El dataset tokenizado NO tiene etiquetas médicas. El error está en tokenize_and_align_labels.")
 
 trainer.train()
 
 
-# ## 4. Get Results
-
-# In[ ]:
-
+## Get Results
 
 def final_classification_report(trainer, dataset):
     
@@ -365,13 +314,8 @@ def final_classification_report(trainer, dataset):
     return results_list, report, cm_df
 
 
-# In[ ]:
-
-
 results, report, conf_matrix = final_classification_report(trainer, tokenized_ds["test"])
 
-
-# In[ ]:
 
 
 output_path_json = "cr-multia/medical_ner/FINETUNNING/RESULTS_BERT_V1/BERT_results.json"
@@ -394,11 +338,11 @@ def save_confusion_matrix(cm_df, output_path="confusion_matrix_roberta_v1.png"):
 
     plot = sns.heatmap(
         cm_df,
-	annot=True,     # Pone los números en las celdas
-        fmt='d',        # Formato de número entero
-        cmap='Blues',   # Color azul (muy estándar en papers)
-        cbar=True,	# Barra de color lateral
-        linewidths=.5   # Líneas finas entre celdas
+	    annot=True,   
+        fmt='d',       
+        cmap='Blues',  
+        cbar=True,	
+        linewidths=.5   
     )
 
     plt.title('Confusion Matrix - Agent 1 XLM-RoBERTa', fontsize=15)
