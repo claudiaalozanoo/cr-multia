@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning LLMs: LLAMA3
+# Fine tunning BERT AGENT 2
 
 # dependencies
 import os
@@ -39,7 +36,7 @@ from huggingface_hub import login
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## 1. Data Load and Preprocessing
+## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -120,10 +117,9 @@ print(f"Total samples: {n_total}")
 print(f"Train: {len(train_set)}, Validation: {len(val_set)}, Test: {len(test_set)}")
 
 
-# ## 3. Fine Tune Llama3
+## Fine Tune 
 
 
-# fine tune with qlora llama3 8B
 model_id = "FacebookAI/xlm-roberta-base"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, add_prefix_space=True)
@@ -212,7 +208,7 @@ out
 print("Adapter would be saved to:", OUT_DIR_LLM)
 
 
-# ## 4. Get Results
+## Get Results
 
 def final_classification_report_attr(trainer, dataset, id2label, label_list):
     output = trainer.predict(dataset)
@@ -256,11 +252,11 @@ def save_confusion_matrix(cm_df, output_path="confusion_matrix_roberta_v1.png"):
     
     plot = sns.heatmap(
         cm_df, 
-        annot=True,     # Pone los números en las celdas
-        fmt='d',        # Formato de número entero
-        cmap='Blues',   # Color azul (muy estándar en papers)
-        cbar=True,      # Barra de color lateral
-        linewidths=.5   # Líneas finas entre celdas
+        annot=True,     
+        fmt='d',       
+        cmap='Blues',
+        cbar=True,   
+        linewidths=.5 
     )
     
     plt.title('Confusion Matrix - Agent 2 XLM-RoBERTa', fontsize=15)
