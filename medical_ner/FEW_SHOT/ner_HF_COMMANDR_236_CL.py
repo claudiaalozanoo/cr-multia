@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # FEW-SHOT BENCHMARK AGENT 1
-
-# In[1]:
-
 
 ### library dependencies
 
@@ -35,18 +29,12 @@ from sklearn.metrics import classification_report
 from huggingface_hub import login
 
 
-# ## Authentification HF
-
-# In[ ]:
-
+## Authentification HF
 
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## Data Load
-
-# In[5]:
-
+## Data Load
 
 file_path = 'PATH_TO_YOUR_DATA'
 
@@ -59,10 +47,7 @@ print(f"Text: {first_note['data']['comment']}")
 print(f"Annotations: {first_note['annotations'][0]['result']}")
 
 
-# ## Functions Definition
-
-# In[6]:
-
+## Functions Definition
 
 # pydantic model
 ALLOWED_LABELS = [
@@ -88,8 +73,6 @@ class MedicalEntity(BaseModel):
 
 class NERResponse(BaseModel):
     entities: List[MedicalEntity]
-
-# In[7]:
 
 
 system_prompt = """Eres un experto en extracción de información médica (NER). 
@@ -145,11 +128,8 @@ Aquí te dejo algunos ejemplos:
 """
 
 
-# In[8]:
-
-
 def process_ner(text):
-    # Preparem el prompt amb instrucció de format
+    # user prompt with output formatting
     prompt_format = """{
     "entities": [
         {"text": "texto exacto", "label": "Categoría"}
@@ -167,13 +147,11 @@ def process_ner(text):
     Formato esperado:
     {prompt_format}"""
 
-    # Format de chat (molt important per a Command R i Llama 3)
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
     
-    # Generació
     outputs = pipe(
         messages, 
         max_new_tokens=1024, 
@@ -185,17 +163,14 @@ def process_ner(text):
 
     print(f"DEBUG: Content: {outputs[0]['generated_text']}")
     
-    # Extreure el text de la resposta
     raw_content = outputs[0]["generated_text"]
     
-    # Netegem possibles Markdown blocks (```json ... ```) si el model els posa
+    # markdown cleaning keep json file
     clean_json = raw_content.replace("```json", "").replace("```", "").strip()
     
-    # Validem i convertim a objecte Pydantic
+    # pydantic validation
     return NERResponse.model_validate_json(clean_json)
 
-
-# In[8]:
 
 def get_evaluation_lists(all_notes_data, all_predictions):
     y_true = []
@@ -236,16 +211,13 @@ def get_evaluation_lists(all_notes_data, all_predictions):
                 y_pred.append(pred_map.get(mention, "O"))
                 
         except Exception as e:
-            print(f"❌ Error processing note {entry_id}: {e}")
+            print(f"Error processing note {entry_id}: {e}")
             continue 
             
     return y_true, y_pred
 
 
-# ## Command R Model HF
-
-# In[4]:
-
+## Command R Model HF
 
 # hugging face model
 model_id ="CohereLabs/c4ai-command-r-v01" 
@@ -273,9 +245,7 @@ terminators = [
 
 pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, return_full_text=False)
 
-
-# In[9]:
-
+# inference process
 
 results = []
 
@@ -307,13 +277,8 @@ for i, entry in enumerate(data, 1):
 print(f"\nProcess finished")
 
 
-# In[75]:
-
-
+# example
 results[0]
-
-
-# In[78]:
 
 
 y_true, y_pred = get_evaluation_lists(data, results)
@@ -325,16 +290,10 @@ print("Medical NER Classification Report")
 print(report)
 
 
-# In[85]:
-
-
 with open("cr-multia/medical_ner/FEW_SHOT/commandr_results_236.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
     
 print("Results saved to commandr_results_236.json")
-
-
-# In[ ]:
 
 
 with open("cr-multia/medical_ner/FEW_SHOT/medical_ner_report_COMMANDR_236.txt", "w") as f:
