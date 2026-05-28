@@ -138,7 +138,6 @@ Aquí te dejo algunos ejemplos:
 
 
 def process_ner(text):
-    # Definimos el formato esperado para guiar al modelo
     prompt_format = """{
     "entities": [
         {"text": "texto exacto", "label": "Categoría", "status": null}
@@ -156,13 +155,11 @@ def process_ner(text):
     Formato esperado:
     {prompt_format}"""
 
-    # Formato de chat
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
 
-    # Generación
     outputs = pipe(
         messages,
         max_new_tokens=1024,
@@ -175,14 +172,10 @@ def process_ner(text):
     print(f"DEBUG: Content: {raw_content}")
 
     try:
-        # 1. Eliminar contenido dentro de las etiquetas <think> de DeepSeek-R1
-        # Usamos flags=re.DOTALL para que el punto capture saltos de línea
         clean_content = re.sub(r'<think>.*?</think>', '', raw_content, flags=re.DOTALL)
         
-        # Limpieza de seguridad por si queda una etiqueta de cierre huérfana
         clean_content = clean_content.replace('</think>', '').strip()
 
-        # 2. Buscar el bloque JSON (desde el primer '{' hasta el último '}')
         match = re.search(r'\{.*\}', clean_content, re.DOTALL)
 
         if match:
@@ -241,14 +234,12 @@ def get_evaluation_lists(all_notes_data, all_predictions):
                 y_pred.append(pred_map.get(mention, "O"))
                 
         except Exception as e:
-            print(f"❌ Error processing note {entry_id}: {e}")
+            print(f"Error processing note {entry_id}: {e}")
             continue 
             
     return y_true, y_pred
 
 # ## Deep Seek QWen Distill 1.5B  Model HF
-
-
 
 # hugging face model
 model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
