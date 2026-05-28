@@ -118,7 +118,7 @@ def calculate_metrics(results_path):
         gold_ents = item["gold"]["entities"]
         pred_ents = item["prediction"]["entities"]
         
-        # --- 1. NER Evaluation (Simplistic match by start offset) ---
+        # 1. NER
         gold_spans = {e["value"]["start"]: e["value"]["labels"][0] for e in gold_ents}
         pred_spans = {e["start"]: e["label"] for e in pred_ents}
         
@@ -127,7 +127,7 @@ def calculate_metrics(results_path):
             ner_true.append(gold_spans.get(offset, "O"))
             ner_pred.append(pred_spans.get(offset, "O"))
 
-        # --- 2. Attribute Evaluation ---
+        # 2. Attribute Evaluation
         # We only evaluate attributes for entities where the NER was correct
         gold_attr_map = item["gold"]["attributes"] # Key: Label Studio ID
         
@@ -142,7 +142,7 @@ def calculate_metrics(results_path):
                 attr_true.append(gold_attr)
                 attr_pred.append(p_ent["attribute"])
 
-        # --- 3. Relation Evaluation (Logical Match) ---
+        # 3. Relation Evaluation
         # Since IDs change, we match relations by: (From_Label, To_Label, Relation_Type)
         gold_id_to_label = {e["id"]: e["value"]["labels"][0] for e in gold_ents}
         g_rels = set([(gold_id_to_label.get(r["from_id"], "UNK"), 
@@ -159,17 +159,17 @@ def calculate_metrics(results_path):
             rel_true.append(1 if rel in g_rels else 0)
             rel_pred.append(1 if rel in p_rels else 0)
 
-    # --- Print Reports ---
+    # Report
     print("\n" + "="*30)
     print("AGENT 1: NER CLASSIFICATION")
     print(classification_report(ner_true, ner_pred))
 
     print("\n" + "="*30)
-    print("AGENT 2: ATTRIBUTE CLASSIFICATION (on correct spans)")
+    print("AGENT 2: ATTRIBUTE CLASSIFICATION")
     print(classification_report(attr_true, attr_pred))
 
     print("\n" + "="*30)
-    print("AGENT 3: RELATION EXTRACTION (Logical match)")
+    print("AGENT 3: RELATION EXTRACTION")
     p, r, f, _ = precision_recall_fscore_support(rel_true, rel_pred, average='binary')
     print(f"Precision: {p:.2%}\nRecall: {r:.2%}\nF1-Score: {f:.2%}")
 
