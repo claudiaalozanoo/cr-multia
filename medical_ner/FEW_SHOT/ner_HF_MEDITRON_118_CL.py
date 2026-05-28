@@ -138,11 +138,8 @@ Aquí te dejo algunos ejemplos:
 
 
 def process_ner(text):
-    # Definimos el formato visual para el modelo
     prompt_format = '{"entities": [{"text": "texto exacto", "label": "Categoría"}]}'
 
-    # Construimos el prompt usando el formato oficial de Llama 2 / Meditron
-    # El system prompt se incluye dentro del primer bloque [INST]
     full_prompt = f"""<s>[INST] <<SYS>>
 {system_prompt}
 <</SYS>>
@@ -155,7 +152,6 @@ REGLA ESTRICTA:
 2. Responde ÚNICAMENTE con el objeto JSON final siguiendo este formato:
 {prompt_format} [/INST]"""
 
-    # Generación directa con el string (evitamos el error del chat_template)
     outputs = pipe(
         full_prompt, 
         max_new_tokens=1024, 
@@ -164,23 +160,16 @@ REGLA ESTRICTA:
         pad_token_id=tokenizer.eos_token_id
     )
     
-    # Extreure el text de la resposta
     raw_content = outputs[0]["generated_text"]
     
     try:
-        # 1. Buscamos el bloque JSON
-        # Usamos un patrón que capture desde el primer '{' hasta el último '}'
-        # pero aplicamos .strip() para eliminar cualquier residuo externo.
         match = re.search(r'\{.*\}', raw_content, re.DOTALL)
 
         if match:
             json_str = match.group(0).strip()
-            
-            # 2. Limpieza extrema: eliminamos posibles bloques de markdown 
-            # y cualquier texto que el modelo haya pegado después del cierre.
+
             json_str = json_str.replace("```json", "").replace("```", "")
             
-            # Encontrar el último '}' por si acaso el regex capturó texto extra después
             last_bracket = json_str.rfind('}')
             if last_bracket != -1:
                 json_str = json_str[:last_bracket + 1]
