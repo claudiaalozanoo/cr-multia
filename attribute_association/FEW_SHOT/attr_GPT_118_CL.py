@@ -168,7 +168,6 @@ print(f"Starting inference for {len(valid_tasks)} attribute classification tasks
 def clean_prediction(raw_output, allowed_options):
     raw_output = raw_output.lower()
     
-    # Buscamos la opción permitida dentro del texto por si el JSON falló
     for option in allowed_options:
         if option.lower() in raw_output:
             return option
@@ -178,11 +177,9 @@ def clean_prediction(raw_output, allowed_options):
 for task in tqdm_cli(valid_tasks):
     prompt = generate_gpt_prompt(task)
     
-    # 1. Filtro de seguridad
     if prompt is None:
         continue
 
-    # 2. Definición de listas para el limpiador
     label = task['entity_label']
     if label == "Diagnosis":
         current_options = ["Confirmed", "Control", "Progression", "Suspicion", "Discarded"]
@@ -193,7 +190,6 @@ for task in tqdm_cli(valid_tasks):
     else:
         continue
 
-    # 3. Inferencia
     outputs = pipe(
         prompt,
         max_new_tokens=20,
@@ -202,10 +198,8 @@ for task in tqdm_cli(valid_tasks):
         do_sample=False 
     )
     
-    # Extraemos el texto generado
     raw_response = outputs[0]["generated_text"].strip()
     
-    # 4. LIMPIEZA: Aquí usamos 'current_options' (coincide con el nombre de arriba)
     prediction = clean_prediction(raw_response, current_options)
 
     results.append({
