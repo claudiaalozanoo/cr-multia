@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Fine tunning SLM
+# Fine tunning BERT AGENT 2
 
 # dependencies
 import os
@@ -42,7 +39,7 @@ import unicodedata
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-## 1. Data Load and Preprocessing
+## Data Load and Preprocessing
 
 dataset_path = "PATH_TO_YOUR_DATA"
 
@@ -54,7 +51,7 @@ print(f"Loaded {len(ner_dataset)} clinical notes")
 
 ner_dataset[0]
 
-# 2. Label Definition
+## Label Definition
 
 # here we need the mapping of the labels to the ids 
 unique_attributes = ["Confirmed", "Control", "Progression", "Suspicion", "Discarded", "Yes", "Previous", "No"]
@@ -71,7 +68,7 @@ VALID_ATTRIBUTES_MAP = {
     "FamilyHistory": ["Yes", "No"]
 }
 
-# 3. Prepare Original Data
+## Prepare Original Data
 
 def prepare_attribute_data(dataset):
     rows = []
@@ -97,7 +94,6 @@ def prepare_attribute_data(dataset):
             if info["label"] not in ALLOWED_LABELS:
                 continue
             
-            # Formatear contexto igual que en inferencia
             full_context = text[:info['start']] + f"[{info['text']}]" + text[info['end']:]
             true_attr = id_to_choice.get(region_id, "None")
 
@@ -116,7 +112,7 @@ def prepare_attribute_data(dataset):
 
 all_samples = prepare_attribute_data(ner_dataset)
 
-# 4. Train-Test-Val Split
+## Train-Test-Val Split
 
 random.seed(42)
 original_shuffled = all_samples.copy()
@@ -130,12 +126,11 @@ train_orig = original_shuffled[:n_train]
 val_orig   = original_shuffled[n_train:n_train + n_val]
 test_orig  = original_shuffled[n_train + n_val:]
 
-print(f"Originales  — Train: {len(train_orig)}, Val: {len(val_orig)}, Test: {len(test_orig)}")
+print(f"Originales  â€” Train: {len(train_orig)}, Val: {len(val_orig)}, Test: {len(test_orig)}")
 
-# 5. Augmentation - Only Training Samples
+## Augmentation - Only Training Samples
 
 def normalize(text):
-    """Elimina acentos manteniendo las letras base: és→es, à→a, ï→i"""
     return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('utf-8')
 
 def augment_negation(context, entity_text):
@@ -182,7 +177,7 @@ def augment_negation(context, entity_text):
         full_pat = pat.format(entity_escaped)
         if re.search(full_pat, context_norm, re.IGNORECASE):
             for rep in replacements:
-                # ✅ La sustitución se aplica sobre el contexto ORIGINAL
+                # âœ… La sustituciÃ³n se aplica sobre el contexto ORIGINAL
                 # para no perder los acentos en el texto generado
                 new_context = re.sub(
                     full_pat,
@@ -202,7 +197,7 @@ def prepare_augmented_data(samples):
     pattern_hit  = 0
     pattern_miss = 0
     total_generated = 0
-    pattern_hit_detail = {}  # qu� patrones se disparan m�s
+    pattern_hit_detail = {}  # qué patrones se disparan más
 
     for sample in samples:
         augmented.append(sample)
@@ -241,7 +236,7 @@ random.shuffle(train_set)
 val_set  = val_orig
 test_set = test_orig
 
-print(f"After augmentation  — Train: {len(train_set)}, Val: {len(val_set)}, Test: {len(test_set)}")
+print(f"After augmentation  â€” Train: {len(train_set)}, Val: {len(val_set)}, Test: {len(test_set)}")
 
 # Print distributions before and after augmentation
 
@@ -297,7 +292,7 @@ def check_dataset_distribution(dataset, name="Validation"):
     labels = dataset["labels"].tolist() if isinstance(dataset["labels"], torch.Tensor) else dataset["labels"]
     counts = Counter(labels)
     
-    print(f"\n=== Distribución en {name} set ===")
+    print(f"\n=== DistribuciÃ³n en {name} set ===")
     for i in range(len(unique_attributes)):
         label_name = id2label[i]
         count = counts.get(i, 0)
@@ -305,9 +300,9 @@ def check_dataset_distribution(dataset, name="Validation"):
     
     if len(counts) < len(unique_attributes):
         missing = [id2label[i] for i in range(len(unique_attributes)) if i not in counts]
-        print(f"\n⚠️ ALERTA: Faltan las siguientes clases en {name}: {missing}")
+        print(f"\nâš ï¸ ALERTA: Faltan las siguientes clases en {name}: {missing}")
 
-# Ejecutar la comprobación
+# Ejecutar la comprobaciÃ³n
 check_dataset_distribution(ds_val, "Validation")
 check_dataset_distribution(ds_train, "Train")
 
@@ -456,11 +451,11 @@ def save_confusion_matrix(cm_df, output_path="confusion_matrix_roberta_v3.png"):
     
     plot = sns.heatmap(
         cm_df, 
-        annot=True,     # Pone los números en las celdas
-        fmt='d',        # Formato de número entero
-        cmap='Blues',   # Color azul (muy estándar en papers)
+        annot=True,     # Pone los nÃºmeros en las celdas
+        fmt='d',        # Formato de nÃºmero entero
+        cmap='Blues',   # Color azul (muy estÃ¡ndar en papers)
         cbar=True,      # Barra de color lateral
-        linewidths=.5   # Líneas finas entre celdas
+        linewidths=.5   # LÃ­neas finas entre celdas
     )
     
     plt.title('Confusion Matrix - Agent 2 XLM-RoBERTa', fontsize=15)
