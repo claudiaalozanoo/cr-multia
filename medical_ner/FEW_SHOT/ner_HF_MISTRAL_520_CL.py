@@ -136,23 +136,18 @@ Aquí te dejo algunos ejemplos:
 """
 
 
-
-
 def process_ner(text):
-    # Preparem el prompt amb instrucció de format
     user_prompt = f"""Analiza la siguiente nota clínica:
     {text}
 
     Regla estricta: Extrae el texto EXACTO tal cual aparece en la nota. 
     Responde ÚNICAMENTE con un JSON que siga este esquema: {NERResponse.model_json_schema()}"""
 
-    # Format de chat (molt important per a Command R i Llama 3)
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
     
-    # Generació
     outputs = pipe(
         messages, 
         max_new_tokens=1024, 
@@ -162,13 +157,10 @@ def process_ner(text):
 
     print(f"DEBUG: Content: {outputs[0]['generated_text']}")
     
-    # Extreure el text de la resposta
     raw_content = outputs[0]["generated_text"]
     
-    # Netegem possibles Markdown blocks (```json ... ```) si el model els posa
     clean_json = raw_content.replace("```json", "").replace("```", "").strip()
     
-    # Validem i convertim a objecte Pydantic
     return NERResponse.model_validate_json(clean_json)
 
 
@@ -212,7 +204,7 @@ def get_evaluation_lists(all_notes_data, all_predictions):
                 y_pred.append(pred_map.get(mention, "O"))
                 
         except Exception as e:
-            print(f"❌ Error processing note {entry_id}: {e}")
+            print(f"Error processing note {entry_id}: {e}")
             continue 
             
     return y_true, y_pred
