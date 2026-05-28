@@ -160,7 +160,6 @@ terminators = [
     tokenizer.convert_tokens_to_ids("<|im_end|>")
 ]
 
-
 # Process the tasks
 results = []
 
@@ -220,7 +219,6 @@ for task in tqdm_cli(valid_tasks):
         "pred_attribute": prediction,
         "raw_llm_out": raw_response
     })
-    
 
 
 with open("cr-multia/attribute_association/FEW_SHOT/gemma_results_1048.json", "w", encoding="utf-8") as f:
