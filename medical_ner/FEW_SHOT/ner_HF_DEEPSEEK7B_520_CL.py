@@ -138,7 +138,6 @@ Aquí te dejo algunos ejemplos:
 
 
 def process_ner(text):
-    # Definimos el formato esperado para guiar al modelo
     prompt_format = """{
     "entities": [
         {"text": "texto exacto", "label": "Categoría", "status": null}
@@ -156,13 +155,11 @@ def process_ner(text):
     Formato esperado:
     {prompt_format}"""
 
-    # Formato de chat
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
 
-    # Generación
     outputs = pipe(
         messages,
         max_new_tokens=1024,
@@ -175,14 +172,10 @@ def process_ner(text):
     print(f"DEBUG: Content: {raw_content}")
 
     try:
-        # 1. Eliminar contenido dentro de las etiquetas <think> de DeepSeek-R1
-        # Usamos flags=re.DOTALL para que el punto capture saltos de línea
         clean_content = re.sub(r'<think>.*?</think>', '', raw_content, flags=re.DOTALL)
         
-        # Limpieza de seguridad por si queda una etiqueta de cierre huérfana
         clean_content = clean_content.replace('</think>', '').strip()
 
-        # 2. Buscar el bloque JSON (desde el primer '{' hasta el último '}')
         match = re.search(r'\{.*\}', clean_content, re.DOTALL)
 
         if match:
@@ -249,7 +242,6 @@ def get_evaluation_lists(all_notes_data, all_predictions):
 # ## Deep Seek QWen Distill 1.5B  Model HF
 
 
-
 # hugging face model
 model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
 
@@ -268,7 +260,6 @@ pipe = pipeline(
     tokenizer=tokenizer, 
     return_full_text=False
 )
-
 
 
 results = []
@@ -301,11 +292,7 @@ for i, entry in enumerate(data, 1):
 print(f"\nProcess finished")
 
 
-
-
 results[0]
-
-
 
 
 y_true, y_pred = get_evaluation_lists(data, results)
@@ -317,14 +304,10 @@ print("Medical NER Classification Report")
 print(report)
 
 
-
-
 with open("cr-multia/medical_ner/FEW_SHOT/deepseek7b_results_520.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
     
 print("Results saved to deepseek7b_results_520.json")
-
-
 
 
 with open("cr-multia/medical_ner/FEW_SHOT/medical_ner_report_DEEPSEEK7B_520.txt", "w") as f:
