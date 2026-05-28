@@ -138,7 +138,6 @@ Aquí te dejo algunos ejemplos:
 
 
 def process_ner(text):
-    # Preparem el prompt amb instrucció de format
     prompt_format = """{
     "entities": [
         {"text": "texto exacto", "label": "Categoría", "status": null}   ]
@@ -155,13 +154,11 @@ def process_ner(text):
     Formato esperado:
     {prompt_format}"""
 
-    # Format de chat (molt important per a Command R i Llama 3)
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
     
-    # Generació
     outputs = pipe(
         messages, 
         max_new_tokens=1024, 
@@ -172,13 +169,10 @@ def process_ner(text):
 
     print(f"DEBUG: Content: {outputs[0]['generated_text']}")
     
-    # Extreure el text de la resposta
     raw_content = outputs[0]["generated_text"]
     
-    # Netegem possibles Markdown blocks (```json ... ```) si el model els posa
     clean_json = raw_content.replace("```json", "").replace("```", "").strip()
     
-    # Validem i convertim a objecte Pydantic
     return NERResponse.model_validate_json(clean_json)
 
 
@@ -230,8 +224,6 @@ def get_evaluation_lists(all_notes_data, all_predictions):
 
 # ## Gemma 3 4B Model HF
 
-
-
 # hugging face model
 model_id = "google/gemma-3-4b-it"
 
@@ -249,8 +241,6 @@ pipe = pipeline(
     tokenizer=tokenizer, 
     return_full_text=False
 )
-
-
 
 results = []
 
@@ -282,11 +272,7 @@ for i, entry in enumerate(data, 1):
 print(f"\nProcess finished")
 
 
-
-
 results[0]
-
-
 
 
 y_true, y_pred = get_evaluation_lists(data, results)
@@ -298,14 +284,10 @@ print("Medical NER Classification Report")
 print(report)
 
 
-
-
 with open("cr-multia/medical_ner/FEW_SHOT/gemma_results_1048.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
     
 print("Results saved to gemma_results_1048.json")
-
-
 
 
 with open("cr-multia/medical_ner/FEW_SHOT/medical_ner_report_GEMMA_1048.txt", "w") as f:
