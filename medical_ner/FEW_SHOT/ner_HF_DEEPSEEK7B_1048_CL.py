@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # FEW-SHOT BENCHMARK AGENT 1
-
-# In[1]:
-
 
 ### library dependencies
 
@@ -35,18 +29,12 @@ from sklearn.metrics import classification_report
 from huggingface_hub import login
 
 
-# ## Authentification HF
-
-# In[ ]:
-
+## Authentification HF
 
 login(token="YOUR_HF_TOKEN_HERE")
 
 
-# ## Data Load
-
-# In[5]:
-
+## Data Load
 
 file_path = 'PATH_TO_YOUR_DATA'
 
@@ -59,9 +47,7 @@ print(f"Text: {first_note['data']['comment']}")
 print(f"Annotations: {first_note['annotations'][0]['result']}")
 
 
-# ## Functions Definition
-
-# In[6]:
+## Functions Definition
 
 
 # pydantic model
@@ -88,9 +74,6 @@ class MedicalEntity(BaseModel):
 
 class NERResponse(BaseModel):
     entities: List[MedicalEntity]
-
-# In[7]:
-
 
 system_prompt = """Eres un experto en extracción de información médica (NER). 
 Tu objetivo es identificar entidades clínicas específicas en notas de texto y extraer sus atributos.
@@ -144,12 +127,7 @@ Aquí te dejo algunos ejemplos:
 
 """
 
-
-# In[8]:
-
-
 def process_ner(text):
-    # Definimos el formato esperado para guiar al modelo
     prompt_format = """{
     "entities": [
         {"text": "texto exacto", "label": "Categoría", "status": null}
@@ -167,13 +145,11 @@ def process_ner(text):
     Formato esperado:
     {prompt_format}"""
 
-    # Formato de chat
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ]
 
-    # Generación
     outputs = pipe(
         messages,
         max_new_tokens=1024,
@@ -186,33 +162,23 @@ def process_ner(text):
     print(f"DEBUG: Content: {raw_content}")
 
     try:
-        # 1. Eliminar contenido dentro de las etiquetas <think> de DeepSeek-R1
-        # Usamos flags=re.DOTALL para que el punto capture saltos de línea
+        # clean output to keep json
         clean_content = re.sub(r'<think>.*?</think>', '', raw_content, flags=re.DOTALL)
-        
-        # Limpieza de seguridad por si queda una etiqueta de cierre huérfana
         clean_content = clean_content.replace('</think>', '').strip()
-
-        # 2. Buscar el bloque JSON (desde el primer '{' hasta el último '}')
         match = re.search(r'\{.*\}', clean_content, re.DOTALL)
 
         if match:
             json_str = match.group(0)
-            # Limpiar posibles bloques de código markdown
             json_str = json_str.replace("```json", "").replace("```", "").strip()
             
-            # 3. Validar con Pydantic
             return NERResponse.model_validate_json(json_str)
         else:
-            print(f"DEBUG: No se encontró JSON en: {raw_content[:100]}...")
+            print(f"DEBUG: JSON NOT FOUND: {raw_content[:100]}...")
             return NERResponse(entities=[])
 
     except Exception as e:
-        print(f"Error parseando nota: {e}")
+        print(f"Error parsing note: {e}")
         return NERResponse(entities=[])    
-    
-# In[8]:
-
 
 def get_evaluation_lists(all_notes_data, all_predictions):
     y_true = []
@@ -253,15 +219,12 @@ def get_evaluation_lists(all_notes_data, all_predictions):
                 y_pred.append(pred_map.get(mention, "O"))
                 
         except Exception as e:
-            print(f"❌ Error processing note {entry_id}: {e}")
+            print(f"Error processing note {entry_id}: {e}")
             continue 
             
     return y_true, y_pred
 
-# ## Deep Seek QWen Distill 1.5B  Model HF
-
-# In[4]:
-
+## Deep Seek QWen Distill 1.5B  Model HF
 
 # hugging face model
 model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
@@ -282,9 +245,7 @@ pipe = pipeline(
     return_full_text=False
 )
 
-# In[9]:
-
-
+# inference process
 results = []
 
 print(f"Initializing process for {len(data)} clinical notes...\n")
@@ -314,14 +275,8 @@ for i, entry in enumerate(data, 1):
 
 print(f"\nProcess finished")
 
-
-# In[75]:
-
-
+# example
 results[0]
-
-
-# In[78]:
 
 
 y_true, y_pred = get_evaluation_lists(data, results)
@@ -333,16 +288,10 @@ print("Medical NER Classification Report")
 print(report)
 
 
-# In[85]:
-
-
 with open("cr-multia/medical_ner/FEW_SHOT/deepseek7b_results_1048.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
     
 print("Results saved to deepseek7b_results_1048.json")
-
-
-# In[ ]:
 
 
 with open("cr-multia/medical_ner/FEW_SHOT/medical_ner_report_DEEPSEEK7B_1048.txt", "w") as f:
