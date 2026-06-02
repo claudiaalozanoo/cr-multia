@@ -35,7 +35,7 @@ The system splits complex clinical NLP tasks into three specialized roles.
 ├── relation_extraction/         # Agent 3: Relation Extraction
 │   ├── FEW_SHOT/                # Baseline Benchmark of Generative Models Using Few-Shot Prompting Technique
 │   └── FINETUNNING/             # Fine-tuning the Best Performing Generative Model and the Discriminative one
-├── synthetic_sample_data/                        # Synthetic sample json file with ground truth simulating Label Studio output
+├── synthetic_sample_data/       # Synthetic sample json file with ground truth simulating Label Studio output
 └── PIPELINE/                    # End-to-end script to test the full multi-agent pipeline
 ```
 
