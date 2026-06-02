@@ -1,0 +1,359 @@
+[
+    {
+        "id": 300,
+        "annotations": [
+            {
+                "id": 50,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 6,
+                            "end": 13,
+                            "text": "SMD-EB2",
+                            "labels": [
+                                "Diagnosis"
+                            ]
+                        },
+                        "id": "DxSMDEB2_99",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 6,
+                            "end": 13,
+                            "text": "SMD-EB2",
+                            "choices": [
+                                "Confirmed"
+                            ]
+                        },
+                        "id": "DxSMDEB2_99",
+                        "from_name": "diag_status",
+                        "to_name": "text",
+                        "type": "choices",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 17,
+                            "end": 27,
+                            "text": "julio 2021",
+                            "labels": [
+                                "Date"
+                            ]
+                        },
+                        "id": "DtJul2021_1",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 32,
+                            "end": 53,
+                            "text": "IPSS-R muy alto 7.0",
+                            "labels": [
+                                "Risk"
+                            ]
+                        },
+                        "id": "RskIpssr_01",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 68,
+                            "end": 71,
+                            "text": "LMA",
+                            "labels": [
+                                "Diagnosis"
+                            ]
+                        },
+                        "id": "DxProgLMA_02",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 68,
+                            "end": 71,
+                            "text": "LMA",
+                            "choices": [
+                                "Progression"
+                            ]
+                        },
+                        "id": "DxProgLMA_02",
+                        "from_name": "diag_status",
+                        "to_name": "text",
+                        "type": "choices",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 75,
+                            "end": 85,
+                            "text": "15/03/2024",
+                            "labels": [
+                                "Date"
+                            ]
+                        },
+                        "id": "DtMar2024_2",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 118,
+                            "end": 122,
+                            "text": "TP53",
+                            "labels": [
+                                "GeneMutation"
+                            ]
+                        },
+                        "id": "MutTP53_003",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 118,
+                            "end": 122,
+                            "text": "TP53",
+                            "choices": [
+                                "Yes"
+                            ]
+                        },
+                        "id": "MutTP53_003",
+                        "from_name": "presence_status",
+                        "to_name": "text",
+                        "type": "choices",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 148,
+                            "end": 151,
+                            "text": "AZA",
+                            "labels": [
+                                "Treatment"
+                            ]
+                        },
+                        "id": "TxAZA_005",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                   {
+                        "value": {
+                            "start": 148,
+                            "end": 151,
+                            "text": "AZA",
+                            "choices": [
+                                "Yes"
+                            ]
+                        },
+                        "id": "TxAZA_005",
+                        "from_name": "presence_status",
+                        "to_name": "text",
+                        "type": "choices",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 134,
+                            "end": 144,
+                            "text": "resistencia",
+                            "labels": [
+                                "Response"
+                            ]
+                        },
+                        "id": "RspResist_5",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 156,
+                            "end": 166,
+                            "text": "mayo 2024",
+                            "labels": [
+                                "Date"
+                            ]
+                        },
+                        "id": "DtMay2024_3",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 174,
+                            "end": 184,
+                            "text": "Venetoclax",
+                            "labels": [
+                                "Treatment"
+                            ]
+                        },
+                        "id": "TxVen_006",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 174,
+                            "end": 184,
+                            "text": "Venetoclax",
+                            "choices": [
+                                "Yes"
+                            ]
+                        },
+                        "id": "TxVen_006",
+                        "from_name": "presence_status",
+                        "to_name": "text",
+                        "type": "choices",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 196,
+                            "end": 213,
+                            "text": "respuesta parcial",
+                            "labels": [
+                                "Response"
+                            ]
+                        },
+                        "id": "RspPR_006",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "from_id": "DxSMDEB2_99",
+                        "to_id": "DtJul2021_1",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "occurred_on"
+                        ]
+                    },
+                    {
+                        "from_id": "DxSMDEB2_99",
+                        "to_id": "RskIpssr_01",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "has_value"
+                        ]
+                    },
+                    {
+                        "from_id": "DxProgLMA_02",
+                        "to_id": "DtMar2024_2",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "occurred_on"
+                        ]
+                    },
+                    {
+                        "from_id": "TxAZA_005",
+                        "to_id": "RspResist_5",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "has_outcome"
+                        ]
+                    },
+                    {
+                        "from_id": "TxVen_006",
+                        "to_id": "DtMay2024_3",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "occurred_on"
+                        ]
+                    },
+                    {
+                        "from_id": "TxVen_006",
+                        "to_id": "RspPR_006",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": [
+                            "has_outcome"
+                        ]
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2026-02-09T13:05:14.123456Z",
+                "updated_at": "2026-02-09T15:20:45.987654Z",
+                "draft_created_at": "2026-02-09T12:55:10.001234Z",
+                "lead_time": 602.45,
+                "prediction": {},
+                "result_count": 16,
+                "unique_id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 300,
+                "project": 4,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "fa31e18c-subsample_118.csv",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "Unnamed: 0.1": 2510,
+            "Unnamed: 0": 6245,
+            "patient_id": "FS-1995",
+            "comment": "Dx de SMD-EB2 en julio 2021 con IPSS-R muy alto 7.0. Progresión a LMA el 15/03/2024. Presenta mutación adquirida en TP53 asociada a resistencia a AZA. En mayo 2024 inicia Venetoclax obteniendo respuesta parcial.",
+            "origin": "mostraestudi_indicacionsMoment",
+            "type": "mds",
+            "n_chars": 214,
+            "n_words": 33,
+            "n_sentences": 4,
+            "uppercase_ratio": 0.12149532710280374,
+            "n_clinical_symbols": 5,
+            "is_label_like": false,
+            "language": "es",
+            "cluster": 44,
+            "cluster_unified": 44.0
+        },
+        "meta": {},
+        "created_at": "2026-02-09T12:24:01.899999Z",
+        "updated_at": "2026-02-09T15:20:47.123456Z",
+        "allow_skip": true,
+        "inner_id": 20,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 4,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]
